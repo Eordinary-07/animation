@@ -1,0 +1,214 @@
+name: OCR audit
+
+run-name: Audit merged OCR release PDF
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/ocr-audit.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Download merged PDF from release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/merged
+          gh release download merged-ocr -R "$GITHUB_REPOSITORY" -p '*.pdf' -D /tmp/merged
+          ls -la /tmp/merged
+
+      - name: Audit OCR text layer and merge order
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet pypdf fonttools
+          python3 - <<'PY' | tee /tmp/results.md
+          import glob, re, sys
+          from pypdf import PdfReader
+
+          def norm(s):
+              s = s.lower()
+              s = re.sub(r"[^a-z0-9]+", " ", s)
+              return re.sub(r"\s+", " ", s).strip()
+
+          BOOKS = [
+              ("3D Math Primer for Graphics and Game Development 2nd Edition.pdf", 846,
+               ["3d math primer", "fletcher dunn", "ian parberry", "a k peters"],
+               ["dunn", "parberry", "primer"]),
+              ("Rick Parent - Computer animation_ algorithms and techniques-Elsevier _ Morgan Kaufmann (2012).pdf", 541,
+               ["rick parent", "computer animation algorithms and techniques", "morgan kaufmann"],
+               ["kaufmann"]),
+              ("The Animator's Survival Kit - Richard Williams.pdf", 346,
+               ["the animator s survival kit", "richard williams", "faber and faber", "animator s survival kit"],
+               ["survival", "faber"]),
+              ("Timing for Animation by Harold Whitaker and John Halas 3rd Edition.pdf", 185,
+               ["timing for animation", "harold whitaker", "john halas", "joanna quinn"],
+               ["whitaker", "halas", "quinn"]),
+              ("acting-for-animators-pdf_compress.pdf", 145,
+               ["acting for animators", "ed hooks"],
+               ["hooks"]),
+              ("an-essential-introduction-to-maya-character-rigging_compress.pdf", 408,
+               ["essential introduction to maya character rigging", "cheryl cabrera"],
+               ["cabrera"]),
+              ("stop-staring_compress.pdf", 387,
+               ["stop staring", "jason osipa", "facial modeling and animation done right"],
+               ["osipa"]),
+              ("the-illusion-of-life-disney-animation_compress.pdf", 548,
+               ["the illusion of life", "ollie johnston", "frank thomas", "disney animation"],
+               ["ollie", "johnston", "disney"]),
+          ]
+
+          def main():
+              paths = sorted(glob.glob("/tmp/merged/*.pdf"))
+              if not paths:
+                  print("ERROR: merged pdf not found")
+                  sys.exit(1)
+              path = paths[0]
+              r = PdfReader(path)
+              n = len(r.pages)
+              print("===RESULTS===")
+              print("merged_file:", path)
+              print("merged_pages:", n)
+              print("sum_source_pages: 3406")
+
+              texts, empty, low = [], [], []
+              for i in range(n):
+                  try:
+                      t = r.pages[i].extract_text() or ""
+                  except Exception:
+                      t = ""
+                  nt = norm(t)
+                  texts.append(nt)
+                  if not nt:
+                      empty.append(i + 1)
+                  elif len(nt) < 50:
+                      low.append(i + 1)
+
+              total = sum(len(t) for t in texts)
+              print("pages_no_text:", len(empty), empty[:60])
+              print("pages_under_50_chars:", len(low), low[:60])
+              print("total_text_chars:", total)
+
+              blob = " ".join(texts)
+              words = re.findall(r"[a-z][a-z']+", blob)
+              def good(w):
+                  return bool(re.search(r"[aeiou]", w)) and 1 < len(w) <= 22
+              g = sum(1 for w in words if good(w))
+              wr = g / max(len(words), 1)
+              print("word_tokens:", len(words))
+              print("clean_word_ratio: %.4f" % wr)
+              print("garbled_word_ratio: %.4f" % (1 - wr))
+
+              try:
+                  outline = getattr(r, "outline", None) or []
+                  flat = []
+                  def walk(items):
+                      for it in items:
+                          if isinstance(it, list):
+                              walk(it)
+                          else:
+                              try:
+                                  flat.append(str(it.title))
+                              except Exception:
+                                  pass
+                  walk(outline)
+                  print("outline_entries:", len(flat))
+                  for t in flat[:25]:
+                      print("OUTLINE:", t[:90])
+              except Exception as e:
+                  print("outline_entries: error:", e)
+
+              print("--- ORDER DETECTION ---")
+              det = []
+              for fname, pages, anchors, loose in BOOKS:
+                  an = [norm(a) for a in anchors]
+                  lo = [norm(x) for x in loose]
+                  strong, hits, loose_hits = [], [], []
+                  for i, txt in enumerate(texts):
+                      m = [a for a in an if a in txt]
+                      if len(set(m)) >= 2:
+                          strong.append((i + 1, sorted(set(m))))
+                      elif m:
+                          hits.append((i + 1, sorted(set(m))))
+                      ml = [x for x in lo if re.search(r"\b" + re.escape(x) + r"\b", txt)]
+                      if ml:
+                          loose_hits.append((i + 1, ml))
+                  if strong:
+                      start, method = strong[0][0], "strong"
+                  elif hits:
+                      start, method = hits[0][0], "anchor"
+                  elif loose_hits:
+                      start, method = loose_hits[0][0], "loose"
+                  else:
+                      start, method = None, "none"
+                  det.append(dict(file=fname, pages=pages, start=start, method=method,
+                                  strong=strong[:3], hits=hits[:3], loose=loose_hits[:3],
+                                  n_strong=len(strong), n_hits=len(hits), n_loose=len(loose_hits)))
+
+              det.sort(key=lambda d: (d["start"] is None, d["start"] or 0))
+              starts = [d for d in det if d["start"] is not None]
+              for idx, d in enumerate(starts):
+                  end = (starts[idx + 1]["start"] - 1) if idx + 1 < len(starts) else n
+                  d["end"] = end
+                  d["len"] = end - d["start"] + 1
+              for d in det:
+                  mark = ""
+                  if d.get("len") is not None:
+                      mark = "OK" if abs(d["len"] - d["pages"]) <= 5 else ("LEN_MISMATCH expected=%d" % d["pages"])
+                  print("BOOK start=%s end=%s len=%s [%s] %s :: %s" % (d["start"], d.get("end"), d.get("len"), d["method"], mark, d["file"]))
+                  if d["start"]:
+                      print("   start_page_text:", texts[d["start"] - 1][:160])
+                      print("   strong=%s hits=%s loose=%s" % (d["strong"], d["hits"], d["loose"]))
+
+              missing = [d for d in det if d["start"] is None]
+              if missing:
+                  print("--- ELIMINATION ---")
+                  used = sorted((d["start"], d["end"]) for d in starts)
+                  gaps, prev = [], 0
+                  for s, e in used:
+                      if s - 1 > prev + 1:
+                          gaps.append((prev + 1, s - 1))
+                      prev = max(prev, e)
+                  if prev < n:
+                      gaps.append((prev + 1, n))
+                  for gs, ge in gaps:
+                      glen = ge - gs + 1
+                      cand = [d["file"] for d in missing if abs(d["pages"] - glen) <= 5]
+                      print("GAP pages %d-%d len=%d candidates=%s" % (gs, ge, glen, cand))
+
+              print("--- FINAL ORDER ---")
+              for i, d in enumerate(det, 1):
+                  print("%d. pages %s-%s (len=%s) :: %s" % (i, d["start"], d.get("end"), d.get("len"), d["file"]))
+
+              print("--- SAMPLES ---")
+              for k in range(10):
+                  p = min(n, max(1, round(n * (k + 0.5) / 10)))
+                  print("SAMPLE p%d: %s" % (p, texts[p - 1][:160]))
+              print("===END===")
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+      - name: Commit results to branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          B64=$(base64 -w0 /tmp/results.md)
+          SHA=$(gh api "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md?ref=$GITHUB_REF_NAME" --jq .sha 2>/dev/null || true)
+          if [ -n "${SHA}" ]; then
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md" \
+              -f message="OCR audit results (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME" -f sha="$SHA"
+          else
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md" \
+              -f message="OCR audit results (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME"
+          fi
+          echo "Results committed to $GITHUB_REF_NAME"
