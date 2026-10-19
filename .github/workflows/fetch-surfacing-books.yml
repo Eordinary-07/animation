@@ -1,0 +1,46 @@
+name: Fetch surfacing books from release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Download release assets (real PDFs, no LFS)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download merged-ocr --clobber \
+            -p 'the-pbr-guide.pdf' \
+            -p 'texturing-and-modeling*' \
+            -p 'digital-texturing*' \
+            -p 'Digital.Lighting*' \
+            -p 'color-and-light*' \
+            -p 'physically-based-rendering*' \
+            -D .
+          ls -la *.pdf
+
+      - name: Commit PDFs to arena branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add the-pbr-guide.pdf \
+            texturing-and-modeling-a-procedural-approach_compress.pdf \
+            digital-texturing-amp-painting_compress.pdf \
+            Digital.Lighting.and.Rendering.pdf \
+            color-and-light-james-gurneypdf_compress.pdf \
+            physically-based-rendering-fourth-edition-from-theory-to-implementation-4nbsped-2022014718-2022014719-9780262048026-9780262374033-9780262374040_compress.pdf
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add 6 texturing/shading books as real PDF files (fetched from merged-ocr release)"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
