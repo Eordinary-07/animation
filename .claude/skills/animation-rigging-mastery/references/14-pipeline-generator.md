@@ -16,8 +16,9 @@ The pipeline is a function of the story, not a template:
    characters, style — these determine rigs, tools, and schedule.
 3. **Design only what's needed** (Cabrera): a dialog scene needs a face and acting; a creature
    film needs quadruped/flight deformation. Don't build a feature rig for a pantomime short.
-4. **Prove, then scale** (Williams; ref 10): test scene + one hero shot through the whole
-   pipeline before mass production.
+4. **Prove, then scale** (Williams, "The Procedure": TEST at every stage — storyboard →
+   Leica reel → planning thumbnails → key positions → extremes → passing positions):
+   run one hero shot through the whole pipeline before mass production.
 5. **Gates at every phase** (ref 09/10): nothing advances until its gate passes.
 
 ---
@@ -68,7 +69,8 @@ For each driver, select the pipeline components:
 **Verification depth (from D7):**
 - Every shot: golden pose + mechanics + polish gates (ref 09/10).
 - Sequences: continuity checks (emotion continuity — Osipa; style/physics consistency).
-- Feature scale: test scene first (Williams "test the entire scene first"), then batch with gates.
+- Feature scale: Williams' "The Procedure" test ladder first (Leica/animatic → thumbnails →
+  keys → extremes → passing positions, testing each), then batch with gates.
 
 **Schedule shape (from D7):**
 - Short: pipeline once, verify end-to-end.
@@ -76,7 +78,9 @@ For each driver, select the pipeline components:
 
 ## D. Reuse & economy (industry discipline)
 
-- Reuse rigs, pose libraries (Survival Kit "pose library"), and shot templates AFTER one proves out.
+- Reuse rigs and shot templates AFTER one proves out; keep reference/pose research the way
+  Williams prescribes ("Steal It!" — steal from life, not from other cartoons), and save
+  approved golden poses as your pose library (industry practice).
 - Save every approved golden pose (Williams "save useful poses").
 - Cut everything that doesn't serve the emotional core (Acting for Animators; Illusion of Life).
 

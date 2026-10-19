@@ -118,7 +118,9 @@ Format: **Concept** — essence — → reference file.
 
 ## 5. Facial & Lip Sync (Osipa)
 
-- **Visemes (AI, E, O, U, MBP, FV, L, W, Q)** — the mouth shape set → 06 §1
+- **Visimes, Osipa's 7 (B/M/P Closed, EE, FV, OO, IH, R, T/S + jaw sounds)** — "phonemes
+  are sounds, visimes are shapes" → 06 §1 (the classic AI/E/O/U/MBP/FV/L/W/Q mouth chart
+  is the traditional-animation alternative, not Osipa)
 - **Consonants carry the read** — closures/accents beat vowels → 06 §2
 - **Lip sync passes** — timing rough → phrasing → accents → polish → 06 §2, 11 B3
 - **Phrasing & mouth rest** — mouth returns between phrases → 06 §2

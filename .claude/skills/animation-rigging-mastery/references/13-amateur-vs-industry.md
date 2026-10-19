@@ -13,14 +13,14 @@
 | 1 | Animates movement | Animates **decisions** — every pose has intent (what the character wants right now) | Acting for Animators; Illusion of Life "the world of the character" |
 | 2 | Starts keying immediately | **Plaves first**: thumbnails, shot breakdown, acting beats, then keys | Survival Kit "the plan"; Williams planning |
 | 3 | Symmetrical, even timing everywhere | **Asymmetry + contrast**: slow-in/out at choices, snap at accents, holds that mean something | Williams timing/spacing; Timing for Animation contrast |
-| 4 | Floaty — no weight | Weight via gravity + spacing + counteraction + overlap; you FEEL the mass | Williams "spacing = weight"; Survival Kit |
-| 5 | Everything moves at once (twinning) | **Breaks twins**: offset timing left/right, deliberate asymmetry | Williams #30 twin; Illusion of Life |
-| 6 | Perfect arcs ignored (linear jitter paths) | Every limb on clean **arcs**; floaty handheld cam only when story demands | Williams #11; Parent spatial coherence |
-| 7 | Face does "emotion A then emotion B" like a switch | **Emotion runs continuously**: transitions through thought, not teleports | Osipa "emotion starts before action" |
-| 8 | Eye darts randomly / blinks on a metronome | Eyes lead thought; blinks at cuts/shifts; lids shape the eye expression | Osipa ch.3-4 |
-| 9 | Lip sync is flap-mouth on phonemes | Sync is **visemes + jaw + cheeks + eyes + head**; facial logic (squint says the word) | Osipa ch.2, 5 |
-| 10 | Camera is a tripod in a void | Camera **directs the read**: shot size = emphasis, 180° line, motivated moves | ref 08; Parent ch.12 |
-| 11 | Lipstick on a pig: polish immediately | **Golden pose pass → full mechanics → THEN polish**; polish in the right order | Williams workflow; ref 09 |
+| 4 | Floaty — no weight | Weight via gravity + spacing + counteraction + overlap; you FEEL the mass | Williams "It's All in the Timing and the Spacing" + WEIGHT ch. |
+| 5 | Everything moves at once (twinning) | **Breaks twins**: offset timing left/right, deliberate asymmetry | Williams "Symmetry or 'Twinning'" (Acting ch.); Illusion of Life |
+| 6 | Perfect arcs ignored (linear jitter paths) | Every limb on clean **arcs**; floaty handheld cam only when story demands | Williams "Watch Your Arcs"; Parent spatial coherence |
+| 7 | Face does "emotion A then emotion B" like a switch | **Emotion runs continuously**: transitions through thought, not teleports | Osipa: slide "the thought" a few frames BEFORE the sound ("the thought happened before the sound") |
+| 8 | Eye darts randomly / blinks on a metronome | Eyes lead thought; blinks at cuts/shifts; lids shape the eye expression | Osipa ch. 2, 7-9 |
+| 9 | Lip sync is flap-mouth on phonemes | Sync is **visimes + jaw + cheeks + eyes + head**; facial logic (squint says the word) | Osipa ch. 1, 2 (Squint), 10 (connections) |
+| 10 | Camera is a tripod in a void | Camera **directs the read**: shot size = emphasis, 180° line, motivated moves | ref 08; Parent ch. 1 "principles of filmmaking"; Whitaker "Camera Movements" |
+| 11 | Lipstick on a pig: polish immediately | **Golden pose pass → full mechanics → THEN polish**; polish in the right order | Williams "The Procedure"; ref 09 |
 | 12 | One big "wiggle everything" secondary action | Secondary action **informs character** or is cut | Illusion of Life secondary action |
 | 13 | Takes feedback as taste | Runs **objective gates** (pose read test, silhouette test, mute test) before dailies | ref 10; Williams discipline |
 | 14 | Rig fights the animator (broken deformation mid-shot) | Rig is **production-proven per shot need**: deformation, controls, and viewport stability tested first | Cabrera (rig for the performance) |
@@ -37,8 +37,8 @@ attention* — then make the mechanics invisible.
 |---|---|---|---|
 | P-INTENT | Pose has no readable intention | freeze each key: can you name the thought? | ref 06 acting beats |
 | P-WEIGHT | Character floats/slides | mute + silhouette: does mass read? | ref 03 spacing; ref 04 |
-| P-TWIN | Symmetric twins | mirror test | ref 03 #30 |
-| P-ARC | Path breaks arcs | motion trail / grease pencil arc track | ref 03 #11 |
+| P-TWIN | Symmetric twins | mirror test | ref 03 (Williams "Symmetry or 'Twinning'") |
+| P-ARC | Path breaks arcs | motion trail / grease pencil arc track | ref 03 (Williams "Watch Your Arcs") |
 | P-POSE | Silhouette muddy | black-fill test | ref 04 breakdowns |
 | P-SPACING | Even spacing / mush | motion trail spacing graph | ref 03 |
 | P-POSE2POSE | No full mechanics on big action | straight-ahead where needed | ref 04 |

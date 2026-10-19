@@ -26,6 +26,8 @@ Directing*). Use this BEFORE posing any character, and when reviewing whether a 
 11. **Solid drawing** — weight, volume, balance in the pose (think 3D even in 2D).
 12. **Appeal** — the character is interesting to watch (clear silhouette, contrast, design).
     Not "cute" — readable and compelling.
+    Plus IoL's own technique term: the **Moving Hold** — a held pose that stays alive with
+    the slightest movement instead of freezing dead; holds are timed decisions, not stops.
 
 ## 2. Hooks' acting system (the reason characters act)
 

@@ -75,7 +75,7 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
 
 ### A7. Face: shape keys (Maya's blend shapes)
 1. Select mesh → `Object Data Properties` (green triangle) → `Shape Keys` → `+` (auto "Basis").
-2. `+` again per target: rename `vis_AI`, `vis_MBP`, `blink_L`, `brow_up_L`, `smile`…
+2. `+` again per target: rename `vis_EE`, `vis_BMP`, `blink_L`, `brow_up_L`, `smile`…
 3. Sculpt each: set its Value slider to `1.0`, `Tab` into Edit Mode, move verts with
    proportional editing (`O`). Every vertex stays in the key — full-mesh deformation.
 4. Test combinations: stack sliders; fix poke-throughs with corrective keys

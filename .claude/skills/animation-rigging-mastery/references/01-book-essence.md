@@ -112,7 +112,8 @@ File: `stop-staring_compress.pdf` (387 pp, Wiley)
 eyes/brows = thought and emotion. Master the shapes and the offsets.
 
 **Key lessons:** lip sync basics (the sound matters less than the read); eyes and brows tell
-us what a character thinks; facial landmarking; **visemes** (AI, E, O, U, MBP, FV, L, W, Q)
+us what a character thinks; facial landmarking; **visimes** (Osipa's 7: B/M/P Closed, EE Wide,
+FV, OO Narrow, IH, R, T/S + jaw/open sounds — "phonemes are sounds, visimes are shapes")
 and lip sync technique; constructing mouth/nose; **mouth keys** (the standard shape set);
 building emotion with eyes; constructing eyes/brows; **eye and brow keys**; connecting the
 features (offsets, squints, dependencies so it never moves as one block); skeletal setup,

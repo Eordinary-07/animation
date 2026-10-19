@@ -65,6 +65,10 @@ work happens.
    eyes/brows thinking, then offsets.
 7. **Polish pass**: dents, accents, imperfections, asymmetry, breathing micro-motion,
    camera feel (handheld noise, ease on moves).
+8. **Overlap layers** (Williams "The Procedure", p. 338 — animate in THIS order): the
+   primary thing, then the secondary thing, then the third, fourth, and only then the
+   "other bits" — drapery, hair, fat, tails. And keep testing at every stage (Leica/animatic
+   → thumbnails → keys → extremes → passing positions — shoot a playblast of each).
 
 ## Stage 6 — Review like a director
 

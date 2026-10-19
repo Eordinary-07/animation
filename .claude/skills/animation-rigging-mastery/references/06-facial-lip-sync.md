@@ -9,28 +9,36 @@ Interfaces (ch. 12), Squash/Stretch/Squoosh (ch. 13), A Shot in Production (ch. 
 Core truth of the book: **the mouth speaks, but the eyes and brows think.** Lip sync gets
 you noticed; eyes/brows get you believed.
 
-## 1. The viseme set (Osipa's mouth shapes) — our shape-key targets
+## 1. The visime set (Osipa Table 1.1) — our shape-key targets
 
-| Viseme | Sound(s) | Shape |
+Osipa's terms: *"Phonemes are sounds; visimes are shapes."* English has ~38 phonemes but
+only **7 visimes to build** — everything else funnels to the closest shape. (Osipa spells it
+"visime"; the industry also writes "viseme".)
+
+| Visime | Example sounds | Rule / shape |
 |---|---|---|
-| **AI** | "ah", "eye", "cat" | jaw open, corners neutral-down, widest open vowel |
-| **E** | "ee", "eh", "bit" | wide, corners pulled back, teeth close |
-| **O** | "oh", "boat" | rounded, jaw mid-open |
-| **U** | "oo", "boot", "you" | tight small round, pushed forward |
-| **MBP** | "m", "b", "p" | lips pressed closed (rest face is fine) |
-| **FV** | "f", "v" | lower lip under upper teeth |
-| **L** | "l", "th", "n", "d", "t" | tongue up behind teeth; jaw slightly open |
-| **W** | "w", "wh", "qu" | small round, corners in |
-| **Q** | "q", "g", "k", "y" | slight open, back-of-mouth constriction (use with jaw) |
+| **B, M, P / Closed** | murder, plantation, cherub | lips closed |
+| **EE / Wide** | cheese, me, charity | mouth wide |
+| **F, V** | fire, fight, Virginia | lower lip rolled in under upper teeth |
+| **OO / Narrow** | dude, use, fool | mouth narrow |
+| **IH** | trip, snip | sometimes taller or wider than surrounding shapes |
+| **R** | car, road | sometimes narrower than surrounding shapes |
+| **T, S** | beat, traffic | sometimes taller or wider than surrounding shapes |
 
-Rules: vowels carry the openness, consonants carry the *shape changes* (the read lives in
-consonants — MBP closures and FV/L are what make speech legible).
+**Open / jaw sounds** (UH, AW, "ah"…) are NOT separate visimes — they are the *jaw opening*
+on its own; Osipa "kicked the jaw out of the visime club" so the set doesn't explode back
+into phonemes. Funnel near-misses (OH → OO, L/TH → nearest) to the closest shape.
+
+Rules: the read lives in the **lips-made consonants** — Closed (B/M/P) closures and F/V are
+what make speech legible; vowels can be approximate. The classic traditional-animation
+mouth chart (AI, E, O, U, MBP, FV, L, W, Q) is a valid alternative key set from the TV
+animation tradition, but it is NOT Osipa's book — if you use it, use it consistently.
 
 ## 2. Lip sync technique (ch. 1 + 4)
 
 1. **Listen first**: understand the *words and the phrasing* — meaning before mouths.
 2. **Rough pass**: pose the mouth shapes at the RIGHT TIME (timing of shapes > detail of
-   shapes). Sync the closures (MBP) precisely; vowels can be approximate.
+   shapes). Sync the closures (B/M/P Closed) precisely; vowels can be approximate.
 3. **Phrase it**: break the line into phrases; mouth goes to a neutral/rest between phrases
    (Osipa: the mouth doesn't stay in continuous motion — it *returns*).
 4. **Accent with shape, not just timing**: the emphasized word gets a bigger shape.
@@ -43,12 +51,19 @@ consonants — MBP closures and FV/L are what make speech legible).
 
 - **Brows**: the strongest emotion signal. Sets: brow raise (inner = sadness/worry,
   outer = surprise), brow furrow (anger/concentration), brow cock (skepticism).
-- **Eyes**: lids + focus + timing. The **squint** (lower lid up) is the secret of life —
-  smiles are in the lower lids; anger is in the inner brows + lower lids.
+- **Eyes**: lids + focus + timing. The **Squint** (Osipa's name for the lower lids — really
+  the whole orbicularis-oculi squeeze zone: upper cheeks, outer brow edges) is the great
+  communicator: "The Value of a Good Squint" (ch. 2) is that it makes *think* read; smiles
+  live in the lower lids; anger is inner brows + lower lids. Never treat cheeks as an
+  independent emoting area — that's the leading cause of bad facial animation (Osipa).
 - **Focus**: eyes look AT something specific; darts (saccades) between points; blinks at
   thought changes (and after eye darts).
-- Blink rules: blinks are fast (2-4 frames close, 2-3 open); double-blink = confusion or
-  innocence; NO blink = stare = intensity or dead.
+- Blink rules (Osipa, ch. 7): blink **during big motions of the eyes**; stay away from
+  *groups* of blinks for functional reasons — blink groups read as **disbelief, shock,
+  confusion** (great for emotion, wrong for ordinary speech). Conversational subtext: a
+  blink after a statement signals "your turn to talk"; no blink = no message = dead air.
+  Blinks are fast (industry default ≈ 2-4 frames close, 2-3 open — tune to your frame rate).
+  Eyes and lids animate on **linear** f-curves during motions and holds (Osipa's rule).
 - **Eye/brow keys** (ch. 9): build the standard sets as shape keys or bone poses:
   lids half/quarter/closed, brows up2/up1/flat/down1/down2, squint_L/R, wide_L/R.
 
@@ -85,9 +100,11 @@ consonants — MBP closures and FV/L are what make speech legible).
 
 ## 7. Blender implementation notes
 
-- Shape keys: `vis_AI`, `vis_E`, `vis_O`, `vis_U`, `vis_MBP`, `vis_FV`, `vis_L`, `vis_W`,
-  `vis_Q` + emotion keys + corrective keys. Drive with a "mouth controller" or audio
-  markers; combine visemes by slider summing (drivers) since keys add linearly.
+- Shape keys: `vis_BMP` (closed), `vis_EE` (wide), `vis_FV`, `vis_OO` (narrow), `vis_IH`,
+  `vis_R`, `vis_TS`, `jaw_open` + emotion keys + corrective keys (Osipa's 7 visimes + jaw;
+  or the classic traditional 9-chart AI/E/O/U/MBP/FV/L/W/Q — pick ONE set and stay
+  consistent). Drive with a "mouth controller" or audio
+  markers; combine visimes by slider summing (drivers) since keys add linearly.
 - Jaw: bone driven by `jawOpen`; shapes built on an open-jaw Basis so combinations work.
 - Eyes: `Track To` constraints on eyeball bones toward a target empty (target moves = gaze);
   lids as bones or keys driven by `blink_L/R` and `lid_follow`.
