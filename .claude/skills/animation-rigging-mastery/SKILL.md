@@ -29,7 +29,10 @@ description: Persistent project memory distilled from the 8 animation and riggin
    - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
+   - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
+   Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
+   buttons, shortcuts). Never improvise Blender steps when a procedure exists in 11.
 
 ## The library at a glance
 
@@ -123,3 +126,4 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/08-camera-cinematography.md` — shot sizes, angles, lenses, framing, movement
 - `references/09-script-to-screen.md` — script/instruction → professional animation pipeline
 - `references/10-blender-production.md` — scenes, cuts/markers, animatic, render, delivery
+- `references/11-blender-how-to.md` — exact Blender procedures (rig, animate, camera, render)
