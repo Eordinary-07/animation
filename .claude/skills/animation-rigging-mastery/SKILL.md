@@ -1,24 +1,24 @@
 ---
 name: animation-rigging-mastery
-description: Persistent project memory distilled from the 8 animation and rigging books in this repo (Cabrera - Maya Character Rigging applied in Blender; Richard Williams - The Animator's Survival Kit; Whitaker & Halas - Timing for Animation; Thomas & Johnston - The Illusion of Life; Osipa - Stop Staring; Ed Hooks - Acting for Animators; Dunn & Parberry - 3D Math Primer; Rick Parent - Computer Animation Algorithms and Techniques). Use at the START OF EVERY session in this project whenever the task involves character rigging, armatures or bones, skinning or weights, IK/FK, control rigs, facial rigs, shape keys, lip sync, animation timing or spacing, walk/run cycles, body mechanics, acting or performance, camera work, cinematography, shot design, framing, storyboarding, animatics, directing, rendering, or producing an animation from a script or instruction in Blender. Also use whenever the user asks animation or rigging questions, gives a script or scene to animate, reviews shots, or builds rigs, animation tools, or pipelines in this project.
+description: Self-contained animation and rigging master class distilled from 8 industry books (Cabrera - Maya Character Rigging in Blender; Williams - Animator's Survival Kit; Whitaker & Halas - Timing for Animation; Thomas & Johnston - Illusion of Life; Osipa - Stop Staring; Ed Hooks - Acting for Animators; Dunn & Parberry - 3D Math Primer; Parent - Computer Animation). ALL concepts live inside this skill - no PDFs or external files needed. TRIGGER: use for ANY Blender work (.blend, bpy, armature, rig, skin, weight paint, IK/FK, shape keys, drivers, keyframes, animation) and for any task involving character rigging, skinning, facial rigs, lip sync, timing or spacing, walk/run cycles, body mechanics, acting or performance, camera work, cinematography, shot design, framing, storyboarding, animatics, directing, rendering, or producing an animation from a script or instruction. Also use whenever the user asks animation or rigging questions, gives a script or scene to animate, reviews shots, or builds rigs, tools, or pipelines in Blender.
 ---
 
 # Animation & Rigging Mastery — Project Memory
 
 ## Standing orders (every session)
 
-1. This skill IS the project's long-term memory of the book library in this repo. Treat it as
-   required reading before doing animation or rigging work in this project.
+1. This skill is a **self-contained master class** — all concepts of all 8 books are inside
+   it (`references/12-concept-index.md` is the complete A-Z map). It works with NO PDFs
+   and no external files. Treat it as required reading before animation/rigging work.
 2. The Maya rigging book (Cabrera) is the rigging curriculum — but **apply its logic in Blender**.
    Every Maya technique has a Blender equivalent; see `references/02-rigging-blender.md`.
 3. When working, cite the *reason* behind a technique (the books teach essence + reason, not
    recipes). If a shot or rig decision can be justified from the books, justify it that way.
-4. The source PDFs live in the repo root. The combined OCR'd PDF
-   (`Animation+rigging of maya ocred.pdf`, GitHub release tag `merged-ocr`) contains them in
-   this order: Maya Rigging (pp. 1-408), Stop Staring (409-795), 3D Math Primer (796-1641),
-   Rick Parent (1642-2182), Acting for Animators (2183-2327, NOT OCR'd - image only),
-   Illusion of Life (2328-2875), Timing for Animation (2876-3060), Animator's Survival Kit
-   (3061-3406). Prefer the individual PDFs when quoting; they are cleaner.
+4. The original PDFs are OPTIONAL background only — never required, never ask for them.
+   Everything needed to work is in this skill. (For the curious: the merged OCR PDF's order
+   is Maya Rigging 1-408, Stop Staring 409-795, 3D Math 796-1641, Rick Parent 1642-2182,
+   Acting for Animators 2183-2327, Illusion of Life 2328-2875, Timing 2876-3060,
+   Survival Kit 3061-3406.)
 5. Read the relevant reference file(s) before starting the work:
    - Rigging / armatures / skinning / facial rig → `references/02-rigging-blender.md`
    - Timing, spacing, polish, F-curves → `references/03-timing-spacing.md`
@@ -30,9 +30,11 @@ description: Persistent project memory distilled from the 8 animation and riggin
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
+   - **Complete concept index of all 8 books (A-Z) → `references/12-concept-index.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
    Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
    buttons, shortcuts). Never improvise Blender steps when a procedure exists in 11.
+   If you need "the concept from the books", it is in 12 — do not look for PDFs.
 
 ## The library at a glance
 
@@ -127,3 +129,4 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/09-script-to-screen.md` — script/instruction → professional animation pipeline
 - `references/10-blender-production.md` — scenes, cuts/markers, animatic, render, delivery
 - `references/11-blender-how-to.md` — exact Blender procedures (rig, animate, camera, render)
+- `references/12-concept-index.md` — every concept of all 8 books, A-Z, fully self-contained

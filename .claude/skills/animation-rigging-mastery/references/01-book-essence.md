@@ -1,6 +1,7 @@
 # Book Essence & Provenance
 
-Source PDFs are in the repo root. The merged OCR PDF (`merged-ocr` release) order:
+Provenance (background only — NOT required): these lessons were distilled from 8 book PDFs.
+The merged OCR PDF (`merged-ocr` release) order:
 Maya Rigging (1-408), Stop Staring (409-795), 3D Math Primer (796-1641), Rick Parent
 (1642-2182), Acting for Animators (2183-2327, image-only - no OCR text), Illusion of Life
 (2328-2875), Timing for Animation (2876-3060), Survival Kit (3061-3406).

@@ -1,7 +1,7 @@
 # Blender Production Practice — Scenes, Cuts, Render, Delivery
 
 Practical conventions so the work in `02`-`09` is fast, organized, and deliverable.
-Follow these on every project file in this repo.
+Follow these on every project file.
 
 ## 1. Scene architecture
 
