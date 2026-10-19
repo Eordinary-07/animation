@@ -28,8 +28,10 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Math, curves, IK solvers, springs, tools → `references/07-math-procedural.md`
    - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
+   - **Script uploaded? Build a PIPELINE BRIEF first → `references/14-pipeline-generator.md`**
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
+   - **Amateur-vs-industry diagnosis & review codes → `references/13-amateur-vs-industry.md`**
    - **Complete concept index of all 8 books (A-Z) → `references/12-concept-index.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
    Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
@@ -130,3 +132,9 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/10-blender-production.md` — scenes, cuts/markers, animatic, render, delivery
 - `references/11-blender-how-to.md` — exact Blender procedures (rig, animate, camera, render)
 - `references/12-concept-index.md` — every concept of all 8 books, A-Z, fully self-contained
+- `references/13-amateur-vs-industry.md` — the exact gap: 15 differences, flaw codes, 8-point self-check
+- `references/14-pipeline-generator.md` — build a custom AAA pipeline per script (drivers → matrix → Pipeline Brief)
+
+Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
+Pipeline Brief from `14-pipeline-generator.md` (story → rigs → facial scope → shot list → camera →
+verification), THEN execute it with 09-11. When reviewing any work, diagnose with 13's flaw codes.
