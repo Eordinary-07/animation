@@ -1,6 +1,6 @@
 name: OCR audit
 
-run-name: Audit merged OCR release PDF
+run-name: Extract book content from merged PDF
 
 on:
   workflow_dispatch:
@@ -25,12 +25,12 @@ jobs:
           gh release download merged-ocr -R "$GITHUB_REPOSITORY" -p '*.pdf' -D /tmp/merged
           ls -la /tmp/merged
 
-      - name: Audit OCR text layer per section
+      - name: Extract Survival Kit front matter and TOC
         run: |
           set -euo pipefail
           python3 -m pip install --quiet pypdf fonttools
           python3 - <<'PY' | tee /tmp/results.md
-          import glob, re, sys
+          import glob, re
           from pypdf import PdfReader
 
           def norm(s):
@@ -38,74 +38,30 @@ jobs:
               s = re.sub(r"[^a-z0-9]+", " ", s)
               return re.sub(r"\s+", " ", s).strip()
 
-          SECTIONS = [
-              ("1. an-essential-introduction-to-maya-character-rigging_compress.pdf", 1, 408),
-              ("2. stop-staring_compress.pdf", 409, 795),
-              ("3. 3D Math Primer for Graphics and Game Development 2nd Edition.pdf", 796, 1641),
-              ("4. Rick Parent - Computer animation_ algorithms and techniques-Elsevier _ Morgan Kaufmann (2012).pdf", 1642, 2182),
-              ("5. acting-for-animators-pdf_compress.pdf", 2183, 2327),
-              ("6. the-illusion-of-life-disney-animation_compress.pdf", 2328, 2875),
-              ("7. Timing for Animation by Harold Whitaker and John Halas 3rd Edition.pdf", 2876, 3060),
-              ("8. The Animator's Survival Kit - Richard Williams.pdf", 3061, 3406),
-          ]
-
-          def good(w):
-              return bool(re.search(r"[aeiou]", w)) and 1 < len(w) <= 22
-
-          def main():
-              path = sorted(glob.glob("/tmp/merged/*.pdf"))[0]
-              r = PdfReader(path)
-              n = len(r.pages)
-              print("===RESULTS===")
-              print("merged_file:", path)
-              print("merged_pages:", n)
-              tot_empty = tot_low = tot_chars = 0
-              all_words = []
-              for fname, s, e in SECTIONS:
-                  empty = low = chars = 0
-                  words = []
-                  probes = []
-                  for p in range(s, min(e, n) + 1):
-                      try:
-                          t = r.pages[p - 1].extract_text() or ""
-                      except Exception:
-                          t = ""
-                      nt = norm(t)
-                      chars += len(nt)
-                      if not nt:
-                          empty += 1
-                      elif len(nt) < 50:
-                          low += 1
-                      words += re.findall(r"[a-z][a-z']+", nt)
-                      if p in (s, s + 1, s + 2, (s + e) // 2):
-                          probes.append((p, nt[:110]))
-                  g = sum(1 for w in words if good(w))
-                  wr = g / max(len(words), 1)
-                  tot_empty += empty
-                  tot_low += low
-                  tot_chars += chars
-                  all_words += words
-                  print("SECTION", fname)
-                  print("   pages: %d-%d (%d pages)" % (s, e, e - s + 1))
-                  print("   empty: %d  low_under_50_chars: %d  chars: %d  clean_ratio: %.4f" % (empty, low, chars, wr))
-                  for p, tx in probes:
-                      print("   probe p%d: %s" % (p, tx))
-              g = sum(1 for w in all_words if good(w))
-              wr = g / max(len(all_words), 1)
-              print("TOTALS pages=%d empty=%d low=%d chars=%d words=%d clean_ratio=%.4f garbled_ratio=%.4f" % (
-                  n, tot_empty, tot_low, tot_chars, len(all_words), wr, 1 - wr))
-              print("--- DECILE SAMPLES ---")
-              for k in range(10):
-                  p = min(n, max(1, round(n * (k + 0.5) / 10)))
-                  try:
-                      t = norm(r.pages[p - 1].extract_text() or "")[:150]
-                  except Exception:
-                      t = ""
-                  print("SAMPLE p%d: %s" % (p, t))
-              print("===END===")
-
-          if __name__ == "__main__":
-              main()
+          path = sorted(glob.glob("/tmp/merged/*.pdf"))[0]
+          r = PdfReader(path)
+          print("===RESULTS===")
+          # Section 8 = The Animator's Survival Kit, merged pages 3061-3406.
+          # Dump front matter + TOC + intro (pages 3061-3110) in full.
+          for p in range(3061, 3111):
+              try:
+                  t = r.pages[p - 1].extract_text() or ""
+              except Exception:
+                  t = ""
+              t = re.sub(r"[ \t]+", " ", t).strip()
+              if t:
+                  print("PAGE %d: %s" % (p, t[:1500]))
+              else:
+                  print("PAGE %d: <empty>" % p)
+          # Also grab a few chapter-opening pages spread through the book
+          for p in [3130, 3160, 3190, 3220, 3250, 3280, 3310, 3340, 3370, 3400]:
+              try:
+                  t = r.pages[p - 1].extract_text() or ""
+              except Exception:
+                  t = ""
+              t = re.sub(r"[ \t]+", " ", t).strip()
+              print("SPREAD p%d: %s" % (p, t[:400]))
+          print("===END===")
           PY
 
       - name: Commit results to branch
@@ -117,9 +73,9 @@ jobs:
           SHA=$(gh api "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md?ref=$GITHUB_REF_NAME" --jq .sha 2>/dev/null || true)
           if [ -n "${SHA}" ]; then
             gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md" \
-              -f message="OCR audit results (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME" -f sha="$SHA"
+              -f message="OCR extract: Survival Kit content (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME" -f sha="$SHA"
           else
             gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/ocr-audit-results.md" \
-              -f message="OCR audit results (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME"
+              -f message="OCR extract: Survival Kit content (auto)" -f content="$B64" -f branch="$GITHUB_REF_NAME"
           fi
           echo "Results committed to $GITHUB_REF_NAME"
