@@ -1,0 +1,90 @@
+name: Fetch directing/story books from release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/fetch-directing-books.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Download new release assets (real PDFs, no LFS)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download merged-ocr --clobber \
+            -p 'Directing.the.Story*' \
+            -p 'The.Visual.Story*' \
+            -p 'In.the.Blink*' \
+            -p 'Steven.D.Katz*' \
+            -p 'Drawn.to.Life*' \
+            -p 'walt-stanchfield*' \
+            -p 'Robert.McKee*' \
+            -p 'ElementalMagic.pdf' \
+            -D .
+          ls -la *.pdf
+
+      - name: Losslessly split ElementalMagic.pdf if over GitHub 100MB limit
+        run: |
+          pip install -q pypdf
+          python3 - <<'EOF'
+          import os
+          from pypdf import PdfReader, PdfWriter
+          f = 'ElementalMagic.pdf'
+          LIMIT = 99_000_000
+          if os.path.exists(f) and os.path.getsize(f) > LIMIT:
+              r = PdfReader(f)
+              n = len(r.pages)
+              parts = 2
+              while True:
+                  per = (n + parts - 1) // parts
+                  outs = []
+                  ok = True
+                  for i in range(parts):
+                      w = PdfWriter()
+                      for p in range(i * per, min(n, (i + 1) * per)):
+                          w.add_page(r.pages[p])
+                      name = f'ElementalMagic-part{i+1}-of-{parts}.pdf'
+                      with open(name, 'wb') as fh:
+                          w.write(fh)
+                      outs.append(name)
+                      if os.path.getsize(name) > LIMIT:
+                          ok = False
+                  if ok:
+                      break
+                  for o in outs:
+                      os.remove(o)
+                  parts += 1
+              os.remove(f)
+              print('split into', outs)
+          else:
+              print('no split needed')
+          EOF
+          ls -la *.pdf
+          # fail loudly if any single file still exceeds the push limit
+          for f in *.pdf; do
+            s=$(stat -c%s "$f")
+            if [ "$s" -ge 100000000 ]; then echo "TOO BIG: $f ($s)"; exit 1; fi
+          done
+          echo "all files under 100MB"
+
+      - name: Commit PDFs to arena branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- *.pdf
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add 7 directing/story/visual books as real PDF files (8 uploads from merged-ocr release; Elemental Magic split losslessly under 100MB)"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
