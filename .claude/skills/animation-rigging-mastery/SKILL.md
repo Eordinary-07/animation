@@ -1,6 +1,6 @@
 ---
 name: animation-rigging-mastery
-description: Persistent project memory distilled from the 8 animation and rigging books in this repo (Cabrera - Maya Character Rigging applied in Blender; Richard Williams - The Animator's Survival Kit; Whitaker & Halas - Timing for Animation; Thomas & Johnston - The Illusion of Life; Osipa - Stop Staring; Ed Hooks - Acting for Animators; Dunn & Parberry - 3D Math Primer; Rick Parent - Computer Animation Algorithms and Techniques). Use at the START OF EVERY session in this project whenever the task involves character rigging, armatures or bones, skinning or weights, IK/FK, control rigs, facial rigs, shape keys, lip sync, animation timing or spacing, walk/run cycles, body mechanics, acting or performance, shot polish, or any Blender character pipeline work. Also use whenever the user asks animation or rigging questions, reviews shots, or builds rigs, animation tools, or pipelines in this project.
+description: Persistent project memory distilled from the 8 animation and rigging books in this repo (Cabrera - Maya Character Rigging applied in Blender; Richard Williams - The Animator's Survival Kit; Whitaker & Halas - Timing for Animation; Thomas & Johnston - The Illusion of Life; Osipa - Stop Staring; Ed Hooks - Acting for Animators; Dunn & Parberry - 3D Math Primer; Rick Parent - Computer Animation Algorithms and Techniques). Use at the START OF EVERY session in this project whenever the task involves character rigging, armatures or bones, skinning or weights, IK/FK, control rigs, facial rigs, shape keys, lip sync, animation timing or spacing, walk/run cycles, body mechanics, acting or performance, camera work, cinematography, shot design, framing, storyboarding, animatics, directing, rendering, or producing an animation from a script or instruction in Blender. Also use whenever the user asks animation or rigging questions, gives a script or scene to animate, reviews shots, or builds rigs, animation tools, or pipelines in this project.
 ---
 
 # Animation & Rigging Mastery — Project Memory
@@ -26,6 +26,9 @@ description: Persistent project memory distilled from the 8 animation and riggin
    - Acting, performance, staging, story → `references/05-acting-performance.md`
    - Face, dialogue, lip sync → `references/06-facial-lip-sync.md`
    - Math, curves, IK solvers, springs, tools → `references/07-math-procedural.md`
+   - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
+   - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
+   - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - Book-by-book essence and provenance → `references/01-book-essence.md`
 
 ## The library at a glance
@@ -59,6 +62,11 @@ description: Persistent project memory distilled from the 8 animation and riggin
   Osipa: offset brows/eyes/lips so the face never moves as one robotic unit).
 - **The rig serves the animator.** Clean control interface, named channels, no surprise spaces -
   Cabrera's "wrapping up the setup" chapter is exactly this lesson.
+- **The camera is the audience.** Framing says what matters, angle says who has power,
+  movement says how we feel. Every shot serves the idea of its beat (see
+  `references/08-camera-cinematography.md`).
+- **Make the movie in the animatic** (Williams' Leica reel). Re-timing an animatic costs
+  minutes; re-timing animation costs days. The piece must read SILENT first.
 
 ## Maya → Blender quick map
 
@@ -93,6 +101,16 @@ playblast review with the checklist in 03.
 **Dialogue shot:** lipsync from 06 (visemes first, phrasing, then accents) + eyes/brows emotion
 → body acting from 05 → final offsets (06: "connecting the features").
 
+**Creating animation from a script or instruction (the master workflow):**
+`references/09-script-to-screen.md` — Stage 0 understand (one-sentence story + objective)
+→ Stage 1 script analysis (beats, acting points, verbs) → Stage 2 shot design
+(`08-camera-cinematography.md`: size/angle/lens/movement per beat) → Stage 3 storyboard +
+animatic (lock the cut) → Stage 4 layout & blocking in Blender (cameras bound to markers,
+Stepped poses at beats, silhouettes checked) → Stage 5 craft layers in order (reference →
+blocking → breakdowns → spline/offsets → mechanics → face/dialogue → polish) → Stage 6
+director's review (the 10-point checklist — silent read first) → Stage 7 delivery
+(`10-blender-production.md`). Professional level is defined at the end of 09 — hold it.
+
 ## Reference map
 
 - `references/01-book-essence.md` — per-book essence, key lessons, provenance
@@ -102,3 +120,6 @@ playblast review with the checklist in 03.
 - `references/05-acting-performance.md` — Hooks + Illusion of Life + Williams acting
 - `references/06-facial-lip-sync.md` — Osipa's face system
 - `references/07-math-procedural.md` — 3D math, curves, IK, springs, procedural systems
+- `references/08-camera-cinematography.md` — shot sizes, angles, lenses, framing, movement
+- `references/09-script-to-screen.md` — script/instruction → professional animation pipeline
+- `references/10-blender-production.md` — scenes, cuts/markers, animatic, render, delivery
