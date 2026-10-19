@@ -121,7 +121,9 @@ weighting and rigging for faces; interfaces (controllers/sliders); **squash, str
 "squoosh"**; a shot in production (full dialogue shot workflow).
 
 ## 6. Ed Hooks - Acting for Animators
-File: `acting-for-animators-pdf_compress.pdf` (145 pp, scan - image-only, no text layer)
+File: `acting-for-animators-pdf_compress.pdf` (145 pp, scan - image-only, no text layer;
+Contents, Introduction and Chapter 1 verified visually from bundled page images — see
+`15-verified-page-images.md`)
 
 **Essence:** Acting craft adapted from Stanislavski for animators. Characters must *act*:
 have an objective, face an obstacle, choose tactics, and show emotional state. Movement
@@ -172,7 +174,11 @@ special models (implicit surfaces, plants/L-systems).
 ---
 
 **Provenance note:** Acting for Animators is a scan with no OCR text anywhere (its section in
-the merged PDF is image-only); its teachings above come from the book's well-known text and
-framework. The Survival Kit's structure was recovered from the merged OCR (its scan has no
-local text layer). Illusion of Life's local text layer is garbled OCR; quotes from it should
-be paraphrased, not quoted verbatim.
+the merged PDF is image-only). Its Contents, Introduction and Chapter 1 ("Seven Essential
+Acting Concepts") were verified visually from the scanned pages, which are bundled in this
+skill (`references/images/hooks-*.jpg`, catalogued in `15-verified-page-images.md`); the
+remaining Hooks material follows the book's well-known framework, consistent with those
+verified chapters. The Survival Kit's structure was recovered from the merged OCR (its scan
+has no local text layer); its key doctrine pages are also bundled as images. Illusion of
+Life's local text layer is garbled OCR; quotes from it should be paraphrased, not quoted
+verbatim.

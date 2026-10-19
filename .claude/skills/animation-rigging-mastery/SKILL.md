@@ -134,6 +134,7 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/12-concept-index.md` — every concept of all 8 books, A-Z, fully self-contained
 - `references/13-amateur-vs-industry.md` — the exact gap: 15 differences, flaw codes, 8-point self-check
 - `references/14-pipeline-generator.md` — build a custom AAA pipeline per script (drivers → matrix → Pipeline Brief)
+- `references/15-verified-page-images.md` — catalog of bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books (Hooks ch. 1, Williams Procedure/Acting Point/Walks, Osipa squint, Illusion of Life 12 principles). When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
 Pipeline Brief from `14-pipeline-generator.md` (story → rigs → facial scope → shot list → camera →

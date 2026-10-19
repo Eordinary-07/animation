@@ -31,11 +31,49 @@ Directing*). Use this BEFORE posing any character, and when reviewing whether a 
 
 ## 2. Hooks' acting system (the reason characters act)
 
-### Script analysis before animation
+### The Seven Essential Acting Concepts (Hooks, ch. 1 — verified verbatim from the book)
+> The scanned pages of this chapter are bundled in `references/images/hooks-*.jpg`
+> (catalogue: `15-verified-page-images.md`) — open them when teaching or applying these.
+1. **Thinking tends to lead to conclusions; emotion tends to lead to action.** Everything
+   begins with the brain ("the mind is the pilot" — Walt Disney, Memo to Don Graham 1935:
+   *"We think of things before the body does them."*). Emotion is an **automatic value
+   response** to thinking. To know what a character feels, first ask what they are
+   **thinking** and what their **value system** is.
+2. **Acting is reacting. Acting is doing.** (Bill Tytla: "the pose is a reaction to
+   something.") First comes a stimulus, then emotion, then action — the reaction precedes
+   the doing. Don't *show* results (trembling teeth to show cold) — *act to keep warm*
+   (rub hands, stamp feet).
+3. **Your character needs to have an objective.** Theatrical movement is purposeful: you
+   must always answer "What is he doing?" and the doing must be an action **in pursuit of
+   an objective**, 100% of the time. *"Acting is playing an action in pursuit of an
+   objective while overcoming an obstacle."* (Chaplin shovels snow → money → food →
+   dinner → impress Georgia in *The Gold Rush*.) Take away the intent and the acting dies
+   (the Evil Queen stirring the pot = murder; a household cook stirring = cooking).
+4. **Play an action until something happens to make you play a different action.** Actions
+   are beads on a necklace (Stanislavsky's "beads" — often misheard as "beats"): no gaps,
+   one leads to the next. The switch can be external (a human enters the room — *Toy Story*
+   toys freeze) or internal (a memory).
+5. **All action begins with movement.** Breathing is movement; a thought not expressed in
+   action is nothing; "action without movement is impossible" — and movement is a result
+   of thinking.
+6. **Empathy is the magic key. Audiences empathize with emotion,** not with thinking
+   ("empathy" = "feeling into"). The goal of the animator is to **expose emotion through
+   the illusion of movement on screen**. The basic theatrical transaction is between actor
+   and audience, and the glue is emotion.
+7. **A scene is a negotiation.** A theatrical scene requires an obstacle (= conflict) unless
+   it is purely connective/expository (Hogarth biking to the diner = connective). Think of
+   every scene as a negotiation — negotiations inherently contain conflict.
+
+Core doctrine from the Introduction: animators instinctively play **results** (raise brows
+to "show curiosity") — actors play **actions in pursuit of objectives**, and the emotion
+shows itself. Never pose an emotion; do the thinking/action and let the emotion ride.
+
+### Script analysis before animation (Hooks ch. 3-4, The Character / The Scene)
 - **Given circumstances**: what's true right now (where, when, who, what just happened).
 - **Objective**: what does the character want FROM THE OTHER CHARACTER right now?
   (Always about the other person — "to convince", "to escape", "to comfort".)
-- **Obstacle**: what's in the way (external or internal).
+- **Obstacle**: what's in the way (external or internal). Without an obstacle there is no
+  negotiation — only exposition.
 - **Tactics**: the VERBS they use to pursue the objective (beg, threaten, charm, seduce,
   lecture, ignore). **Animate tactics, not words.**
 - **The moment before**: the character exists before the first frame — enter with energy

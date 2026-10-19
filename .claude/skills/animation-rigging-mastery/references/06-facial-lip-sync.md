@@ -53,7 +53,8 @@ animation tradition, but it is NOT Osipa's book — if you use it, use it consis
   outer = surprise), brow furrow (anger/concentration), brow cock (skepticism).
 - **Eyes**: lids + focus + timing. The **Squint** (Osipa's name for the lower lids — really
   the whole orbicularis-oculi squeeze zone: upper cheeks, outer brow edges) is the great
-  communicator: "The Value of a Good Squint" (ch. 2) is that it makes *think* read; smiles
+  communicator: "The Value of a Good Squint" (ch. 2) is that it makes *think* read
+  (the book's squint figure is bundled as `references/images/osipa-02-good-squint.jpg`); smiles
   live in the lower lids; anger is inner brows + lower lids. Never treat cheeks as an
   independent emoting area — that's the leading cause of bad facial animation (Osipa).
 - **Focus**: eyes look AT something specific; darts (saccades) between points; blinks at
