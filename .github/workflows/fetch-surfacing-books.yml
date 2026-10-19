@@ -2,6 +2,9 @@ name: Fetch surfacing books from release
 
 on:
   workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/fetch-surfacing-books.yml']
 
 permissions:
   contents: write
