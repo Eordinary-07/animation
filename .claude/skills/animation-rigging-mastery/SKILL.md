@@ -1,15 +1,15 @@
 ---
 name: animation-rigging-mastery
-description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, storyboard, or any script/instruction to animate. Self-contained animation and rigging master class for Blender distilled from 8 industry books (Cabrera rigging, Williams Survival Kit, Whitaker & Halas Timing, Thomas & Johnston Illusion of Life, Osipa Stop Staring, Hooks Acting for Animators, Dunn & Parberry 3D Math, Parent Computer Animation). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
+description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, shading, texturing, PBR materials, lookdev, or any script/instruction to animate. Self-contained animation, rigging and surfacing master class for Blender distilled from 14 industry books (Cabrera, Williams, Whitaker & Halas, Thomas & Johnston, Osipa, Hooks, Dunn & Parberry, Parent, Wes McDermott, Owen Demers, Jeremy Birn, PBRT 4e, Ebert et al, James Gurney). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
 ---
 
 # Animation & Rigging Mastery — Project Memory
 
 ## Standing orders (every session)
 
-1. This skill is a **self-contained master class** — all concepts of all 8 books are inside
+1. This skill is a **self-contained master class** — all concepts of all 14 books are inside
    it (`references/12-concept-index.md` is the complete A-Z map). It works with NO PDFs
-   and no external files. Treat it as required reading before animation/rigging work.
+   and no external files. Treat it as required reading before animation/rigging/surfacing work.
 2. The Maya rigging book (Cabrera) is the rigging curriculum — but **apply its logic in Blender**.
    Every Maya technique has a Blender equivalent; see `references/02-rigging-blender.md`.
    Baseline is **Blender 4.x** (bone collections, Asset Browser pose assets, Library
@@ -137,7 +137,9 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/12-concept-index.md` — every concept of all 8 books, A-Z, fully self-contained
 - `references/13-amateur-vs-industry.md` — the exact gap: 15 differences, flaw codes, 8-point self-check
 - `references/14-pipeline-generator.md` — build a custom AAA pipeline per script (drivers → matrix → Pipeline Brief)
-- `references/15-verified-page-images.md` — catalog of 36 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
+- `references/16-shading-pbr-fundamentals.md` — the shading law: light behavior, F0 (dielectrics 0.02–0.05, metal/rough hardcodes 4%), base-color 30–240 sRGB band, measured metal tints, Principled BSDF decoded socket-by-socket, linear-workflow commandments, the 3-light lookdev test (The PBR Guide, PBRT, Jeremy Birn, James Gurney)
+- `references/17-texturing-workflow.md` — Owen Demers' see→dissect→decide method, UV/texel-density standard, the PBR map set and what each map is for, baking principles, Ebert procedural theory → Blender nodes, wear logic, resolution budgets, amateur tells
+- `references/15-verified-page-images.md` — catalog of 42 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
 Pipeline Brief from `14-pipeline-generator.md` (story → rigs → facial scope → shot list → camera →

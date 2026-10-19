@@ -261,3 +261,24 @@ Every chapter of all 8 books maps to entries above (front-matter chapters exclud
 If a session needs "the concept from the books", it is HERE — the PDFs are never required.
 For the step-by-step Blender execution of any rigging/animation/camera/render concept,
 use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
+
+## 10. Shading & texturing (surfacing)
+
+- **Shading vs texturing** — the recipe vs the maps that vary it; law first (16§1).
+- **Diffuse / specular** — light that enters & tints vs light that bounces; metals have
+  no diffuse, their color is tinted reflection (16§2).
+- **Microfacet theory** — roughness = statistical mirror angles; PBRT ch. 9 BSDFs (16§2).
+- **Energy conservation** — blurrier highlight = dimmer highlight; never outshine the source (16§2).
+- **Fresnel / F0** — head-on reflectance: dielectrics 0.02–0.05 (metal/rough hardcodes
+  4%), metals 0.5–1.0 tinted; chart `surf-05` (16§3).
+- **Base color band** — 30–50 sRGB floor, 240 ceiling (coal → fresh snow); no baked AO (16§3).
+- **Metallic binary law** — 0 or 1; rust/paint/dirt = dielectric 0 even on steel (16§3–4).
+- **Metal/roughness workflow** — Principled BSDF's model; correct/incorrect: `surf-06` (16§3).
+- **Linear workflow** — color maps sRGB, data maps Non-Color; judge under AgX (16§5).
+- **3-light test** — approve materials under studio/sun/interior before shots (16§6, 11 H7).
+- **Texel density / UDIM** — one px-per-meter standard; tiles for heroes (17§2, 11 H6).
+- **Map set** — base color/metal/rough/normal/height/AO/thickness each with one job (17§3).
+- **Procedural layering** — Ebert: texture spaces + layered composition; noise families
+  (gradient=Noise, cellular/Worley=Voronoi) (17§5).
+- **Wear logic** — edges polish, cavities dirt, gravity streaks down (17§7).
+- **Baking** — cage encloses, margin guards, normals first (17§4, 11 H5).

@@ -387,3 +387,84 @@ Blender 4.4+ uses *layered Actions* (slots), so legacy scripts that poke `action
 directly may need `action.layers[…].strips[…].channelbag.fcurves` instead — prefer
 operators and drivers over raw f-curve surgery, and keep production scripts in `tools/`
 (ref 10) so the pipeline is reproducible.
+
+---
+
+## H. Shading & texturing (refs 16–17)
+
+### H1. Connect a PBR texture set (Node Wrangler)
+1. Object Mode → select object → **Shading workspace** → **New** material.
+2. Select the Principled BSDF → **Ctrl+Shift+T** → in the file dialog, multi-select the
+   set (basecolor, roughness, metallic, normal) → **Principled Texture Setup** wires
+   them with correct color spaces. (Node Wrangler ships enabled in 4.x; otherwise
+   Edit → Preferences → Add-ons.)
+3. Verify manually, every time: Base Color = **sRGB**; roughness/metallic/normal =
+   **Non-Color**; Normal Map node present (strength 1). Imported DirectX normal? Add a
+   Separate Color → invert Green → Combine Color before the Normal Map node.
+4. Judge in **Rendered** shading (Z), never Material Preview alone — its pretty HDRI
+   hides illegal values.
+
+### H2. Procedural worn painted metal (no images)
+1. Principled: Metallic 1 (driven below), Base Color = steel F0 (0.56, 0.57, 0.58).
+2. Geometry → **Pointiness** → Color Ramp (tighten) = edge-wear mask; Texture Coordinate
+   (Object) → Noise Texture (scale 5, detail 5) = grime variation; second Noise (scale
+   25) → Bump (strength 0.15, distance 0.002 at true scale).
+3. Mix the edge mask into **Roughness**: edges ≈ 0.35, field ≈ 0.65 (Math/Mix node) —
+   handled metal polishes on edges.
+4. Paint layer: big-scale Noise (scale 2) → Color Ramp as a chipped-paint mask → Mix
+   Shader-ish mixing of Base Color (paint color vs steel) AND Metallic (paint 0 vs
+   steel 1) with the *same* mask — chips reveal substrate and flip the metal bit
+   together (ref 16 §3). Rust in the cavities: same mask trick, Pointiness inverted,
+   rust albedo in the 30–240 band, Metallic 0, Roughness 0.9.
+
+### H3. Skin (connect to A9/A12 facial work)
+1. Albedo map (no baked shading) → Base Color. **Subsurface Weight 0.3–0.5**, Radius
+   ≈ (1.0, 0.35, 0.2) — character MUST be real height in meters or SSS reads wax.
+2. Pore/wrinkle normals at Strength ≈ 0.7 (over-strong pores = orange peel); micro-bump
+   from the roughness map's inverse for pore sheen.
+3. Roughness map zones: T-zone (forehead/nose/chin) ≈ 0.45, cheeks ≈ 0.6, lips ≈ 0.35 —
+   paint zones, never one value. Thickness map → ears/nostrils glow correctly under rim.
+4. Prove it under the three-light test (H7) at ECU distance — skin that only works in
+   one HDRI fails on set.
+
+### H4. Glass / water / car paint (quick recipes)
+- **Glass**: Transmission Weight 1 · IOR 1.5 · Roughness 0.05 · solid geometry (or
+  Surface Thickness) · the object behind must exist — glass is mostly refraction.
+- **Water**: Transmission 1 · IOR 1.33 · Base Color white (the tint comes from
+  Volume Absorption in the Volume socket for depth).
+- **Car paint**: metallic-flake base (Base Color = paint color, Metallic 0.6–1 flake
+  trick *or* metallic flakes via noise mask), **Coat Weight 1, Coat Roughness 0.05** —
+  the clear coat is a separate physical layer; don't fake it with low base roughness.
+
+### H5. Bake high-poly → low-poly (Cycles)
+1. Low-poly: clean UVs (§B/H6), smooth shading set before baking, margin ≥ 16 px.
+2. In low-poly's material: add an **Image Texture** node with a NEW blank image
+   (4096², Non-Color for normal), select that node (white outline = bake target).
+3. Render Properties (Cycles) → **Bake**: Bake Type **Normal**, **Selected to Active**
+   ON, Extrusion ≈ 0.02–0.1 m (must enclose the high-poly), Max Ray Distance a little
+   more. Margin 16.
+4. Outliner: select HIGH-poly first, then Shift-select LOW (active object highlighted)
+   → **Bake**. Inspect: black patches = rays missed → raise Extrusion; wavy edges =
+   low-poly shading mismatch (support loops / hard edge = UV seam).
+5. Repeat for AO (Bake Type Ambient Occlusion) and curvature proxies; save images
+   (Image → Save As) — bakes are unsaved until you do.
+
+### H6. UV unwrap + texel density
+1. Edit Mode → select seam edges (**Ctrl+E → Mark Seam**) at hidden places (ref 17 §2).
+2. Select all (A) → **U → Unwrap** (Angle Based default; Conformal for cylindrical
+   forms). UV Editor: check with a checker texture (Image → New → Generated Type:
+   **Color Grid**) — squares must be even and uniformly sized.
+3. Texel density: UV menu → **Average Island Scale**, then **Pack Islands** (margin
+   0.003–0.01). Face exception: scale face island 2× before packing.
+4. UDIM: Image Texture → Source **Tiled**; UV Editor **N-panel → Add Tile**; islands
+   per tile (face 1001, body 1002…) — bake/paint per tile.
+
+### H7. Lookdev scene (3-light test, ref 16 §6)
+1. World: neutral studio HDRI, Strength 1. Render → Color Management → **AgX**.
+2. Add a chrome ball + grey ball + color checker prop next to the asset (the classic
+   lookdev trio — Jeremy Birn's workflow chapter logic): if the balls look right and the asset
+   doesn't, the recipe is wrong.
+3. Swap: high-noon sun HDRI → interior warm HDRI. Approve ONLY materials that read
+   correctly under all three, at the shot's final camera distance.
+4. Save the lookdev .blend as a library asset (B6) — every hero material passes here
+   before it touches a shot.

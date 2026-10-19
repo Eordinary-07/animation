@@ -65,6 +65,24 @@ page. If this skill's text and a bundled image ever disagree, the image wins.
 |---|---|---|
 | `iol-01-twelve-principles.jpg` | The numbered list of the 12 principles (ch. 3): 1 Squash and Stretch … 12 Appeal — the exact wording taught in ref 05 | ref 05 |
 
+## Surfacing canon — 6 books (added for refs 16–17)
+
+Text-layer books (*The PBR Guide*, *Texturing and Modeling*, *PBRT* 4th ed.) were
+verified by full-text extraction — the quoted values are the books' own words. The
+three scanned books were verified at contents level (below), with doctrines applied at
+the level their tables of contents and chapter architecture state. *Digital Lighting &
+Rendering* here is the **1st-edition** scan (chapter 9 = "Materials and Rendering
+Algorithms") — do not cite later-edition content into it.
+
+| File | Source PDF | Page | What it proves |
+|---|---|---|---|
+| `surf-01-demers-contents.jpg` | Owen Demers, *Digital Texturing and Painting* | Contents at a Glance | the 15-chapter workflow architecture behind ref 17 |
+| `surf-02-demers-toc-detail.jpg` | Owen Demers | Table of Contents (detail) | ch. 1 dissecting questions (what is it made of / history & wear), ch. 2 reference materials, ch. 3 color theory |
+| `surf-03-birn-contents.jpg` | Jeremy Birn, *Digital Lighting & Rendering* (1st ed.) | Contents at a Glance | 10 chapters: Lighting Workflow · Three-Point · Qualities of Light · ch. 9 Materials and Rendering Algorithms |
+| `surf-04-gurney-contents.jpg` | James Gurney, *Color and Light* | Contents | Sources of Light · Light and Form · Elements of Color · Surfaces and Effects (ref 16 §6) |
+| `surf-05-pbr-f0-range-chart.jpg` | *The PBR Guide* (Wes McDermott) | appendix chart | F0 ranges: dielectrics 2–5% (0.02–0.05 linear), 4% = 59 sRGB hardcoded in metal/rough, gemstones 8% |
+| `surf-06-pbr-correct-incorrect.jpg` | *The PBR Guide* | appendix, Correct/Incorrect Comparisons | rusted-metal maps done right vs wrong (rust = dielectric layer) |
+
 ## Scope of verification (honest limits)
 
 - Text-layer books (Cabrera, Osipa body text, 3D Math Primer, Parent, Timing for Animation)

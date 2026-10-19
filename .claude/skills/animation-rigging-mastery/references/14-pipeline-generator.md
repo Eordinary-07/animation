@@ -93,6 +93,7 @@ PIPELINE BRIEF — [title]
 1. STORY: 1-2 lines | emotional core: [D2]
 2. CHARACTERS & RIGS: [D3] → [rig scope list from matrix]
 3. FACIAL: [D4] → [facial scope]
+3b. SURFACING: materials/textures (11 §H) → [per asset: texel-density standard, tex resolution class, map set, procedural/painted split (refs 16–17)]
 4. SHOT LIST: [count] shots — # | description | size | acting beats | approach (pose/dialog/limited)
 5. CAMERA PLAN: [D1] style → [shot-size/move strategy]
 6. APPROACH PER SHOT TYPE: [from matrix]
