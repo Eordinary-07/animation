@@ -344,3 +344,20 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   designed from it for every request (22§B).
 - **Pipeline Explainer** — every brief is followed by the same pipeline in plain words:
   what happens, why, what the user sees, what they decide (22§C).
+
+## 14. Directing, visual structure, pose & effects
+
+- **Seven visual components (Bruce Block)** — space, line, shape, tone, color, movement,
+  rhythm: every frame is built from these; name them per shot (23§1).
+- **Contrast and affinity** — difference = intensity, similarity = calm; raise contrast
+  in ≥2 components as the story arc rises (23§1).
+- **Directing attention (Francis Glebas)** — one focal hierarchy per frame; images ask
+  questions; nondramatic shots have known outcomes (23§2).
+- **Continuity style (Steven Katz)** — spatial + temporal connections designed in staging;
+  dialogue staging patterns; camera moves as choreography (23§3).
+- **Rule of Six (Walter Murch, summary-level)** — Emotion > Story > Rhythm > Eye-trace >
+  Planarity > 3D continuity; diagnose bad cuts top-down (23§4).
+- **Draw verbs not nouns (Walt Stanchfield)** — pose the action/attitude; one pose = one
+  drawing's whole story; essence before details (24§A).
+- **FX as behavior (Joseph Gilland)** — liquids/fire/smoke/magic animated by nature and
+  phases, integrated with light and world (24§B).

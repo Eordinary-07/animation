@@ -183,3 +183,37 @@ only where a bundled page or verified heading supports it. The Survival Kit's st
 recovered from the merged OCR (its scan has no local text layer); its eight most
 load-bearing doctrine pages are also bundled as images. Illusion of Life's local text layer
 is garbled OCR; quotes from it should be paraphrased, not quoted verbatim.
+
+## 9–14. The surfacing canon (essence; full treatment in refs 16–17)
+
+9. **Wes McDermott — The PBR Guide**: the metal/roughness law in numbers (F0 2–5%,
+   base color 30–240 sRGB); Substance's own rulebook. Text-verified.
+10. **Owen Owen Demers — Digital Texturing and Painting**: see → dissect → decide; observation
+    before painting. Contents + key chapters page-verified (ref 15).
+11. **Jeremy Jeremy Birn — Digital Lighting & Rendering** (1st-ed. scan): lighting judgment;
+    specular color law; five qualities of light.
+12. **Matt Pharr, Wenzel Jakob, Greg Humphreys — Physically Based Rendering 4e**: BSDF/sampling theory
+    explaining Cycles. Text-verified (ch. 9–10 core).
+13. **Ebert, F. Kenton Musgrave, Darwyn Peachey, Ken Perlin, Worley — Texturing and Modeling**: noise families
+    and procedural composition → Blender nodes. Text-verified.
+14. **James James Gurney — Color and Light**: observed light behavior (transmitted light,
+    four zones on leaves). Contents + key page verified.
+
+## 15–21. The directing canon (essence; full treatment in refs 23–24)
+
+15. **Francis Francis Glebas — Directing the Story**: directing = directing attention; narrative
+    questions; storyboard thinking; aiming for the heart. Text-verified.
+16. **Bruce Bruce Block — The Visual Story**: seven visual components; contrast and affinity as
+    the intensity control; visual structure parallels story structure. Text-verified.
+17. **Steven D. Steven Katz — Film Directing Shot by Shot**: continuity style; staging patterns;
+    moving-camera choreography. Text-verified.
+18. **Walter Walter Murch — In the Blink of an Eye**: the Rule of Six for cuts. *Uploaded copy is a
+    chapter-summary edition — used at summary level; full text pending.*
+19. **Walt Walt Stanchfield — Drawn to Life Vols. 1–2**: draw verbs not nouns; the pose as a
+    one-drawing story; gesture is the backbone. Vol. 1 text-verified, Vol. 2 contents.
+20. **Robert Robert McKee — Story**: *uploaded scan is not page-readable in this environment
+    (no text layer, non-extractable page images) — NOT integrated; awaiting a readable
+    edition. Do not cite from it.*
+21. **Joseph Joseph Gilland — Elemental Magic Vol. 1**: classical FX categories (liquids; fire,
+    smoke, explosions; magic) as behavior design → Blender sim/shader choices.
+    TOC-verified (PDF split losslessly into two parts at repo ingestion).

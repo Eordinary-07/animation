@@ -90,6 +90,20 @@ Algorithms") — do not cite later-edition content into it.
 | `surf-12-birn-qualities-of-light.jpg` | Jeremy Birn (1st ed.) | ch. 5 opener | Qualities of Light: Softness, Intensity, Color, Throw, Animation (ref 16 §6) |
 | `surf-13-gurney-transmitted-light.jpg` | James Gurney | ch. 9, Transmitted Light (book p.152) | four kinds of light on leaves; transmitted = most saturated (ref 16 §6) |
 
+## Directing canon — 7 books (added for refs 23–24)
+
+Text-layer books (*Directing the Story*, *The Visual Story*, *Shot by Shot*, *Drawn to
+Life* Vol. 1, *Elemental Magic*) were verified by full-text extraction — quotations and
+tables of contents in refs 23–24 are the books' own words. Two honest exceptions:
+the uploaded *In the Blink of an Eye* is a **chapter-summary edition**, not Walter Murch's full
+text (Rule of Six used exactly as the summary states it); the uploaded *Story* (Robert McKee)
+scan has **no extractable text and non-renderable page images in this environment**, so
+it is catalogued but NOT integrated — do not cite it.
+
+| File | Source PDF | Page | What it proves |
+|---|---|---|---|
+| `dir-01-stanchfield2-contents.jpg` | Walt Walt Stanchfield, *Drawn to Life* Vol. 2 | Contents | 68 lectures in Innovation / Drawing / Expression sections (ref 24 §A) |
+
 ## Scope of verification (honest limits)
 
 - Text-layer books (Cabrera, Osipa body text, 3D Math Primer, Parent, Timing for Animation)
