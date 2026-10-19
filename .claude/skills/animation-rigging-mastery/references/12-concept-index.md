@@ -282,3 +282,15 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   (gradient=Noise, cellular/Worley=Voronoi) (17§5).
 - **Wear logic** — edges polish, cavities dirt, gravity streaks down (17§7).
 - **Baking** — cage encloses, margin guards, normals first (17§4, 11 H5).
+- **2D vs 3D procedurals** — UV-defined (cloth/checkers) vs world-filled volume textures
+  that ignore UVs (granite/wood); verbatim-alone reads fake, combined reads real (17§5, `surf-09`).
+- **Specular color law (Jeremy Birn)** — non-metal highlights stay white/gray; metals tint the
+  highlight with the material color — the F0 law in pre-PBR words (16§6, `surf-11`).
+- **Five qualities of light (Jeremy Birn)** — Softness, Intensity, Color, Throw, Animation —
+  the vocabulary for judging lookdev test lights (16§6, `surf-12`).
+- **Transmitted light (James Gurney)** — backlit thin material: transmitted zone most
+  saturated, top-lit brightest but dullest; four-zone check for SSS (16§6, `surf-13`).
+- **Study and question (Owen Demers)** — the 12-question battery for reading reference before
+  texturing from it (17§1, `surf-08`).
+- **Map coherence** — color pattern must resemble the relief pattern; relief is layered;
+  audit all maps of one asset side by side (17§6, `surf-10`).

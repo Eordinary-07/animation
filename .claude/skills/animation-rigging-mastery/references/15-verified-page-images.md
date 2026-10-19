@@ -82,6 +82,13 @@ Algorithms") — do not cite later-edition content into it.
 | `surf-04-gurney-contents.jpg` | James Gurney, *Color and Light* | Contents | Sources of Light · Light and Form · Elements of Color · Surfaces and Effects (ref 16 §6) |
 | `surf-05-pbr-f0-range-chart.jpg` | *The PBR Guide* (Wes McDermott) | appendix chart | F0 ranges: dielectrics 2–5% (0.02–0.05 linear), 4% = 59 sRGB hardcoded in metal/rough, gemstones 8% |
 | `surf-06-pbr-correct-incorrect.jpg` | *The PBR Guide* | appendix, Correct/Incorrect Comparisons | rusted-metal maps done right vs wrong (rust = dielectric layer) |
+| `surf-07-demers-seeing-dissecting.jpg` | Owen Demers | ch. 1 divider | "The Fine Art of Seeing and Dissecting" — the observation-first method (ref 17 §1) |
+| `surf-08-demers-study-question.jpg` | Owen Demers | §4.4–4.5 (book p.146) | Study and Question: the 12-question battery + detail-contrast doctrine (ref 17 §1, §9) |
+| `surf-09-demers-procedural-goggles.jpg` | Owen Demers | ch. 11 opener | 2D vs 3D procedurals verbatim; combination law (ref 17 §5) |
+| `surf-10-demers-axle-final-maps.jpg` | Owen Demers | ch. 10, Final Maps (book p.254) | map-coherence audit; layered dual bump maps (ref 17 §6). Character is **Axle** |
+| `surf-11-birn-specular-color.jpg` | Jeremy Birn (1st ed.) | §9.1.3.2 Specular Color (book p.198) | white/gray specular for non-metals, tinted for metals; roughness = microscopic structure (ref 16 §6) |
+| `surf-12-birn-qualities-of-light.jpg` | Jeremy Birn (1st ed.) | ch. 5 opener | Qualities of Light: Softness, Intensity, Color, Throw, Animation (ref 16 §6) |
+| `surf-13-gurney-transmitted-light.jpg` | James Gurney | ch. 9, Transmitted Light (book p.152) | four kinds of light on leaves; transmitted = most saturated (ref 16 §6) |
 
 ## Scope of verification (honest limits)
 

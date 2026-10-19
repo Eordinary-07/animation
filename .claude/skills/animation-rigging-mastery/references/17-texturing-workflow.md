@@ -55,9 +55,16 @@ to UV seams). Never "fix it in the paint" — the next rebake resurrects it.
 
 ## 5. Procedural texturing (Ebert et al. → Blender nodes)
 
-- **Texture spaces first** (Ebert ch. "Procedural Pattern Generation"): UV for placed
-  detail, Object/Generated 3D space for volume-true materials (stone, rust creep — no
-  seams, correct through cuts), box projection to skip UVs on rough props.
+- **Texture spaces first** (Ebert ch. "Procedural Pattern Generation"; Owen Demers ch. 11,
+  `images/surf-09-demers-procedural-goggles.jpg`): Owen Demers splits procedurals into
+  **2D** — "defined by the object's textural coordinates (UVs)… cloth, fractals, and
+  checkered patterns" — and **3D** — "a 'world' filled with a particular texture. They
+  ignore the UVs of the object… granite, wood, leather, or cloud." In Blender: UV-space
+  nodes for placed detail; Object/Generated space for volume-true materials (stone,
+  rust creep — no seams, correct through cuts); box projection to skip UVs on rough
+  props. And his combination law, verbatim: *"Using them verbatim… can result in an
+  incomplete or unnatural textural expression. In combination with one another though,
+  they can create some very realistic results."*
 - **Layering and composition** is the whole game: substrate → variation → wear → dirt,
   each layer masked, exactly like Owen Demers' layered-shader dirt (his Goggles, ch. 11).
   One Noise node at one scale always reads "procedural" — stack **large / medium /
@@ -77,7 +84,7 @@ to UV seams). Never "fix it in the paint" — the next rebake resurrects it.
 |---|---|
 | Bandana (ch. 7) + Steel Braided Hoses (ch. 8) | **Tileable textures**: make it tillable, mask/render to hide the repeat, verify at 3×3 tiling |
 | The Tire (ch. 9) | **Displacement for real relief** (treads): geometry-level detail only where silhouette shows it |
-| Aala's Face (ch. 10) | **Character face on polygons**: prepare the mesh for texturing, create the color map from photo reference, fixed maps |
+| Axle's Face (ch. 10) | **Character face on polygons**: prepare the mesh for texturing, create the color map from photo reference, fixed maps — and see his Final Maps audit below |
 | The Goggles (ch. 11) | **Procedural + layered dirt**: shader layers with masks instead of giant painted maps |
 | The Car Body (ch. 12) | **Complexity management**: many materials, one asset — plan map budget & shared trims |
 | The Fin (ch. 13) | **Uneven surfaces + decals**: projecting logos/graphics onto curved forms without swimming |

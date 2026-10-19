@@ -84,14 +84,34 @@
 
 ## 6. Judging the result (Jeremy Birn + James Gurney)
 
-- Jeremy Birn's discipline (*Lighting Workflow*, *Qualities of Light*): a material is only
-  proven when it survives different lights. Test every hero material under **three**:
+- Jeremy Birn's discipline (*Lighting Workflow*, *Qualities of Light* — opener bundled as
+  `images/surf-12-birn-qualities-of-light.jpg`): judge a test light by his five
+  qualities — **Softness, Intensity, Color, Throw, Animation** — and only trust a
+  material that survives different lights. Test every hero material under **three**:
   neutral studio HDRI → hard sun → dim interior. If it only works in one, the *values*
-  are wrong, not the light. (Lighting itself: refs 08/10; Jeremy Birn ch. 9 for shader models.)
+  are wrong, not the light. (Lighting itself: refs 08/10.)
+- **The specular-color law, stated in 2000** (Jeremy Birn §9.1.3.2,
+  `images/surf-11-birn-specular-color.jpg`): *"The color of your specular shading… in
+  most cases it should be left as a shade of white or gray… You don't need to make the
+  specular color match the diffuse color… In the case of metals, a metallic shader will
+  use the color of the material as the color of the specular highlight… if you were
+  rendering gold, it would have a golden specular highlight color."* Same law as §3's
+  F0 in pre-PBR language — the physics didn't change, the vocabulary did. And his
+  roughness definition is microfacets in plain words: *"Microscopic roughness in a
+  surface's structure can make a surface appear smooth, while still diffusing reflected
+  light."* His check: *"The best way to check your highlights is to study a real-world
+  example of your material."*
 - James Gurney's observation layer (*Sources of Light*, *Light and Form*, *Surfaces and
   Effects*): before texturing, name the light logic of the reference — where is the
   specular core, where does diffuse wrap, what does the grazing rim do? If you can't
-  describe the real surface's light behavior in one sentence, you're not ready to shade it.
+  describe the real surface's light behavior in one sentence, you're not ready to shade
+  it. For translucent things use his **transmitted light** page (ch. 9,
+  `images/surf-13-gurney-transmitted-light.jpg`): *"When sunlight travels through a
+  thin, semitransparent material, the light becomes richly colored. Light that bounces
+  off the surface is fairly dull by comparison."* Any backlit leaf/ear/curtain shows
+  four zones — transmitted (most saturated), down-facing shadow (darkest), up-facing
+  shadow (skylight-tinted), top-lit sun (brightest value, least chroma). If your SSS
+  material doesn't reproduce that hierarchy, the radius/weight is wrong.
 
 ## 7. Six-point realism check (every material, before more detail)
 
