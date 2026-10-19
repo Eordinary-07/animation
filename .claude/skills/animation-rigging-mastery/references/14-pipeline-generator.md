@@ -90,6 +90,7 @@ Before keying anything, output a brief like this and follow it:
 
 ```
 PIPELINE BRIEF — [title]
+0. INTENTION (ref 18 — answer first, always): objective / obstacle / tactic | audience feeling | one idea per shot | emotional arc | style (realism dial) | format type
 1. STORY: 1-2 lines | emotional core: [D2]
 2. CHARACTERS & RIGS: [D3] → [rig scope list from matrix]
 3. FACIAL: [D4] → [facial scope]

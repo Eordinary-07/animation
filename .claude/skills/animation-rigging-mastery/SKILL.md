@@ -17,6 +17,15 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    `references/11-blender-how-to.md` use 4.x menu paths.
 3. When working, cite the *reason* behind a technique (the books teach essence + reason, not
    recipes). If a shot or rig decision can be justified from the books, justify it that way.
+3b. **Intention first, always**: before animating any script/instruction, answer the five
+   questions (objective / obstacle / tactic / audience feeling / one idea per shot) and
+   produce the INTENTION block of the Pipeline Brief — `references/18-script-intention-engine.md`.
+   Asked questions are about intention only; mechanics are decided professionally and stated.
+3c. **Self-correct like a studio**: work in gates (L→B→S→P), run the self-critique battery
+   and fix the top-3 flaws BEFORE presenting work, measure against the precision
+   tolerances, and maintain the project's `LESSONS.md` — read it at the start of every
+   task, append a rule after every mistake or user correction, never repeat a logged
+   mistake — `references/19-self-correction-system.md`.
 4. The original PDFs are OPTIONAL background only — never required, never ask for them.
    Everything needed to work is in this skill. (For the curious: the merged OCR PDF's order
    is Maya Rigging 1-408, Stop Staring 409-795, 3D Math 796-1641, Rick Parent 1642-2182,
@@ -31,11 +40,13 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Math, curves, IK solvers, springs, tools → `references/07-math-procedural.md`
    - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
+   - ANY script/instruction → intention first → `references/18-script-intention-engine.md`
    - **Script uploaded? Build a PIPELINE BRIEF first → `references/14-pipeline-generator.md`**
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
+   - Reviewing, QA, learning from mistakes (gates, battery, LESSONS.md) → `references/19-self-correction-system.md`
    - **Amateur-vs-industry diagnosis & review codes → `references/13-amateur-vs-industry.md`**
-   - **Complete concept index of all 8 books (A-Z) → `references/12-concept-index.md`**
+   - **Complete concept index of all 14 books (A-Z) → `references/12-concept-index.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
    Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
    buttons, shortcuts). Never improvise Blender steps when a procedure exists in 11.
@@ -139,6 +150,8 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/14-pipeline-generator.md` — build a custom AAA pipeline per script (drivers → matrix → Pipeline Brief)
 - `references/16-shading-pbr-fundamentals.md` — the shading law: light behavior, F0 (dielectrics 0.02–0.05, metal/rough hardcodes 4%), base-color 30–240 sRGB band, measured metal tints, Principled BSDF decoded socket-by-socket, linear-workflow commandments, the 3-light lookdev test (The PBR Guide, PBRT, Jeremy Birn, James Gurney)
 - `references/17-texturing-workflow.md` — Owen Demers' see→dissect→decide method, UV/texel-density standard, the PBR map set and what each map is for, baking principles, Ebert procedural theory → Blender nodes, wear logic, resolution budgets, amateur tells
+- `references/18-script-intention-engine.md` — intention-first protocol for ANY script: the five questions, beat maps, one idea per shot, intention-to-technique translation tables, format adaptability matrix (dialogue/action/comedy/horror/musical/product), the realism dial, thin-script decision rules
+- `references/19-self-correction-system.md` — the studio learning loop: stage gates L-B-S-P with checklists, numeric precision tolerances (foot slip, lip-sync, blinks), the self-critique battery (silent/silhouette/mirror tests + fix-top-3), and the Lessons Ledger (LESSONS.md) so mistakes become standing rules
 - `references/15-verified-page-images.md` — catalog of 49 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the

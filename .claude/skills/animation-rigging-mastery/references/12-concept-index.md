@@ -294,3 +294,23 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   texturing from it (17§1, `surf-08`).
 - **Map coherence** — color pattern must resemble the relief pattern; relief is layered;
   audit all maps of one asset side by side (17§6, `surf-10`).
+
+## 11. Intention, precision & self-correction (the studio operating system)
+
+- **Intention first** — objective/obstacle/tactic/audience-feeling/one-idea answered
+  before any keying; technique serves intention (18§1).
+- **Beat map** — piece broken at tactic changes/emotional flips; each beat carries
+  objective, tactic, feeling, seconds (18§2).
+- **One idea per shot** — "this shot exists so the audience feels ___ when ___" (18§1).
+- **Emotional arc** — intensity graphed over beats; peaks need valleys (18§2).
+- **Subtext pass** — said vs wanted; marked beats get counter-action and asymmetry (18§2).
+- **Realism dial** — style declared once (realistic/stylized/cartoon) and scaled
+  consistently; mixed dials read amateur (18§5).
+- **Stage gates (L→B→S→P)** — layout/blocking/spline/polish, each with a pass checklist;
+  going back is cheaper than polishing a mistake (19§1).
+- **Precision tolerances** — foot slip ≤0.5 cm, lip-sync ±1 frame, eyes lead 2–4 frames,
+  zero interpenetration; measure, don't eyeball (19§2).
+- **Self-critique battery** — intention/silent/silhouette/mirror/thumbnail/2× tests +
+  flaw-code sweep + fix-the-top-3, before showing work (19§3).
+- **Lessons Ledger** — project LESSONS.md: every mistake logged as
+  mistake→cause→fix→standing rule; read at start, appended at every correction (19§4).
