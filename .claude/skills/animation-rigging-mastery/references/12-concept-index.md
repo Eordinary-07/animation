@@ -314,3 +314,19 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   flaw-code sweep + fix-the-top-3, before showing work (19§3).
 - **Lessons Ledger** — project LESSONS.md: every mistake logged as
   mistake→cause→fix→standing rule; read at start, appended at every correction (19§4).
+
+## 12. Optimization, add-ons & Substance pipeline
+
+- **Optimization law** — optimize what's invisible (instances, texture size by screen
+  coverage, baked frozen procedurals, adaptive sampling); never cut the visible 5% that
+  sells the shot (20§1–2).
+- **Adaptive sampling + denoise** — noise-threshold-driven Cycles; samples follow
+  variance, not round numbers (20§1).
+- **Add-on law** — mechanical job + standard inspectable output + measurably equal
+  quality + survives without the add-on = use it; judgment calls stay vanilla (21§A).
+- **No-hostage rule** — final .blend files must open and render with zero add-ons;
+  approved stack logged in the Pipeline Brief (21§A, 14).
+- **Substance loop** — Blender prep (names/UVs/scale) → Painter bake & paint (OpenGL
+  normals) → export preset → approve in Blender via the 3-light test (21§B, 11 H8).
+- **Painter approval trap** — Painter's ACES viewport ≠ Blender AgX; approval happens in
+  Blender only (21§B6).

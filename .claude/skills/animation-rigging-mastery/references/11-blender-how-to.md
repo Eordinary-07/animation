@@ -468,3 +468,36 @@ operators and drivers over raw f-curve surgery, and keep production scripts in `
    correctly under all three, at the shot's final camera distance.
 4. Save the lookdev .blend as a library asset (B6) — every hero material passes here
    before it touches a shot.
+
+### H8. Substance 3D Painter round-trip (hero texturing standard — doctrine in ref 21B)
+1. **Blender prep**: true scale; names `Part_low`/`Part_high`; UVs finished + texel
+   density set (H6); material slot per texture set; vertex-color IDs if needed.
+2. Export FBX (selected objects; check scale pre/post). Keep the low's UVs frozen after
+   this point.
+3. **Painter**: New Project → template *PBR - Metallic Roughness*, Normal = **OpenGL**,
+   resolution per asset class, UDIM on if the asset uses tiles → select the low FBX.
+4. Texture Set Settings → **Bake Mesh Maps**: load the high FBX, match by name, tune
+   Max Frontal/Rear distances, bake Normal/AO/Curvature/Position/Thickness/WS-Normal,
+   AA 4×4. Solo-inspect each baked map.
+5. Paint in physical layer order (substrate → variation → wear → dirt → micro);
+   generators art-directed and broken by hand/noise masks; albedo in the 30–240 band;
+   metallic binary; roughness carries the most variation.
+6. Export Textures with the Blender preset (`_BaseColor/_Roughness/_Metallic/_Normal`,
+   Normal OpenGL, padding dilation-infinite; Height 16-bit only if used).
+7. **Blender**: connect with Ctrl+Shift+T (H1), verify Non-Color on data maps, Tiled
+   source for UDIM, approve ONLY via the 3-light test here (H7) — Painter's ACES
+   viewport is not the approval room.
+
+### H9. Pre-render optimization pass (ref 20)
+1. Render Properties → Performance: **Persistent Data** ON (animation). Simplify OFF
+   for finals (viewport-only drug).
+2. Sampling: **Adaptive** with noise threshold (0.01 final / 0.005 hero ECU), Denoise =
+   OpenImageDenoise. Light Paths: clamp indirect 10; caustics off unless hero;
+   transparent/transmission bounces counted from the shot's actual layers (Jeremy Birn rule).
+3. Per-object: Subsurf viewport 1 / render per-shot; instances instead of copies;
+   off-camera sets disabled in render (not just hidden).
+4. Texture audit: sort by size in the Outliner (Blend file view) — anything 4K that is
+   never seen above ~800 screen px gets a 1K version for this shot.
+5. Bake approved sims; freeze approved procedural stacks to maps (archive the live
+   nodes in a disabled collection). Render 1 test frame at 100% + check stats (time/
+   peak) before committing the range; log numbers in LESSONS.md (ref 19 §4).

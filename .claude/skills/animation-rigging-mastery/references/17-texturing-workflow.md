@@ -103,8 +103,10 @@ as noise, not history.
 ## 8. Tools layout (industry reality, Blender-anchored)
 
 - **Substance 3D Painter** is the standard texture painter (its rulebook is *The PBR
-  Guide*): author there if available → export OpenGL normals → in Blender set data maps
-  Non-Color, judge under AgX. Blender's Texture Paint covers stylized work and masks.
+  Guide*) — and **this production's owned, default path for hero realism**: full
+  Blender↔Painter pipeline, export preset, and approval discipline in ref 21 §B
+  (procedure: ref 11 H8). Blender's Texture Paint covers stylized work and masks;
+  Blender procedural covers animated shaders and minor assets (ref 21 §B8).
 - **Scans/photogrammetry** (Megascans etc.) still need art direction: unify color
   temperature, re-grade roughness to your lighting, break tiling. Raw scan ≠ placed asset.
 

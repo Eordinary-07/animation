@@ -26,6 +26,10 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    tolerances, and maintain the project's `LESSONS.md` — read it at the start of every
    task, append a rule after every mistake or user correction, never repeat a logged
    mistake — `references/19-self-correction-system.md`.
+3d. **Optimize & tool up without compromise**: budgets are per-shot and protect the hero
+   (ref 20); add-ons only when mechanical + inspectable + add-on-free at delivery
+   (ref 21 §A); **Substance 3D Painter is the owned hero-texturing path** — Blender prep
+   → Painter (OpenGL normals) → approve in Blender (ref 21 §B, procedure 11 H8).
 4. The original PDFs are OPTIONAL background only — never required, never ask for them.
    Everything needed to work is in this skill. (For the curious: the merged OCR PDF's order
    is Maya Rigging 1-408, Stop Staring 409-795, 3D Math 796-1641, Rick Parent 1642-2182,
@@ -44,6 +48,8 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - **Script uploaded? Build a PIPELINE BRIEF first → `references/14-pipeline-generator.md`**
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
+   - Slow scene/render, optimization budgets → `references/20-optimization-without-compromise.md`
+   - Add-on decisions, Substance Painter pipeline → `references/21-addons-and-substance-pipeline.md`
    - Reviewing, QA, learning from mistakes (gates, battery, LESSONS.md) → `references/19-self-correction-system.md`
    - **Amateur-vs-industry diagnosis & review codes → `references/13-amateur-vs-industry.md`**
    - **Complete concept index of all 14 books (A-Z) → `references/12-concept-index.md`**
@@ -152,6 +158,8 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/17-texturing-workflow.md` — Owen Demers' see→dissect→decide method, UV/texel-density standard, the PBR map set and what each map is for, baking principles, Ebert procedural theory → Blender nodes, wear logic, resolution budgets, amateur tells
 - `references/18-script-intention-engine.md` — intention-first protocol for ANY script: the five questions, beat maps, one idea per shot, intention-to-technique translation tables, format adaptability matrix (dialogue/action/comedy/horror/musical/product), the realism dial, thin-script decision rules
 - `references/19-self-correction-system.md` — the studio learning loop: stage gates L-B-S-P with checklists, numeric precision tolerances (foot slip, lip-sync, blinks), the self-critique battery (silent/silhouette/mirror tests + fix-top-3), and the Lessons Ledger (LESSONS.md) so mistakes become standing rules
+- `references/20-optimization-without-compromise.md` — the free wins (instancing, texture-by-screen-coverage, adaptive sampling + denoise, baked frozen procedurals, per-shot budgets) vs forbidden trades; diagnosis order with numbers
+- `references/21-addons-and-substance-pipeline.md` — the add-on law (when add-ons beat vanilla with zero compromise; no-hostage delivery rule; proven catalog) + the full Substance 3D Painter ultra-realistic pipeline (prep, bake, paint, export preset, approve-in-Blender, .sbsar add-on path)
 - `references/15-verified-page-images.md` — catalog of 49 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
