@@ -96,6 +96,69 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
 
 ---
 
+### A9. Twist distribution bones (kill the candy-wrapper forearm/shin)
+A single forearm bone collapses the mesh when the wrist rolls. Share the roll:
+1. Edit Mode: add `DEF-forearm_twist_a.L` (at ~1/3 from elbow) and `DEF-forearm_twist_b.L`
+   (at ~2/3), both children of `DEF-forearm.L`, same roll as the forearm (A2).
+2. Pose Mode: each twist bone gets **Copy Rotation** → target = the hand bone, **Local
+   Space → Local Space**, only the bone's local **Y** axis enabled, Influence **0.33**
+   (a) and **0.66** (b). The forearm keeps 0, the hand keeps 1.0 — roll now ramps.
+3. Weight Paint: split the old forearm weights across forearm → twist_a → twist_b → hand
+   as a smooth gradient (Gradient tool), Auto Normalize ON, then `Normalize All`.
+4. Test: roll the wrist ±180° — volume survives, no pinch. Same recipe for shin (target =
+   foot bone) and upper arm (target = forearm).
+
+### A10. Spline-IK spine (FK-friendly, stretchy, twists evenly)
+1. Chain of 4–6 `DEF-spine` bones hips → chest. Add a **Bézier curve** along the spine with
+   3 control points (hips / mid / chest).
+2. Select each curve point → `Ctrl+H` **Hook to New Object** → rename `HK-hips`, `HK-mid`,
+   `HK-chest`. Parent the end hooks to your COG and chest control bones; mid hook to a
+   mid-spine control. Animators pose 3 controls, the curve does the smoothing.
+3. Top DEF spine bone → Bone Constraints → **Spline IK**: Target = the curve, Chain Length
+   = number of spine bones, **Y Stretch** ON, XZ Scale Mode = *Volume Preserve* for fat /
+   cartoon characters, *None* for hard bodies.
+4. Twist comes from rotating the chest hook around the spine axis — keep hook count at 3
+   or the spline fights you. Test battery: bend/side/twist ±90°, no kinks, head stable.
+
+### A11. Space switching (IK target or prop changes parent mid-shot)
+Industry pattern for "hand sticks to table, then to chest, then grabs the cup":
+1. Create one anchor Empty per space (`ANC-table`, `ANC-chest`), each parented into that
+   space (chest anchor parented to the chest control bone via Bone parenting).
+2. The IK target (or the prop object) gets **Child Of** constraints, one per anchor.
+   With each, click **Set Inverse** so nothing jumps at setup time.
+3. Add a custom property `space` (0.0–1.0) on the control; drive both influences:
+   anchor A influence = `1 - space`, anchor B = `space` (A5 driver workflow).
+4. **Animate the switch**: on the switch frame, FIRST bake the current world pose —
+   object: `Ctrl+A` *Apply Visual Transform*; pose bone: `Pose → Apply → Visual Transform
+   to Pose* — key it, THEN key `space` to the new value on the same frame. No pop.
+5. Prop grab = the same pattern mirrored (Child Of on the prop → hand anchor, keyed on the
+   contact frame; release = switch back to world anchor after a visual-transform key).
+
+### A12. Pose-driven corrective shape keys (PSD-style volume fixes)
+For the shoulder-raise collapse, elbow/knee volume loss, hip crease:
+1. Pose the joint to the problem angle.
+2. Mesh → Shape Keys → `+` → name it `corr_shoulder_R`, leave Value 0.
+3. On the Armature modifier enable **On Cage** (the triangle "adjust edit cage" icon) so
+   Edit/Sculpt mode shows the *posed* mesh; select the corrective key and sculpt the
+   volume back. (Deltas are stored in rest space automatically.)
+4. Return to rest pose. Right-click the key's **Value → Add Driver**: Type *Scripted
+   Expression*; variable = the joint bone's rotation channel (Transforms, Local Space,
+   e.g. Rot X). Map radians → 0..1, e.g. `min(1.0, max(0.0, (rot - 0.6) / 0.9))`, then
+   shape the response in the driver's Graph Editor curve if needed.
+5. Sweep the joint through its whole range: corrective must fade in/out cleanly and not
+   fight the opposite side. Mirror with Shape Keys menu → *Mirror Shape Key* and re-test.
+6. Combination problems (smile + jaw-open poke-through) get a combo key whose driver is
+   the *product* of the two source values.
+
+### A13. Lid follow + inner mouth parenting (extends A8)
+- **Lid follow**: upper-lid shape key (or lid bone) driven by the eyeball bone's local X
+  rotation — look down and the lid follows at ~70%. Blink remains its own key on a linear
+  curve (Osipa, ref 06); never bake blink into the follow driver.
+- **Inner mouth**: upper teeth weighted 100% to the head bone; lower teeth + tongue chain
+  (2–3 small bones) weighted 100% to the **jaw** bone. If jaw is a shape key instead,
+  parent a `MCH-jaw` bone to the head and drive its rotation from the same jaw slider so
+  teeth/tongue still travel with the mouth.
+
 ## B. ANIMATION
 
 ### B1. Blocking (pose-to-pose, Stepped)
@@ -132,6 +195,57 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
    lids between. Never all on the same frame.
 
 ---
+
+### B4. Pose library — the modern Asset Browser way (Blender 4.x)
+1. Create: Pose Mode, select the bones the pose needs → `Pose → Create Pose Asset`.
+   Name by INTENT, not anatomy (`angry_point`, `beg_hands`, `sneak_low`). The asset lives
+   in the file as an Action marked as asset.
+2. Make it global: keep a `POS_lib.blend` in a folder registered under
+   `Preferences → File Paths → Asset Libraries` — every shot file then sees the library.
+3. Apply: Asset Browser → drag or double-click the pose; bottom-left **Blend** slider mixes
+   it with the current pose (60% golden pose + 40% current is a great start); tick
+   **Flipped** for the mirror; apply to *selected bones only* for partial poses (hands!).
+4. Rule (Williams): library poses are *starting points* — after applying, offset timing,
+   break symmetry, push the silhouette (ref 05). A pasted pose shipped unchanged reads stock.
+
+### B5. Video reference — shoot it, sync it, steal timing not positions
+1. Shoot yourself acting the shot (Hooks' rehearsal, ch. 4; Williams: act it out). Fix the
+   camera at the SHOT's angle; slate the frame-1 pose; do 3 takes, keep the one with intent.
+2. Import: `Add → Image → Reference` (video file) beside the set, or Camera →
+   *Background Images* for in-shot comparison. Set the image's frame **Offset** so the
+   reference's first contact lands on your shot's contact frame; opacity ≈ 0.5.
+3. Extract: key only the *contacts, accents and eye-darts* from the reference (frame
+   numbers into the dope sheet as markers `M`). Then animate YOUR spacing/arcs to those
+   beats — tracing positions frame-by-frame (rotoscoping) produces dead, floaty motion
+   (Hooks ch. 8). Exaggerate what the reference whispers.
+
+### B6. Thumbnailing & draw-overs (Williams' "small thinking drawings", in Blender)
+Williams: small thinking drawings "show if the idea is working" (bundled p. 337); The
+Procedure tests planning drawings BEFORE key positions (ref 09). In Blender:
+1. Add a **Grease Pencil** object `GP_thumbs`, draw in camera view (Draw Mode, placement =
+   View). 6–10 rough stick poses at the planned key frames — one per story beat, intent
+   first, anatomy last.
+2. Scrub the timeline: do the beats read in sequence? If a thumb doesn't read at thumbnail
+   size, the pose won't read at render size — fix it here, where it costs seconds.
+3. Draw-overs on review: drop the playblast into the Video Sequencer and use the
+   **Annotate** tool in the preview to sketch better arcs/poses over your own frames,
+   then match the rig to the drawing. Keep the GP object in the shot file (hidden at render).
+
+### B7. Graph Editor cleanup & baking (where polish becomes exportable)
+- **Euler flips** (limb suddenly spins 360° between two keys): select that bone's Euler
+  channels → Graph Editor `Key → Euler Filter`. Prevention: pick rotation orders before
+  animating (shoulders/hips = order that puts the twist axis LAST; see ref 07).
+- **Redundant keys**: `Key → Clean Keyframes` (small threshold) after auto-key sessions;
+  after bakes/mocap use `Key → Decimate Keyframes` (Ratio mode) — then re-check every
+  contact frame by hand; decimation eats accents first.
+- **Read small channels**: `View → Normalize` to inspect finger/eye curves; turn it OFF
+  before judging amplitudes.
+- **Bake Action** (`Pose → Animation → Bake Action`): turns IK/constraints/drivers into
+  plain FK keys — Visual Keying ON, frame step 1 (step 2 for a deliberate twos feel).
+  Mandatory before game-engine export, retargeting, or freezing an approved cycle.
+  Always bake on a DUPLICATE action/rig; the constrained original stays editable.
+- Keep one Action per shot (ref 10); approved cycles get pushed to the **NLA** as strips,
+  with additive strips layered for attitude (head/arms) instead of editing the base cycle.
 
 ## C. CAMERA & CUTS
 
@@ -182,6 +296,22 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
 
 ---
 
+### D4. Library Override shot workflow (how real Blender productions are organized)
+Never animate inside the character's source file. One source of truth, many shots:
+1. **Publish**: in the character file, one collection `CHR_<Name>` holds rig + meshes
+   (controls in CTRL bone collection; DEF/MCH hidden). Save. This file is read-only for
+   animators from now on.
+2. **Link**: in the shot file, `File → Link` → the `CHR_<Name>` collection. It arrives as
+   an instance — not yet animatable.
+3. **Override**: Outliner → right-click the linked collection → *Library Override → Make…*
+   (choose the rig as the root). Bones/properties become locally animatable; geometry and
+   rig logic still live in the source.
+4. **Animate** in the shot file only (actions, poses, overrides are stored per-shot).
+5. **Update**: when the rig is fixed in the source, shot files pick it up on reload;
+   if structure changed, Outliner → right-click → *Library Override → Resynchronize*.
+6. Solo/one-off work may `File → Append` instead — but anything multi-shot gets
+   Link + Override, or rig fixes become copy-paste archaeology.
+
 ## E. Verification (run after every rig or shot)
 
 | Check | Where |
@@ -194,3 +324,66 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
 | Arcs clean | B2 motion paths |
 | Cameras bound per shot | C1 marker colors in timeline |
 | Output settings correct | D2 |
+
+## F. Troubleshooting — symptom → cause → fix
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| IK arm/leg pops or flips mid-shot | Pole target crossed the chain plane, or chain hit perfectly straight (singularity) | Keep a whisper of bend in rest pose; move pole farther out; key the pole; cap IK stretch |
+| FK↔IK switch jumps | Pose not matched at the switch frame | Visual-transform snap both ways on the switch frame (A4/A11), key the switch driver there |
+| Feet slide in a walk cycle | Root speed ≠ stride length ÷ cycle time | Measure contact-to-contact stride in the viewport, set root motion to match; stance keys get even spacing |
+| Forearm twists like a candy wrapper | Single bone carries all wrist roll | Twist distribution bones (A9) |
+| Shoulder/armpit collapses on raise | Weights alone can't hold volume | Corrective shape key driven by upper-arm rotation (A12) + give the clavicle its own action |
+| Limb spins 360° between two keys | Euler interpolation took the long way | Graph Editor `Key → Euler Filter` (B7); reorder axes before animating (ref 07) |
+| Smile + open jaw poke through cheek | Two shape keys fight in combination | Combo corrective key driven by the *product* of both values (A12 step 6) |
+| Spline-IK spine twists strangely | Curve point tilt / too many hooks | Clear tilt (`Alt+T` in curve edit), keep 3 hooks (A10) |
+| Lip sync reads late/robotic | Mouth leads, thought trails | Body/head start 2–4 frames BEFORE the jaw (movement precedes words — Hooks ch. 6, Osipa); verify audio offset by scrubbing with sound |
+| Everything feels floaty/even | Default spline interpolation, no breakdowns | Add eccentric breakdowns, shape the handles (ref 03); check with Motion Paths — "there are no inbetweens" (Williams p. 89) |
+| Weights bleed onto the wrong limb | Unnormalized or stray vertex groups | Paint with Auto Normalize ON → `Weights → Normalize All` → `Limit Total (4)`; inspect per-vertex groups in Edit Mode's *Vertex Weights* panel |
+| Playblast differs from viewport / a bone lags one frame | Dependency cycle (driver chasing its own target) | Read the System Console for "Dependency cycle detected"; retarget the driver to a MCH bone that doesn't depend on the driven one |
+| Pose asset flips the wrong way | Applied without mirror naming | Bones must use `.L/.R` suffixes (A1); re-apply with *Flipped* (B4) |
+
+## G. bpy mini-toolkit (Blender 4.x-safe patterns)
+
+Script the repetitive rigging; never click 200 bones by hand. Three patterns that cover
+most requests — run in the Scripting workspace, test on a copy first:
+
+```python
+# 1) Sort bones into DEF-/CTRL-/MCH- bone collections by name prefix (4.0+ API)
+import bpy
+arm = bpy.context.object  # select the armature first
+for b in arm.data.bones:
+    for prefix in ("DEF-", "CTRL-", "MCH-"):
+        if b.name.startswith(prefix):
+            name = prefix.strip("-")
+            coll = arm.data.collections.get(name) or arm.data.collections.new(name)
+            coll.assign(b)
+```
+
+```python
+# 2) Driver for a corrective shape key from a bone's local X rotation (see A12)
+import bpy
+mesh = bpy.data.objects["Body"]
+key = mesh.data.shape_keys.key_blocks["corr_shoulder_R"]
+drv = key.driver_add("value").driver
+drv.type = 'SCRIPTED'
+var = drv.variables.new(); var.name = "rot"; var.type = 'TRANSFORMS'
+var.targets[0].id = bpy.data.objects["Rig"]
+var.targets[0].bone_target = "DEF-upperarm.R"
+var.targets[0].transform_type = 'ROT_X'
+var.targets[0].transform_space = 'LOCAL_SPACE'
+drv.expression = "min(1.0, max(0.0, (rot - 0.6) / 0.9))"  # radians -> 0..1
+```
+
+```python
+# 3) Bake constraints/IK to FK keys on the ACTIVE pose (duplicate the rig first!)
+import bpy
+bpy.ops.nla.bake(frame_start=1, frame_end=120, step=1, only_selected=False,
+                 visual_keying=True, clear_constraints=False, bake_types={'POSE'})
+```
+
+Cautions: `bpy.ops` calls depend on context (active object + mode) — set them explicitly;
+Blender 4.4+ uses *layered Actions* (slots), so legacy scripts that poke `action.fcurves`
+directly may need `action.layers[…].strips[…].channelbag.fcurves` instead — prefer
+operators and drivers over raw f-curve surgery, and keep production scripts in `tools/`
+(ref 10) so the pipeline is reproducible.

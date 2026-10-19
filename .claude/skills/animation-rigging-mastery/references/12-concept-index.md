@@ -35,7 +35,26 @@ Format: **Concept** — essence — → reference file.
 - **Rig test battery** — touch toes, overhead reach, squat, twists → 02 §6-8
 - **Face rig hybrid** — shape keys + jaw/eye bones + drivers → 02 §7, 06 §5, 11 A7/A8
 - **UV mapping for deformation** — stretch zones survive posing → 01 (Cabrera ch. 4)
-- **File referencing / library overrides** — rig & mesh separation → 02 §3
+- **File referencing / library overrides** — rig & mesh separation; full link → override →
+  animate → resync workflow → 02 §3, 11 D4
+- **Twist distribution bones** — share wrist/ankle roll 0.33/0.66 to keep volume → 11 A9
+- **Spline-IK spine** — 3-hook curve spine, pose-friendly stretch + even twist → 11 A10
+- **Space switching** — IK/prop parent changes mid-shot without pops (Set Inverse + visual
+  transform snap) → 11 A11
+- **Corrective (PSD) shape keys** — pose-sculpted volume fixes driven by joint rotation →
+  11 A12
+- **Lid follow & inner-mouth parenting** — lid tracks the eyeball; teeth/tongue ride the
+  jaw → 11 A13
+- **Pose assets (Asset Browser)** — create/blend/flip golden poses across all shots → 11 B4
+- **Video reference workflow** — shoot, sync by offset, steal timing not positions → 11 B5
+- **Thumbnailing & draw-overs** — Grease Pencil thinking drawings + Annotate over
+  playblasts (Williams p. 337) → 11 B6
+- **Graph cleanup & Bake Action** — Euler Filter, Clean/Decimate, bake IK→FK for export →
+  11 B7
+- **Troubleshooting (symptom → cause → fix)** — IK pops, foot slide, gimbal flips, weight
+  bleed, dependency cycles → 11 F
+- **bpy mini-toolkit** — bone-collection sort, corrective drivers, batch bakes (4.x-safe) →
+  11 G
 
 ## 2. Timing & Spacing (Williams; Whitaker; Illusion of Life)
 

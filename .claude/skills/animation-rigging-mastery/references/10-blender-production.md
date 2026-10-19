@@ -45,15 +45,19 @@ Follow these on every project file.
 - Render settings: Filmic/AgX view transform for realistic punch; transparent film when
   compositing; 1920×1080 minimum, 24fps, motion blur ON for realism (shutter 0.5-1.0),
   OFF for crisp cartoon timing (or smear-frames instead).
-- Output: FFMPEG → H.264 (MP4) for review, ProRes/MOV for final; PNG for compositing.
+- Output: FFMPEG → H.264 (MP4) for review, ProRes/MOV for final; **OpenEXR (multilayer)**
+  image sequences for compositing (PNG only for quick stills).
 - Compositor: subtle vignette/grain for "film feel" only if the style wants it.
 
 ## 6. Tooling habits
 
 - Scripts in `tools/` in the repo (Python, bpy): batch playblasts, renames, marker binds,
   pose-library loaders. Keep them deterministic and documented in a comment header.
-- Pose libraries: `File → Append` poses from `POS_lib.blend`; store every reusable
-  walk/run/emotion cycle there (`04-body-mechanics.md` recipes).
+- Pose libraries: **Asset Browser pose assets** from a registered `POS_lib.blend` asset
+  library (create/blend/flip workflow in `11-blender-how-to.md` B4); store every reusable
+  golden pose and walk/run/emotion cycle there (`04-body-mechanics.md` recipes).
+- Multi-shot work links characters and animates via **Library Overrides** — never animate
+  in the source file (`11-blender-how-to.md` D4).
 - Drivers/constraints named in English, one-liner expressions only (see `07`).
 - Save incremental versions (`_v01`, `_v02`) before risky passes; Williams: "Making
   Changes" is part of the job.

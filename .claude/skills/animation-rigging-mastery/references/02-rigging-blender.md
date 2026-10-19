@@ -39,7 +39,7 @@ Build an **Armature** in Edit Mode, joints (= bone heads) at anatomical pivots:
 
 | Chain | Joints | Rule |
 |---|---|---|
-| Spine | 3-5 bones (hips → chest → neck → head) | placed at the vertebrae you want to bend; even spacing |
+| Spine | 3-5 bones (hips → chest → neck → head) | placed at the vertebrae you want to bend; even spacing. Production build = Spline-IK spine with 3 hooks (`11` A10); add forearm/shin twist distribution (`11` A9), space switching (`11` A11) and pose-driven correctives (`11` A12) before calling the rig final |
 | Shoulder/arm | clavicle → shoulder → elbow → wrist | elbow bone points at the wrist; one clean hinge axis |
 | Hand | palm + 3 bones per finger + thumb 2-3 | knuckle line is a curve, not straight |
 | Hip/leg | hip → knee → ankle → ball → toe | knee points forward (slight A-pose helps IK); heel pivot real |
