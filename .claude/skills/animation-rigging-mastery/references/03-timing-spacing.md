@@ -49,8 +49,14 @@ Use this whenever keyframing, polishing, or reviewing motion in Blender.
   otherwise (a punch *arrives* fast).
 - **The elongated inbetween**: when you need snap, place the breakdown closer to the extreme
   the action is *leaving*, and stretch the distance into the arriving pose.
-- **Watch your arcs**: spacing along the path must follow an arc (see `04-body-mechanics.md`).
-  In Blender: check motion paths (Object/Anim → Motion Paths) — they make bad arcs visible.
+- **Watch your arcs** (Williams, p. 90): "Most actions follow arcs… either in a wavelike
+  arc or in a sort of figure 8. But sometimes it is angular or straight. **Straight lines
+  give power**." Short distances go straight; long distances go in an arc. Breakdowns are
+  *eccentric* (off the straight midpoint — the foot lifts, the hand changes shape), never
+  brainless midpoints: "in one sense there are no inbetweens — all the drawings are on the
+  screen for the same amount of time" (p. 89; both pages bundled in `references/images/`).
+  In Blender: check motion paths (Object/Anim → Motion Paths) — they make bad arcs visible;
+  never ship default spline interpolation between keys.
 - **Movement within the mass**: overlapping parts (chest vs head vs hips) get their own
   spacing; the body is never one block.
 - **Ruff approach**: pose the big masses first with a few strong keys, then subdivide.

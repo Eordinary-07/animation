@@ -122,7 +122,7 @@ weighting and rigging for faces; interfaces (controllers/sliders); **squash, str
 
 ## 6. Ed Hooks - Acting for Animators
 File: `acting-for-animators-pdf_compress.pdf` (145 pp, scan - image-only, no text layer;
-Contents, Introduction and Chapter 1 verified visually from bundled page images — see
+all 13 chapters verified visually from bundled page images — see
 `15-verified-page-images.md`)
 
 **Essence:** Acting craft adapted from Stanislavski for animators. Characters must *act*:
@@ -174,11 +174,12 @@ special models (implicit surfaces, plants/L-systems).
 ---
 
 **Provenance note:** Acting for Animators is a scan with no OCR text anywhere (its section in
-the merged PDF is image-only). Its Contents, Introduction and Chapter 1 ("Seven Essential
-Acting Concepts") were verified visually from the scanned pages, which are bundled in this
-skill (`references/images/hooks-*.jpg`, catalogued in `15-verified-page-images.md`); the
-remaining Hooks material follows the book's well-known framework, consistent with those
-verified chapters. The Survival Kit's structure was recovered from the merged OCR (its scan
-has no local text layer); its key doctrine pages are also bundled as images. Illusion of
-Life's local text layer is garbled OCR; quotes from it should be paraphrased, not quoted
-verbatim.
+the merged PDF is image-only). ALL 13 of its chapters were verified visually: every
+chapter's opening page plus the load-bearing interiors (Human Character Analysis, Power
+Centers, Laban efforts) — 26 pages bundled in this skill (`references/images/hooks-*.jpg`,
+catalogued in `15-verified-page-images.md`) — and every section heading was checked via
+contact sheets of the full scan. Chapter-interior prose beyond the bundled pages is taught
+only where a bundled page or verified heading supports it. The Survival Kit's structure was
+recovered from the merged OCR (its scan has no local text layer); its eight most
+load-bearing doctrine pages are also bundled as images. Illusion of Life's local text layer
+is garbled OCR; quotes from it should be paraphrased, not quoted verbatim.

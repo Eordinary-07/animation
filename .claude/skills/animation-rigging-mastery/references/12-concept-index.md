@@ -75,7 +75,9 @@ Format: **Concept** — essence — → reference file.
 - **Arm swing & counteraction** — lazy, opposite, overlapped → 04 §1
 - **Heel strike / foot roll / toe-off** → 04 §1
 - **Normal walk spacing** — tight at contact, spread mid-swing → 04 §1
-- **The Recipe** — Williams' build order for a walk → 04 §1
+- **The Recipe** (Williams p. 163) — 15 ways to get vitality in a walk: lean, straight legs
+  on contacts, twist, flop knee/feet, belt line, delay toe-off/parts, counteraction, break
+  joints, ups & downs, different timings, twist feet off parallel, alter one tiny part → 04 §1
 - **Loosening up / breaking symmetry** — twinless life → 04 §1
 - **Sneaks & tip-toe sneak** — low COG, careful spacing → 04 §1
 - **Runs (4/3/2-drawing formulas)** — controlled fall, flight phase → 04 §2
@@ -106,7 +108,30 @@ Format: **Concept** — essence — → reference file.
 - **Beats & turns** — tactic changes structure the scene → 05 §3
 - **Contrast** — the readability principle → 05 §3
 - **Acting points** — the moment the shot exists for → 05 §3
-- **Twinning / symmetry = death** — always offset left/right → 05 §3
+- **Twinning / symmetry** — Williams p. 324: symmetry is natural when "laying down the law";
+  the sin is default, unbroken symmetry — emphasize symmetrically, then break it up → 05 §3
+- **Seven Essential Acting Concepts** (Hooks ch. 1) — thinking→conclusions/emotion→action;
+  acting is reacting + doing; objective; play an action until…; all action begins with
+  movement; empathy is the magic key; a scene is a negotiation → 05 §2
+- **Actor–audience contract / feeling of significance** (Hooks ch. 2) — lead the audience;
+  everything on screen significant → 05 §2
+- **Human Character Analysis (character bible)** (Hooks ch. 3, p. 22) — 21-question
+  biography incl. inner rhythm, psychology, goals and dreams → 05 §2
+- **Scene = negotiation; three conflicts** (Hooks ch. 4) — with another character / with
+  himself / with his situation; status negotiations; scenes begin in the middle → 05 §2
+- **Adrenaline moment** (Hooks ch. 4 & 12) — a scene the character would remember in old age → 05 §2
+- **Power center** (Hooks ch. 5 & 11) — chest at ease; relocate it to invent character walks → 05 §2
+- **Laban effort actions** (Hooks ch. 5) — Press/Wring/Glide/Float/Thrust/Slash/Dab/Flick =
+  Space × Time × Weight; set spacing/ease from the verb → 05 §2, 03
+- **Movement precedes words** (Hooks ch. 6) — impulse moves head/eyes/shoulders a beat ahead
+  of the mouth; animate what is underneath the words → 05 §2, 06
+- **Reaction shot / listen–react–speak** (Hooks ch. 7) — reactions carry 90%; closer camera =
+  stiller performance → 05 §2, 08
+- **Simplify: direct, simple, specific actions** (Hooks ch. 8) — play the specific action,
+  not the general need; technique is whatever works → 05 §2
+- **Comedy = drama exaggerated** (Hooks ch. 9) — heighten real stakes, never "funny movement" → 05 §2
+- **No brainless inbetweens** (Williams p. 89) — every frame is on screen equally; design
+  breakdowns, don't accept default interpolation → 03, 13
 - **Eyes lead thought** — gaze, saccades, arrival order → 05 §3, 06 §3
 - **Steal from life** — reference and act it out → 05 §3
 - **Comedy** — surprise + contrast + timing → 05 §3

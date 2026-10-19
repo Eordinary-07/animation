@@ -31,9 +31,20 @@ A walk is **weight repeatedly caught and thrown**. Build it in this order:
     the foot then swings through with a lazy fold (no stiff ankles).
 11. **Spacing** ("Normal Walk Spacing"): tight at contacts/impact, spread at the passing
     point of the swing foot (fast swing, slow stance). NEVER even.
-12. **The Recipe (Williams)** — the checklist he repeats: contact poses → passing
-    breakdowns → hip drop/double bounce → weight shift/belt line → arms + counteraction →
-    heel/foot action → spacing chart → test → loosen up.
+12. **The Recipe (Williams, p. 163 — "Ways to Get Vitality in a Walk", verbatim)**:
+    1) Lean the body. 2) Use straight legs on contacts and push-off positions (going from
+    straight to bent or bent to straight). 3) Twist the body — tilt the shoulders and hips,
+    have the shoulders oppose the hips, swivel the hips. 4) Flop the knee in or out.
+    5) Tilt the belt line favouring the leg that's lowest. 6) Flop the feet. 7) Delay the
+    feet and toe leaving the ground until the very last instant. 8) Tip the head or make
+    it go back and forth. 9) Delay parts — don't have everything working together at the
+    same time. 10) Use counteraction — fat, buttocks, breasts, delayed clothes, pant legs,
+    hair etc. 11) Break the joints. 12) More ups and downs (for weight). 13) Use different
+    timings on legs versus arms versus head versus body etc. 14) Twist the feet — take
+    them off the parallel. 15) If we take a normal clichéd action and alter only ONE tiny
+    part — we get something different! (Page bundled: `images/williams-07-the-recipe.jpg`.)
+    Build order around it: contact poses → passing breakdowns → hip drop/double bounce →
+    weight shift/belt line → arms + counteraction → heel/foot action → spacing → test.
 
 - **Loosening it up**: after it's correct, break the symmetry: one arm different, head
   attitude, an offset — "there's nothing like trying it" (act it out yourself).
@@ -47,8 +58,9 @@ A walk is **weight repeatedly caught and thrown**. Build it in this order:
   catches the fall; flight phase exists (both feet off ground).
 - **The 4-drawing formula run**: 4 drawings on twos per cycle (classic Hollywood sprint) —
   contact, down/impact, passing/launch, up/flight. The 3-drawing and 2-drawing runs are
-  faster formulas (for dashes and blur-fast gags). The Recipe: contacts → downs/up →
-  passing → spacing (very tight at contact, spread in flight).
+  faster formulas (for dashes and blur-fast gags). The build order: contacts → downs/up →
+  passing → spacing (very tight at contact, spread in flight); then apply The Recipe's
+  vitality points (§1.12) as for the walk.
 - **Jumps**: crouch (anticipation) → launch (fast, tight spacing) → flight (arcs, limbs
   trail) → landing impact (tight spacing, deep compression) → settle. "Weight on a jump":
   the landing carries the weight — compress proportionally to height.

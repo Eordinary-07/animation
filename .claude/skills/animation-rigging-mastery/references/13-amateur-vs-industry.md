@@ -14,7 +14,7 @@
 | 2 | Starts keying immediately | **Plaves first**: thumbnails, shot breakdown, acting beats, then keys | Survival Kit "the plan"; Williams planning |
 | 3 | Symmetrical, even timing everywhere | **Asymmetry + contrast**: slow-in/out at choices, snap at accents, holds that mean something | Williams timing/spacing; Timing for Animation contrast |
 | 4 | Floaty — no weight | Weight via gravity + spacing + counteraction + overlap; you FEEL the mass | Williams "It's All in the Timing and the Spacing" + WEIGHT ch. |
-| 5 | Everything moves at once (twinning) | **Breaks twins**: offset timing left/right, deliberate asymmetry | Williams "Symmetry or 'Twinning'" (Acting ch.); Illusion of Life |
+| 5 | Everything moves at once (default twinning) | **Uses symmetry only on purpose, then breaks it**: Williams (p. 324) — symmetry "has gotten a bad press"; real people DO twin when laying down the law (politicians, preachers), but the broad pattern is symmetric emphasis → *break it up*. The flaw is unthinking, unbroken symmetry and everything arriving at the same time; offset timing left/right elsewhere | Williams "Symmetry or 'Twinning'" / Body Language, p. 324 (`images/williams-08-twinning-body-language.jpg`); Illusion of Life |
 | 6 | Perfect arcs ignored (linear jitter paths) | Every limb on clean **arcs**; floaty handheld cam only when story demands | Williams "Watch Your Arcs"; Parent spatial coherence |
 | 7 | Face does "emotion A then emotion B" like a switch | **Emotion runs continuously**: transitions through thought, not teleports | Osipa: slide "the thought" a few frames BEFORE the sound ("the thought happened before the sound") |
 | 8 | Eye darts randomly / blinks on a metronome | Eyes lead thought; blinks at cuts/shifts; lids shape the eye expression | Osipa ch. 2, 7-9 |
@@ -37,8 +37,8 @@ attention* — then make the mechanics invisible.
 |---|---|---|---|
 | P-INTENT | Pose has no readable intention | freeze each key: can you name the thought? | ref 06 acting beats |
 | P-WEIGHT | Character floats/slides | mute + silhouette: does mass read? | ref 03 spacing; ref 04 |
-| P-TWIN | Symmetric twins | mirror test | ref 03 (Williams "Symmetry or 'Twinning'") |
-| P-ARC | Path breaks arcs | motion trail / grease pencil arc track | ref 03 (Williams "Watch Your Arcs") |
+| P-TWIN | Default, unbroken symmetric twins (deliberate oratory symmetry that gets broken up is NOT a flaw — Williams p. 324) | mirror test | ref 03 (Williams "Symmetry or 'Twinning'", `images/williams-08-twinning-body-language.jpg`) |
+| P-ARC | Path breaks arcs (or brainless midpoint inbetweens — "in one sense there are no inbetweens", p. 89) | motion trail / grease pencil arc track | ref 03 (Williams "Watch Your Arcs" p. 90, `images/williams-05-watch-your-arcs.jpg`) |
 | P-POSE | Silhouette muddy | black-fill test | ref 04 breakdowns |
 | P-SPACING | Even spacing / mush | motion trail spacing graph | ref 03 |
 | P-POSE2POSE | No full mechanics on big action | straight-ahead where needed | ref 04 |

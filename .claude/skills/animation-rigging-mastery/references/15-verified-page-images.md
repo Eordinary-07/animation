@@ -9,7 +9,7 @@ image is the primary source — quote from the image, not from memory.**
 How to use: open the image when you teach, rig, animate, or review anything based on that
 page. If this skill's text and a bundled image ever disagree, the image wins.
 
-## Hooks — Acting for Animators (image-only scan; Contents + Introduction + ch. 1 verified)
+## Hooks — Acting for Animators (image-only scan; all 13 chapters verified at opening-page level — 26 pages bundled)
 
 | File | Page content | Used by |
 |---|---|---|
@@ -24,6 +24,21 @@ page. If this skill's text and a bundled image ever disagree, the image wins.
 | `hooks-09-concept4.jpg` | Actions as beads on a necklace (Stanislavsky's "beads", misheard as "beats") — no gaps between actions | ref 05 |
 | `hooks-10-concept5-6.jpg` | **Concept 5: "All action begins with movement."** **Concept 6: "Empathy is the magic key. Audiences empathize with emotion."** | ref 05 |
 | `hooks-11-concept6-7.jpg` | **Concept 7: "A scene is a negotiation."** — every scene needs an obstacle (= conflict) unless purely connective/expository | ref 05, 14 |
+| `hooks-12-audience-ch2.jpg` | Ch. 2 title (p. 11) — The Actor-Audience Contract; Chekhov's "feeling of significance"; Marc Davis: "To be an animator, you have to have a sense of the dramatic" | ref 05 |
+| `hooks-13-character-ch3.jpg` | Ch. 3 title (p. 18) — Personality Animation; da Vinci state-of-mind quote; Culhane "personality first, second, third"; Chuck Jones "Personality. That is the key" | ref 05 |
+| `hooks-14-human-character-analysis.jpg` | p. 22 — the **Human Character Analysis** checklist for the character bible (21 questions: age, health, culture, inner rhythm, psychology, goals and dreams…) | ref 05, 14 |
+| `hooks-15-scene-ch4-negotiation.jpg` | Ch. 4 title (p. 29) — Negotiation; the **three kinds of conflict** (another character / himself / his situation) | ref 05, 14 |
+| `hooks-16-movement-ch5.jpg` | Ch. 5 title (p. 55) — "Animation is movement"; the senses ranked; body language > dialogue (Hall: eyes 1000× ears) | ref 05 |
+| `hooks-17-power-centers.jpg` | p. 64 — **Power Centers**: chest at ease; stomach/feet/behind-neck variants; "Every character has a power center" | ref 05, 04 |
+| `hooks-18-laban-efforts.jpg` | p. 73 — the **8 Laban effort actions** (Press/Wring/Glide/Float/Thrust/Slash/Dab/Flick = Space × Time × Weight); character "weight" = gravity-vs-lift tension | ref 05, 03 |
+| `hooks-19-speech-ch6.jpg` | Ch. 6 title (p. 76) — "Acting has very little to do with words"; **movement precedes words**; body a beat ahead of the mouth | ref 05, 06 |
+| `hooks-20-camera-ch7.jpg` | Ch. 7 title (p. 79) — "the reaction shot carries 90 percent of the baggage"; listen–react–speak; closer camera = stiller performance | ref 05, 08 |
+| `hooks-21-technique-ch8.jpg` | Ch. 8 title (p. 82) — "Technique is whatever works"; don't chase your audience; **Simplify Your Actions** (direct, simple, specific) | ref 05 |
+| `hooks-22-form-ch9.jpg` | Ch. 9 opening (p. 98) — "Lift the hood of any good comedy, and you'll find the engine of a good drama"; comedy = drama exaggerated | ref 05 |
+| `hooks-23-medium-ch10.jpg` | Ch. 10 title (p. 102) — medium-specific acting, opening with Video Games (lean-in vs lean-back) | ref 05, 14 |
+| `hooks-24-exercises-ch11.jpg` | Ch. 11 title (p. 111) — improv games as the acting gym; Power Center Games (balloon: light/heavy, push/pull) | ref 05, 09 |
+| `hooks-25-iron-giant-ch12.jpg` | Ch. 12 title (p. 116) — the **adrenaline-moment test** ("will the characters remember this scene in their old age?"); empathy engineering | ref 05 |
+| `hooks-26-method-acting-ch13.jpg` | Ch. 13 title (p. 124) — from posed stock emotions to Stanislavsky's emotional triggers (memories, smells, sights) | ref 05 |
 
 ## Williams — The Animator's Survival Kit (image-only scan)
 
@@ -33,6 +48,10 @@ page. If this skill's text and a bundled image ever disagree, the image wins.
 | `williams-02-the-procedure.jpg` | p. 338 (REVIEW) — **The Procedure**: TEST storyboard → TEST animatic/leica → TEST planning drawings → TEST key positions → TEST extremes → TEST passing positions → straight-ahead layered runs: primary → secondary → third → fourth → drapery/hair/fat/tails; "and we can keep on testing" | ref 09, 13, 14 |
 | `williams-03-acting-point.jpg` | p. 323 (ACTING) — **An Acting Point**: point first, then say it (or reverse) beats doing both at once; "Gestures are stronger than words"; lead with the wrist, hand/fingers come up last; insert 1 frame of the *wrong* direction before a fast move — "too fast to see but we feel the snap" | ref 05, 13 |
 | `williams-04-walk-observation.jpg` | p. 104 (WALKS) — "everyone's walk is as individual and distinctive as their face"; Art Babbitt back-view test (old? young? strict? depressed? drunk?) | ref 04 |
+| `williams-05-watch-your-arcs.jpg` | p. 90 (SPACING) — **Watch Your Arcs**: "Most actions follow arcs… either in a wavelike arc or in a sort of figure 8. But sometimes it is angular or straight. Straight lines give power." Short distance = straight, long distance = arc; eccentric breakdowns, not straight midpoints | ref 03, 13 |
+| `williams-06-no-brainless-inbetweens.jpg` | p. 89 (SPACING) — "Every drawing is important. We can't just have brainless drawings joining things up. In one sense there are no inbetweens – all the drawings are on the screen for the same amount of time." (The Blender read: never accept default spline interpolation.) Think in masses, not lines | ref 03, 12, 13 |
+| `williams-07-the-recipe.jpg` | p. 163 (WALKS) — **The Recipe: Ways to Get Vitality in a Walk**, all 15 points (lean, straight legs on contacts, twist, flop knee/feet, belt line, delay toe-off, tip head, delay parts, counteraction, break joints, ups & downs, different timings, twist feet off parallel, alter one tiny part) | ref 04 |
+| `williams-08-twinning-body-language.jpg` | p. 324 (ACTING) — **Body Language / Symmetry or 'Twinning'**: Ken Anderson "Pantomime is the basic art of animation"; symmetry "has gotten a bad press" — orators twin when laying down the law, then break it up. Keep words to a bare minimum; study silent movies | ref 05, 13 |
 
 ## Osipa — Stop Staring (figure from a text page)
 
@@ -50,9 +69,11 @@ page. If this skill's text and a bundled image ever disagree, the image wins.
 
 - Text-layer books (Cabrera, Osipa body text, 3D Math Primer, Parent, Timing for Animation)
   were audited against extracted text — see commit history of this skill.
-- Acting for Animators: Contents, Introduction and Chapter 1 are verified from the images
-  above. Chapters 2–13 material elsewhere in this skill follows Hooks' well-known
-  framework and is consistent with the verified chapters, but those pages are not bundled.
-- Survival Kit: full TOC and the DIRECTING/REVIEW/ACTING/WALKS anchor pages were read as
-  images; the four most load-bearing pages are bundled above.
+- Acting for Animators: **all 13 chapters verified at opening-page level** — every chapter's
+  title page plus the load-bearing interiors (Human Character Analysis, Power Centers,
+  Laban efforts) are bundled above (26 pages), and every section heading in the book was
+  checked via contact sheets. Chapter-interior prose beyond the bundled pages is taught
+  only where a bundled page or verified heading supports it.
+- Survival Kit: full TOC and the DIRECTING/REVIEW/ACTING/WALKS/SPACING anchor pages were
+  read as images; the eight most load-bearing pages are bundled above.
 - If a future claim needs a page that is not bundled, say so rather than citing from memory.
