@@ -30,6 +30,10 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    (ref 20); add-ons only when mechanical + inspectable + add-on-free at delivery
    (ref 21 §A); **Substance 3D Painter is the owned hero-texturing path** — Blender prep
    → Painter (OpenGL normals) → approve in Blender (ref 21 §B, procedure 11 H8).
+3e. **Style + a fresh pipeline for EVERY request**: declare the style preset or derive a
+   custom Style Card (ref 22 §A), design this request's pipeline from the stage menu
+   (ref 22 §B) inside the Pipeline Brief, then print the plain-words Pipeline Explainer
+   (ref 22 §C) so the user understands and learns the pipeline as we run it.
 4. The original PDFs are OPTIONAL background only — never required, never ask for them.
    Everything needed to work is in this skill. (For the curious: the merged OCR PDF's order
    is Maya Rigging 1-408, Stop Staring 409-795, 3D Math 796-1641, Rick Parent 1642-2182,
@@ -49,6 +53,7 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
    - **Exact Blender click-by-click procedures → `references/11-blender-how-to.md`**
    - Slow scene/render, optimization budgets → `references/20-optimization-without-compromise.md`
+   - Animation style choice, custom pipelines, plain-words explanation → `references/22-styles-and-pipeline-design.md`
    - Add-on decisions, Substance Painter pipeline → `references/21-addons-and-substance-pipeline.md`
    - Reviewing, QA, learning from mistakes (gates, battery, LESSONS.md) → `references/19-self-correction-system.md`
    - **Amateur-vs-industry diagnosis & review codes → `references/13-amateur-vs-industry.md`**
@@ -160,6 +165,7 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/19-self-correction-system.md` — the studio learning loop: stage gates L-B-S-P with checklists, numeric precision tolerances (foot slip, lip-sync, blinks), the self-critique battery (silent/silhouette/mirror tests + fix-top-3), and the Lessons Ledger (LESSONS.md) so mistakes become standing rules
 - `references/20-optimization-without-compromise.md` — the free wins (instancing, texture-by-screen-coverage, adaptive sampling + denoise, baked frozen procedurals, per-shot budgets) vs forbidden trades; diagnosis order with numbers
 - `references/21-addons-and-substance-pipeline.md` — the add-on law (when add-ons beat vanilla with zero compromise; no-hostage delivery rule; proven catalog) + the full Substance 3D Painter ultra-realistic pipeline (prep, bake, paint, export preset, approve-in-Blender, .sbsar add-on path)
+- `references/22-styles-and-pipeline-design.md` — 8 animation style presets with real parameters (frame density, squash ceilings, smears, renderers) + custom Style Card derivation, the 15-stage menu for designing a fresh pipeline per request, and the always-printed plain-words Pipeline Explainer
 - `references/15-verified-page-images.md` — catalog of 49 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the

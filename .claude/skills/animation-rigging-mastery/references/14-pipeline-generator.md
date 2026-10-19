@@ -99,10 +99,16 @@ PIPELINE BRIEF — [title]
 4. SHOT LIST: [count] shots — # | description | size | acting beats | approach (pose/dialog/limited)
 5. CAMERA PLAN: [D1] style → [shot-size/move strategy]
 6. APPROACH PER SHOT TYPE: [from matrix]
-7. VERIFICATION: gates at golden/mechanics/polish + continuity checks
+7. VERIFICATION: stage gates L -> B -> S -> P with checklists + tolerances (ref 19) + self-critique battery before delivery + Lessons Ledger (LESSONS.md) read at start, appended at every correction
 8. SCHEDULE: test scene first → [production shape]
+9. OPTIMIZATION BUDGET (ref 20): per-shot [noise threshold, texture ceiling by screen coverage, subdiv render levels, bounce counts, what gets baked/instanced] — realism non-negotiables listed explicitly (what will NOT be cut)
+10. STYLE CARD & PIPELINE DESIGN (ref 22): style [preset name | custom-derived] -> [frame density, squash ceiling, anticipation scale, smears y/n, surfacing tier, renderer] | stages included from the menu with reasons for any skip
 ```
 Then execute shot-by-shot with the refs (11 for Blender steps, 13 for quality diagnosis).
+**Immediately after every brief, print the Pipeline Explainer** (ref 22 §C): the same
+pipeline in simple words — what happens at each stage, why, what the user will see, and
+which decisions are theirs. A fresh pipeline is designed for every request; re-derive,
+never copy-paste an old brief.
 
 ## F. AAA bar for the pipeline itself
 

@@ -330,3 +330,17 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   normals) → export preset → approve in Blender via the 3-light test (21§B, 11 H8).
 - **Painter approval trap** — Painter's ACES viewport ≠ Blender AgX; approval happens in
   Blender only (21§B6).
+
+## 13. Styles & per-request pipelines
+
+- **Style preset / Style Card** — named bundle of dials (frame density, squash ceiling,
+  anticipation scale, smears, surfacing tier, renderer) chosen per request and locked
+  in the brief (22§A).
+- **Custom style derivation** — reference → dials extracted → one-page card → 2-second
+  test proves it (22§A2).
+- **Style lock** — one style per production unless story demands contrast; gates check
+  consistency (22§A1, 19).
+- **Stage menu** — 15 possible stages with include/skip reasons; a fresh pipeline is
+  designed from it for every request (22§B).
+- **Pipeline Explainer** — every brief is followed by the same pipeline in plain words:
+  what happens, why, what the user sees, what they decide (22§C).
