@@ -207,13 +207,15 @@ is garbled OCR; quotes from it should be paraphrased, not quoted verbatim.
     the intensity control; visual structure parallels story structure. Text-verified.
 17. **Steven D. Steven Katz — Film Directing Shot by Shot**: continuity style; staging patterns;
     moving-camera choreography. Text-verified.
-18. **Walter Walter Murch — In the Blink of an Eye**: the Rule of Six for cuts. *Uploaded copy is a
-    chapter-summary edition — used at summary level; full text pending.*
+18. **Walter Walter Murch — In the Blink of an Eye**: the Rule of Six with weights (Emotion 51%
+    down to spatial continuity 4%) and the blink theory of the cut. Full book
+    text-verified from the corrected upload (an earlier summary file was replaced).
 19. **Walt Walt Stanchfield — Drawn to Life Vols. 1–2**: draw verbs not nouns; the pose as a
     one-drawing story; gesture is the backbone. Vol. 1 text-verified, Vol. 2 contents.
-20. **Robert Robert McKee — Story**: *uploaded scan is not page-readable in this environment
-    (no text layer, non-extractable page images) — NOT integrated; awaiting a readable
-    edition. Do not cite from it.*
+20. **Robert Robert McKee — Story**: structure as deep grammar — principles not rules, the Gap
+    that turns scenes, inciting incident, crisis/climax/resolution. The scan's pages
+    are vector-outlined (no text layer); verified by rendering its pages and reading
+    them (Contents, Introduction, Scene Design p.236 bundled as evidence).
 21. **Joseph Joseph Gilland — Elemental Magic Vol. 1**: classical FX categories (liquids; fire,
     smoke, explosions; magic) as behavior design → Blender sim/shader choices.
     TOC-verified (PDF split losslessly into two parts at repo ingestion).

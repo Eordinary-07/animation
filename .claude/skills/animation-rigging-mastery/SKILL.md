@@ -1,13 +1,13 @@
 ---
 name: animation-rigging-mastery
-description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, shading, texturing, PBR materials, lookdev, or any script/instruction to animate. Self-contained animation, rigging and surfacing master class for Blender distilled from 20 industry books (Cabrera, Williams, Whitaker & Halas, Thomas & Johnston, Osipa, Hooks, Dunn & Parberry, Parent, Wes McDermott, Owen Demers, Jeremy Birn, PBRT 4e, Ebert et al, James Gurney, Glebas, Bruce Block, Katz, Walter Murch, Stanchfield, Gilland). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
+description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, shading, texturing, PBR materials, lookdev, or any script/instruction to animate. Self-contained animation, rigging and surfacing master class for Blender distilled from 21 industry books (Cabrera, Williams, Whitaker & Halas, Thomas & Johnston, Osipa, Hooks, Dunn & Parberry, Parent, Wes McDermott, Owen Demers, Jeremy Birn, PBRT 4e, Ebert et al, James Gurney, Glebas, Bruce Block, Katz, Walter Murch, Stanchfield, Robert McKee, Gilland). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
 ---
 
 # Animation & Rigging Mastery — Project Memory
 
 ## Standing orders (every session)
 
-1. This skill is a **self-contained master class** — all concepts of the 20 integrated books are inside
+1. This skill is a **self-contained master class** — all concepts of the 21 integrated books are inside
    it (`references/12-concept-index.md` is the complete A-Z map). It works with NO PDFs
    and no external files. Treat it as required reading before animation/rigging/surfacing work.
 2. The Maya rigging book (Cabrera) is the rigging curriculum — but **apply its logic in Blender**.
@@ -59,7 +59,7 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Add-on decisions, Substance Painter pipeline → `references/21-addons-and-substance-pipeline.md`
    - Reviewing, QA, learning from mistakes (gates, battery, LESSONS.md) → `references/19-self-correction-system.md`
    - **Amateur-vs-industry diagnosis & review codes → `references/13-amateur-vs-industry.md`**
-   - **Complete concept index of all 20 books (A-Z) → `references/12-concept-index.md`**
+   - **Complete concept index of all 21 books (A-Z) → `references/12-concept-index.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
    Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
    buttons, shortcuts). Never improvise Blender steps when a procedure exists in 11.
@@ -158,7 +158,7 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/09-script-to-screen.md` — script/instruction → professional animation pipeline
 - `references/10-blender-production.md` — scenes, cuts/markers, animatic, render, delivery
 - `references/11-blender-how-to.md` — exact Blender procedures (rig, animate, camera, render)
-- `references/12-concept-index.md` — every concept of all 20 books, A-Z, fully self-contained
+- `references/12-concept-index.md` — every concept of all 21 books, A-Z, fully self-contained
 - `references/13-amateur-vs-industry.md` — the exact gap: 15 differences, flaw codes, 8-point self-check
 - `references/14-pipeline-generator.md` — build a custom AAA pipeline per script (drivers → matrix → Pipeline Brief)
 - `references/16-shading-pbr-fundamentals.md` — the shading law: light behavior, F0 (dielectrics 0.02–0.05, metal/rough hardcodes 4%), base-color 30–240 sRGB band, measured metal tints, Principled BSDF decoded socket-by-socket, linear-workflow commandments, the 3-light lookdev test (The PBR Guide, PBRT, Jeremy Birn, James Gurney)
@@ -168,9 +168,9 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/20-optimization-without-compromise.md` — the free wins (instancing, texture-by-screen-coverage, adaptive sampling + denoise, baked frozen procedurals, per-shot budgets) vs forbidden trades; diagnosis order with numbers
 - `references/21-addons-and-substance-pipeline.md` — the add-on law (when add-ons beat vanilla with zero compromise; no-hostage delivery rule; proven catalog) + the full Substance 3D Painter ultra-realistic pipeline (prep, bake, paint, export preset, approve-in-Blender, .sbsar add-on path)
 - `references/22-styles-and-pipeline-design.md` — 8 animation style presets with real parameters (frame density, squash ceilings, smears, renderers) + custom Style Card derivation, the 15-stage menu for designing a fresh pipeline per request, and the always-printed plain-words Pipeline Explainer
-- `references/23-directing-the-screen.md` — Bruce Block's seven visual components + contrast/affinity intensity control, Francis Glebas' attention direction and narrative questions, Steven Katz's staging/camera grammar, Walter Murch's Rule of Six for cuts (summary-level)
+- `references/23-directing-the-screen.md` — Bruce Block's seven visual components + contrast/affinity intensity control, Francis Glebas' attention direction and narrative questions, Steven Katz's staging/camera grammar, Walter Murch's Rule of Six for cuts
 - `references/24-pose-gesture-effects.md` — Walt Stanchfield's pose law (draw verbs not nouns; one pose = one story; gesture backbone) + Joseph Gilland's Elemental Magic FX categories translated to Blender sim/shader choices
-- `references/15-verified-page-images.md` — catalog of 50 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
+- `references/15-verified-page-images.md` — catalog of 53 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
 Pipeline Brief from `14-pipeline-generator.md` (story → rigs → facial scope → shot list → camera →

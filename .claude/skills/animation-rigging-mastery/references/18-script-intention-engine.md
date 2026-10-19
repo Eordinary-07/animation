@@ -122,3 +122,32 @@ Instruction: *"An old guard lets a kid sneak past."*
 - Technique follows: S3 guard gets exaggerated officious business (subtext!), kid's
   crossing in near-silhouette; the hold after kid exits sells the feeling. *That* is
   intention-first — the same script animated as "guard stands, kid runs" is nothing.
+
+## 8. Robert McKee deep grammar (Story — verified from the book's pages)
+
+Robert McKee's architecture (Contents verified, `images/dir-02-mckee-contents.jpg`): **Part 1**
+The Writer and the Art of Story · **Part 2** The Elements of Story (structure spectrum,
+setting, genre, character, meaning) · **Part 3** The Principles of Story Design (the
+substance of story, **the inciting incident**, act design, **scene design**, scene
+analysis, composition, crisis/climax/resolution) · **Part 4** The Writer at Work (the
+principle of antagonism, exposition, problems and solutions, character).
+
+- **His ground rules** (Introduction, read verbatim): *"Story is about principles, not
+  rules… about eternal, universal forms, not formulas… about archetypes, not
+  stereotypes… about thoroughness, not shortcuts."* And the animator's commandment:
+  *"Story is about respect, not disdain, for the audience"* — in a darkened theatre the
+  audience's *"collective IQ jumps twenty-five points"*; they see your ending coming
+  before you do. Never animate down to them.
+- **The Gap — how scenes turn** (Ch. 10 Scene Design, p.236 verified,
+  `images/dir-03-mckee-scene-design.jpg`): a scene turns when reality splits from
+  expectation: *"The moment we see that a thirty-two-year-old man can't make breakfast
+  the scene turns. The question 'Why?' sends us back through the few minutes of film
+  that precede the gap."* Darth Darth Vader's *"I'm your father"* is his giant example — the
+  gap *"hurls the audience back"* to re-read everything before it, with new meaning.
+  **Intention-engine diagnostic:** for every beat in the beat map (§2), name the
+  expectation and the result. If they're the same, there is no gap, the scene does not
+  turn, and no amount of beautiful motion will make it dramatic — redesign the beat
+  (stronger obstacle, per his Principle of Antagonism, Part 4) before animating it.
+- Use the chapter map as the deep reference when a script needs structural diagnosis:
+  weak opening → Ch. 8 Inciting Incident; sagging middle → Ch. 9 Act Design + Ch. 12
+  Composition; flat scenes → Ch. 10–11; endings → Ch. 13 Crisis, Climax, Resolution.

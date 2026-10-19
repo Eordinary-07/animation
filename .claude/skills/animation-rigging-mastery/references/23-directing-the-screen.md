@@ -4,8 +4,7 @@
 > audience attention, staging/camera grammar, and the cut. Sources: *Directing the
 > Story* (Francis Glebas, Disney story artist), *The Visual Story* 2nd ed. (Bruce Block), *Film
 > Directing Shot by Shot* (Steven D. Steven Katz) — all verified from the books' own text/TOCs —
-> plus Walter Murch's Rule of Six **as stated in the uploaded summary edition** of *In the
-> Blink of an Eye* (the full book is a pending upgrade; use at that level).
+> plus *In the Blink of an Eye* (Walter Murch, full book verified from the corrected upload).
 
 ## 1. Bruce Block: visual structure (the image has a structure, like the story does)
 
@@ -72,18 +71,36 @@ Shot by Shot's architecture is a complete grammar; use it as the checklist behin
 - **Transitions & format** chosen for meaning (a cut asserts, a dissolve remembers,
   a fade closes a chapter) — declare in the brief; never let the editor-brain default.
 
-## 4. Walter Murch: the cut (Rule of Six — summary-level provenance)
+## 4. Walter Murch: the cut (In the Blink of an Eye, full book)
 
-The uploaded *Blink of an Eye* copy is a chapter-summary edition; its Rule of Six
-table states the hierarchy for evaluating any cut, in priority order: **Emotion**
-(evoke intended feelings) → **Story** (advance the narrative) → **Rhythm** (natural
-timing and flow) → **Eye-trace** (maintain the audience's focus within the frame) →
-**Planarity** (respect the 2D representation of 3D action) → **Three-dimensional
-continuity** (spatial relationships — "though least critical"). Its stated overall
-argument: *"If a cut enhances emotion and story, minor rhythm or continuity issues are
-acceptable."* Use it at shot-join review (Gate P continuity check, ref 19): when a join
-feels wrong, diagnose top-down — an emotion-breaking cut cannot be rescued by perfect
-screen-direction. (Full-text verification pending a complete edition upload.)
+**The Rule of Six** — an ideal cut satisfies all six criteria at once; their weights
+tell you what to sacrifice when you can't (verbatim, book p.18,
+`images/dir-04-murch-rule-of-six.jpg`):
+
+| # | Criterion | Weight |
+|---|---|---|
+| 1 | **Emotion** — true to the emotion of the moment | 51% |
+| 2 | **Story** — advances the story | 23% |
+| 3 | **Rhythm** — occurs at a moment that is rhythmically interesting and "right" | 10% |
+| 4 | **Eye-trace** — respects the location/movement of the audience's focus within the frame | 7% |
+| 5 | **Two-dimensional plane of screen** — planarity/stage-line grammar | 5% |
+| 6 | **Three-dimensional space of action** — spatial continuity | 4% |
+
+- *"Emotion, at the top of the list, is the thing that you should try to preserve at all
+  costs… sacrifice your way up, item by item, from the bottom."* And: *"How do you want
+  the audience to feel?… What they finally remember is not the editing, not the
+  camerawork, not the performances, not even the story — it's how they felt."* This is
+  ref 18's fourth question, from the editing room.
+- **Why cuts work — the blink**: *"we blink to separate and punctuate that idea from
+  what follows. Similarly — in film — a shot presents us with an idea, or a sequence of
+  ideas, and the cut is a 'blink' that separates and punctuates those ideas."* A good
+  cut lands where the audience would blink — *"Not a frame earlier or later."* Practical
+  use: when a cut feels late/early by a few frames, you are fighting the blink; move it
+  to the idea-boundary (the beat change, ref 18 §2) rather than the geometrically neat
+  point. Note the cross-book rhyme with Osipa's blink acting (ref 06): characters blink
+  on thought changes; films cut on them.
+- Diagnose bad joins top-down at Gate P (ref 19): no amount of spatial continuity (4%)
+  rescues an emotion-breaking cut (51%).
 
 ## 5. The directing checklist (per shot, 60 seconds)
 

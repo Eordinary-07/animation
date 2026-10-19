@@ -355,8 +355,13 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   questions; nondramatic shots have known outcomes (23§2).
 - **Continuity style (Steven Katz)** — spatial + temporal connections designed in staging;
   dialogue staging patterns; camera moves as choreography (23§3).
-- **Rule of Six (Walter Murch, summary-level)** — Emotion > Story > Rhythm > Eye-trace >
-  Planarity > 3D continuity; diagnose bad cuts top-down (23§4).
+- **Rule of Six (Walter Walter Murch)** — Emotion 51% > Story 23% > Rhythm 10% > Eye-trace 7% >
+  2D plane 5% > 3D space 4%; sacrifice from the bottom; the cut is a blink between
+  ideas — "not a frame earlier or later" (23§4).
+- **The Gap (Robert McKee)** — a scene turns when result splits from expectation and the
+  audience races back asking "Why?"; no gap = no turn = dead beat (18§8).
+- **Principles, not rules (Robert McKee)** — archetypes not stereotypes; respect for the
+  audience ("collective IQ jumps twenty-five points") (18§8).
 - **Draw verbs not nouns (Walt Stanchfield)** — pose the action/attitude; one pose = one
   drawing's whole story; essence before details (24§A).
 - **FX as behavior (Joseph Gilland)** — liquids/fire/smoke/magic animated by nature and

@@ -94,15 +94,18 @@ Algorithms") — do not cite later-edition content into it.
 
 Text-layer books (*Directing the Story*, *The Visual Story*, *Shot by Shot*, *Drawn to
 Life* Vol. 1, *Elemental Magic*) were verified by full-text extraction — quotations and
-tables of contents in refs 23–24 are the books' own words. Two honest exceptions:
-the uploaded *In the Blink of an Eye* is a **chapter-summary edition**, not Walter Murch's full
-text (Rule of Six used exactly as the summary states it); the uploaded *Story* (Robert McKee)
-scan has **no extractable text and non-renderable page images in this environment**, so
-it is catalogued but NOT integrated — do not cite it.
+tables of contents in refs 23–24 are the books' own words. *In the Blink of an Eye* was
+replaced by the user with the **full book** (verified from its text; the earlier
+summary printout was discarded). *Story* (Robert McKee) is a vector-outlined scan (no text
+layer): its pages were **rendered with PyMuPDF and read as images** — Contents,
+Introduction, and Scene Design p.236 verified and bundled below.
 
 | File | Source PDF | Page | What it proves |
 |---|---|---|---|
 | `dir-01-stanchfield2-contents.jpg` | Walt Walt Stanchfield, *Drawn to Life* Vol. 2 | Contents | 68 lectures in Innovation / Drawing / Expression sections (ref 24 §A) |
+| `dir-02-mckee-contents.jpg` | Robert Robert McKee, *Story* | Contents | 4 parts / 17 chapters: Elements of Story, Principles of Story Design (Inciting Incident, Scene Design…), Writer at Work (ref 18 §8) |
+| `dir-03-mckee-scene-design.jpg` | Robert Robert McKee | Ch. 10 Scene Design, book p.236 | the Gap: "the scene turns… The question 'Why?' sends us back" — Kramer/Empire/Chinatown (ref 18 §8) |
+| `dir-04-murch-rule-of-six.jpg` | Walter Walter Murch, *In the Blink of an Eye* | book p.18 | the six criteria with weights (Emotion 51% … 3D space 4%) in Walter Murch's own table (ref 23 §4) |
 
 ## Scope of verification (honest limits)
 
