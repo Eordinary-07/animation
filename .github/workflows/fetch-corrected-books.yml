@@ -1,0 +1,73 @@
+name: Fetch corrected Walter Murch and Robert McKee books
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/fetch-corrected-books.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Download corrected release assets (real PDFs, no LFS)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download merged-ocr --clobber \
+            -p 'inblinkofeye00murc_1.pdf' \
+            -p 'robert-mckee-story-pdf_compress.pdf' \
+            -D .
+          ls -la inblinkofeye00murc_1.pdf robert-mckee-story-pdf_compress.pdf
+
+      - name: Split any file over the 100MB push limit (lossless)
+        run: |
+          pip install -q pypdf
+          python3 - <<'EOF'
+          import os, glob
+          from pypdf import PdfReader, PdfWriter
+          LIMIT = 99_000_000
+          for f in ['inblinkofeye00murc_1.pdf', 'robert-mckee-story-pdf_compress.pdf']:
+              if not os.path.exists(f) or os.path.getsize(f) <= LIMIT:
+                  print('ok as-is:', f); continue
+              r = PdfReader(f); n = len(r.pages); parts = 2
+              while True:
+                  per = (n + parts - 1) // parts; outs = []; ok = True
+                  for i in range(parts):
+                      w = PdfWriter()
+                      for p in range(i * per, min(n, (i + 1) * per)):
+                          w.add_page(r.pages[p])
+                      name = f.replace('.pdf', f'-part{i+1}-of-{parts}.pdf')
+                      with open(name, 'wb') as fh: w.write(fh)
+                      outs.append(name)
+                      if os.path.getsize(name) > LIMIT: ok = False
+                  if ok: break
+                  for o in outs: os.remove(o)
+                  parts += 1
+              os.remove(f)
+              print('split:', outs)
+          EOF
+          for f in *.pdf; do
+            s=$(stat -c%s "$f")
+            if [ "$s" -ge 100000000 ]; then echo "TOO BIG: $f ($s)"; exit 1; fi
+          done
+          echo "all files under 100MB"
+
+      - name: Commit PDFs to arena branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- inblinkofeye00murc_1.pdf robert-mckee-story-pdf_compress.pdf
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add corrected In the Blink of an Eye (real book scan) and Story PDFs as real files"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
