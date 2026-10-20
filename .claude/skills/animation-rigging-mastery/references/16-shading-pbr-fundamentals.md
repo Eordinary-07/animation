@@ -56,7 +56,7 @@
   black (0) even on a steel object. Correct/incorrect reference:
   `images/surf-06-pbr-correct-incorrect.jpg`.
 
-## 4. Principled BSDF decoded (Blender 4.x socket names)
+## 4. Principled BSDF decoded (Blender 5.x socket names)
 
 | Input | The law | Amateur tell |
 |---|---|---|
@@ -65,7 +65,7 @@
 | **Roughness** | The realism channel: real range ≈ 0.05–0.95 and it must *vary* (fingerprints, polish, dust) | One flat value for a whole asset |
 | **Specular IOR Level** | 0.5 default = F0 0.04 — correct for nearly all dielectrics; touch only for gemstones/water films | Cranked to fake "shininess" |
 | **IOR** | Water 1.33 · skin ≈ 1.4 · glass 1.5 · diamond 2.42 | Glass left on defaults |
-| **Subsurface Weight / Radius** | Skin, wax, milk, marble, leaves. Radius = RGB travel distance (skin: red ≫ blue). **Demands real-world scale** | SSS on a character modeled 100 units tall |
+| **Subsurface Weight / Radius** | Skin, wax, milk, marble, leaves. Radius = RGB travel distance (skin: red ≫ blue). **Demands real-world scale**. 5.2 remapped Random Walk radius/anisotropy to match other renderers — old files auto-convert to *Random Walk (Legacy)*; dial skin fresh instead of trusting converted values | SSS on a character modeled 100 units tall |
 | **Sheen Weight** | Cloth/velvet retro-reflective rim | Hard CG fabric edges |
 | **Coat Weight / Roughness** | Clear second layer: car paint, varnish, lacquer; Coat 1 over a rough base = the "wet look" | Faking lacquer with low base roughness |
 | **Transmission Weight** | Glass/water/ice — needs IOR + genuine thickness (solid mesh or Thickness) and samples | Alpha-blend "glass" in final renders |
@@ -77,8 +77,11 @@
 1. **Color maps → sRGB. ALL data maps → Non-Color** (roughness, metallic, normal, bump,
    displacement, AO). The PBR Guide's "Linear Space Rendering" chapter exists because
    this one mistake quietly wrecks more materials than any other.
-2. Judge under **AgX** (Blender 4.x default view transform) — it rolls highlights off
-   like film. Never approve a material under Standard.
+2. Judge under **AgX** (still the Blender 5.x default view transform) — it rolls
+   highlights off like film. Never approve a material under Standard. For film/VFX
+   handoff, 5.x adds full **ACES** (ACEScg working space + ACES 2.0 view
+   transforms): pick ONE view transform at lookdev — the script package's Part 5
+   grade decides — and never approve the same material under two different ones.
 3. **Model at true scale (meters).** SSS radius, transmission, light falloff and depth
    of field all assume it.
 

@@ -12,9 +12,11 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    and no external files. Treat it as required reading before animation/rigging/surfacing work.
 2. The Maya rigging book (Cabrera) is the rigging curriculum — but **apply its logic in Blender**.
    Every Maya technique has a Blender equivalent; see `references/02-rigging-blender.md`.
-   Baseline is **Blender 4.x** (bone collections, Asset Browser pose assets, Library
-   Overrides, EEVEE Next; mind 4.4+ layered Actions in bpy) — procedures in
-   `references/11-blender-how-to.md` use 4.x menu paths.
+   Baseline is **Blender 5.x** (target the current stable, **5.2 LTS**: bone collections,
+   Asset Browser pose assets, Library Overrides, EEVEE, slotted Actions; the legacy
+   `action.fcurves` bpy API is removed) — procedures in
+   `references/11-blender-how-to.md` use 5.x menu paths, and its §0 lists every
+   4.x→5.x change that matters (keying defaults, shape-key UI, texture cache…).
 3. When working, cite the *reason* behind a technique (the books teach essence + reason, not
    recipes). If a shot or rig decision can be justified from the books, justify it that way.
 3b. **Intention first, always**: classify the input level and run the intake in

@@ -53,8 +53,11 @@ Format: **Concept** — essence — → reference file.
   11 B7
 - **Troubleshooting (symptom → cause → fix)** — IK pops, foot slide, gimbal flips, weight
   bleed, dependency cycles → 11 F
-- **bpy mini-toolkit** — bone-collection sort, corrective drivers, batch bakes (4.x-safe) →
+- **bpy mini-toolkit** — bone-collection sort, corrective drivers, batch bakes (5.x-safe) →
   11 G
+- **Blender 5.x baseline deltas** — Only-Insert-Available keying default, shape-key
+  rebuild (Make/Apply to Basis), Geometry Attribute constraint, pose rotation-mode
+  conversion, Cycles texture cache, removed legacy Action API → 11 §0
 
 ## 2. Timing & Spacing (Williams; Whitaker; Illusion of Life)
 

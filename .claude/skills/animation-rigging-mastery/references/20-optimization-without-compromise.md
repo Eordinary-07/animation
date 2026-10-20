@@ -101,3 +101,20 @@ Slow playback produces bad timing decisions — protecting fps *is* protecting r
 Keep an "animation mode": proxy meshes, no volumetrics, Material Preview only for
 surfacing checks, simplify ON in viewport only. **Simplify is a preview drug: OFF for
 final renders** (it caps subdiv/textures globally — a classic silent quality killer).
+
+## Blender 5.x performance notes (use these before sacrificing anything visible)
+
+- **Cycles Texture Cache (5.2)** — `Render Properties → Performance → Texture Cache`
+  + Auto Generate: textures convert to `.tx` in `blender_tx/` and only needed tiles/
+  resolutions load per render tile. Big texture sets stop blowing VRAM (Blender's
+  benchmarks show texture memory cut dramatically on texture-heavy scenes) at a
+  small render-speed and disk cost. Pair with `Simplify → Texture Resolution %`
+  for viewport work. This replaces the old "shrink everything to 1K" panic move.
+- **EEVEE instance speed (5.2)** — up to ~2× in instance-heavy scenes; crowds/sets
+  via instances are cheaper than in 4.x. Note the 5.2 screen-space raytracing
+  overhaul can change the look of 4.x files — re-approve hero lighting after upgrade.
+- **Action evaluation ~2× faster (5.1)** — heavy rigs and shape-key stacks play at
+  noticeably higher fps; raise the rig-complexity budget before cutting controls,
+  but keep testing playback at full fps (ref 19 gates still rule).
+- `Use Tiling` was removed (5.0) — old tiling advice is void; `Performance → Memory
+  → Tile Size` now mainly steers texture-cache loading.

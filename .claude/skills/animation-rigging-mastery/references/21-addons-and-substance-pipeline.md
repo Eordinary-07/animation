@@ -103,3 +103,20 @@ value law in ref 16 applies inside Painter unchanged.
   (spreading wetness, burning), quick background props fully procedural (ref 17 §5),
   and anything whose texture is mostly noise — Blender nodes do it live and lighter
   (baked later per ref 20 §1 if the shot demands).
+
+## Blender 5.x compatibility law (check before any pipeline depends on an add-on)
+
+5.x broke add-ons in waves: **BGL drawing API removed (5.0)**, dict-style `bpy.props`
+access removed (5.0), **Python 3.13 (5.1)** — extensions bundling compiled wheels
+need a cp313 build, and pre-4.4 animation scripts died with the legacy Action API.
+Therefore, before a Pipeline Brief may rely on any add-on:
+1. Confirm the extension **explicitly supports Blender 5.2** (changelog/store page),
+   and install via `Preferences → Get Extensions` so updates flow.
+2. Smoke-test it in the project file's first session (load, one real operation,
+   save/reload) — a half-broken add-on discovered mid-shot is a schedule fire.
+3. **Core absorbed two classics**: Copy Global Transform (5.0) and LoopTools'
+   To Circle / Space Edge Loops Evenly / Flatten (5.2) are built-in — remove their
+   add-on versions to avoid double menus.
+4. Re-verify the **Substance 3D add-on** against the user's exact 5.2 build before
+   designing a hero-texturing stage around it; the no-hostage rule (export maps
+   early, keep the .blend self-sufficient) is unchanged.

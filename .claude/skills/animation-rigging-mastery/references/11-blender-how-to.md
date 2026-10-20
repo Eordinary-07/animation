@@ -1,9 +1,48 @@
 # Blender How-To — Exact Procedures for Every Skill Task
 
 Task-oriented click/operator manual. When the other references say WHAT to do,
-this file says HOW to do it in Blender (4.x). Follow the numbered steps literally.
-
+this file says HOW to do it in Blender (**5.x — 5.2 LTS baseline**). Follow the numbered steps literally.
 ---
+
+## 0. Blender 5.x baseline — what changed from 4.x (read first, every session)
+
+Target version: **Blender 5.2 LTS** (Jul 2026, supported to Jul 2028). The books'
+craft is version-proof; only Blender's buttons moved. The 4.x→5.x deltas the
+procedures below rely on:
+
+- **Keyframing gotcha (5.2)**: `Preferences → Animation →` **Only Insert Available**
+  is now ON by default — `I` and auto-key only key *existing* channels. To create
+  first keys: hover the property → right-click → **Insert Keyframe**, or turn the
+  preference off. If `I` "does nothing", this is why.
+- **Navigation (5.0–5.2)**: keyframe-jump arrows flipped — **Down = next keyframe
+  (forward), Up = previous**. **Ctrl+Left/Right** = Jump Time by Delta (set the
+  delta in the editor footer). Every animation editor has a **Playback Controls**
+  footer with **Loop modes** — use *Bounce* for cycle checks (ref 03).
+- **Shape Keys rebuilt (5.0)**: multi-select + drag-and-drop reorder; **Make Basis**
+  operator replaces the old "move key to top becomes Basis" trick; Alt-drag adjusts
+  all selected key values; **Apply to Basis** (5.1) bakes selected keys into Basis.
+- **Rigging (5.0+)**: new **Geometry Attribute** constraint (Geometry Nodes can drive
+  bones/objects); bone Custom Shape **Affect Gizmo** + **Use As Pivot** (gizmo/pivot
+  sit at the widget — use on face rigs, §A8); bone hide/select is per-pose-bone, so
+  instanced armatures stay independent; **Copy Global Transform** is built-in now;
+  **Duplicate and Rename** bones (5.2, Armature menu) avoids `.001` suffixes.
+- **Pose assets (5.2)**: applying a pose auto-converts rotation modes (quaternion
+  pose → closest-Euler on Euler bones) — libraries mix safely across rigs; still
+  spot-check Euler joints (§B4).
+- **Actions & bpy (5.0)**: legacy Action API **removed** (`action.fcurves` /
+  `action.groups` / `action.id_root` are gone) — slotted Actions only (§G).
+  Animation *layers UI* is still NOT shipped (data model only) — never design a
+  pipeline that depends on it.
+- **Speed & render (5.1–5.2)**: ~2× faster action evaluation (heavy rigs play far
+  better); EEVEE up to 2× in instance-heavy scenes; Cycles **Texture Cache**
+  (`Render Properties → Performance → Texture Cache` + Auto Generate → `blender_tx/`)
+  slashes texture memory (ref 20); `Use Tiling` removed; **ACES** pipelines
+  (ACEScg working space, ACES 2.0 view transforms) sit alongside default AgX
+  (ref 16 §5).
+- **I/O & add-ons**: FBX C++ importer is now the default (5.0); Collada removed;
+  collection-visibility number keys moved from the 3D Viewport to the Outliner.
+  BGL removed (5.0) + Python 3.13 (5.1) broke old add-ons — only trust extensions
+  that explicitly support 5.x (ref 21).
 
 ## A. RIGGING
 
@@ -83,6 +122,9 @@ this file says HOW to do it in Blender (4.x). Follow the numbered steps literall
 5. Bulk-create from a posed mix: set sliders to a combo → shape-key dropdown ▼ →
    **New Shape Key from Mix**. From another mesh: **Join Shapes**.
 6. Drive them from custom properties (A5) so animators use sliders, not raw keys.
+7. **5.x powers (§0)**: multi-select keys and Alt-drag to test value ranges in bulk;
+   promote a sculpted key to the rest mesh with **Make Basis** (▼ dropdown); before
+   export/handoff, **Apply to Basis** bakes chosen keys permanently into the mesh.
 
 ### A8. Face: jaw + eyes
 1. Jaw: extrude one bone from the ear joint down to the chin (Edit Mode, `E`), name `jaw`.
@@ -196,7 +238,7 @@ For the shoulder-raise collapse, elbow/knee volume loss, hip crease:
 
 ---
 
-### B4. Pose library — the modern Asset Browser way (Blender 4.x)
+### B4. Pose library — the modern Asset Browser way (Blender 5.x)
 1. Create: Pose Mode, select the bones the pose needs → `Pose → Create Pose Asset`.
    Name by INTENT, not anatomy (`angry_point`, `beg_hands`, `sneak_low`). The asset lives
    in the file as an Action marked as asset.
@@ -207,6 +249,9 @@ For the shoulder-raise collapse, elbow/knee volume loss, hip crease:
    **Flipped** for the mirror; apply to *selected bones only* for partial poses (hands!).
 4. Rule (Williams): library poses are *starting points* — after applying, offset timing,
    break symmetry, push the silhouette (ref 05). A pasted pose shipped unchanged reads stock.
+5. **5.2 note**: applying a pose auto-converts rotation modes (quaternion poses land as
+   closest-Euler on Euler bones), so cross-rig libraries no longer twist joints —
+   still scrub one full turn of Euler-bone joints after applying to a new rig.
 
 ### B5. Video reference — shoot it, sync it, steal timing not positions
 1. Shoot yourself acting the shot (Hooks' rehearsal, ch. 4; Williams: act it out). Fix the
@@ -343,7 +388,7 @@ Never animate inside the character's source file. One source of truth, many shot
 | Playblast differs from viewport / a bone lags one frame | Dependency cycle (driver chasing its own target) | Read the System Console for "Dependency cycle detected"; retarget the driver to a MCH bone that doesn't depend on the driven one |
 | Pose asset flips the wrong way | Applied without mirror naming | Bones must use `.L/.R` suffixes (A1); re-apply with *Flipped* (B4) |
 
-## G. bpy mini-toolkit (Blender 4.x-safe patterns)
+## G. bpy mini-toolkit (Blender 5.x-safe patterns)
 
 Script the repetitive rigging; never click 200 bones by hand. Three patterns that cover
 most requests — run in the Scripting workspace, test on a copy first:
@@ -382,11 +427,14 @@ bpy.ops.nla.bake(frame_start=1, frame_end=120, step=1, only_selected=False,
                  visual_keying=True, clear_constraints=False, bake_types={'POSE'})
 ```
 
-Cautions: `bpy.ops` calls depend on context (active object + mode) — set them explicitly;
-Blender 4.4+ uses *layered Actions* (slots), so legacy scripts that poke `action.fcurves`
-directly may need `action.layers[…].strips[…].channelbag.fcurves` instead — prefer
-operators and drivers over raw f-curve surgery, and keep production scripts in `tools/`
-(ref 10) so the pipeline is reproducible.
+Cautions: `bpy.ops` calls depend on context (active object + mode) — set them explicitly.
+**Blender 5.0 removed the legacy Action API**: `action.fcurves`, `action.groups` and
+`action.id_root` no longer exist. Slotted Actions are the only model — reach curves via
+`action.layers[…].strips[…].channelbag.fcurves` and assign the correct **slot** to each
+animated data-block. Bone visibility/selection in Pose Mode also moved to the pose bone
+(`object.pose.bones[…].hide` / `.select`; run `anim.version_bone_hide_property` to migrate
+animated hide curves from older files). Prefer operators and drivers over raw f-curve
+surgery, and keep production scripts in `tools/` (ref 10) so the pipeline is reproducible.
 
 ---
 
@@ -396,11 +444,13 @@ operators and drivers over raw f-curve surgery, and keep production scripts in `
 1. Object Mode → select object → **Shading workspace** → **New** material.
 2. Select the Principled BSDF → **Ctrl+Shift+T** → in the file dialog, multi-select the
    set (basecolor, roughness, metallic, normal) → **Principled Texture Setup** wires
-   them with correct color spaces. (Node Wrangler ships enabled in 4.x; otherwise
-   Edit → Preferences → Add-ons.)
+   them with correct color spaces. (If Ctrl+Shift+T does nothing, enable **Node
+   Wrangler** via Edit → Preferences → **Get Extensions** — 5.x ships add-ons as
+   extensions.)
 3. Verify manually, every time: Base Color = **sRGB**; roughness/metallic/normal =
-   **Non-Color**; Normal Map node present (strength 1). Imported DirectX normal? Add a
-   Separate Color → invert Green → Combine Color before the Normal Map node.
+   **Non-Color**; Normal Map node present (strength 1). Imported DirectX normal?
+   5.1+ has a switch on the Normal Map node: set its format to **DirectX** (older
+   files: Separate Color → invert Green → Combine Color before the node).
 4. Judge in **Rendered** shading (Z), never Material Preview alone — its pretty HDRI
    hides illegal values.
 
