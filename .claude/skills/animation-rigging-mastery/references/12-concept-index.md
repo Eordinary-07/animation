@@ -391,3 +391,16 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
 - **Production Script Package** — the Parts 0–10 document from the external master
   template; validate (gaps, feeling jobs, duration sum) then dock straight into the
   Pipeline Brief (25§8).
+
+## 16. Tool intelligence (future-proofing)
+
+- **Outcome contract** — capabilities are defined by measurable book-law criteria;
+  named tools are replaceable champions (26§1).
+- **Evaluation scorecard** — 5 gates: outcome proof, book-law compliance, no-hostage,
+  version/machine fit, reversibility; verdicts Adopt/Trial/Park/Reject (26§2).
+- **Golden tests** — fixed battery (walk cycle, head turn, gesture arc, hero
+  material, night interior) so tool comparisons stay honest forever (26§4).
+- **TOOLS.md registry** — living per-project record of tested/heard-of tools and
+  verdicts; read with LESSONS.md at session start (26§3).
+- **toolcheck ritual** — version delta-check + registry sweep + challenger
+  nomination whenever Blender/tools move (26§5).

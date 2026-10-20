@@ -131,3 +131,17 @@ Rig types, polygons, texture sizes, frame rates, render settings, perfect Englis
 fancy formatting. That's the skill's job. Your job is only: **what happens + how it
 should feel**. One helpful extra: mention your PC (graphics card/RAM) once — Claude
 will keep renders within your machine's power without spoiling the realism.
+
+## 🔧 Keep the toolbox fresh — the magic word "toolcheck"
+
+New tools for smoother animation and better textures will keep coming — the skill
+is built for that. Anytime (especially after updating Blender, or when you see an
+interesting add-on/AI tool in a video), just type:
+
+> **blend toolcheck**  — or —  **blend, check this tool: (name/link)**
+
+Claude will test the new tool against strict quality rules from the books (smooth
+arcs? no foot-slide? legal texture values?), compare it fairly with the current
+method, and give you a simple verdict: **Adopt / Trial / Park / Reject — and why**.
+The decision is written into a `TOOLS.md` file in your project, so the skill
+remembers it forever and keeps getting current without chasing hype.

@@ -1,6 +1,6 @@
 ---
 name: animation-rigging-mastery
-description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, shading, texturing, PBR materials, lookdev, or any script/instruction to animate. Self-contained animation, rigging and surfacing master class for Blender distilled from 21 industry books (Cabrera, Williams, Whitaker & Halas, Thomas & Johnston, Osipa, Hooks, Dunn & Parberry, Parent, Wes McDermott, Owen Demers, Jeremy Birn, PBRT 4e, Ebert et al, James Gurney, Glebas, Bruce Block, Katz, Walter Murch, Stanchfield, Robert McKee, Gilland). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
+description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on armature, rig, rigging, skinning, weight paint, IK, FK, shape keys, drivers, keyframe, animation, walk cycle, lip sync, camera, shot design, storyboard, animatic, render, timing, spacing, acting, shading, texturing, PBR materials, lookdev, toolcheck (evaluate new tools/add-ons/versions against the book laws), or any script/instruction to animate. Self-contained animation, rigging and surfacing master class for Blender distilled from 21 industry books (Cabrera, Williams, Whitaker & Halas, Thomas & Johnston, Osipa, Hooks, Dunn & Parberry, Parent, Wes McDermott, Owen Demers, Jeremy Birn, PBRT 4e, Ebert et al, James Gurney, Glebas, Bruce Block, Katz, Walter Murch, Stanchfield, Robert McKee, Gilland). Contains ALL concepts of all books inside the skill (references/12-concept-index.md) - no PDFs or external files needed. Use whenever creating, rigging, animating, or directing anything in Blender or answering animation/rigging questions."
 ---
 
 # Animation & Rigging Mastery — Project Memory
@@ -52,6 +52,7 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Math, curves, IK solvers, springs, tools → `references/07-math-procedural.md`
    - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
+   - New tool/add-on/AI technique or Blender version question ('toolcheck') → `references/26-tool-intelligence.md`
    - EVERY user request starts here (what they gave you, what to ask, Story Card) → `references/25-briefing-the-skill.md`
    - ANY script/instruction → intention first → `references/18-script-intention-engine.md`
    - **Script uploaded? Build a PIPELINE BRIEF first → `references/14-pipeline-generator.md`**
@@ -176,6 +177,7 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/23-directing-the-screen.md` — Bruce Block's seven visual components + contrast/affinity intensity control, Francis Glebas' attention direction and narrative questions, Steven Katz's staging/camera grammar, Walter Murch's Rule of Six for cuts
 - `references/24-pose-gesture-effects.md` — Walt Stanchfield's pose law (draw verbs not nouns; one pose = one story; gesture backbone) + Joseph Gilland's Elemental Magic FX categories translated to Blender sim/shader choices
 - `references/25-briefing-the-skill.md` — the input system: five brief levels (one-line spark to full script), the 6-field Mini Brief, the Story Card approval step, story-spine/beat templates, missing-info protocol (infer mechanics, ask ≤3 intention questions), and feeling-first feedback
+- `references/26-tool-intelligence.md` — future-proofing: every capability is an outcome contract (measurable book-law criteria), new/unknown tools (AI in-betweening, mocap, sims, AI textures, future Blender) must pass a 5-gate scorecard on fixed golden tests; verdicts (Adopt/Trial/Park/Reject) live in the project's TOOLS.md; the 'toolcheck' ritual keeps the toolbox current
 - `references/15-verified-page-images.md` — catalog of 53 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the

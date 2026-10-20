@@ -97,3 +97,13 @@ textures justified by screen coverage (ref 20) → comp → review/ledger.
 → Explainer printed in simple words under the brief. Same request next month =
 **re-derived**, not copy-pasted — the intention may be "sporty energy" next time, and
 the whole design follows that.
+
+## E. Fresh-eyes tool check (part of every pipeline design)
+
+Before locking a pipeline, spend one beat on the toolbox (ref 26): read the
+project's `TOOLS.md`; if the user's Blender is newer than the skill baseline, run
+the version delta-check for the areas this pipeline uses; nominate any challenger
+that could beat a champion on *this* project's hardest capability (motion
+smoothness, hero texturing, render budget) and either scorecard it or log it as
+"unverified — trial plan". Pipeline tool assumptions change only on an ADOPT
+verdict — novelty never silently enters a locked pipeline.

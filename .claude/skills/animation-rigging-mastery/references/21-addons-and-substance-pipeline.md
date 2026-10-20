@@ -120,3 +120,7 @@ Therefore, before a Pipeline Brief may rely on any add-on:
 4. Re-verify the **Substance 3D add-on** against the user's exact 5.2 build before
    designing a hero-texturing stage around it; the no-hostage rule (export maps
    early, keep the .blend self-sufficient) is unchanged.
+
+> Evaluating any candidate beyond compatibility — add-ons, external apps, AI
+> tools, future Blender features — runs the full **5-gate scorecard + golden
+> tests** of ref 26, with verdicts recorded in the project's `TOOLS.md`.
