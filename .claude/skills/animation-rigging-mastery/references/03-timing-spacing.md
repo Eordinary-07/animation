@@ -55,7 +55,8 @@ Use this whenever keyframing, polishing, or reviewing motion in Blender.
   *eccentric* (off the straight midpoint — the foot lifts, the hand changes shape), never
   brainless midpoints: "in one sense there are no inbetweens — all the drawings are on the
   screen for the same amount of time" (p. 89; both pages bundled in `references/images/`).
-  In Blender: check motion paths (Object/Anim → Motion Paths) — they make bad arcs visible;
+  In Blender: check motion paths — they draw this spacing chart in 3D, one marker per
+  frame (display/refresh, how to read kinks & spacing, edit-on-path smoothing: 11 B8);
   never ship default spline interpolation between keys.
 - **Movement within the mass**: overlapping parts (chest vs head vs hips) get their own
   spacing; the body is never one block.

@@ -45,7 +45,9 @@ cheaper than polishing a mistake (Williams' Procedure, ref 01/05).
 | Eye darts before head turn | eyes lead by 2–4 frames | Timeline scrub (ref 06) |
 | Blink duration | closed 1–2 frames at 24 fps (fully closed matters) | stepped check (ref 06) |
 | Interpenetration | zero visible at final camera | rendered frame at 100% |
-| Spacing at impacts | largest spacing adjacent to contact, never through it | onion skin / motion path (ref 03) |
+| Spacing at impacts | largest spacing adjacent to contact, never through it | motion-path diagnostic (11 B8) |
+| Arc integrity | zero unintended kinks; marker spacing accelerates monotonically outside impacts; planted-foot markers stack (no crawl) | motion path on chain tips + ghosting (11 B8) |
+| Camera path smoothness | no kinks/spacing jumps in the traced camera path | object motion path (11 B8) before render sign-off |
 | Texel density | one standard per production (±10%) | checker pass (ref 17 §2) |
 | Base color values | 30–240 sRGB band (ref 16 §3) | histogram / eyedropper |
 | Camera drift in "locked" shots | zero — lock transforms | camera curves flat |

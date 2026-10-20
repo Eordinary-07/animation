@@ -220,7 +220,9 @@ For the shoulder-raise collapse, elbow/knee volume loss, hip crease:
    `Y` = Free); impacts get Vector handles, settles get soft clamped curves.
 3. Overlap/stagger (from `03`): select the later parts (head/chest/hair), shift their keys
    2-6 frames right in the Dope Sheet. Stagger = successive 1-frame offsets per part.
-4. Arc check: Pose Mode → `Pose → Motion Paths → Calculate`. Bad kinks = fix spacing.
+4. Arc check: run the full **Motion Paths diagnostic (B8)** on chain tips — kinks =
+   bad breakdowns, spacing jumps = timing bumps, crawling foot-stack = slide.
+   Never polish blind.
 5. Walks: follow `04-body-mechanics.md` Recipe with X-Axis Mirror on (Options → X-Axis
    Mirror); copy flipped poses with `Ctrl+C` / `Ctrl+Shift+V`; loop with
    `Graph Editor → Add F-Modifier → Cycles`.
@@ -291,6 +293,72 @@ Procedure tests planning drawings BEFORE key positions (ref 09). In Blender:
   Always bake on a DUPLICATE action/rig; the constrained original stays editable.
 - Keep one Action per shot (ref 10); approved cycles get pushed to the **NLA** as strips,
   with additive strips layered for attitude (head/arms) instead of editing the base cycle.
+
+### B8. Motion Paths, ghosting & path-driven movement (the smoothness toolkit)
+
+Motion Paths draw a bone's/object's **actual trajectory through space**, one marker
+per frame — literally Whitaker & Halas spacing charts (ref 03 §5) floating in the
+scene: **markers clustered = slow, markers spread = fast**. This is THE polish-stage
+diagnostic, because every keyframe pose can look perfect while the path between
+them lies. Smooth, realistic motion = clean arcs + musical spacing along them.
+
+**Show & refresh paths**
+1. Pose Mode → select the bones that matter (hand/foot/head TIPS and root — a chain's
+   tip tells the truth; the root hides problems) → `Pose → Motion Paths → Calculate`
+   (Properties → Armature → Motion Paths → Calculate…).
+2. Options popup: Range = the shot's frames; **Display Type = Around Frame** (±10)
+   while polishing a moment, **In Range** for a whole-shot arc audit; Frame Step 1;
+   trace the bone **Tail** for fingertips/toes. Enable **Frame Numbers** when a
+   director's note names a frame.
+3. After ANY edit → `Pose → Motion Paths → Update Paths` — paths are a cache, not
+   live data. `Clear Paths` before handoff/render (viewport helpers, not scene data).
+4. Objects & cameras: same via Properties → Object → Motion Paths. **Trace every
+   hero camera before render sign-off** (see below).
+
+**Read the path like a supervisor (fix in this order)**
+1. **Kink in the line** (sudden angle) = bad/missing breakdown → add an eccentric
+   breakdown (B2). Straight segments are legal only on purpose — Williams: "straight
+   lines give power"; everything else arcs (IoL principle; ref 03 §4).
+2. **Marker spacing jumps** (tight-tight-WIDE outside an impact) = timing bump →
+   slide keys in the Dope Sheet until spacing accelerates/decelerates *smoothly*.
+3. **Planted foot test**: during contact the foot's markers should STACK on one
+   point — a crawling stack is foot slide (§F). At impacts the largest spacing sits
+   *adjacent to* contact, never through it (ref 19 tolerance).
+4. **Cycle signatures**: head path = smooth double-bounce wave; wrist paths = ovals /
+   figure-8s crossing the body line (Williams p. 90); root path = clean wave, no
+   flat straights. Wobbly path + perfect poses = spacing problem, not a pose problem.
+5. **Camera paths**: a kink or spacing jump = a bump the audience feels in the
+   stomach (ref 23 §3) → smooth in the Graph Editor (B7) or rebuild as Follow Path.
+
+**Edit ON the path (the actual smoothing move)**
+- Scrub to a frame, compare its marker against the neighbors' curve, move the bone
+  until the marker lies ON a clean arc with monotonic spacing → Update Paths →
+  next frame. Five minutes of this beats an hour of curve tweaking — especially
+  hands, gestures, and head turns (turn paths must DIP; a straight-line head turn
+  reads robotic instantly).
+- Path jitter (mocap/bakes/noise) → Graph Editor `Key → Smooth Keys`, or the
+  non-destructive **Gaussian Smooth F-Curve modifier** (5.1+) on offending channels
+  — then re-check every contact: smoothing eats accents first (B7).
+
+**Ghosting (whole-body spacing rhythm)**
+- Properties → Armature → Viewport Display → **Ghost** (frames before/after ≈ 4/4,
+  blue→red): overlapping ghosts = slow/hold (correct inside a moving hold, ref 05);
+  evenly-spaced ghosts in a swing = missing ease. Ghosting judges the *silhouette
+  rhythm*; motion paths judge *point trajectories* — different questions, both asked
+  at the polish gate.
+
+**Follow Path — guaranteed-smooth travel (props, vehicles, cameras)**
+1. `Shift+A → Curve → Bezier` (Circle for orbits) → shape it in Edit Mode. The curve
+   IS the arc: kinks can't exist unless drawn (speed-along-curve math: ref 07 §4).
+2. Object → Constraint Properties → **Follow Path** → Target = curve → animate
+   **Offset Factor** with two keys and shape the ease in the Graph Editor — that
+   F-curve *is* the spacing chart (flat-ended handles = ease in/out).
+3. Cameras: pair with **Track To** on a target empty (C2); bank with curve tilt
+   (`Ctrl+T` on curve points). Creatures/vehicles: hand-key rotation/flap on top.
+4. Warning (Block/Glebas): pure path motion feels "on rails". Unless the shot wants
+   mechanical perfection (product orbit, train), layer a whisper of hand-keyed
+   offset/noise (C2 step 3) — and the path's *timing* still serves the beat
+   (refs 18/23). Smooth ≠ even.
 
 ## C. CAMERA & CUTS
 
@@ -383,7 +451,8 @@ Never animate inside the character's source file. One source of truth, many shot
 | Smile + open jaw poke through cheek | Two shape keys fight in combination | Combo corrective key driven by the *product* of both values (A12 step 6) |
 | Spline-IK spine twists strangely | Curve point tilt / too many hooks | Clear tilt (`Alt+T` in curve edit), keep 3 hooks (A10) |
 | Lip sync reads late/robotic | Mouth leads, thought trails | Body/head start 2–4 frames BEFORE the jaw (movement precedes words — Hooks ch. 6, Osipa); verify audio offset by scrubbing with sound |
-| Everything feels floaty/even | Default spline interpolation, no breakdowns | Add eccentric breakdowns, shape the handles (ref 03); check with Motion Paths — "there are no inbetweens" (Williams p. 89) |
+| Everything feels floaty/even | Default spline interpolation, no breakdowns | Add eccentric breakdowns, shape the handles (ref 03); check with Motion Paths (B8) — "there are no inbetweens" (Williams p. 89) |
+| Wobbly/popping move, yet every key pose looks right | Bad breakdown or spacing jump *along the arc* | Motion-path the chain TIP (B8): kink → fix the breakdown; spacing jump → slide keys; jitter → Smooth Keys / Gaussian modifier, then re-check contacts |
 | Weights bleed onto the wrong limb | Unnormalized or stray vertex groups | Paint with Auto Normalize ON → `Weights → Normalize All` → `Limit Total (4)`; inspect per-vertex groups in Edit Mode's *Vertex Weights* panel |
 | Playblast differs from viewport / a bone lags one frame | Dependency cycle (driver chasing its own target) | Read the System Console for "Dependency cycle detected"; retarget the driver to a MCH bone that doesn't depend on the driven one |
 | Pose asset flips the wrong way | Applied without mirror naming | Bones must use `.L/.R` suffixes (A1); re-apply with *Flipped* (B4) |

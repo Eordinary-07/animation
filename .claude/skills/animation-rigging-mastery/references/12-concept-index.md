@@ -74,6 +74,12 @@ Format: **Concept** — essence — → reference file.
 - **Elongated inbetween** — snap via asymmetric breakdown → 03 §4
 - **The "ruff" approach** — big masses first, then subdivide → 03 §4
 - **Arcs in motion** — natural paths curve → 03 §4, 04 §1
+- **Motion Paths (tool)** — per-frame trajectory markers = the spacing chart in 3D;
+  diagnose kinks (bad breakdown), spacing jumps (timing bump), stacked markers
+  (planted contact), then edit on the path → 11 B8
+- **Ghosting / onion skin** — whole-body spacing rhythm at a glance → 11 B8
+- **Follow Path travel** — curve-guaranteed smooth object/camera movement; the
+  Offset Factor curve is the spacing chart → 11 B8 + C2; speed math → 07 §4
 - **Holds** — how long to hold; breathe in/out → 03 §5
 - **Anticipation (surprise / invisible)** — prepare the eye → 03 §5, 05 §1
 - **Follow-through & overlapping action** — parts stop at different times → 03 §5
