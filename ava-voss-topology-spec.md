@@ -124,3 +124,29 @@ eye/mouth loops → fix those spots (dissolve + reflow, or Quad Remesher targeti
 ~28–30k faces with flow guides). Also run Select → All by Trait → Non-Manifold
 once; raw Tripo borders (open wrists are BY DESIGN — the hand stubs cover them)
 should be the only hits.
+
+### Tripo reality check — you can't control topology in Tripo (and that's OK)
+
+Tripo chooses where triangles go; no prompt or setting paints edge loops.
+What you control in Tripo: the input image, total polycount, and (Tripo Studio,
+if shown) Retopology = Quad + a face target (~30k for this body). Everything
+else is a **Blender, after-Tripo** job. Pick your effort level:
+
+| Path | Effort | Result |
+|---|---|---|
+| **A. Tripo mesh as-is + local fixes** | ~15 min | Test-valid ONLY in the fixed zones; elsewhere deformation flaws may be topology's fault, not the rig's |
+| **B. Quad Remesher (one click) + zone check** ⭐ recommended | ~30 min | Clean curvature-flow quads at your target count; hand-check 6 danger zones |
+| C. Manual retopology | hours | Film-grade flow — save for the final textured hero, not this test |
+
+**You do NOT need to fix all 3,508 triangles.** Most sit on flat, harmless skin.
+Only these **6 danger zones** must be triangle-free on the bend line, because the
+fight test bends exactly there: **elbow crease · back of knee · hip crease ·
+armpit · neck rings · eyelid/mouth loops** (+ finger webbing on the hands —
+Tripo's weakest spot).
+
+**Local fix moves (Blender, Edit Mode):**
+1. Select the bad patch → `Alt+J` (Tris to Quads) — merges tri pairs into quads.
+2. Two triangles forming one quad shape → select their shared edge →
+   `X → Dissolve Edges`.
+3. Triangle diagonal crossing a bend line → select that diagonal →
+   `Ctrl+E → Rotate Edge` to flip it off the bend axis.
