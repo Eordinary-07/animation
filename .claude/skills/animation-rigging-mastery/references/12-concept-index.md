@@ -366,3 +366,16 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   drawing's whole story; essence before details (24§A).
 - **FX as behavior (Joseph Gilland)** — liquids/fire/smoke/magic animated by nature and
   phases, integrated with light and world (24§B).
+
+## 15. Briefing the skill (input system)
+
+- **Input levels L0–L4** — spark → mini brief → director's brief → full script →
+  production pack; all accepted, gaps filled by inference, ≤3 intention questions (25§1).
+- **The 6-field Mini Brief** — Idea / Who / Feeling / Style / Length+destination /
+  What exists (25§2).
+- **Story Card** — logline, hero want/need/flaw, inciting incident, beat gaps, crisis,
+  climax, controlling idea — shown for approval before production (25§3).
+- **Beat loop** — goal → attempt → gap → new tactic; the story spine Setup → Incident →
+  Struggle → Crisis → Climax → Resolution at every scale (25§3).
+- **Feeling-first feedback** — [shot] + [what you see] + [what you wanted to feel];
+  every note becomes a ledger rule (25§7, 19§4).

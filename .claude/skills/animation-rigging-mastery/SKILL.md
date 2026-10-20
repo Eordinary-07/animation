@@ -17,7 +17,9 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    `references/11-blender-how-to.md` use 4.x menu paths.
 3. When working, cite the *reason* behind a technique (the books teach essence + reason, not
    recipes). If a shot or rig decision can be justified from the books, justify it that way.
-3b. **Intention first, always**: before animating any script/instruction, answer the five
+3b. **Intention first, always**: classify the input level and run the intake in
+   `references/25-briefing-the-skill.md` (for sparks/briefs, return a Story Card for
+   one-word approval before producing anything). Before animating, answer the five
    questions (objective / obstacle / tactic / audience feeling / one idea per shot) and
    produce the INTENTION block of the Pipeline Brief — `references/18-script-intention-engine.md`.
    Asked questions are about intention only; mechanics are decided professionally and stated.
@@ -48,6 +50,7 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
    - Math, curves, IK solvers, springs, tools → `references/07-math-procedural.md`
    - Camera, shots, framing, lenses, movement → `references/08-camera-cinematography.md`
    - Script/instruction → full animation pipeline → `references/09-script-to-screen.md`
+   - EVERY user request starts here (what they gave you, what to ask, Story Card) → `references/25-briefing-the-skill.md`
    - ANY script/instruction → intention first → `references/18-script-intention-engine.md`
    - **Script uploaded? Build a PIPELINE BRIEF first → `references/14-pipeline-generator.md`**
    - Blender scene setup, cuts, render, delivery → `references/10-blender-production.md`
@@ -170,6 +173,7 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
 - `references/22-styles-and-pipeline-design.md` — 8 animation style presets with real parameters (frame density, squash ceilings, smears, renderers) + custom Style Card derivation, the 15-stage menu for designing a fresh pipeline per request, and the always-printed plain-words Pipeline Explainer
 - `references/23-directing-the-screen.md` — Bruce Block's seven visual components + contrast/affinity intensity control, Francis Glebas' attention direction and narrative questions, Steven Katz's staging/camera grammar, Walter Murch's Rule of Six for cuts
 - `references/24-pose-gesture-effects.md` — Walt Stanchfield's pose law (draw verbs not nouns; one pose = one story; gesture backbone) + Joseph Gilland's Elemental Magic FX categories translated to Blender sim/shader choices
+- `references/25-briefing-the-skill.md` — the input system: five brief levels (one-line spark to full script), the 6-field Mini Brief, the Story Card approval step, story-spine/beat templates, missing-info protocol (infer mechanics, ask ≤3 intention questions), and feeling-first feedback
 - `references/15-verified-page-images.md` — catalog of 53 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
