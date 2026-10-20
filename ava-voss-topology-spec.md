@@ -91,3 +91,36 @@ Tripo exports triangles → retopologize to this spec (Tripo's quad retopo if
 your plan has it, otherwise Quad Remesher in Blender with the counts above,
 then hand-fix the face loops and webbing). Do NOT use voxel remesh — it makes
 even quads but with random flow that still deforms badly at joints.
+
+---
+
+## ADDENDUM — Your actual body mesh (Blender stats: 28,604 verts · 30,220 faces · 56,932 tris)
+
+**Decoding your numbers:** Triangles (56,932) = 2 per quad + 1 per tri, so:
+quads = 56,932 − 30,220 = **26,712 quads (88%)**, triangles = **3,508 (12%)**.
+Tripo already gave you a quad-dominant mesh, ~1.4× denser than the base spec
+above. Scale every other mesh to THIS density so nothing looks mismatched:
+
+| Mesh | Target faces | Key ring counts at this density |
+|---|---|---|
+| **Body** (have it) | 30,220 → clean to ~100% quads | neck ~20 around · upper arm ~18–20 · forearm ~16 · thigh ~20 · calf ~16–18 · ankle ~14 · torso rings ~36 around |
+| **Hand (each)** | **~2,500–3,200** | wrist stub ring = **exact count of YOUR body's wrist ring** (expect ~18–20 — read it, see below) · fingers **10 around** (thumb 10–12) · 3 loops per knuckle · 4 rings along the 5 cm stub · cuff = same ring count × 3 |
+| **Ponytail** | **~900–1,300** | **16 around** × 26–28 rings (every ~1.2 cm near root, ~2 cm at tip) · dome 16 × 6 · tie ring 16 × 3 |
+| **Eyes (each)** | ~500 | UV sphere 32 × 16 (eyeballs don't need body density) |
+
+**Character total ≈ 38k faces** — perfect for smooth playback while testing.
+
+### The ONE number you must read off your mesh
+The wrist ring count. In Blender: Edit Mode → **Alt+Click the wrist edge loop**
+→ the Statistics line shows selected vertices. Whatever that number is (likely
+18–20), the hand's stub ring uses **exactly that count** — that's the perfect-fit
+guarantee.
+
+### Your 3,508 triangles — what to do
+Select → Select All by Trait → **Faces by Sides = 3** to see where they hide.
+Triangles are ACCEPTABLE only at: wrist caps, scalp crown pole, ears, toe tips.
+If any sit on elbow/knee/shoulder bend lines, hip crease, neck rings, or the
+eye/mouth loops → fix those spots (dissolve + reflow, or Quad Remesher targeting
+~28–30k faces with flow guides). Also run Select → All by Trait → Non-Manifold
+once; raw Tripo borders (open wrists are BY DESIGN — the hand stubs cover them)
+should be the only hits.
