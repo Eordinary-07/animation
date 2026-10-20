@@ -71,7 +71,9 @@ visible symptom that fails the block.
 - **Role:** Sole performer; the mesh under audit.
 - **Build:** Athletic adult female, ~1.70 m (per your spec; origin at feet center).
 - **Appearance this pass:** **Untextured clay only** — single neutral material
-  (Part 5). Fitted training gear and tied-back ponytail exist as *mesh forms*;
+  (Part 5). Fitted training top + short mid-thigh shorts (legs bare below the
+  hem, so knee/thigh deformation stays visible) and tied-back ponytail exist
+  as *mesh forms*;
   their colors/materials are explicitly a later pass. Hair clay may be one shade
   darker purely so the ponytail's swing reads on camera.
 - **Stance:** Orthodox — left foot forward, weight 55/45 toward rear at guard

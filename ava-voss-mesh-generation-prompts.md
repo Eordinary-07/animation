@@ -26,7 +26,8 @@ fingers; each arm finishes in a smooth flat circular cross-section cap at the
 wrist, like an artist mannequin with its detachable hands removed. Hair is
 slicked back tight and smooth against the skull like a swim cap, gathered at
 the back of the head, NO ponytail, NO loose hair. Fitted athletic training top
-and fitted training pants tight to the body, no loose cloth, no flowing fabric,
+and SHORT tight athletic shorts ending at mid-thigh, both skin-tight to the
+body, no loose cloth, no flowing fabric; legs are bare from mid-thigh down,
 simple smooth feet with no shoe details. Neutral relaxed face, eyes open
 looking forward, mouth closed. Realistic human proportions, athletic build,
 perfectly symmetrical, one single continuous body mesh. Untextured plain matte
@@ -114,5 +115,7 @@ Part 5).
 ☐ Hair-tie ring sits on the scalp, covering the ponytail seam circle
 ☐ Orbit 360° around each join at close zoom — no crack visible from any angle
 ☐ Ruler sizes verified (1.70 / 0.185 / 0.38 m) before judging proportions
+☐ Shorts hem sits at mid-thigh — knees and thighs stay bare so leg deformation
+  (crouch, sweep, knee strike) remains fully visible for the rig test
 ☐ If Tripo still gives mitten hands: open choice ⑤ — finger checks in the
   test script adapt to a mitten curl; placement method stays identical
