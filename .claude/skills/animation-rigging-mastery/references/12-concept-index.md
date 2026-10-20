@@ -379,3 +379,6 @@ use `11-blender-how-to.md`; for the reasoning, use the doctrine files (03-09).
   Struggle → Crisis → Climax → Resolution at every scale (25§3).
 - **Feeling-first feedback** — [shot] + [what you see] + [what you wanted to feel];
   every note becomes a ledger rule (25§7, 19§4).
+- **Production Script Package** — the Parts 0–10 document from the external master
+  template; validate (gaps, feeling jobs, duration sum) then dock straight into the
+  Pipeline Brief (25§8).
