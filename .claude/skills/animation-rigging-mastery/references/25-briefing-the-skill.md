@@ -109,7 +109,12 @@ Sound Plan · FX · Production Handover). Treat as **L4** and dock it:
 1. **Validate before building** (report pass/fail in 5 lines): every beat has a gap
    (Part 1) · every shot has a ★ FEELING JOB (Part 7) · shot durations sum to the
    Part 0 total · color arc mirrors the feeling arc (Part 5 vs Part 0) · hero asset
-   list matches shot list (Part 10 vs Part 7). Fix small holes by inference and say so.
+   list matches shot list (Part 10 vs Part 7) · **every Part 7 shot carries a SHOT
+   LOOK & REASON** (missing reasons = the directing is guesswork; derive and declare
+   them, or flag) · **Part 0's "Confirmed director's choices" are honored** in Parts
+   4–7 (those are the user's own interview answers — they outrank generic taste; a
+   shot that breaks them gets redesigned, not debated). Fix small holes by inference
+   and say so.
 2. **Convert, don't re-interview**: Part 0 → Pipeline Brief header; Part 6 → Style
    Card (ref 22 §A); Part 5 → lookdev/grade targets (refs 16–17); Part 7 → the shot
    plan is law unless it violates a gate tolerance. Skip the Story Card.
