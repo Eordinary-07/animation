@@ -150,3 +150,26 @@ Tripo's weakest spot).
    `X → Dissolve Edges`.
 3. Triangle diagonal crossing a bend line → select that diagonal →
    `Ctrl+E → Rotate Edge` to flip it off the bend axis.
+
+### Quad Remesher 1.3 settings — BODY (change topology, preserve shape)
+
+Pre-steps: duplicate the body (remesh the copy, keep original hidden as
+reference) → `Ctrl+A` apply scale → object origin centered on X=0 (between feet).
+
+| Setting | Value | Why |
+|---|---|---|
+| **Quad Count** | **30000** | ≈ current 30,220 faces → same density = same silhouette. (24–26k also fine if you want it lighter; 5000 would melt the face.) |
+| Adaptive size | 50% (leave) | Balances even deformation quads vs detail density on face |
+| Adapt Quad Count | ✅ ON | Lets engine add/remove quads to match the surface instead of forcing the number — this is the shape-preservation switch |
+| Use Vertex Color | ☐ OFF | No density painting needed for this pass |
+| Use Materials | ☐ OFF | Single clay material; nothing to preserve |
+| Use Normals Splitting | ☐ OFF | Organic body — no hard-surface split normals to keep |
+| Detect Hard Edges by angle | ✅ ON | Puts clean rings on shorts hem/waistband/top edges; if result looks noisy on skin, turn OFF and redo |
+| **Symmetry** | ✅ **X** | Forces mirrored L/R topology (rigging + weight-mirror need it). Note: symmetrizes the shape slightly — desirable here. Mesh must be centered on X=0 |
+| Hide Input Object | ✅ ON | Cosmetic |
+
+After REMESH IT: ① unhide original, overlap-check silhouette (drift should be
+invisible at 30k) ② Statistics → Triangles should be ~0 ③ **re-read the wrist
+ring vertex count — remeshing changes it; the hand must match the NEW number**
+④ eyeball the 6 danger zones. Same recipe for hand (Quad Count ~2800) and
+ponytail (~1100), Symmetry OFF for both.
