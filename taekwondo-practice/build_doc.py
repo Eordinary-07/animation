@@ -315,6 +315,10 @@ this volume, selection is the bottleneck, not generation.
 
 ### 5.2 Order of work
 
+0. **Normalise the target rig's rest pose.** Everything downstream is retargeted onto it; if the
+   rig's rest is not a clean, symmetric T- (or A-) pose, every one of the 62 clips inherits the
+   offset. Check with `../rest-pose/fix_rest_pose.py --audit` before anything else — see
+   `../rest-pose/REST_POSE_DIAGNOSIS.md`. Two minutes now, two days later.
 1. `python3 validate.py segments.json` — must print `OK`.
 2. Draft pass, **one block at a time** (`--block B2`), 2 samples, `--resume`.
 3. Assembly review: drop every clip into a sequence at its timecode (use
@@ -439,6 +443,7 @@ a 3D asset skinned and simulated over the retargeted motion — and it's what se
 | Poomsae sequence is wrong beyond fixing | High | Treat B5 as blocking; correct against reference footage; keep the one-take wide and hide the least-correct beats behind inserts |
 | Hands read as claws | Certain | Hand-keying pass; if the rig has no fingers, use a fist-shape mesh swap |
 | Foot skate on pivots | High | Post-processing on; manual pivot check per kick (§6.2) |
+| Target rig's rest pose is not a T-pose | Medium | Audit it before retargeting (`../rest-pose/`), bake the fix as the bind pose, re-audit |
 | Crowd looks cloned | High | 3 variants, time offsets, mirrored copies (§6.4) |
 | Kicks not high enough | Medium | Text CFG up (`--cfg_type separated --cfg_weight 2.5 1.5`); foot EE constraint at target height |
 | 10 minutes of same-angle motion | Certain | The camera plan in §3 is not optional — it's what makes 10 minutes watchable |
