@@ -10026,7 +10026,7 @@
           "name": "Collection",
           "identifier": "Collection",
           "type": "COLLECTION",
-          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7efd3b09fda0>"
+          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4b5fb078a0>"
          },
          {
           "name": "Separate Children",
@@ -10107,7 +10107,7 @@
           "name": "Material",
           "identifier": "Material",
           "type": "MATERIAL",
-          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7efd3afb6c20>"
+          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4b5ef6e720>"
          }
         ]
        },
@@ -19426,7 +19426,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7efd3b055d20>"
+          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f4b5f813220>"
          },
          {
           "name": "As Instance",
@@ -19458,7 +19458,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7efd3b065d20>"
+          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f4b5f817220>"
          },
          {
           "name": "As Instance",
@@ -21394,7 +21394,7 @@
        "name": "Collection",
        "identifier": "Collection",
        "type": "COLLECTION",
-       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7efd3b09fda0>"
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4b5fb078a0>"
       },
       {
        "name": "Separate Children",
@@ -21475,7 +21475,7 @@
        "name": "Material",
        "identifier": "Material",
        "type": "MATERIAL",
-       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7efd3afb6c20>"
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4b5ef6e720>"
       }
      ]
     },
@@ -21634,7 +21634,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7efd3b055d20>"
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f4b5f813220>"
       },
       {
        "name": "As Instance",
@@ -21666,7 +21666,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7efd3b065d20>"
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f4b5f817220>"
       },
       {
        "name": "As Instance",

@@ -20964,7 +20964,7 @@
           "name": "Collection",
           "identifier": "Collection",
           "type": "COLLECTION",
-          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f9b063164a0>"
+          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4cff100ba0>"
          },
          {
           "name": "Separate Children",
@@ -21045,7 +21045,7 @@
           "name": "Material",
           "identifier": "Material",
           "type": "MATERIAL",
-          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f9af48adaa0>"
+          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4cff8681a0>"
          }
         ]
        },
@@ -43720,7 +43720,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -43752,7 +43752,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -44810,7 +44810,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -44842,7 +44842,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -45900,7 +45900,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -45932,7 +45932,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -46990,7 +46990,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -47022,7 +47022,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -48080,7 +48080,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -48112,7 +48112,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -49170,7 +49170,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -49202,7 +49202,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
          },
          {
           "name": "As Instance",
@@ -59211,7 +59211,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f9b06b94f20>"
+          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f4cff580f20>"
          },
          {
           "name": "As Instance",
@@ -59243,7 +59243,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f9b06bba420>"
+          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f4cff59a420>"
          },
          {
           "name": "As Instance",
@@ -62196,7 +62196,7 @@
        "name": "Collection",
        "identifier": "Collection",
        "type": "COLLECTION",
-       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f9b063164a0>"
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4cff100ba0>"
       },
       {
        "name": "Separate Children",
@@ -62277,7 +62277,7 @@
        "name": "Material",
        "identifier": "Material",
        "type": "MATERIAL",
-       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f9af48adaa0>"
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4cff8681a0>"
       }
      ]
     },
@@ -63138,7 +63138,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
       },
       {
        "name": "As Instance",
@@ -63170,7 +63170,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9b06bb7220>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f4cff59f220>"
       },
       {
        "name": "As Instance",
@@ -63448,7 +63448,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f9b06b94f20>"
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f4cff580f20>"
       },
       {
        "name": "As Instance",
@@ -63480,7 +63480,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f9b06bba420>"
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f4cff59a420>"
       },
       {
        "name": "As Instance",

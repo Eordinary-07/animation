@@ -9281,7 +9281,7 @@
           "name": "Collection",
           "identifier": "Collection",
           "type": "COLLECTION",
-          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f7fe9559fa0>"
+          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7febf5724e20>"
          },
          {
           "name": "Separate Children",
@@ -9362,7 +9362,7 @@
           "name": "Material",
           "identifier": "Material",
           "type": "MATERIAL",
-          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f7fdca0a9a0>"
+          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7febf4b55820>"
          }
         ]
        },
@@ -14190,7 +14190,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f7fe9250f20>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7febf4c1b920>"
          },
          {
           "name": "As Instance",
@@ -23152,7 +23152,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f7fe9226b20>"
+          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7febf4c01620>"
          },
          {
           "name": "As Instance",
@@ -23184,7 +23184,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f7fe9246420>"
+          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7febf4c18f20>"
          },
          {
           "name": "As Instance",
@@ -25610,7 +25610,7 @@
        "name": "Collection",
        "identifier": "Collection",
        "type": "COLLECTION",
-       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f7fe9559fa0>"
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7febf5724e20>"
       },
       {
        "name": "Separate Children",
@@ -25691,7 +25691,7 @@
        "name": "Material",
        "identifier": "Material",
        "type": "MATERIAL",
-       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f7fdca0a9a0>"
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7febf4b55820>"
       }
      ]
     },
@@ -26296,7 +26296,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f7fe9250f20>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7febf4c1b920>"
       },
       {
        "name": "As Instance",
@@ -26854,7 +26854,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f7fe9226b20>"
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7febf4c01620>"
       },
       {
        "name": "As Instance",
@@ -26886,7 +26886,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f7fe9246420>"
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7febf4c18f20>"
       },
       {
        "name": "As Instance",
