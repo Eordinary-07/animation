@@ -2,7 +2,7 @@
 
 > Every discipline that must exist (in a person or in this skill) to take an idea
 > to a studio-level finished animation. Audited against the
-> **animation-rigging-mastery** skill (27 refs, 25 books) on 2026-10-22.
+> **animation-rigging-mastery** skill (28 refs, 25 books) on 2026-10-22.
 > ✅ taught in the skill · ⚠️ present but thin · ❌ missing
 
 ---
@@ -28,8 +28,8 @@
 | Skill | Status |
 |---|---|
 | Armatures, IK/FK, constraints, drivers | ✅ refs 02, 11 §A |
-| Skinning & weight painting | ✅ 11 (procedures + troubleshooting) |
-| Shape keys & corrective deformation | ✅ refs 02, 06, 11 |
+| Skinning & weight painting | ✅ 11 (procedures) + **ref 28** (bind methods, normalization trap, max influences = 3, 60/40 table, deformation battery) |
+| Shape keys & corrective deformation | ✅ refs 02, 06, 11 + **28 §9** (never freeze, vertex-group masks, double-transform + combination targets) |
 | Facial rig systems (Osipa) | ✅ refs 02, 06 |
 | Rig math (vectors/matrices/constraints logic) | ✅ ref 07 |
 | Control design, custom properties, rig UI | ✅ 11 §A5 |
