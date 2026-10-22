@@ -68,3 +68,5 @@ jobs:
           else
             echo "Nothing new to commit."
           fi
+
+# rerun trigger: blend_dump materials fix (non-mesh objects)
