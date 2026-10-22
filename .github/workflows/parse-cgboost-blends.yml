@@ -1,0 +1,70 @@
+name: Parse CGBoost blends with Blender
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/parse-cgboost-blends.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Install Blender system libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libx11-6 libxi6 libxxf86vm1 libxfixes3 \
+            libxrender1 libgl1 libsm6 libxkbcommon0 libdbus-1-3 libxext6
+
+      - name: Install Blender 5.2 LTS
+        run: |
+          cd /tmp
+          curl -sL https://download.blender.org/release/Blender5.2/ -o listing.html
+          URL=$(grep -oE 'blender-5\.2\.[0-9]+-linux-x64\.tar\.xz' listing.html | sort -u | tail -1)
+          if [ -z "$URL" ]; then
+            URL=$(grep -oE 'blender-[0-9a-zA-Z._-]*linux-x64\.tar\.xz' listing.html | sort -u | tail -1)
+          fi
+          echo "downloading: $URL"
+          curl -sL -o blender.tar.xz "https://download.blender.org/release/Blender5.2/$URL"
+          ls -la blender.tar.xz
+          tar xf blender.tar.xz
+          BD=$(ls -d blender-*/ | head -1)
+          echo "$PWD/$BD" >> $GITHUB_PATH
+          "$PWD/$BD/blender" --version
+
+      - name: Download the CGBoost blend files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/blends cgboost-reports
+          gh release download merged-ocr --clobber -p '*.blend' -D /tmp/blends
+          ls -la /tmp/blends
+
+      - name: Extract studio data from every blend
+        run: |
+          for f in /tmp/blends/*.blend; do
+            b=$(basename "$f" .blend)
+            echo "======== $b ========"
+            timeout 1200 blender -b --factory-startup "$f" \
+              --python tools/blend_dump.py -- "cgboost-reports/${b}.json" 2>&1 | tail -4
+          done
+          ls -la cgboost-reports
+
+      - name: Commit the JSON reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- cgboost-reports
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add extracted CGBoost blend reports (Geometry Nodes trees, modifiers, mesh stats, fold metrics)"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
