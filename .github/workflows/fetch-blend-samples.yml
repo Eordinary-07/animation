@@ -1,0 +1,43 @@
+name: Commit small blend samples to repo
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/fetch-blend-samples.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Download a few small blend files (for local parsing)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p cgboost-samples
+          gh release download merged-ocr --clobber \
+            -p '05_04_exercise_1.blend' \
+            -p '05_04_exercise_2.blend' \
+            -p '03_09_refining_the_head_part_2_final.blend' \
+            -p '05_08_sculpting_shirt_part_4_final.blend' \
+            -D cgboost-samples
+          ls -la cgboost-samples
+
+      - name: Commit samples
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- cgboost-samples
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add 4 small CGBoost blend samples to the repo so they can be parsed locally with bpy"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
