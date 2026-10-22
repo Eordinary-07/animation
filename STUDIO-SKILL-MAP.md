@@ -2,7 +2,7 @@
 
 > Every discipline that must exist (in a person or in this skill) to take an idea
 > to a studio-level finished animation. Audited against the
-> **animation-rigging-mastery** skill (26 refs, 21 books) on 2026-10-21.
+> **animation-rigging-mastery** skill (27 refs, 25 books) on 2026-10-22.
 > ✅ taught in the skill · ⚠️ present but thin · ❌ missing
 
 ---
@@ -18,11 +18,11 @@
 ## 2. MODELING — *the category topology exposed*
 | Skill | What it is | Status |
 |---|---|---|
-| **Topology & retopology** | edge flow, deformation loops, pole placement, quad discipline | ❌ **no chapter** (10 scattered mentions; covered only by the Ava spec doc) |
+| **Topology & retopology** | edge flow, deformation loops, pole placement, quad discipline | ✅ **ref 27** — Vaughan's rule of three + O'Hailey's edgeloop laws, quad/n-gon discipline, pole placement, density budgets with measured numbers, printable PASS/FAIL Gate |
 | Organic modeling & **sculpting** | building characters/props from form; digital clay | ❌ shape-key sculpting only (11 §A7) |
-| **Anatomy** | skeleton, muscles, proportions, surface landmarks | ⚠️ rigging-context fragments (ref 02) |
+| **Anatomy** | skeleton, muscles, proportions, surface landmarks | ⚠️ rigging-context fragments (ref 02) + anatomy loop list (ref 27 §1.3); Zarins/Hogarth in repo, no chapter yet |
 | Hard-surface modeling | props, vehicles, weapons, mechanical forms | ❌ |
-| **UV unwrapping** | seams, islands, texel density, UDIMs | ⚠️ texel density law (17 §2) yes; unwrapping craft thin |
+| **UV unwrapping** | seams, islands, texel density, UDIMs | ✅ seam/island placement law (27 §5, Vaughan p.182) + texel density law (17 §2) |
 
 ## 3. RIGGING
 | Skill | Status |
@@ -113,10 +113,11 @@
 
 ## ❌ THE GAP LIST (priority order for YOUR current path)
 
-1. **Topology & retopology** — you hit this TODAY with Ava; Osipa (already owned)
-   covers facial loops; body flow needs a real chapter.
+1. ~~**Topology & retopology**~~ — ✅ **CLOSED 2026-10-22 by ref 27** (mesh & topology
+   readiness gate; Vaughan + O'Hailey, text-verified).
 2. **Modeling, sculpting & anatomy** — even with AI-generated meshes, judging and
-   fixing form is unavoidable (your Tripo cleanup proved it).
+   fixing form is unavoidable (your Tripo cleanup proved it). Zarins + Hogarth are in
+   the repo and still need a chapter.
 3. **Hair** (grooming + hair-card/chain craft) — Ava's hair is in every shot.
 4. **Simulation technique** — cloth/hair/secondary motion for fight realism.
 5. **Geometry Nodes** — modern Blender's power system (also feeds rigs via the
