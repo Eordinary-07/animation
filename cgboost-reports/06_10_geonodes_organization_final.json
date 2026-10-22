@@ -132,17 +132,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 47106,
-    "bbox_diagonal": 0.60466,
-    "fold_amplitude": {
-     "median": 2.8e-05,
-     "p75": 4e-05,
-     "p95": 7.5e-05,
-     "max": 0.000127,
-     "p95_percent_of_diagonal": 0.012,
-     "max_percent_of_diagonal": 0.021
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 47106
    }
   },
   {
@@ -329,17 +321,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 121,
-    "bbox_diagonal": 0.50899,
-    "fold_amplitude": {
-     "median": 0.010932,
-     "p75": 0.014506,
-     "p95": 0.029785,
-     "max": 0.043098,
-     "p95_percent_of_diagonal": 5.852,
-     "max_percent_of_diagonal": 8.467
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 121
    }
   },
   {
@@ -497,17 +481,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 92,
-    "bbox_diagonal": 0.32844,
-    "fold_amplitude": {
-     "median": 0.015831,
-     "p75": 0.019639,
-     "p95": 0.023258,
-     "max": 0.033939,
-     "p95_percent_of_diagonal": 7.081,
-     "max_percent_of_diagonal": 10.333
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 92
    }
   },
   {
@@ -665,17 +641,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 55,
-    "bbox_diagonal": 0.20774,
-    "fold_amplitude": {
-     "median": 0.013366,
-     "p75": 0.016729,
-     "p95": 0.019374,
-     "max": 0.022993,
-     "p95_percent_of_diagonal": 9.326,
-     "max_percent_of_diagonal": 11.068
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 55
    }
   },
   {
@@ -808,17 +776,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 1986,
-    "bbox_diagonal": 0.24441,
-    "fold_amplitude": {
-     "median": 0.000419,
-     "p75": 0.000548,
-     "p95": 0.000819,
-     "max": 0.001568,
-     "p95_percent_of_diagonal": 0.335,
-     "max_percent_of_diagonal": 0.642
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 1986
    }
   },
   {
@@ -1349,17 +1309,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 12,
-    "bbox_diagonal": 0.09546,
-    "fold_amplitude": {
-     "median": 0.007592,
-     "p75": 0.010666,
-     "p95": 0.019865,
-     "max": 0.019865,
-     "p95_percent_of_diagonal": 20.811,
-     "max_percent_of_diagonal": 20.811
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 12
    }
   },
   {
@@ -1487,17 +1439,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 18434,
-    "bbox_diagonal": 0.27165,
-    "fold_amplitude": {
-     "median": 5.1e-05,
-     "p75": 7.5e-05,
-     "p95": 0.000192,
-     "max": 0.001284,
-     "p95_percent_of_diagonal": 0.071,
-     "max_percent_of_diagonal": 0.473
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 18434
    }
   },
   {
@@ -1998,17 +1942,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 8706,
-    "bbox_diagonal": 0.13773,
-    "fold_amplitude": {
-     "median": 3.7e-05,
-     "p75": 4.8e-05,
-     "p95": 0.000104,
-     "max": 0.000432,
-     "p95_percent_of_diagonal": 0.075,
-     "max_percent_of_diagonal": 0.314
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 8706
    }
   },
   {
@@ -2509,17 +2445,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 8706,
-    "bbox_diagonal": 0.13773,
-    "fold_amplitude": {
-     "median": 3.7e-05,
-     "p75": 4.8e-05,
-     "p95": 0.000104,
-     "max": 0.000432,
-     "p95_percent_of_diagonal": 0.075,
-     "max_percent_of_diagonal": 0.314
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 8706
    }
   },
   {
@@ -3020,17 +2948,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 8706,
-    "bbox_diagonal": 0.13773,
-    "fold_amplitude": {
-     "median": 3.7e-05,
-     "p75": 4.8e-05,
-     "p95": 0.000104,
-     "max": 0.000432,
-     "p95_percent_of_diagonal": 0.075,
-     "max_percent_of_diagonal": 0.314
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 8706
    }
   },
   {
@@ -3531,17 +3451,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 8706,
-    "bbox_diagonal": 0.13773,
-    "fold_amplitude": {
-     "median": 3.7e-05,
-     "p75": 4.8e-05,
-     "p95": 0.000104,
-     "max": 0.000432,
-     "p95_percent_of_diagonal": 0.075,
-     "max_percent_of_diagonal": 0.314
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 8706
    }
   },
   {
@@ -3694,17 +3606,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 80,
-    "bbox_diagonal": 0.22212,
-    "fold_amplitude": {
-     "median": 0.015967,
-     "p75": 0.023068,
-     "p95": 0.026226,
-     "max": 0.028491,
-     "p95_percent_of_diagonal": 11.807,
-     "max_percent_of_diagonal": 12.827
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 80
    }
   },
   {
@@ -3825,17 +3729,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 98306,
-    "bbox_diagonal": 0.53975,
-    "fold_amplitude": {
-     "median": 4.9e-05,
-     "p75": 0.000136,
-     "p95": 0.000377,
-     "max": 0.002542,
-     "p95_percent_of_diagonal": 0.07,
-     "max_percent_of_diagonal": 0.471
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 98306
    }
   },
   {
@@ -3923,17 +3819,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 6146,
-    "bbox_diagonal": 0.26777,
-    "fold_amplitude": {
-     "median": 0.000221,
-     "p75": 0.000419,
-     "p95": 0.001005,
-     "max": 0.00543,
-     "p95_percent_of_diagonal": 0.375,
-     "max_percent_of_diagonal": 2.028
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 6146
    }
   },
   {
@@ -4021,17 +3909,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 6146,
-    "bbox_diagonal": 0.24651,
-    "fold_amplitude": {
-     "median": 0.000275,
-     "p75": 0.000498,
-     "p95": 0.001081,
-     "max": 0.004359,
-     "p95_percent_of_diagonal": 0.438,
-     "max_percent_of_diagonal": 1.768
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 6146
    }
   },
   {
@@ -4155,17 +4035,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.1633,
-    "fold_amplitude": {
-     "median": 0.004217,
-     "p75": 0.006399,
-     "p95": 0.013221,
-     "max": 0.024544,
-     "p95_percent_of_diagonal": 8.096,
-     "max_percent_of_diagonal": 15.03
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4279,17 +4151,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.14499,
-    "fold_amplitude": {
-     "median": 0.003133,
-     "p75": 0.006004,
-     "p95": 0.014181,
-     "max": 0.020996,
-     "p95_percent_of_diagonal": 9.781,
-     "max_percent_of_diagonal": 14.481
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4413,17 +4277,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.16566,
-    "fold_amplitude": {
-     "median": 0.004286,
-     "p75": 0.006271,
-     "p95": 0.013451,
-     "max": 0.02057,
-     "p95_percent_of_diagonal": 8.12,
-     "max_percent_of_diagonal": 12.417
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4547,17 +4403,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.16635,
-    "fold_amplitude": {
-     "median": 0.004956,
-     "p75": 0.007135,
-     "p95": 0.013752,
-     "max": 0.025116,
-     "p95_percent_of_diagonal": 8.267,
-     "max_percent_of_diagonal": 15.098
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4681,17 +4529,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.1507,
-    "fold_amplitude": {
-     "median": 0.003812,
-     "p75": 0.006184,
-     "p95": 0.01607,
-     "max": 0.021529,
-     "p95_percent_of_diagonal": 10.664,
-     "max_percent_of_diagonal": 14.286
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4810,17 +4650,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.1671,
-    "fold_amplitude": {
-     "median": 0.006103,
-     "p75": 0.008201,
-     "p95": 0.013776,
-     "max": 0.019642,
-     "p95_percent_of_diagonal": 8.245,
-     "max_percent_of_diagonal": 11.755
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -4944,17 +4776,9 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 29,
-    "bbox_diagonal": 0.15497,
-    "fold_amplitude": {
-     "median": 0.004694,
-     "p75": 0.007201,
-     "p95": 0.016975,
-     "max": 0.017665,
-     "p95_percent_of_diagonal": 10.953,
-     "max_percent_of_diagonal": 11.399
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 29
    }
   },
   {
@@ -5083,17 +4907,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.07363,
-    "fold_amplitude": {
-     "median": 0.005001,
-     "p75": 0.007372,
-     "p95": 0.016798,
-     "max": 0.016798,
-     "p95_percent_of_diagonal": 22.815,
-     "max_percent_of_diagonal": 22.815
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5222,17 +5038,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.0621,
-    "fold_amplitude": {
-     "median": 0.002775,
-     "p75": 0.005558,
-     "p95": 0.017145,
-     "max": 0.017145,
-     "p95_percent_of_diagonal": 27.608,
-     "max_percent_of_diagonal": 27.608
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5361,17 +5169,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.10029,
-    "fold_amplitude": {
-     "median": 0.008693,
-     "p75": 0.009824,
-     "p95": 0.032734,
-     "max": 0.032734,
-     "p95_percent_of_diagonal": 32.64,
-     "max_percent_of_diagonal": 32.64
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5500,17 +5300,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.08183,
-    "fold_amplitude": {
-     "median": 0.005579,
-     "p75": 0.008957,
-     "p95": 0.017541,
-     "max": 0.017541,
-     "p95_percent_of_diagonal": 21.435,
-     "max_percent_of_diagonal": 21.435
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5639,17 +5431,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.0492,
-    "fold_amplitude": {
-     "median": 0.004134,
-     "p75": 0.005442,
-     "p95": 0.015673,
-     "max": 0.015673,
-     "p95_percent_of_diagonal": 31.857,
-     "max_percent_of_diagonal": 31.857
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5778,17 +5562,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.04697,
-    "fold_amplitude": {
-     "median": 0.003611,
-     "p75": 0.005442,
-     "p95": 0.012299,
-     "max": 0.012299,
-     "p95_percent_of_diagonal": 26.184,
-     "max_percent_of_diagonal": 26.184
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -5917,17 +5693,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.048,
-    "fold_amplitude": {
-     "median": 0.003783,
-     "p75": 0.005442,
-     "p95": 0.014013,
-     "max": 0.014013,
-     "p95_percent_of_diagonal": 29.197,
-     "max_percent_of_diagonal": 29.197
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6056,17 +5824,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.06757,
-    "fold_amplitude": {
-     "median": 0.00552,
-     "p75": 0.006264,
-     "p95": 0.019204,
-     "max": 0.019204,
-     "p95_percent_of_diagonal": 28.422,
-     "max_percent_of_diagonal": 28.422
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6195,17 +5955,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.04745,
-    "fold_amplitude": {
-     "median": 0.003783,
-     "p75": 0.005442,
-     "p95": 0.014013,
-     "max": 0.014013,
-     "p95_percent_of_diagonal": 29.532,
-     "max_percent_of_diagonal": 29.532
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6334,17 +6086,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.09308,
-    "fold_amplitude": {
-     "median": 0.006555,
-     "p75": 0.008174,
-     "p95": 0.020807,
-     "max": 0.020807,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6473,17 +6217,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.034,
-    "fold_amplitude": {
-     "median": 0.002925,
-     "p75": 0.004059,
-     "p95": 0.010306,
-     "max": 0.010306,
-     "p95_percent_of_diagonal": 30.311,
-     "max_percent_of_diagonal": 30.311
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6612,17 +6348,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.03847,
-    "fold_amplitude": {
-     "median": 0.003156,
-     "p75": 0.004433,
-     "p95": 0.011308,
-     "max": 0.011308,
-     "p95_percent_of_diagonal": 29.392,
-     "max_percent_of_diagonal": 29.392
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6751,17 +6479,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.09729,
-    "fold_amplitude": {
-     "median": 0.006555,
-     "p75": 0.008174,
-     "p95": 0.020807,
-     "max": 0.020807,
-     "p95_percent_of_diagonal": 21.386,
-     "max_percent_of_diagonal": 21.386
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -6890,17 +6610,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.05723,
-    "fold_amplitude": {
-     "median": 0.003517,
-     "p75": 0.005439,
-     "p95": 0.01442,
-     "max": 0.01442,
-     "p95_percent_of_diagonal": 25.194,
-     "max_percent_of_diagonal": 25.194
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7029,17 +6741,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.04697,
-    "fold_amplitude": {
-     "median": 0.003611,
-     "p75": 0.005442,
-     "p95": 0.012299,
-     "max": 0.012299,
-     "p95_percent_of_diagonal": 26.184,
-     "max_percent_of_diagonal": 26.184
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7168,17 +6872,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.034,
-    "fold_amplitude": {
-     "median": 0.002925,
-     "p75": 0.004059,
-     "p95": 0.010306,
-     "max": 0.010306,
-     "p95_percent_of_diagonal": 30.311,
-     "max_percent_of_diagonal": 30.311
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7307,17 +7003,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.04697,
-    "fold_amplitude": {
-     "median": 0.003611,
-     "p75": 0.005442,
-     "p95": 0.012299,
-     "max": 0.012299,
-     "p95_percent_of_diagonal": 26.184,
-     "max_percent_of_diagonal": 26.184
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7446,17 +7134,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.034,
-    "fold_amplitude": {
-     "median": 0.002925,
-     "p75": 0.004059,
-     "p95": 0.010306,
-     "max": 0.010306,
-     "p95_percent_of_diagonal": 30.311,
-     "max_percent_of_diagonal": 30.311
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7585,17 +7265,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.048,
-    "fold_amplitude": {
-     "median": 0.003783,
-     "p75": 0.005442,
-     "p95": 0.014013,
-     "max": 0.014013,
-     "p95_percent_of_diagonal": 29.197,
-     "max_percent_of_diagonal": 29.197
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7724,17 +7396,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.09693,
-    "fold_amplitude": {
-     "median": 0.006755,
-     "p75": 0.008187,
-     "p95": 0.021311,
-     "max": 0.021311,
-     "p95_percent_of_diagonal": 21.985,
-     "max_percent_of_diagonal": 21.985
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -7863,17 +7527,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.06757,
-    "fold_amplitude": {
-     "median": 0.00552,
-     "p75": 0.006264,
-     "p95": 0.019204,
-     "max": 0.019204,
-     "p95_percent_of_diagonal": 28.422,
-     "max_percent_of_diagonal": 28.422
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8002,17 +7658,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13431,
-    "fold_amplitude": {
-     "median": 0.008511,
-     "p75": 0.012197,
-     "p95": 0.029993,
-     "max": 0.029993,
-     "p95_percent_of_diagonal": 22.331,
-     "max_percent_of_diagonal": 22.331
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8126,17 +7774,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.14278,
-    "fold_amplitude": {
-     "median": 0.009946,
-     "p75": 0.012182,
-     "p95": 0.030693,
-     "max": 0.030693,
-     "p95_percent_of_diagonal": 21.496,
-     "max_percent_of_diagonal": 21.496
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8265,17 +7905,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8404,17 +8036,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8543,17 +8167,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8682,17 +8298,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8821,17 +8429,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -8960,17 +8560,9 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 17,
-    "bbox_diagonal": 0.13839,
-    "fold_amplitude": {
-     "median": 0.009747,
-     "p75": 0.012154,
-     "p95": 0.030937,
-     "max": 0.030937,
-     "p95_percent_of_diagonal": 22.354,
-     "max_percent_of_diagonal": 22.354
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 17
    }
   },
   {
@@ -9211,17 +8803,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 8,
-    "bbox_diagonal": 0.16491,
-    "fold_amplitude": {
-     "median": 0.042203,
-     "p75": 0.042362,
-     "p95": 0.042362,
-     "max": 0.042362,
-     "p95_percent_of_diagonal": 25.688,
-     "max_percent_of_diagonal": 25.688
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 8
    }
   },
   {
@@ -9379,17 +8963,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 90,
-    "bbox_diagonal": 0.14639,
-    "fold_amplitude": {
-     "median": 0.004568,
-     "p75": 0.005633,
-     "p95": 0.008963,
-     "max": 0.016496,
-     "p95_percent_of_diagonal": 6.123,
-     "max_percent_of_diagonal": 11.269
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 90
    }
   },
   {
@@ -9512,17 +9088,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 33794,
-    "bbox_diagonal": 0.15225,
-    "fold_amplitude": {
-     "median": 1.7e-05,
-     "p75": 2.3e-05,
-     "p95": 4.7e-05,
-     "max": 0.000178,
-     "p95_percent_of_diagonal": 0.031,
-     "max_percent_of_diagonal": 0.117
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 33794
    }
   },
   {
@@ -9610,17 +9178,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 147458,
-    "bbox_diagonal": 0.51514,
-    "fold_amplitude": {
-     "median": 1.2e-05,
-     "p75": 1.6e-05,
-     "p95": 7.6e-05,
-     "max": 0.002688,
-     "p95_percent_of_diagonal": 0.015,
-     "max_percent_of_diagonal": 0.522
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 147458
    }
   },
   {
@@ -9721,7 +9281,7 @@
           "name": "Collection",
           "identifier": "Collection",
           "type": "COLLECTION",
-          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f5b12550e20>"
+          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f7fe9559fa0>"
          },
          {
           "name": "Separate Children",
@@ -9802,7 +9362,7 @@
           "name": "Material",
           "identifier": "Material",
           "type": "MATERIAL",
-          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f5b11975820>"
+          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f7fdca0a9a0>"
          }
         ]
        },
@@ -10002,17 +9562,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 4,
-    "bbox_diagonal": 2.82843,
-    "fold_amplitude": {
-     "median": 1.237437,
-     "p75": 1.237437,
-     "p95": 1.237437,
-     "max": 1.237437,
-     "p95_percent_of_diagonal": 43.75,
-     "max_percent_of_diagonal": 43.75
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 4
    }
   },
   {
@@ -10100,17 +9652,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 624,
-    "bbox_diagonal": 0.44756,
-    "fold_amplitude": {
-     "median": 0.002134,
-     "p75": 0.003303,
-     "p95": 0.004181,
-     "max": 0.004646,
-     "p95_percent_of_diagonal": 0.934,
-     "max_percent_of_diagonal": 1.038
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 624
    }
   },
   {
@@ -10198,17 +9742,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 624,
-    "bbox_diagonal": 0.44756,
-    "fold_amplitude": {
-     "median": 0.002134,
-     "p75": 0.003303,
-     "p95": 0.004181,
-     "max": 0.004646,
-     "p95_percent_of_diagonal": 0.934,
-     "max_percent_of_diagonal": 1.038
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 624
    }
   },
   {
@@ -10436,17 +9972,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 43010,
-    "bbox_diagonal": 1.08207,
-    "fold_amplitude": {
-     "median": 6.2e-05,
-     "p75": 9e-05,
-     "p95": 0.000133,
-     "max": 0.000274,
-     "p95_percent_of_diagonal": 0.012,
-     "max_percent_of_diagonal": 0.025
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 43010
    }
   },
   {
@@ -11116,17 +10644,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02222,
-    "fold_amplitude": {
-     "median": 0.003192,
-     "p75": 0.00424,
-     "p95": 0.004779,
-     "max": 0.004779,
-     "p95_percent_of_diagonal": 21.508,
-     "max_percent_of_diagonal": 21.508
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -11701,17 +11221,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02222,
-    "fold_amplitude": {
-     "median": 0.003192,
-     "p75": 0.00424,
-     "p95": 0.004779,
-     "max": 0.004779,
-     "p95_percent_of_diagonal": 21.508,
-     "max_percent_of_diagonal": 21.508
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -12286,17 +11798,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02222,
-    "fold_amplitude": {
-     "median": 0.003192,
-     "p75": 0.00424,
-     "p95": 0.004779,
-     "max": 0.004779,
-     "p95_percent_of_diagonal": 21.508,
-     "max_percent_of_diagonal": 21.508
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -12871,17 +12375,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02222,
-    "fold_amplitude": {
-     "median": 0.003192,
-     "p75": 0.00424,
-     "p95": 0.004779,
-     "max": 0.004779,
-     "p95_percent_of_diagonal": 21.508,
-     "max_percent_of_diagonal": 21.508
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -13644,17 +13140,9 @@
     "quad_percent": 96.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 64,
-    "bbox_diagonal": 0.02441,
-    "fold_amplitude": {
-     "median": 0.000771,
-     "p75": 0.000771,
-     "p95": 0.000771,
-     "max": 0.000771,
-     "p95_percent_of_diagonal": 3.161,
-     "max_percent_of_diagonal": 3.161
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 64
    }
   },
   {
@@ -14134,17 +13622,9 @@
     "quad_percent": 96.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 64,
-    "bbox_diagonal": 0.03078,
-    "fold_amplitude": {
-     "median": 0.000973,
-     "p75": 0.000973,
-     "p95": 0.000973,
-     "max": 0.000973,
-     "p95_percent_of_diagonal": 3.161,
-     "max_percent_of_diagonal": 3.161
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 64
    }
   },
   {
@@ -14710,7 +14190,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f5b11a37220>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f7fe9250f20>"
          },
          {
           "name": "As Instance",
@@ -15328,17 +14808,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 1300,
-    "bbox_diagonal": 0.81728,
-    "fold_amplitude": {
-     "median": 0.001762,
-     "p75": 0.003418,
-     "p95": 0.005843,
-     "max": 0.016111,
-     "p95_percent_of_diagonal": 0.715,
-     "max_percent_of_diagonal": 1.971
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 1300
    }
   },
   {
@@ -15529,17 +15001,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 1375,
-    "bbox_diagonal": 0.81857,
-    "fold_amplitude": {
-     "median": 0.001569,
-     "p75": 0.003253,
-     "p95": 0.006192,
-     "max": 0.012717,
-     "p95_percent_of_diagonal": 0.756,
-     "max_percent_of_diagonal": 1.554
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 1375
    }
   },
   {
@@ -16018,17 +15482,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 24,
-    "bbox_diagonal": 0.08086,
-    "fold_amplitude": {
-     "median": 0.006021,
-     "p75": 0.007362,
-     "p95": 0.010571,
-     "max": 0.010821,
-     "p95_percent_of_diagonal": 13.073,
-     "max_percent_of_diagonal": 13.382
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 24
    }
   },
   {
@@ -16497,17 +15953,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 51,
-    "bbox_diagonal": 0.14383,
-    "fold_amplitude": {
-     "median": 0.007687,
-     "p75": 0.008335,
-     "p95": 0.008902,
-     "max": 0.009049,
-     "p95_percent_of_diagonal": 6.189,
-     "max_percent_of_diagonal": 6.291
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 51
    }
   },
   {
@@ -17037,17 +16485,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 4610,
-    "bbox_diagonal": 0.0747,
-    "fold_amplitude": {
-     "median": 4.5e-05,
-     "p75": 7e-05,
-     "p95": 0.000152,
-     "max": 0.000263,
-     "p95_percent_of_diagonal": 0.204,
-     "max_percent_of_diagonal": 0.352
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 4610
    }
   },
   {
@@ -17627,17 +17067,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.01946,
-    "fold_amplitude": {
-     "median": 0.002585,
-     "p75": 0.003302,
-     "p95": 0.003962,
-     "max": 0.003962,
-     "p95_percent_of_diagonal": 20.366,
-     "max_percent_of_diagonal": 20.366
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -17963,17 +17395,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 898,
-    "bbox_diagonal": 0.06689,
-    "fold_amplitude": {
-     "median": 0.000199,
-     "p75": 0.000246,
-     "p95": 0.000332,
-     "max": 0.000564,
-     "p95_percent_of_diagonal": 0.496,
-     "max_percent_of_diagonal": 0.843
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 898
    }
   },
   {
@@ -18299,17 +17723,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 898,
-    "bbox_diagonal": 0.06689,
-    "fold_amplitude": {
-     "median": 0.000199,
-     "p75": 0.000246,
-     "p95": 0.000332,
-     "max": 0.000564,
-     "p95_percent_of_diagonal": 0.496,
-     "max_percent_of_diagonal": 0.843
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 898
    }
   },
   {
@@ -18635,17 +18051,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 898,
-    "bbox_diagonal": 0.06689,
-    "fold_amplitude": {
-     "median": 0.000199,
-     "p75": 0.000246,
-     "p95": 0.000332,
-     "max": 0.000564,
-     "p95_percent_of_diagonal": 0.496,
-     "max_percent_of_diagonal": 0.843
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 898
    }
   },
   {
@@ -18964,17 +18372,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 2562,
-    "bbox_diagonal": 0.0796,
-    "fold_amplitude": {
-     "median": 8.7e-05,
-     "p75": 0.000116,
-     "p95": 0.000215,
-     "max": 0.00059,
-     "p95_percent_of_diagonal": 0.27,
-     "max_percent_of_diagonal": 0.741
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 2562
    }
   },
   {
@@ -19300,17 +18700,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 898,
-    "bbox_diagonal": 0.06642,
-    "fold_amplitude": {
-     "median": 0.000207,
-     "p75": 0.000253,
-     "p95": 0.000344,
-     "max": 0.000643,
-     "p95_percent_of_diagonal": 0.518,
-     "max_percent_of_diagonal": 0.969
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 898
    }
   },
   {
@@ -19718,17 +19110,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02166,
-    "fold_amplitude": {
-     "median": 0.003252,
-     "p75": 0.003559,
-     "p95": 0.003948,
-     "max": 0.003948,
-     "p95_percent_of_diagonal": 18.223,
-     "max_percent_of_diagonal": 18.223
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -20136,17 +19520,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02166,
-    "fold_amplitude": {
-     "median": 0.003252,
-     "p75": 0.003559,
-     "p95": 0.003948,
-     "max": 0.003948,
-     "p95_percent_of_diagonal": 18.223,
-     "max_percent_of_diagonal": 18.223
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -20554,17 +19930,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02166,
-    "fold_amplitude": {
-     "median": 0.003252,
-     "p75": 0.003559,
-     "p95": 0.003948,
-     "max": 0.003948,
-     "p95_percent_of_diagonal": 18.223,
-     "max_percent_of_diagonal": 18.223
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -20972,17 +20340,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.03312,
-    "fold_amplitude": {
-     "median": 0.005029,
-     "p75": 0.00549,
-     "p95": 0.006092,
-     "max": 0.006092,
-     "p95_percent_of_diagonal": 18.394,
-     "max_percent_of_diagonal": 18.394
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -21390,17 +20750,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 15,
-    "bbox_diagonal": 0.02166,
-    "fold_amplitude": {
-     "median": 0.003252,
-     "p75": 0.003559,
-     "p95": 0.003948,
-     "max": 0.003948,
-     "p95_percent_of_diagonal": 18.223,
-     "max_percent_of_diagonal": 18.223
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 15
    }
   },
   {
@@ -21563,17 +20915,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 76,
-    "bbox_diagonal": 0.12826,
-    "fold_amplitude": {
-     "median": 0.010395,
-     "p75": 0.012961,
-     "p95": 0.020954,
-     "max": 0.02253,
-     "p95_percent_of_diagonal": 16.338,
-     "max_percent_of_diagonal": 17.566
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 76
    }
   },
   {
@@ -21656,17 +21000,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 44546,
-    "bbox_diagonal": 0.91803,
-    "fold_amplitude": {
-     "median": 8.9e-05,
-     "p75": 0.000151,
-     "p95": 0.000307,
-     "max": 0.003215,
-     "p95_percent_of_diagonal": 0.033,
-     "max_percent_of_diagonal": 0.35
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 44546
    }
   },
   {
@@ -21761,17 +21097,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 2155,
-    "bbox_diagonal": 0.95336,
-    "fold_amplitude": {
-     "median": 0.002143,
-     "p75": 0.002797,
-     "p95": 0.004134,
-     "max": 0.011732,
-     "p95_percent_of_diagonal": 0.434,
-     "max_percent_of_diagonal": 1.231
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 2155
    }
   },
   {
@@ -22285,17 +21613,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 44,
-    "bbox_diagonal": 0.46318,
-    "fold_amplitude": {
-     "median": 0.010783,
-     "p75": 0.011126,
-     "p95": 0.01732,
-     "max": 0.017913,
-     "p95_percent_of_diagonal": 3.739,
-     "max_percent_of_diagonal": 3.867
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 44
    }
   },
   {
@@ -22560,17 +21880,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 60,
-    "bbox_diagonal": 0.2198,
-    "fold_amplitude": {
-     "median": 0.01104,
-     "p75": 0.01739,
-     "p95": 0.01861,
-     "max": 0.019178,
-     "p95_percent_of_diagonal": 8.467,
-     "max_percent_of_diagonal": 8.725
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 60
    }
   },
   {
@@ -22817,17 +22129,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 122,
-    "bbox_diagonal": 0.32506,
-    "fold_amplitude": {
-     "median": 0.004824,
-     "p75": 0.005839,
-     "p95": 0.007932,
-     "max": 0.019787,
-     "p95_percent_of_diagonal": 2.44,
-     "max_percent_of_diagonal": 6.087
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 122
    }
   },
   {
@@ -23271,17 +22575,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 64,
-    "bbox_diagonal": 0.20614,
-    "fold_amplitude": {
-     "median": 0.005635,
-     "p75": 0.006099,
-     "p95": 0.010608,
-     "max": 0.011934,
-     "p95_percent_of_diagonal": 5.146,
-     "max_percent_of_diagonal": 5.789
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 64
    }
   },
   {
@@ -23753,17 +23049,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 2195,
-    "bbox_diagonal": 0.94468,
-    "fold_amplitude": {
-     "median": 0.002112,
-     "p75": 0.002819,
-     "p95": 0.004477,
-     "max": 0.005512,
-     "p95_percent_of_diagonal": 0.474,
-     "max_percent_of_diagonal": 0.583
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 2195
    }
   },
   {
@@ -23864,7 +23152,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f5b11a1cf20>"
+          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f7fe9226b20>"
          },
          {
           "name": "As Instance",
@@ -23896,7 +23184,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f5b11a34820>"
+          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f7fe9246420>"
          },
          {
           "name": "As Instance",
@@ -25152,17 +24440,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 75,
-    "bbox_diagonal": 0.41917,
-    "fold_amplitude": {
-     "median": 0.005573,
-     "p75": 0.005781,
-     "p95": 0.01038,
-     "max": 0.011402,
-     "p95_percent_of_diagonal": 2.476,
-     "max_percent_of_diagonal": 2.72
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 75
    }
   },
   {
@@ -25330,17 +24610,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 44,
-    "bbox_diagonal": 0.0087,
-    "fold_amplitude": {
-     "median": 0.000872,
-     "p75": 0.001265,
-     "p95": 0.0015,
-     "max": 0.001574,
-     "p95_percent_of_diagonal": 17.242,
-     "max_percent_of_diagonal": 18.092
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 44
    }
   },
   {
@@ -25449,17 +24721,9 @@
     "quad_percent": 99.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 380,
-    "bbox_diagonal": 0.01933,
-    "fold_amplitude": {
-     "median": 0.000411,
-     "p75": 0.000636,
-     "p95": 0.001142,
-     "max": 0.001703,
-     "p95_percent_of_diagonal": 5.906,
-     "max_percent_of_diagonal": 8.811
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 380
    }
   },
   {
@@ -25612,17 +24876,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 77,
-    "bbox_diagonal": 0.19312,
-    "fold_amplitude": {
-     "median": 0.005183,
-     "p75": 0.007717,
-     "p95": 0.012482,
-     "max": 0.015168,
-     "p95_percent_of_diagonal": 6.464,
-     "max_percent_of_diagonal": 7.854
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 77
    }
   },
   {
@@ -25746,17 +25002,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 56,
-    "bbox_diagonal": 0.05506,
-    "fold_amplitude": {
-     "median": 0.004407,
-     "p75": 0.006044,
-     "p95": 0.0116,
-     "max": 0.0116,
-     "p95_percent_of_diagonal": 21.068,
-     "max_percent_of_diagonal": 21.068
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 56
    }
   }
  ],
@@ -26362,7 +25610,7 @@
        "name": "Collection",
        "identifier": "Collection",
        "type": "COLLECTION",
-       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f5b12550e20>"
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f7fe9559fa0>"
       },
       {
        "name": "Separate Children",
@@ -26443,7 +25691,7 @@
        "name": "Material",
        "identifier": "Material",
        "type": "MATERIAL",
-       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f5b11975820>"
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f7fdca0a9a0>"
       }
      ]
     },
@@ -27048,7 +26296,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f5b11a37220>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object\") at 0x7f7fe9250f20>"
       },
       {
        "name": "As Instance",
@@ -27606,7 +26854,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f5b11a1cf20>"
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f7fe9226b20>"
       },
       {
        "name": "As Instance",
@@ -27638,7 +26886,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f5b11a34820>"
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f7fe9246420>"
       },
       {
        "name": "As Instance",

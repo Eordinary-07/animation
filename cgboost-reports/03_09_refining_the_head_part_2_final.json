@@ -159,17 +159,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 147458,
-    "bbox_diagonal": 0.51514,
-    "fold_amplitude": {
-     "median": 1.2e-05,
-     "p75": 1.6e-05,
-     "p95": 7.6e-05,
-     "max": 0.002688,
-     "p95_percent_of_diagonal": 0.015,
-     "max_percent_of_diagonal": 0.522
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 147458
    }
   },
   {
@@ -690,17 +682,9 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": false,
-    "vertices": 12,
-    "bbox_diagonal": 0.09676,
-    "fold_amplitude": {
-     "median": 0.009973,
-     "p75": 0.011515,
-     "p95": 0.01952,
-     "max": 0.01952,
-     "p95_percent_of_diagonal": 20.174,
-     "max_percent_of_diagonal": 20.174
-    }
+    "skipped": true,
+    "reason": "name 'cur' is not defined",
+    "vertices": 12
    }
   }
  ],
