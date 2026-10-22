@@ -76,3 +76,5 @@ jobs:
 # rerun: proper fold metric (30-iter full Laplacian form deviation)
 
 # rerun: remove stale devs loop (NameError cur)
+
+# rerun: fold metric fixed, rebased
