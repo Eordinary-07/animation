@@ -1,0 +1,85 @@
+name: Fetch studio books from release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arena/c07d05d5-animation]
+    paths: ['.github/workflows/fetch-studio-books.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/c07d05d5-animation
+
+      - name: Download new books from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download merged-ocr --clobber \
+            -p 'digital-modeling*' \
+            -p 'kupdf.net_anatomy-for-sculptorspdf.pdf' \
+            -p 'Framed.Ink*' \
+            -p '*Rig_it_Right*' \
+            -p 'the-art-and-science-of-digital-compositing*' \
+            -p 'Color.Correction.Handbook*' \
+            -p 'Compositing_Visual_Effects*' \
+            -p 'kupdf.net_burne-hogarth*' \
+            -D .
+          ls -la *.pdf
+
+      - name: Rename to clean filenames
+        run: |
+          mv 'Color.Correction.Handbook_.Professional.Techniques.for.Video.--.Alexis.Van.Hurkman.--.Pearson.Education.US.San.Francisco.Calif_.2014.--.isbn13.9780133435542.--.5ad7f796b7a030b44bf70cd57e96f0c0.--.Anna.s.Arch.pdf' color-correction-handbook-2nd-edition-van-hurkman.pdf || true
+          mv 'Framed.Ink.-.Drawing.Composition.for.Visual.Storytellers.Marcos.Mateu-Mestre._text.pdf' framed-ink-mateu-mestre.pdf || true
+          mv '_OceanofPDF.com_Rig_it_Right_Maya_Animation_Rigging_Concepts_-_Tina_OHailey.pdf' rig-it-right-ohailey.pdf || true
+          mv 'kupdf.net_anatomy-for-sculptorspdf.pdf' anatomy-for-sculptors-zarins.pdf || true
+          mv 'kupdf.net_burne-hogarth-dynamic-wrinkles-and-drapery.pdf' dynamic-wrinkles-and-drapery-hogarth.pdf || true
+          ls -la *.pdf
+
+      - name: Split Brinkmann (over GitHub 100MB file limit)
+        run: |
+          pip install pypdf
+          python3 - <<'PYEOF'
+          from pypdf import PdfReader, PdfWriter
+          src = "the-art-and-science-of-digital-compositing-pdf_compress.pdf"
+          r = PdfReader(src)
+          n = len(r.pages)
+          half = n // 2
+          print("total pages:", n)
+          for a, b, name in [(0, half, "part1-of-2"), (half, n, "part2-of-2")]:
+              w = PdfWriter()
+              for i in range(a, b):
+                  w.add_page(r.pages[i])
+              out = "the-art-and-science-of-digital-compositing-%s.pdf" % name
+              with open(out, "wb") as f:
+                  w.write(f)
+              print("wrote", out)
+          PYEOF
+          rm -f the-art-and-science-of-digital-compositing-pdf_compress.pdf
+          ls -la the-art-and-science*
+
+      - name: Commit books as real files (no LFS)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- digital-modeling_compress.pdf \
+            anatomy-for-sculptors-zarins.pdf \
+            framed-ink-mateu-mestre.pdf \
+            rig-it-right-ohailey.pdf \
+            color-correction-handbook-2nd-edition-van-hurkman.pdf \
+            Compositing_Visual_Effects_Essentials_fo.pdf \
+            dynamic-wrinkles-and-drapery-hogarth.pdf \
+            the-art-and-science-of-digital-compositing-part1-of-2.pdf \
+            the-art-and-science-of-digital-compositing-part2-of-2.pdf
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add 8 studio books as real PDF files (topology, anatomy, storyboarding, rigging validation, compositing, grading, drapery)"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
