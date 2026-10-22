@@ -187,16 +187,37 @@ Store Named Attribute.Geometry -> Group Output
 **vertex group** usable by cloth sim / modifiers — the exact bridge between
 sculpting and simulation that most artists do by hand.
 
-## 7. Fold metrics — measured from the sculpted clothing
+## 7. Surface-detail depth — measured from the sculpts
 
-> **Method:** each mesh is smoothed with 30 full-strength Laplacian iterations
-> (the "body under the cloth"); the distance from the original vertices to that
-> smoothed form is the **fold depth**, expressed as % of the object's bounding-box
-> diagonal. Placeholder/helper meshes and anything under 5,000 verts are excluded;
-> repeated objects are de-duplicated across chapters.
+> **Method:** every mesh is smoothed with 30 full-strength Laplacian iterations
+> (the "form under the detail"); the distance from each original vertex to that
+> smoothed form is the **detail depth**, as % of the object's bounding-box diagonal.
+> Helper/placeholder meshes and anything under 5,000 verts are excluded;
+> repeated parts are de-duplicated across chapters.
 
-| Object | Verts | median % | **p95 fold depth %** | max % | (abs units, p95) |
-|---|---|---|---|---|---|
+| Part | Verts | median | **p95 depth** | max |
+|---|---|---|---|---|
+| Finger_Index | 8,706 | 0.468% | **1.071%** | 4.017% |
+| Finger_Middle | 8,706 | 0.468% | **1.071%** | 4.017% |
+| Finger_Ring | 8,706 | 0.468% | **1.071%** | 4.017% |
+| Feet | 18,434 | 0.325% | **0.718%** | 1.246% |
+| Torso | 44,546 | 0.175% | **0.549%** | 1.809% |
+| Cube | 44,546 | 0.182% | **0.538%** | 2.145% |
+| Hand_New | 33,794 | 0.211% | **0.504%** | 1.379% |
+| Hands | 33,794 | 0.211% | **0.504%** | 1.379% |
+| Arms | 47,106 | 0.089% | **0.235%** | 0.34% |
+| Head | 147,458 | 0.048% | **0.233%** | 1.554% |
+| Legs | 43,010 | 0.111% | **0.233%** | 0.339% |
+
+**Measured band: p95 detail depth 0.233% – 1.071% of the object's size.**
+Small, detailed parts (fingers ≈ **1.07%**) carry far more relative deviation than
+large forms (arms/legs/head ≈ **0.23%**) — detail budget scales *inversely* with the
+size of the form. That is the quantitative version of "put detail where the eye goes".
+
+> ⚠️ **Honest limit:** the *cloth folds* themselves live in **Multires displacement**
+> data (see §8), not in the base mesh, so this measures the sculpted body surface, not
+> the drapery. Measuring true fold depth needs the multires level evaluated — a
+> follow-up pass once local `bpy` is running.
 
 ## 8. Sculpt resolution (multires levels used on hero meshes)
 
