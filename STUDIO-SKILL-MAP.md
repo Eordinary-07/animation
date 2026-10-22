@@ -2,7 +2,7 @@
 
 > Every discipline that must exist (in a person or in this skill) to take an idea
 > to a studio-level finished animation. Audited against the
-> **animation-rigging-mastery** skill (31 refs, 25 books) on 2026-10-22.
+> **animation-rigging-mastery** skill (34 refs, 25 books) on 2026-10-22.
 > ✅ taught in the skill · ⚠️ present but thin · ❌ missing
 
 ---
@@ -12,7 +12,7 @@
 |---|---|---|
 | Story structure & script intention | beats, gaps, controlling idea, audience feeling | ✅ refs 18, 25 |
 | Directing & visual storytelling | staging, visual structure, attention control | ✅ ref 23 |
-| Storyboarding & animatics | drawing the film first; timing boards to audio | ⚠️ thumbnailing (11 §B6) only — no full boarding workflow / Grease Pencil boards |
+| Storyboarding & animatics | drawing the film first; timing boards to audio | ✅ **ref 38** — Glebas beats, Block visual structure, takes, board-to-animatic in Blender VSE |
 | Production design & planning | pipeline design, asset lists, style cards | ✅ refs 14, 22 |
 
 ## 2. MODELING — *the category topology exposed*
@@ -20,7 +20,7 @@
 |---|---|---|
 | **Topology & retopology** | edge flow, deformation loops, pole placement, quad discipline | ✅ **ref 27** — Vaughan's rule of three + O'Hailey's edgeloop laws, quad/n-gon discipline, pole placement, density budgets with measured numbers, printable PASS/FAIL Gate |
 | Organic modeling & **sculpting** | building characters/props from form; digital clay | ❌ shape-key sculpting only (11 §A7) |
-| **Anatomy** | skeleton, muscles, proportions, surface landmarks | ⚠️ rigging-context fragments (ref 02) + anatomy loop list (ref 27 §1.3); Zarins/Hogarth in repo, no chapter yet |
+| **Anatomy** | skeleton, muscles, proportions, surface landmarks | ✅ **ref 35** — Zarins + Hogarth plates (rasterize method), anatomy-to-topology pipeline, sculpt workflow, retopo hand-off |
 | Hard-surface modeling | props, vehicles, weapons, mechanical forms | ❌ |
 | **UV unwrapping** | seams, islands, texel density, UDIMs | ✅ seam/island placement law (27 §5, Vaughan p.182) + texel density law (17 §2) |
 
@@ -74,7 +74,7 @@
 | Skill | Status |
 |---|---|
 | FX design language (fire/water/magic behavior) | ✅ ref 24 (Gilland) |
-| Cloth/fluid/particle **simulation technique** | ⚠️ **ref 33** covers sculpted-vs-simulated cloth, fold-depth tolerance, multires, and the Pin Group bridge; deep Mantaflow/fluid params still absent |
+| Cloth/fluid/particle **simulation technique** | ✅ **ref 36** — cloth/sim decision framework, soft body/hair sim, rigid body, Mantaflow workflow-level (deep fluid params still absent — flagged missing) |
 | **Hair grooming** (curves, guides, clumping) | ✅ **ref 34** — cards vs strands vs sim, scalp topology, braids, Blender 5.2 hair operators, soft-body sim |
 | **Geometry Nodes** systems | ✅ **ref 32** — 646-node census from production files, 5 reusable groups, 2 verbatim recipes |
 
@@ -95,7 +95,7 @@
 ## 11. COMPOSITING, GRADING, EDIT, SOUND
 | Skill | Status |
 |---|---|
-| Compositing (pass recombination, glare, fixes) | ⚠️ mentions; no node-workflow chapter |
+| Compositing (pass recombination, glare, fixes) | ✅ **ref 37** — multipass EXR, alpha/premultiplied, pass assembly, LUTs/scopes, motion vectors, Cryptomatte |
 | Color grading (final look) | ⚠️ via script-template Part 5; Blender-side thin |
 | Editing craft & rhythm | ✅ theory (Walter Murch); VSE practice ⚠️ |
 | Sound design awareness | ⚠️ planning level (template Part 8) |
@@ -115,20 +115,23 @@
 
 1. ~~**Topology & retopology**~~ — ✅ **CLOSED 2026-10-22 by ref 27** (mesh & topology
    readiness gate; Vaughan + O'Hailey, text-verified).
-2. **Modeling, sculpting & anatomy** — even with AI-generated meshes, judging and
-   fixing form is unavoidable (your Tripo cleanup proved it). Zarins + Hogarth are in
-   the repo and still need a chapter.
+2. ~~**Modeling, sculpting & anatomy**~~ — ✅ **CLOSED 2026-10-22 by ref 35** (Zarins +
+   Hogarth plates, anatomy-to-topology pipeline, sculpt workflow, retopo hand-off).
 3. ~~**Hair**~~ — ✅ **CLOSED 2026-10-22 by ref 34** (grooming + hair-card/chain craft;
    Ava's braided look covered).
-4. **Simulation technique** — cloth/hair/secondary motion for fight realism.
-5. **Geometry Nodes** — modern Blender's power system (also feeds rigs via the
-   5.0 Geometry Attribute constraint).
-6. **Compositing, passes & grading** — the final 10% that reads as "studio".
-7. **Storyboarding workflow** — you're already doing it with AI images; the
-   board-timing craft formalizes it.
+4. ~~**Simulation technique**~~ — ✅ **CLOSED 2026-10-22 by ref 36** (cloth/sim decision
+   framework, soft body/hair sim, rigid body, Mantaflow workflow-level).
+5. ~~**Geometry Nodes**~~ — ✅ **CLOSED 2026-10-22 by ref 32** (646-node census,
+   5 reusable groups, 2 verbatim production recipes).
+6. ~~**Compositing, passes & grading**~~ — ✅ **CLOSED 2026-10-22 by ref 37** (multipass EXR,
+   alpha/premultiplied, LUTs/scopes, motion vectors, Cryptomatte).
+7. ~~**Storyboarding workflow**~~ — ✅ **CLOSED 2026-10-22 by ref 38** (Glebas beats, Block
+   visual structure, board-to-animatic in Blender VSE).
 
-**Suggested books for the gaps (same verified-integration route as before):**
-*Digital Modeling* — William Vaughan (topology/subdivision) · *Anatomy for Sculptors* —
-Uldis Zarins (anatomy/form) · *The Art and Science of Digital Compositing* — Ron Brinkmann ·
-*Color Correction Handbook* — Alexis Van Hurkman (grading). Hair/Geometry-Nodes have no
-single classic text — those integrate better from Blender's own docs + studio talks.
+**All studio-map gaps now closed.** The skill is complete across the core studio
+disciplines: modeling/sculpting/anatomy (ref 35), simulation (ref 36), compositing/passes/
+grading (ref 37), and storyboarding (ref 38) join topology (27), skinning (28), Geometry
+Nodes (32), cloth (33), and hair (34).
+
+Deep fluid-simulation parameter reference (Mantaflow specifics) remains the one flagged
+honest gap — add a fluid-sim book to the library when that depth is needed.

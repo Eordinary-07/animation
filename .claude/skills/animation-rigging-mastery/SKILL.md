@@ -78,6 +78,15 @@ description: "TRIGGER KEYWORD: blend / blender (.blend, bpy) - also trigger on a
      fold vocabulary, procedural trim) → `references/33-cloth-and-fabric.md`**
    - **Hair grooming (cards vs strands vs sim, scalp topology, braids, Blender 5.2 hair
      operators, simulated hair as soft body) → `references/34-hair-grooming.md`**
+   - **Modeling, sculpting & anatomy (Zarins + Hogarth plates, sculpt workflow, retopo for
+     deformation, anatomy-driven topology) → `references/35-modeling-sculpting-anatomy.md`**
+   - **Simulation technique (cloth recap, soft body/hair sim as soft body, rigid body,
+     fluid/Mantaflow honest status, collision + cache rules) → `references/36-simulation-technique.md`**
+   - **Compositing, passes & grading (multipass EXR, alpha/premultiplied, pass assembly,
+     LUTs/scopes/ACES vs display-referred, motion vectors, Cryptomatte) →
+     `references/37-compositing-passes-grading.md`**
+   - **Storyboarding & animatic (Glebas beats, Block visual structure, takes, board-to-animatic
+     in Blender VSE) → `references/38-storyboarding-animatic.md`**
    - Book-by-book essence and provenance → `references/01-book-essence.md`
    Rule: the references say WHAT and WHY; `11-blender-how-to.md` says HOW (operators,
    buttons, shortcuts). Never improvise Blender steps when a procedure exists in 11.
@@ -204,7 +213,27 @@ director's review (the 10-point checklist — silent read first) → Stage 7 del
   requirements (hairline loops, crown poles, no scalp n-gons), guide-first groom with clumps
   and children, the braid-as-form principle, simulated hair as soft body with pin group +
   collision + baked cache, and a printable groom checklist
-- `references/33-cloth-and-fabric.md` — cloth from the garment-build progression measured across the production files (80 → 278 objects; shirt, zipper, stitching, knee fabric, cloth brush, sweater): sculpted vs simulated and when each wins, the **measured fold-depth tolerance (p95 0.233%–1.071% of object size)**, the multires surprise (production heroes carry none; only the 2 teaching exercises at 3 levels), Hogarth's fold vocabulary mapped to character zones, procedural trim, the sculpt→sim Pin Group bridge, and the honest status of what is not yet measured
+- `references/35-modeling-sculpting-anatomy.md` — modeling and sculpting grounded in Zarins
+  *Anatomy for Sculptors* and Hogarth *Dynamic Wrinkles and Drapery* as **plate reference**
+  (both image-only, read via the rasterize method — no quoted text): anatomy-to-topology
+  pipeline, sculpt workflow (no multires on hero assets, measured detail-depth band
+  0.233%–1.071%), anatomy landmarks that drive topology (hairline loops, crown poles,
+  compression-side kneepad law), retopology hand-off checklist, sculpt→sim bridge, and a
+  printable Gate
+- `references/36-simulation-technique.md` — simulation as the "react or not" decision
+  framework: cloth recap (Pin Group, collision, quality steps, cache), soft body/hair sim
+  (hair as soft body per Vaughan p.157), rigid body, fluid/Mantaflow honest status
+  (workflow-level only, deep parameter reference absent), collision + topology rules, cache
+  non-negotiables, printable Gate
+- `references/37-compositing-passes-grading.md` — compositing as the final 10%: multipass EXR
+  (diffuse, specular, shadow/occlusion, reflection, Z, normal, motion vector, alpha,
+  Cryptomatte), alpha straight vs premultiplied, pass assembly stack order, grading (LUTs,
+  waveform/parade/vectorscope, ACES vs display-referred, BT.709), motion vectors/optical flow,
+  Blender Compositor procedure index, printable Gate
+- `references/38-storyboarding-animatic.md` — storyboarding as a cheap blueprint: Glebas beats
+  (anticipation, exaggeration, delayed reveals, takes), Block visual structure (space, line,
+  shape, tone, color, movement, rhythm), boarding craft (panel, camera angle, shot scale,
+  movement), board-to-animatic in Blender VSE, printable Gate
 - `references/15-verified-page-images.md` — catalog of 53 bundled evidence pages (`references/images/*.jpg`): real scanned pages from the image-only books — Hooks ALL 13 chapters (Seven Concepts, character bible, three conflicts, power centers, Laban efforts, reaction shots…), Williams Procedure/Acting Point/Arcs/Recipe/Twinning/Walks, Osipa squint, Illusion of Life 12 principles. When a reference cites one of these pages, OPEN the image — it is the primary source and outranks this skill's text.
 
 Standing order for scripts: when a script or animation instruction is uploaded, FIRST produce the
