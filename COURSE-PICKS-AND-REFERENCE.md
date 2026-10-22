@@ -126,3 +126,72 @@ your skill) demand for observation.
 
 *Your own .blend is skipped as you said — no problem; the course files are better
 studying material anyway.*
+
+---
+
+## 5. 🎬 THE "HOLLYWOOD" PICK — **Next Gen (2018)** ✅ better target than Flow for Ava
+
+Verified facts:
+* ***Next Gen*** (2018), dir. **Kevin R. Adams & Joe Ksander**, produced by
+  **Tangent Animation** (Toronto) with Baozou Manhua / Alibaba Pictures.
+* **Netflix bought worldwide rights for $30 M** (Cannes 2018); released
+  **7 September 2018**; 105 min.
+* **"Effectively 100% created in Blender"** — including **Cycles for all
+  rendering**; supplemented by Substance Painter, Photoshop, Houdini + FumeFX
+  (for VDB data).
+* 🎯 **The cloth detail that makes this the right target:** Tangent's own pipeline
+  notes credit **Luca Rood — "who did a fantastic job on improving the cloth sim
+  in Blender that was used heavily in NextGen"** — plus Stefan Werner on VDB
+  support. **This film is literally the reason Blender's cloth simulation is what
+  it is today.**
+* They also added **Cryptomatte support** for it (*"we render everything in
+  camera, so Cryptomatte are a godsend in compositing"*) — which ties straight
+  into the compositing/AOV work from Tier 2 (Brinkmann).
+
+**Why it beats *Flow* as Ava's style target:**
+
+| | **Flow (2024)** | **Next Gen (2018)** | **Your Ava** |
+|---|---|---|---|
+| Subject | stylized animals + fur | **CG human girl, hair + clothing** | realistic human, braids, lycra |
+| Look | watercolour, painterly | **cinematic CG realism** | cinematic realism |
+| Renderer | EEVEE | **Cycles**, in-camera DOF + full 3D motion blur | Cycles (as scripted) |
+| Best used for | fur/hair craft, lighting, camera | **hair + CLOTH + final finish** | — |
+
+👉 **Give me 2–3 Next Gen frames showing:**
+1. **Mai's hair silhouette against light** (how the hair edge reads, not strands).
+2. **Her clothing folds in motion** (this is the film that drove Blender's cloth sim).
+3. **A full cinematic frame with DOF + motion blur** — the overall finish level.
+
+*(Starter frames saved: `studio-reference/target-look-nextgen/`.)*
+
+---
+
+## 6. ❓ DO YOU NEED THE TIER 3 BOOKS? — **No. Skip them for now.**
+
+You said you have **Tier 1 + Tier 2**. Honest verdict: **Tier 3 will not make a
+major change to your current goal** (studio-level *character* animation in
+Blender — Ava: rig, braided hair, tight athletic clothing, cinematic fight).
+
+| Tier 3 book | Relevance to YOUR pipeline now | Verdict |
+|---|---|---|
+| **Bridson — Fluid Simulation** | Only if you add water/fire/smoke. Ava's fight has **no fluids**. | **Skip** → buy it the day you do FX |
+| **Menache — Understanding Motion Capture** | Ava is **hand-keyed**; mocap only matters when you ingest capture data | **Skip** → buy when you adopt mocap |
+| **Sonnenschein — Sound Design** | Real storytelling value, but it's not a *Blender* skill; sound is already planned in the template (Part 8) | **Skip** → pure "later" |
+| **Real-Time Rendering, 4th** (1,198 pp) | LODs, poly budgets, engine export/validation — matters for **games/Unreal**, not film | **Skip** → buy if you go real-time |
+| **Stephenson — Production Rendering** | About *building* renderers; only deep AOV/sampling theory applies | **Skip** (lowest value) |
+
+**Why:** your two biggest levers are already in Tier 1 + Tier 2 —
+**Brinkmann (compositing/passes)** and **Van Hurkman (grading)** are what
+visually turn correct work into *studio* work, and you own both.
+
+**Spend the effort here instead (highest impact, in order):**
+1. **ref 27 — Mesh & Topology Readiness** (Vaughan + Zarins + O'Hailey's
+   edgeloop chapter) — this is your table, and it's what unblocks the Ava rig test
+   you're literally doing right now.
+2. **ref 28 — Skinning & Deformation Validation** (O'Hailey + Osipa + Cabrera).
+3. **refs 31–33 — Hair / Geometry Nodes / Cloth** (the material from section 2–5 above).
+4. Then **ref 29 Storyboarding** (Framed Ink) and **ref 30 Compositing & Grading**.
+
+*Cheap substitutes for most of Tier 3 already exist and are free: Blender manual +
+Blender source code + the free SIGGRAPH cloth papers — that's the route this skill
+already uses.*
