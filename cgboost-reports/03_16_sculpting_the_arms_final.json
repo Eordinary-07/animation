@@ -1,0 +1,127 @@
+{
+ "file": "03_16_sculpting_the_arms_final.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "Filmic"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Arms",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Breasts",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Cube",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyebrows",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Feet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fingers",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hand",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Head",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Legs",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Torso",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Block Out",
+   "children": [],
+   "objects": [
+    "Head"
+   ]
+  },
+  {
+   "name": "References",
+   "children": [],
+   "objects": [
+    "Front",
+    "Back",
+    "Front_Body"
+   ]
+  },
+  {
+   "name": "Temp",
+   "children": [],
+   "objects": [
+    "Eyebrows",
+    "Torso",
+    "Breasts",
+    "Arms",
+    "Legs",
+    "Hand",
+    "Fingers",
+    "Feet",
+    "Cube"
+   ]
+  }
+ ],
+ "node_groups": [],
+ "meshes_count": 10,
+ "materials": [
+  "Dots Stroke",
+  "Material",
+  "Material.001"
+ ],
+ "images": [
+  "concept 2.1.png",
+  "concept 2.2.png",
+  "crease_cut.png",
+  "crease_sharp.png",
+  "crease_soft.png",
+  "crease_softer.png",
+  "crease_standard.png",
+  "crease_wrinkle.png",
+  "grab_smooth.png",
+  "grab_smoothpitch.png",
+  "grab_smoothwide.png",
+  "Render Result"
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "file": "03_23_sculpting_the_feet_part_2_final.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "Filmic"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Arms",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Breasts",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyebrows",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Feet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fingers_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hand_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hands",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Head",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Tumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Legs",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb_Nail",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toes_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Torso",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Block Out",
+   "children": [],
+   "objects": [
+    "Head"
+   ]
+  },
+  {
+   "name": "References",
+   "children": [],
+   "objects": [
+    "Front",
+    "Back",
+    "Front_Body"
+   ]
+  },
+  {
+   "name": "Temp",
+   "children": [],
+   "objects": [
+    "Eyebrows",
+    "Torso",
+    "Breasts",
+    "Arms",
+    "Legs",
+    "Hand_Placeholder",
+    "Fingers_Placeholder",
+    "Feet",
+    "Toes_Placeholder",
+    "Finger_Index",
+    "Nail_Index",
+    "Lattice_Index",
+    "Thumb",
+    "Thumb_Nail",
+    "Lattice_Tumb",
+    "Hands",
+    "Finger_Middle",
+    "Nail_Middle",
+    "Lattice_Middle",
+    "Finger_Ring",
+    "Nail_Ring",
+    "Lattice_Ring",
+    "Finger_Pinky",
+    "Nail_Pinky",
+    "Lattice_Pinky",
+    "Toe_BigToe",
+    "ToeNail_01",
+    "Toe_01",
+    "ToeNail_BigToe",
+    "ToeNail_02",
+    "Toe_02",
+    "ToeNail_03",
+    "Toe_03",
+    "ToeNail_SmallToe",
+    "Toe_SmallToe"
+   ]
+  }
+ ],
+ "node_groups": [],
+ "meshes_count": 25,
+ "materials": [
+  "Dots Stroke",
+  "Material",
+  "Material.001"
+ ],
+ "images": [
+  "156168132.png",
+  "concept 2.1.png",
+  "crease_cut.png",
+  "crease_sharp.png",
+  "crease_soft.png",
+  "crease_softer.png",
+  "crease_standard.png",
+  "crease_wrinkle.png",
+  "e8d479a7d78aa3fc6664d792bf1def4e.jpg",
+  "grab_smooth.png",
+  "grab_smoothpitch.png",
+  "grab_smoothwide.png",
+  "Render Result"
+ ]
+}

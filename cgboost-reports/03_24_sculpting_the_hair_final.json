@@ -1,0 +1,519 @@
+{
+ "file": "03_24_sculpting_the_hair_final.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "Filmic"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Arms",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Breasts",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyebrows",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Feet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fingers_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.005",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.006",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.007",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.008",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.009",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.010",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.011",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.012",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.013",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.014",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.015",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.016",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.017",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.018",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.019",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.020",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.021",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.022",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.023",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.024",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.025",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.026",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.027",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.028",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.029",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.030",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.031",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.032",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.033",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.034",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.035",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.036",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "HairBand",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hand_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hands",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Head",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Tumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Legs",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb_Nail",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toes_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Torso",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Block Out",
+   "children": [
+    "Character"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Character",
+   "children": [
+    "Misc",
+    "Hair_Placeholder",
+    "Hands",
+    "Feet"
+   ],
+   "objects": [
+    "Arms",
+    "Breasts",
+    "Eyebrows",
+    "Head",
+    "Legs",
+    "Torso",
+    "HairBand"
+   ]
+  },
+  {
+   "name": "Feet",
+   "children": [],
+   "objects": [
+    "Feet",
+    "Toe_01",
+    "Toe_02",
+    "Toe_03",
+    "Toe_BigToe",
+    "Toe_SmallToe",
+    "ToeNail_01",
+    "ToeNail_02",
+    "ToeNail_03",
+    "ToeNail_BigToe",
+    "ToeNail_SmallToe"
+   ]
+  },
+  {
+   "name": "Hair_Placeholder",
+   "children": [
+    "Hair_Straggler_Placeholder"
+   ],
+   "objects": [
+    "Hair_Placeholder",
+    "Hair_Placeholder.001",
+    "Hair_Placeholder.002"
+   ]
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "children": [],
+   "objects": [
+    "Hair_Straggler_Placeholder",
+    "Hair_Straggler_Placeholder.001",
+    "Hair_Straggler_Placeholder.002",
+    "Hair_Straggler_Placeholder.003",
+    "Hair_Straggler_Placeholder.004",
+    "Hair_Straggler_Placeholder.005",
+    "Hair_Straggler_Placeholder.006",
+    "Hair_Straggler_Placeholder.007",
+    "Hair_Straggler_Placeholder.008",
+    "Hair_Straggler_Placeholder.009",
+    "Hair_Straggler_Placeholder.010",
+    "Hair_Straggler_Placeholder.011",
+    "Hair_Straggler_Placeholder.012",
+    "Hair_Straggler_Placeholder.013",
+    "Hair_Straggler_Placeholder.014",
+    "Hair_Straggler_Placeholder.015",
+    "Hair_Straggler_Placeholder.016",
+    "Hair_Straggler_Placeholder.017",
+    "Hair_Straggler_Placeholder.018",
+    "Hair_Straggler_Placeholder.019",
+    "Hair_Straggler_Placeholder.020",
+    "Hair_Straggler_Placeholder.021",
+    "Hair_Straggler_Placeholder.022",
+    "Hair_Straggler_Placeholder.023",
+    "Hair_Straggler_Placeholder.024",
+    "Hair_Straggler_Placeholder.025",
+    "Hair_Straggler_Placeholder.026",
+    "Hair_Straggler_Placeholder.027",
+    "Hair_Straggler_Placeholder.028",
+    "Hair_Straggler_Placeholder.029",
+    "Hair_Straggler_Placeholder.030",
+    "Hair_Straggler_Placeholder.031",
+    "Hair_Straggler_Placeholder.032",
+    "Hair_Straggler_Placeholder.033",
+    "Hair_Straggler_Placeholder.036",
+    "Hair_Straggler_Placeholder.035",
+    "Hair_Straggler_Placeholder.034"
+   ]
+  },
+  {
+   "name": "Hands",
+   "children": [],
+   "objects": [
+    "Finger_Index",
+    "Finger_Middle",
+    "Finger_Pinky",
+    "Finger_Ring",
+    "Hands",
+    "Nail_Index",
+    "Nail_Middle",
+    "Nail_Pinky",
+    "Nail_Ring",
+    "Thumb",
+    "Thumb_Nail"
+   ]
+  },
+  {
+   "name": "Lattices",
+   "children": [],
+   "objects": [
+    "Lattice_Index",
+    "Lattice_Middle",
+    "Lattice_Pinky",
+    "Lattice_Ring",
+    "Lattice_Tumb"
+   ]
+  },
+  {
+   "name": "Misc",
+   "children": [
+    "Placeholder",
+    "Lattices"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Placeholder",
+   "children": [],
+   "objects": [
+    "Fingers_Placeholder",
+    "Hand_Placeholder",
+    "Toes_Placeholder"
+   ]
+  },
+  {
+   "name": "References",
+   "children": [],
+   "objects": [
+    "Front",
+    "Front_Body",
+    "Back"
+   ]
+  },
+  {
+   "name": "Temp",
+   "children": [],
+   "objects": []
+  }
+ ],
+ "node_groups": [],
+ "meshes_count": 66,
+ "materials": [
+  "Dots Stroke",
+  "Material.002",
+  "Material.003"
+ ],
+ "images": [
+  "concept 1.2.png",
+  "concept 2.1.png.001",
+  "crease_cut.png",
+  "crease_sharp.png",
+  "crease_soft.png",
+  "crease_softer.png",
+  "crease_standard.png",
+  "crease_wrinkle.png",
+  "grab_smooth.png",
+  "grab_smoothpitch.png",
+  "grab_smoothwide.png",
+  "Render Result"
+ ]
+}

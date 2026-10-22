@@ -1,0 +1,5822 @@
+{
+ "file": "10_26_sculpting_sweater__final.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "Filmic"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Arms",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Bolt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Bolt.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Bolt.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Bolt.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Bolt.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Heel",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Nose",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Sides",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Sole",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Sole_Detail",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Sole_Grooves",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Tongue",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Tongue_Nose",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Top",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boot_Upper",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Sole_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Sole_Template",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Template",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Top_Strap_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Top_Template",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Breasts",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Boots_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Boots_Base2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Boots_Sole",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Boots_Top",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Kneepads",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Straps",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Displacement_Object_Trouser",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyebrows",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.005",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.006",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyelet.007",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fan_Blades",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fan_Blades_Clips",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fan_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Feet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fingers_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.005",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.006",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.007",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.008",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.009",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.010",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.011",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.012",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.013",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.014",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.015",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.016",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.017",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.018",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.019",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.020",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.021",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.022",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.023",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.024",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.025",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.026",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.027",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.028",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.029",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.030",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.031",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.032",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.033",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.034",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.035",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.036",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "HairBand",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hand_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hands",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Head",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Instance_Character",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Antenna",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Antenna_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_2_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_1_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_2_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_3_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_4",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_4_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_Nose",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_Panels",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Body_Panels_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Detail_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Detail_1_Lattice",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Fuel_Container",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Fuel_Glass",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_2.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Joint_3.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Light_Green",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Light_Red",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LowerWings_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LowerWings_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LowerWings_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LowerWings_Blades_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_Wing_Panel",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_Wing_Panel.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_Wing_Tip",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_LWing_Wing_Tip.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Nose_Panels",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Nose_Panels_Bolt_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Rings_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Rings_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Rings_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Rings_2_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Straps",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Straps.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Straps_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Straps_2_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Panels",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Panels_Bolt_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_1_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_2_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_3_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_4",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Thruster_Weld_4_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UpperWings_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UpperWings_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UpperWings_3",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UpperWings_Blades_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_Wing_Panel",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_Wing_Panel_Bolt_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_Wing_Panel_Tip",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_UWing_Wing_Tip_Bolt_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Wings_Base_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Wings_Base_1_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Wings_Base_2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Wings_Base_2_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Buckle_Straps",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Pins",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Sculpt_KneeWrapping",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Sculpt_Loops",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Sculpt_Padding",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Sculpt_Protector",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Sculpt_Straps",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Ears_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Ears_Geo",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Geo",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Tie_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lace_Tie_Geo",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.005",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.006",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.007",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.008",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.009",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.010",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.011",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.012",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "LaceHook.013",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Tumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Legs",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Shirt_Button",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Trouser_Button",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Zipper_Box",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Zipper_Slider",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Zipper_Slider_Pull",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "NeckBelt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "NeckBelt_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "NeckBelt_Pin",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Placeholder_Button",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Placeholder_Button_Trouser",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Boots_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Boots_Base2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Boots_Sole",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Boots_Top",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Kneepads",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Straps",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seam _Object_Trouser",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Boots_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Boots_Base2",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Boots_Sole",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Boots_Top",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Kneepad",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Seams_Curve_Trouser",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Strap_2_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Strap_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Zipper_Curve",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Sweater",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Sweater Jetpack",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Sweater_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thruster_Base",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thruster_Cooling_Pipes",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thruster_Cooling_Rings",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb_Nail",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toes_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Torso",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Belt_Loops",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Loops",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Patches",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Pockets",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Pockets_Padding",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Weld.000",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Jetpack_Base_Weld_1",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Weld_Curve.000",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Wings Mirror",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper_Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper_Box",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper_Slider",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper_Slider_Pull",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Zipper_Tooth",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Blockout",
+   "children": [
+    "Jetpack Blockout",
+    "Clothes Blockout"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Bolt Object",
+   "children": [],
+   "objects": [
+    "Bolt.001"
+   ]
+  },
+  {
+   "name": "Boots",
+   "children": [
+    "Template",
+    "Eyelets",
+    "LaceHooks",
+    "Boots Seam Curves",
+    "ShoeLaces"
+   ],
+   "objects": [
+    "Boot_Body",
+    "Boot_Heel",
+    "Boot_Nose",
+    "Boot_Sides",
+    "Boot_Sole",
+    "Boot_Sole_Detail",
+    "Boot_Sole_Grooves",
+    "Boot_Tongue",
+    "Boot_Tongue_Nose",
+    "Boot_Top",
+    "Boot_Upper"
+   ]
+  },
+  {
+   "name": "Boots Seam Curves",
+   "children": [],
+   "objects": [
+    "Seams_Curve_Boots_Base",
+    "Seams_Curve_Boots_Sole",
+    "Seams_Curve_Boots_Base2",
+    "Seams_Curve_Boots_Top"
+   ]
+  },
+  {
+   "name": "Boots Seam Objects",
+   "children": [],
+   "objects": [
+    "Seam _Object_Boots_Base",
+    "Displacement_Object_Boots_Base",
+    "Seam _Object_Boots_Sole",
+    "Displacement_Object_Boots_Sole",
+    "Seam _Object_Boots_Base2",
+    "Displacement_Object_Boots_Base2",
+    "Seam _Object_Boots_Top",
+    "Displacement_Object_Boots_Top"
+   ]
+  },
+  {
+   "name": "Character",
+   "children": [
+    "Hair_Placeholder",
+    "Hands",
+    "Feet"
+   ],
+   "objects": [
+    "Arms",
+    "Breasts",
+    "Eyebrows",
+    "Head",
+    "Legs",
+    "Torso",
+    "HairBand"
+   ]
+  },
+  {
+   "name": "Clothes Blockout",
+   "children": [],
+   "objects": [
+    "Shirt_Blockout",
+    "Trousers_Blockout",
+    "KneePads_Blockout",
+    "Boots_Blockout",
+    "Boots_Top_Strap_Blockout",
+    "Boots_Sole_Blockout",
+    "Sweater_Blockout",
+    "NeckBelt_Blockout"
+   ]
+  },
+  {
+   "name": "Clothes Sculpt",
+   "children": [
+    "Sweater",
+    "Shirt",
+    "Trousers",
+    "Boots"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Eyelets",
+   "children": [],
+   "objects": [
+    "Eyelet",
+    "Eyelet.001",
+    "Eyelet.002",
+    "Eyelet.003",
+    "Eyelet.004",
+    "Eyelet.005",
+    "Eyelet.006",
+    "Eyelet.007"
+   ]
+  },
+  {
+   "name": "Feet",
+   "children": [],
+   "objects": [
+    "Feet",
+    "Toe_01",
+    "Toe_02",
+    "Toe_03",
+    "Toe_BigToe",
+    "Toe_SmallToe",
+    "ToeNail_01",
+    "ToeNail_02",
+    "ToeNail_03",
+    "ToeNail_BigToe",
+    "ToeNail_SmallToe"
+   ]
+  },
+  {
+   "name": "GeoNodes Objects",
+   "children": [
+    "Bolt Object",
+    "Trouser Seam Objects",
+    "Boots Seam Objects",
+    "Jetpack Seam Object"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Hair_Placeholder",
+   "children": [
+    "Hair_Straggler_Placeholder"
+   ],
+   "objects": [
+    "Hair_Placeholder",
+    "Hair_Placeholder.001",
+    "Hair_Placeholder.002"
+   ]
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "children": [],
+   "objects": [
+    "Hair_Straggler_Placeholder",
+    "Hair_Straggler_Placeholder.001",
+    "Hair_Straggler_Placeholder.002",
+    "Hair_Straggler_Placeholder.003",
+    "Hair_Straggler_Placeholder.004",
+    "Hair_Straggler_Placeholder.005",
+    "Hair_Straggler_Placeholder.006",
+    "Hair_Straggler_Placeholder.007",
+    "Hair_Straggler_Placeholder.008",
+    "Hair_Straggler_Placeholder.009",
+    "Hair_Straggler_Placeholder.010",
+    "Hair_Straggler_Placeholder.011",
+    "Hair_Straggler_Placeholder.012",
+    "Hair_Straggler_Placeholder.013",
+    "Hair_Straggler_Placeholder.014",
+    "Hair_Straggler_Placeholder.015",
+    "Hair_Straggler_Placeholder.016",
+    "Hair_Straggler_Placeholder.017",
+    "Hair_Straggler_Placeholder.018",
+    "Hair_Straggler_Placeholder.019",
+    "Hair_Straggler_Placeholder.020",
+    "Hair_Straggler_Placeholder.021",
+    "Hair_Straggler_Placeholder.022",
+    "Hair_Straggler_Placeholder.023",
+    "Hair_Straggler_Placeholder.024",
+    "Hair_Straggler_Placeholder.025",
+    "Hair_Straggler_Placeholder.026",
+    "Hair_Straggler_Placeholder.027",
+    "Hair_Straggler_Placeholder.028",
+    "Hair_Straggler_Placeholder.029",
+    "Hair_Straggler_Placeholder.030",
+    "Hair_Straggler_Placeholder.031",
+    "Hair_Straggler_Placeholder.032",
+    "Hair_Straggler_Placeholder.033",
+    "Hair_Straggler_Placeholder.036",
+    "Hair_Straggler_Placeholder.035",
+    "Hair_Straggler_Placeholder.034"
+   ]
+  },
+  {
+   "name": "Hands",
+   "children": [],
+   "objects": [
+    "Finger_Index",
+    "Finger_Middle",
+    "Finger_Pinky",
+    "Finger_Ring",
+    "Hands",
+    "Nail_Index",
+    "Nail_Middle",
+    "Nail_Pinky",
+    "Nail_Ring",
+    "Thumb",
+    "Thumb_Nail"
+   ]
+  },
+  {
+   "name": "Jetpack",
+   "children": [
+    "Weld",
+    "Jetpack Base",
+    "Jetpack Wings",
+    "Jetpack Thruster"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Jetpack Base",
+   "children": [],
+   "objects": [
+    "Jetpack_Base_1",
+    "Jetpack_Base_2",
+    "Jetpack_Wings_Base_1",
+    "Jetpack_Wings_Base_2",
+    "Jetpack_Straps",
+    "Jetpack_Joint_1",
+    "Jetpack_Detail_1",
+    "Jetpack_Detail_1_Lattice",
+    "Jetpack_Joint_3",
+    "Jetpack_Rings_1",
+    "Jetpack_Rings_2",
+    "Jetpack_Straps.003",
+    "Bolt",
+    "Bolt.002",
+    "Bolt.003",
+    "Bolt.004"
+   ]
+  },
+  {
+   "name": "Jetpack Blockout",
+   "children": [],
+   "objects": [
+    "Jetpack_Base_1_Blockout",
+    "Jetpack_Base_2_Blockout",
+    "Jetpack_Wings_Base_1_Blockout",
+    "Jetpack_Wings_Base_2_Blockout",
+    "Jetpack_Straps_1_Blockout",
+    "Jetpack_Straps_2_Blockout",
+    "Jetpack_Rings_1_Blockout",
+    "Jetpack_Rings_2_Blockout",
+    "Jetpack_Joint_1_Blockout",
+    "Jetpack_Joint_2.001",
+    "Jetpack_Joint_3.001",
+    "Jetpack_Body_1",
+    "Jetpack_Body_2",
+    "Jetpack_Thruster.001",
+    "Jetpack_Body_3",
+    "Jetpack_UpperWings_1_Blockout",
+    "Jetpack_UpperWings_2",
+    "Jetpack_UpperWings_3",
+    "Jetpack_UpperWings_Blades_1",
+    "Jetpack_LowerWings_1_Blockout",
+    "Jetpack_LowerWings_2",
+    "Jetpack_LowerWings_3",
+    "Jetpack_LowerWings_Blades_1"
+   ]
+  },
+  {
+   "name": "Jetpack Seam Object",
+   "children": [],
+   "objects": [
+    "Seam _Object_Straps",
+    "Displacement_Object_Straps"
+   ]
+  },
+  {
+   "name": "Jetpack Thruster",
+   "children": [
+    "Jetpack Thruster Fan"
+   ],
+   "objects": [
+    "Fan_Blades",
+    "Fan_Blades_Clips",
+    "Fan_Curve",
+    "Jetpack_Thruster_Panels",
+    "Jetpack_Fuel_Container",
+    "Jetpack_Body_Panels",
+    "Jetpack_Nose_Panels",
+    "Jetpack_Body_Panels_Curve",
+    "Jetpack_Nose_Panels_Bolt_Curve",
+    "Jetpack_Thruster_Panels_Bolt_Curve",
+    "Thruster_Base",
+    "Thruster_Cooling_Rings",
+    "Thruster_Cooling_Pipes",
+    "Jetpack_Body_Nose",
+    "Jetpack_Fuel_Glass",
+    "Jetpack_Antenna",
+    "Jetpack_Light_Green",
+    "Jetpack_Light_Red",
+    "Jetpack_Antenna_Base",
+    "Jetpack_Joint_2"
+   ]
+  },
+  {
+   "name": "Jetpack Thruster Fan",
+   "children": [],
+   "objects": []
+  },
+  {
+   "name": "Jetpack Wings",
+   "children": [
+    "Wings"
+   ],
+   "objects": [
+    "Wings Mirror"
+   ]
+  },
+  {
+   "name": "Kneepads",
+   "children": [],
+   "objects": [
+    "KneePads_Sculpt_KneeWrapping",
+    "KneePads_Sculpt_Padding",
+    "KneePads_Sculpt_Protector",
+    "KneePads_Sculpt_Straps",
+    "KneePads_Sculpt_Loops",
+    "KneePads_Pins",
+    "KneePads_Buckle_Straps"
+   ]
+  },
+  {
+   "name": "LaceHooks",
+   "children": [],
+   "objects": [
+    "LaceHook",
+    "LaceHook.001",
+    "LaceHook.002",
+    "LaceHook.003",
+    "LaceHook.004",
+    "LaceHook.005",
+    "LaceHook.006",
+    "LaceHook.007",
+    "LaceHook.008",
+    "LaceHook.009",
+    "LaceHook.010",
+    "LaceHook.011",
+    "LaceHook.012",
+    "LaceHook.013"
+   ]
+  },
+  {
+   "name": "Lattices",
+   "children": [],
+   "objects": [
+    "Lattice_Index",
+    "Lattice_Middle",
+    "Lattice_Pinky",
+    "Lattice_Ring",
+    "Lattice_Tumb"
+   ]
+  },
+  {
+   "name": "Locations",
+   "children": [],
+   "objects": [
+    "Location_Shirt_Button",
+    "Location_Zipper_Box",
+    "Location_Zipper_Slider",
+    "Location_Zipper_Slider_Pull",
+    "Location_Trouser_Button"
+   ]
+  },
+  {
+   "name": "LowerWings",
+   "children": [],
+   "objects": [
+    "Jetpack_LWing_Base",
+    "Jetpack_LWing_1",
+    "Jetpack_LWing_2",
+    "Jetpack_LWing_Wing_Panel",
+    "Jetpack_LWing_Wing_Tip",
+    "Jetpack_LWing_Wing_Panel.001",
+    "Jetpack_LWing_Wing_Tip.001"
+   ]
+  },
+  {
+   "name": "Misc",
+   "children": [
+    "Placeholder",
+    "Lattices"
+   ],
+   "objects": []
+  },
+  {
+   "name": "NeckBelt",
+   "children": [],
+   "objects": [
+    "NeckBelt",
+    "NeckBelt_Pin"
+   ]
+  },
+  {
+   "name": "Placeholder",
+   "children": [],
+   "objects": [
+    "Fingers_Placeholder",
+    "Hand_Placeholder",
+    "Toes_Placeholder"
+   ]
+  },
+  {
+   "name": "References",
+   "children": [],
+   "objects": [
+    "Front",
+    "Front_Body",
+    "Back"
+   ]
+  },
+  {
+   "name": "Sculpt",
+   "children": [
+    "Misc",
+    "Character",
+    "Blockout",
+    "Clothes Sculpt",
+    "Jetpack",
+    "Locations",
+    "GeoNodes Objects"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Shirt",
+   "children": [
+    "Zipper Elements"
+   ],
+   "objects": [
+    "Shirt_Sculpt",
+    "Shirt_Strap_Sculpt",
+    "Shirt_Strap_2_Sculpt",
+    "Zipper",
+    "Placeholder_Button",
+    "Zipper_Slider",
+    "Zipper_Slider_Pull",
+    "Zipper_Box",
+    "Zipper_Back",
+    "Shirt_Zipper_Curve"
+   ]
+  },
+  {
+   "name": "ShoeLaces",
+   "children": [],
+   "objects": [
+    "Lace_Geo",
+    "Lace_Curve",
+    "Lace_Tie_Geo",
+    "Lace_Tie_Curve",
+    "Lace_Ears_Geo",
+    "Lace_Ears_Curve"
+   ]
+  },
+  {
+   "name": "Sweater",
+   "children": [
+    "NeckBelt",
+    "Sweater Jetpack",
+    "Sweater Basic"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Sweater Basic",
+   "children": [],
+   "objects": [
+    "Sweater"
+   ]
+  },
+  {
+   "name": "Sweater Jetpack",
+   "children": [],
+   "objects": [
+    "Sweater Jetpack"
+   ]
+  },
+  {
+   "name": "Temp",
+   "children": [],
+   "objects": [
+    "Instance_Character"
+   ]
+  },
+  {
+   "name": "Template",
+   "children": [],
+   "objects": [
+    "Boots_Template",
+    "Boots_Top_Template",
+    "Boots_Sole_Template"
+   ]
+  },
+  {
+   "name": "Trouser Seam Curves",
+   "children": [],
+   "objects": [
+    "Seams_Curve_Trouser",
+    "Seams_Curve_Kneepad"
+   ]
+  },
+  {
+   "name": "Trouser Seam Objects",
+   "children": [],
+   "objects": [
+    "Seam _Object_Trouser",
+    "Seam _Object_Kneepads",
+    "Displacement_Object_Kneepads",
+    "Displacement_Object_Trouser"
+   ]
+  },
+  {
+   "name": "Trousers",
+   "children": [
+    "Kneepads",
+    "Trouser Seam Curves"
+   ],
+   "objects": [
+    "Trousers_Sculpt",
+    "Placeholder_Button_Trouser",
+    "Trousers_Pockets",
+    "Trousers_Patches",
+    "Trousers_Pockets_Padding",
+    "Trousers_Loops",
+    "Trousers_Belt_Loops"
+   ]
+  },
+  {
+   "name": "UpperWings",
+   "children": [],
+   "objects": [
+    "Jetpack_UWing_Base",
+    "Jetpack_UWing_1",
+    "Jetpack_UWing_2",
+    "Jetpack_UWing_Wing_Panel",
+    "Jetpack_UWing_Wing_Panel_Tip",
+    "Jetpack_UWing_Wing_Panel_Bolt_Curve",
+    "Jetpack_UWing_Wing_Tip_Bolt_Curve"
+   ]
+  },
+  {
+   "name": "Weld",
+   "children": [],
+   "objects": [
+    "Weld.000",
+    "Weld_Curve.000",
+    "Jetpack_Base_Weld_1_Curve",
+    "Jetpack_Base_Weld_2_Curve",
+    "Jetpack_Base_Weld_1",
+    "Jetpack_Base_Weld_2",
+    "Jetpack_Base_Weld_4_Curve",
+    "Jetpack_Base_Weld_3_Curve",
+    "Jetpack_Base_Weld_3",
+    "Jetpack_Base_Weld_4",
+    "Jetpack_Thruster_Weld_1_Curve",
+    "Jetpack_Thruster_Weld_1",
+    "Jetpack_Thruster_Weld_2_Curve",
+    "Jetpack_Thruster_Weld_2",
+    "Jetpack_Thruster_Weld_3_Curve",
+    "Jetpack_Thruster_Weld_3",
+    "Jetpack_Thruster_Weld_4_Curve",
+    "Jetpack_Thruster_Weld_4"
+   ]
+  },
+  {
+   "name": "Wings",
+   "children": [
+    "LowerWings",
+    "UpperWings"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Zipper Elements",
+   "children": [],
+   "objects": [
+    "Zipper_Tooth"
+   ]
+  }
+ ],
+ "node_groups": [
+  {
+   "name": "Auto Smooth",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      480.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Socket_0",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -420.0,
+      -300.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Group Input.001",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -60.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Set Shade Smooth",
+     "type": "SET_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeSetShadeSmooth",
+     "label": "",
+     "location": [
+      120.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Shade Smooth",
+      "domain": "EDGE"
+     },
+     "inputs": [
+      {
+       "name": "Mesh",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Shade Smooth",
+       "identifier": "Shade Smooth",
+       "type": "BOOLEAN",
+       "default_value": true
+      }
+     ]
+    },
+    {
+     "name": "Set Shade Smooth.001",
+     "type": "SET_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeSetShadeSmooth",
+     "label": "",
+     "location": [
+      300.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Shade Smooth",
+      "domain": "FACE"
+     },
+     "inputs": [
+      {
+       "name": "Mesh",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Shade Smooth",
+       "identifier": "Shade Smooth",
+       "type": "BOOLEAN",
+       "default_value": true
+      }
+     ]
+    },
+    {
+     "name": "Edge Angle",
+     "type": "MESH_EDGE_ANGLE",
+     "bl_idname": "GeometryNodeInputMeshEdgeAngle",
+     "label": "",
+     "location": [
+      -420.0,
+      -220.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Edge Angle"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Is Edge Smooth",
+     "type": "INPUT_EDGE_SMOOTH",
+     "bl_idname": "GeometryNodeInputEdgeSmooth",
+     "label": "",
+     "location": [
+      -60.0,
+      -160.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Is Edge Smooth"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Is Face Smooth",
+     "type": "INPUT_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeInputShadeSmooth",
+     "label": "",
+     "location": [
+      -240.0,
+      -340.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Is Face Smooth"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Boolean Math",
+     "type": "BOOLEAN_MATH",
+     "bl_idname": "FunctionNodeBooleanMath",
+     "label": "",
+     "location": [
+      -60.0,
+      -220.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Boolean Math",
+      "operation": "AND"
+     },
+     "inputs": [
+      {
+       "name": "Boolean",
+       "identifier": "Boolean",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Boolean",
+       "identifier": "Boolean_001",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Compare",
+     "type": "COMPARE",
+     "bl_idname": "FunctionNodeCompare",
+     "label": "",
+     "location": [
+      -240.0,
+      -180.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Compare",
+      "operation": "LESS_EQUAL",
+      "data_type": "FLOAT",
+      "mode": "ELEMENT"
+     },
+     "inputs": [
+      {
+       "name": "A",
+       "identifier": "A",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "B",
+       "identifier": "B",
+       "type": "VALUE",
+       "default_value": 0.0
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Edge Angle",
+     "Unsigned Angle",
+     "Compare",
+     "A"
+    ],
+    [
+     "Set Shade Smooth.001",
+     "Mesh",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Group Input",
+     "Angle",
+     "Compare",
+     "B"
+    ],
+    [
+     "Compare",
+     "Result",
+     "Boolean Math",
+     "Boolean"
+    ],
+    [
+     "Is Face Smooth",
+     "Smooth",
+     "Boolean Math",
+     "Boolean"
+    ],
+    [
+     "Group Input.001",
+     "Geometry",
+     "Set Shade Smooth",
+     "Mesh"
+    ],
+    [
+     "Is Edge Smooth",
+     "Smooth",
+     "Set Shade Smooth",
+     "Selection"
+    ],
+    [
+     "Set Shade Smooth",
+     "Mesh",
+     "Set Shade Smooth.001",
+     "Mesh"
+    ],
+    [
+     "Boolean Math",
+     "Boolean",
+     "Set Shade Smooth",
+     "Shade Smooth"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Angle",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    }
+   ]
+  },
+  {
+   "name": "Blur Vertex Group",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Store Named Attribute",
+     "type": "STORE_NAMED_ATTRIBUTE",
+     "bl_idname": "GeometryNodeStoreNamedAttribute",
+     "label": "",
+     "location": [
+      47.8,
+      -0.4
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "ATTRIBUTE",
+      "bl_label": "Store Named Attribute",
+      "data_type": "FLOAT",
+      "domain": "POINT"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Name",
+       "identifier": "Name",
+       "type": "STRING",
+       "default_value": ""
+      },
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 1.0
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      212.0,
+      0.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input.001",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -114.2,
+      -79.1
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Math.001",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -113.7,
+      -157.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": true
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 1.100000023841858
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Blur Attribute",
+     "type": "BLUR_ATTRIBUTE",
+     "bl_idname": "GeometryNodeBlurAttribute",
+     "label": "",
+     "location": [
+      -436.2,
+      -160.5
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "ATTRIBUTE",
+      "bl_label": "Blur Attribute",
+      "data_type": "FLOAT"
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "Iterations",
+       "identifier": "Iterations",
+       "type": "INT",
+       "default_value": 15
+      },
+      {
+       "name": "Weight",
+       "identifier": "Weight",
+       "type": "VALUE",
+       "default_value": 1.0
+      }
+     ]
+    },
+    {
+     "name": "Math",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -273.5,
+      -158.6
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "POWER",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 0.10000002384185791
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -608.3,
+      -215.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    }
+   ],
+   "links": [
+    [
+     "Store Named Attribute",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Group Input",
+     "Input Vertex Group",
+     "Blur Attribute",
+     "Value"
+    ],
+    [
+     "Blur Attribute",
+     "Value",
+     "Store Named Attribute",
+     "Selection"
+    ],
+    [
+     "Blur Attribute",
+     "Value",
+     "Math",
+     "Value"
+    ],
+    [
+     "Math.001",
+     "Value",
+     "Store Named Attribute",
+     "Value"
+    ],
+    [
+     "Math",
+     "Value",
+     "Math.001",
+     "Value"
+    ],
+    [
+     "Group Input",
+     "Factor",
+     "Math.001",
+     "Value"
+    ],
+    [
+     "Group Input",
+     "Repeats",
+     "Blur Attribute",
+     "Iterations"
+    ],
+    [
+     "Group Input.001",
+     "Geometry",
+     "Store Named Attribute",
+     "Geometry"
+    ],
+    [
+     "Group Input.001",
+     "Output Vertex Group",
+     "Store Named Attribute",
+     "Name"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Input Vertex Group",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketBool"
+    },
+    {
+     "name": "Output Vertex Group",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketString"
+    },
+    {
+     "name": "Repeats",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketInt"
+    },
+    {
+     "name": "Factor",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    }
+   ]
+  },
+  {
+   "name": "Bolts_On_Curve",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Frame",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Stitch Density",
+     "location": [
+      -517.0,
+      177.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Frame.001",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Scale Objects",
+     "location": [
+      -524.0,
+      -58.1
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Frame.002",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Create Instances",
+     "location": [
+      417.3,
+      342.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Curve to Points",
+     "type": "CURVE_TO_POINTS",
+     "bl_idname": "GeometryNodeCurveToPoints",
+     "label": "",
+     "location": [
+      -85.9,
+      279.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Curve to Points",
+      "mode": "LENGTH"
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 10
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.10000000149011612
+      }
+     ]
+    },
+    {
+     "name": "Align Euler to Vector",
+     "type": "ALIGN_EULER_TO_VECTOR",
+     "bl_idname": "FunctionNodeAlignEulerToVector",
+     "label": "",
+     "location": [
+      114.9,
+      276.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Align Euler to Vector",
+      "axis": "X",
+      "pivot_axis": "AUTO"
+     },
+     "inputs": [
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "VECTOR",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Factor",
+       "identifier": "Factor",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Group Input.001",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -487.9,
+      248.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Group Input.002",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      29.5,
+      -143.4
+     ],
+     "parent": "Frame",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Map Range",
+     "type": "MAP_RANGE",
+     "bl_idname": "ShaderNodeMapRange",
+     "label": "",
+     "location": [
+      221.5,
+      -40.0
+     ],
+     "parent": "Frame",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Map Range",
+      "clamp": true,
+      "interpolation_type": "LINEAR",
+      "data_type": "FLOAT"
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "From Min",
+       "identifier": "From Min",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "From Max",
+       "identifier": "From Max",
+       "type": "VALUE",
+       "default_value": 2.0
+      },
+      {
+       "name": "To Min",
+       "identifier": "To Min",
+       "type": "VALUE",
+       "default_value": 0.03999999910593033
+      },
+      {
+       "name": "To Max",
+       "identifier": "To Max",
+       "type": "VALUE",
+       "default_value": 0.0024999999441206455
+      },
+      {
+       "name": "Steps",
+       "identifier": "Steps",
+       "type": "VALUE",
+       "default_value": 4.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "From Min",
+       "identifier": "From_Min_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "From Max",
+       "identifier": "From_Max_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "To Min",
+       "identifier": "To_Min_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "To Max",
+       "identifier": "To_Max_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "Steps",
+       "identifier": "Steps_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      604.1,
+      -39.7
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=-1.5708, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry.001",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      604.1,
+      -308.7
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=-1.5708, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      29.5,
+      -311.0
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Instance on Points",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      29.5,
+      -39.9
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Instance on Points.001",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      29.5,
+      -312.7
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Group Input.003",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      206.7,
+      -116.1
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Object Info",
+     "type": "OBJECT_INFO",
+     "bl_idname": "GeometryNodeObjectInfo",
+     "label": "",
+     "location": [
+      398.0,
+      -61.9
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Object Info",
+      "transform_space": "ORIGINAL"
+     },
+     "inputs": [
+      {
+       "name": "Object",
+       "identifier": "Object",
+       "type": "OBJECT",
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7fb378bd2420>"
+      },
+      {
+       "name": "As Instance",
+       "identifier": "As Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Group Input.004",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      206.7,
+      -389.1
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Resample Curve",
+     "type": "RESAMPLE_CURVE",
+     "bl_idname": "GeometryNodeResampleCurve",
+     "label": "",
+     "location": [
+      -291.1,
+      301.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Resample Curve",
+      "keep_last_segment": false
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Length"
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 10
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.004999999888241291
+      }
+     ]
+    },
+    {
+     "name": "Math",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      204.2,
+      -232.3
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 0.009999999776482582
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      1092.2,
+      297.5
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Realize Instances",
+     "type": "REALIZE_INSTANCES",
+     "bl_idname": "GeometryNodeRealizeInstances",
+     "label": "",
+     "location": [
+      195.9,
+      -336.0
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Realize Instances",
+      "realize_to_point_domain": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Realize All",
+       "identifier": "Realize All",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Depth",
+       "identifier": "Depth",
+       "type": "INT",
+       "default_value": 0
+      }
+     ]
+    },
+    {
+     "name": "Mesh Line",
+     "type": "MESH_PRIMITIVE_LINE",
+     "bl_idname": "GeometryNodeMeshLine",
+     "label": "",
+     "location": [
+      428.6,
+      -334.0
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Mesh Line",
+      "mode": "OFFSET",
+      "count_mode": "TOTAL"
+     },
+     "inputs": [
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 1
+      },
+      {
+       "name": "Resolution",
+       "identifier": "Resolution",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "Start Location",
+       "identifier": "Start Location",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Offset",
+       "identifier": "Offset",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Join Geometry",
+     "type": "JOIN_GEOMETRY",
+     "bl_idname": "GeometryNodeJoinGeometry",
+     "label": "",
+     "location": [
+      405.3,
+      -45.9
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Join Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Resample Curve",
+     "Curve",
+     "Curve to Points",
+     "Curve"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points",
+     "Points"
+    ],
+    [
+     "Transform Geometry",
+     "Geometry",
+     "Instance on Points",
+     "Instance"
+    ],
+    [
+     "Object Info",
+     "Geometry",
+     "Transform Geometry",
+     "Geometry"
+    ],
+    [
+     "Curve to Points",
+     "Tangent",
+     "Align Euler to Vector",
+     "Vector"
+    ],
+    [
+     "Align Euler to Vector",
+     "Rotation",
+     "Instance on Points",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Rotation",
+     "Align Euler to Vector",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points.001",
+     "Points"
+    ],
+    [
+     "Align Euler to Vector",
+     "Rotation",
+     "Instance on Points.001",
+     "Rotation"
+    ],
+    [
+     "Transform Geometry.001",
+     "Geometry",
+     "Instance on Points.001",
+     "Instance"
+    ],
+    [
+     "Instance on Points.001",
+     "Instances",
+     "Realize Instances",
+     "Geometry"
+    ],
+    [
+     "Instance on Points",
+     "Instances",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Realize Instances",
+     "Geometry",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Group Input.001",
+     "Geometry",
+     "Resample Curve",
+     "Curve"
+    ],
+    [
+     "Group Input.002",
+     "Density",
+     "Map Range",
+     "Value"
+    ],
+    [
+     "Map Range",
+     "Result",
+     "Curve to Points",
+     "Length"
+    ],
+    [
+     "Math",
+     "Value",
+     "Transform Geometry",
+     "Scale"
+    ],
+    [
+     "Math",
+     "Value",
+     "Transform Geometry.001",
+     "Scale"
+    ],
+    [
+     "Group Input",
+     "Scale",
+     "Math",
+     "Value"
+    ],
+    [
+     "Group Input.003",
+     "Bolt Object",
+     "Object Info",
+     "Object"
+    ],
+    [
+     "Mesh Line",
+     "Mesh",
+     "Transform Geometry.001",
+     "Geometry"
+    ],
+    [
+     "Join Geometry",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Density",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Scale",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Bolt Object",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketObject"
+    }
+   ]
+  },
+  {
+   "name": "Instance_From_Collection",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Collection Info",
+     "type": "COLLECTION_INFO",
+     "bl_idname": "GeometryNodeCollectionInfo",
+     "label": "",
+     "location": [
+      -205.0,
+      -5.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Collection Info",
+      "transform_space": "ORIGINAL"
+     },
+     "inputs": [
+      {
+       "name": "Collection",
+       "identifier": "Collection",
+       "type": "COLLECTION",
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7fb37876d0a0>"
+      },
+      {
+       "name": "Separate Children",
+       "identifier": "Separate Children",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Reset Children",
+       "identifier": "Reset Children",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      524.9,
+      -9.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Set Material",
+     "type": "SET_MATERIAL",
+     "bl_idname": "GeometryNodeSetMaterial",
+     "label": "",
+     "location": [
+      305.1,
+      -0.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Material"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Material",
+       "identifier": "Material",
+       "type": "MATERIAL",
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7fb36c1e2c20>"
+      }
+     ]
+    },
+    {
+     "name": "Realize Instances",
+     "type": "REALIZE_INSTANCES",
+     "bl_idname": "GeometryNodeRealizeInstances",
+     "label": "",
+     "location": [
+      61.9,
+      -7.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Realize Instances",
+      "realize_to_point_domain": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Realize All",
+       "identifier": "Realize All",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Depth",
+       "identifier": "Depth",
+       "type": "INT",
+       "default_value": 0
+      }
+     ]
+    },
+    {
+     "name": "Mesh Boolean",
+     "type": "MESH_BOOLEAN",
+     "bl_idname": "GeometryNodeMeshBoolean",
+     "label": "",
+     "location": [
+      62.2,
+      -92.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Mesh Boolean",
+      "operation": "UNION",
+      "solver": "EXACT"
+     },
+     "inputs": [
+      {
+       "name": "Mesh 1",
+       "identifier": "Mesh 1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mesh",
+       "identifier": "Mesh 2",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Self Intersection",
+       "identifier": "Self Intersection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Hole Tolerant",
+       "identifier": "Hole Tolerant",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Collection Info",
+     "Instances",
+     "Realize Instances",
+     "Geometry"
+    ],
+    [
+     "Collection Info",
+     "Instances",
+     "Mesh Boolean",
+     "Mesh"
+    ],
+    [
+     "Set Material",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Realize Instances",
+     "Geometry",
+     "Set Material",
+     "Geometry"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    }
+   ]
+  },
+  {
+   "name": "Stitch_Seams_On_Curve",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Frame",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Stitch Density",
+     "location": [
+      -517.0,
+      177.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Frame.001",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Scale Objects",
+     "location": [
+      -524.0,
+      -58.1
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Frame.002",
+     "type": "FRAME",
+     "bl_idname": "NodeFrame",
+     "label": "Create Instances",
+     "location": [
+      417.3,
+      342.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "NONE",
+      "bl_label": "Frame",
+      "text": null,
+      "shrink": true,
+      "label_size": 20
+     },
+     "inputs": []
+    },
+    {
+     "name": "Curve to Points",
+     "type": "CURVE_TO_POINTS",
+     "bl_idname": "GeometryNodeCurveToPoints",
+     "label": "",
+     "location": [
+      -85.9,
+      279.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Curve to Points",
+      "mode": "LENGTH"
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 10
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.10000000149011612
+      }
+     ]
+    },
+    {
+     "name": "Align Euler to Vector",
+     "type": "ALIGN_EULER_TO_VECTOR",
+     "bl_idname": "FunctionNodeAlignEulerToVector",
+     "label": "",
+     "location": [
+      114.9,
+      276.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Align Euler to Vector",
+      "axis": "X",
+      "pivot_axis": "AUTO"
+     },
+     "inputs": [
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "VECTOR",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Factor",
+       "identifier": "Factor",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Group Input.001",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -487.9,
+      248.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Group Input.002",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      29.5,
+      -143.4
+     ],
+     "parent": "Frame",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Map Range",
+     "type": "MAP_RANGE",
+     "bl_idname": "ShaderNodeMapRange",
+     "label": "",
+     "location": [
+      221.5,
+      -40.0
+     ],
+     "parent": "Frame",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Map Range",
+      "clamp": true,
+      "interpolation_type": "LINEAR",
+      "data_type": "FLOAT"
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "From Min",
+       "identifier": "From Min",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "From Max",
+       "identifier": "From Max",
+       "type": "VALUE",
+       "default_value": 2.0
+      },
+      {
+       "name": "To Min",
+       "identifier": "To Min",
+       "type": "VALUE",
+       "default_value": 0.03999999910593033
+      },
+      {
+       "name": "To Max",
+       "identifier": "To Max",
+       "type": "VALUE",
+       "default_value": 0.0024999999441206455
+      },
+      {
+       "name": "Steps",
+       "identifier": "Steps",
+       "type": "VALUE",
+       "default_value": 4.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "From Min",
+       "identifier": "From_Min_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "From Max",
+       "identifier": "From_Max_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "To Min",
+       "identifier": "To_Min_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "To Max",
+       "identifier": "To_Max_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "Steps",
+       "identifier": "Steps_FLOAT3",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      604.1,
+      -39.7
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=3.1416, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry.001",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      604.1,
+      -308.7
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=3.1416, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Math",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      204.2,
+      -232.3
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 0.003000000026077032
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      29.5,
+      -311.0
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Instance on Points",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      29.5,
+      -39.9
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Instance on Points.001",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      29.5,
+      -312.7
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Join Geometry",
+     "type": "JOIN_GEOMETRY",
+     "bl_idname": "GeometryNodeJoinGeometry",
+     "label": "",
+     "location": [
+      405.3,
+      -45.9
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Join Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Realize Instances",
+     "type": "REALIZE_INSTANCES",
+     "bl_idname": "GeometryNodeRealizeInstances",
+     "label": "",
+     "location": [
+      195.9,
+      -336.0
+     ],
+     "parent": "Frame.002",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Realize Instances",
+      "realize_to_point_domain": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Realize All",
+       "identifier": "Realize All",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Depth",
+       "identifier": "Depth",
+       "type": "INT",
+       "default_value": 0
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      1092.2,
+      297.5
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input.003",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      206.7,
+      -116.1
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Object Info",
+     "type": "OBJECT_INFO",
+     "bl_idname": "GeometryNodeObjectInfo",
+     "label": "",
+     "location": [
+      398.0,
+      -61.9
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Object Info",
+      "transform_space": "ORIGINAL"
+     },
+     "inputs": [
+      {
+       "name": "Object",
+       "identifier": "Object",
+       "type": "OBJECT",
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7fb378bd2420>"
+      },
+      {
+       "name": "As Instance",
+       "identifier": "As Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Object Info.001",
+     "type": "OBJECT_INFO",
+     "bl_idname": "GeometryNodeObjectInfo",
+     "label": "",
+     "location": [
+      398.0,
+      -334.8
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Object Info",
+      "transform_space": "ORIGINAL"
+     },
+     "inputs": [
+      {
+       "name": "Object",
+       "identifier": "Object",
+       "type": "OBJECT",
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7fb378bd2420>"
+      },
+      {
+       "name": "As Instance",
+       "identifier": "As Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Group Input.004",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      206.7,
+      -389.1
+     ],
+     "parent": "Frame.001",
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Resample Curve",
+     "type": "RESAMPLE_CURVE",
+     "bl_idname": "GeometryNodeResampleCurve",
+     "label": "",
+     "location": [
+      -291.1,
+      301.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Resample Curve",
+      "keep_last_segment": false
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Length"
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 10
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.004999999888241291
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Resample Curve",
+     "Curve",
+     "Curve to Points",
+     "Curve"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points",
+     "Points"
+    ],
+    [
+     "Transform Geometry",
+     "Geometry",
+     "Instance on Points",
+     "Instance"
+    ],
+    [
+     "Object Info",
+     "Geometry",
+     "Transform Geometry",
+     "Geometry"
+    ],
+    [
+     "Curve to Points",
+     "Tangent",
+     "Align Euler to Vector",
+     "Vector"
+    ],
+    [
+     "Align Euler to Vector",
+     "Rotation",
+     "Instance on Points",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Rotation",
+     "Align Euler to Vector",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points.001",
+     "Points"
+    ],
+    [
+     "Align Euler to Vector",
+     "Rotation",
+     "Instance on Points.001",
+     "Rotation"
+    ],
+    [
+     "Transform Geometry.001",
+     "Geometry",
+     "Instance on Points.001",
+     "Instance"
+    ],
+    [
+     "Instance on Points.001",
+     "Instances",
+     "Realize Instances",
+     "Geometry"
+    ],
+    [
+     "Instance on Points",
+     "Instances",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Join Geometry",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Realize Instances",
+     "Geometry",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Group Input.001",
+     "Geometry",
+     "Resample Curve",
+     "Curve"
+    ],
+    [
+     "Group Input.002",
+     "Stitch Density",
+     "Map Range",
+     "Value"
+    ],
+    [
+     "Map Range",
+     "Result",
+     "Curve to Points",
+     "Length"
+    ],
+    [
+     "Math",
+     "Value",
+     "Transform Geometry",
+     "Scale"
+    ],
+    [
+     "Math",
+     "Value",
+     "Transform Geometry.001",
+     "Scale"
+    ],
+    [
+     "Group Input",
+     "Stitch Scale",
+     "Math",
+     "Value"
+    ],
+    [
+     "Group Input.003",
+     "Seam Object",
+     "Object Info",
+     "Object"
+    ],
+    [
+     "Object Info.001",
+     "Geometry",
+     "Transform Geometry.001",
+     "Geometry"
+    ],
+    [
+     "Group Input.004",
+     "Displacement Object",
+     "Object Info.001",
+     "Object"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Stitch Density",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Stitch Scale",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Seam Object",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketObject"
+    },
+    {
+     "name": "Displacement Object",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketObject"
+    }
+   ]
+  },
+  {
+   "name": "Zipper",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Object Info",
+     "type": "OBJECT_INFO",
+     "bl_idname": "GeometryNodeObjectInfo",
+     "label": "",
+     "location": [
+      -691.1,
+      -61.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Object Info",
+      "transform_space": "RELATIVE"
+     },
+     "inputs": [
+      {
+       "name": "Object",
+       "identifier": "Object",
+       "type": "OBJECT",
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7fb378b94f20>"
+      },
+      {
+       "name": "As Instance",
+       "identifier": "As Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Object Info.001",
+     "type": "OBJECT_INFO",
+     "bl_idname": "GeometryNodeObjectInfo",
+     "label": "",
+     "location": [
+      -692.2,
+      174.5
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Object Info",
+      "transform_space": "RELATIVE"
+     },
+     "inputs": [
+      {
+       "name": "Object",
+       "identifier": "Object",
+       "type": "OBJECT",
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7fb378bc9620>"
+      },
+      {
+       "name": "As Instance",
+       "identifier": "As Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Resample Curve",
+     "type": "RESAMPLE_CURVE",
+     "bl_idname": "GeometryNodeResampleCurve",
+     "label": "",
+     "location": [
+      -420.6,
+      195.5
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Resample Curve",
+      "keep_last_segment": false
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Count"
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 75
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.10000000149011612
+      }
+     ]
+    },
+    {
+     "name": "Viewer",
+     "type": "VIEWER",
+     "bl_idname": "GeometryNodeViewer",
+     "label": "",
+     "location": [
+      1282.3,
+      207.4
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "OUTPUT",
+      "bl_label": "Viewer",
+      "ui_shortcut": 0,
+      "active_index": 0,
+      "domain": "AUTO"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Curve to Points",
+     "type": "CURVE_TO_POINTS",
+     "bl_idname": "GeometryNodeCurveToPoints",
+     "label": "",
+     "location": [
+      2.2,
+      228.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Curve to Points",
+      "mode": "COUNT"
+     },
+     "inputs": [
+      {
+       "name": "Curve",
+       "identifier": "Curve",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Count",
+       "identifier": "Count",
+       "type": "INT",
+       "default_value": 24
+      },
+      {
+       "name": "Length",
+       "identifier": "Length",
+       "type": "VALUE",
+       "default_value": 0.10000000149011612
+      }
+     ]
+    },
+    {
+     "name": "Instance on Points",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      814.9,
+      228.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Align Euler to Vector",
+     "type": "ALIGN_EULER_TO_VECTOR",
+     "bl_idname": "FunctionNodeAlignEulerToVector",
+     "label": "",
+     "location": [
+      316.2,
+      119.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Align Euler to Vector",
+      "axis": "Y",
+      "pivot_axis": "AUTO"
+     },
+     "inputs": [
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "VECTOR",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Factor",
+       "identifier": "Factor",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Align Euler to Vector.001",
+     "type": "ALIGN_EULER_TO_VECTOR",
+     "bl_idname": "FunctionNodeAlignEulerToVector",
+     "label": "",
+     "location": [
+      316.2,
+      -300.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Align Euler to Vector",
+      "axis": "Y",
+      "pivot_axis": "AUTO"
+     },
+     "inputs": [
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "VECTOR",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Factor",
+       "identifier": "Factor",
+       "type": "VALUE",
+       "default_value": 1.0
+      },
+      {
+       "name": "Vector",
+       "identifier": "Vector",
+       "type": "VECTOR",
+       "default_value": "<bpy_float[3], NodeSocketVector.default_value>"
+      }
+     ]
+    },
+    {
+     "name": "Instance on Points.001",
+     "type": "INSTANCE_ON_POINTS",
+     "bl_idname": "GeometryNodeInstanceOnPoints",
+     "label": "",
+     "location": [
+      565.9,
+      -192.6
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Instance on Points"
+     },
+     "inputs": [
+      {
+       "name": "Points",
+       "identifier": "Points",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Instance",
+       "identifier": "Instance",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Pick Instance",
+       "identifier": "Pick Instance",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Instance Index",
+       "identifier": "Instance Index",
+       "type": "INT",
+       "default_value": 0
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Join Geometry",
+     "type": "JOIN_GEOMETRY",
+     "bl_idname": "GeometryNodeJoinGeometry",
+     "label": "",
+     "location": [
+      1062.2,
+      146.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Join Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry.001",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      19.6,
+      -252.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=3.1416), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Combine XYZ",
+     "type": "COMBXYZ",
+     "bl_idname": "ShaderNodeCombineXYZ",
+     "label": "",
+     "location": [
+      -254.5,
+      -325.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Combine XYZ"
+     },
+     "inputs": [
+      {
+       "name": "X",
+       "identifier": "X",
+       "type": "VALUE",
+       "default_value": 0.029999999329447746
+      },
+      {
+       "name": "Y",
+       "identifier": "Y",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "Z",
+       "identifier": "Z",
+       "type": "VALUE",
+       "default_value": 0.0
+      }
+     ]
+    },
+    {
+     "name": "Transform Geometry",
+     "type": "TRANSFORM_GEOMETRY",
+     "bl_idname": "GeometryNodeTransform",
+     "label": "",
+     "location": [
+      18.1,
+      22.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Transform Geometry"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mode",
+       "identifier": "Mode",
+       "type": "MENU",
+       "default_value": "Components"
+      },
+      {
+       "name": "Translation",
+       "identifier": "Translation",
+       "type": "VECTOR",
+       "default_value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "name": "Rotation",
+       "identifier": "Rotation",
+       "type": "ROTATION",
+       "default_value": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+      },
+      {
+       "name": "Scale",
+       "identifier": "Scale",
+       "type": "VECTOR",
+       "default_value": [
+        1.0,
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Transform",
+       "identifier": "Transform",
+       "type": "MATRIX",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Combine XYZ.001",
+     "type": "COMBXYZ",
+     "bl_idname": "ShaderNodeCombineXYZ",
+     "label": "",
+     "location": [
+      -242.8,
+      -34.1
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Combine XYZ"
+     },
+     "inputs": [
+      {
+       "name": "X",
+       "identifier": "X",
+       "type": "VALUE",
+       "default_value": 0.029999999329447746
+      },
+      {
+       "name": "Y",
+       "identifier": "Y",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "Z",
+       "identifier": "Z",
+       "type": "VALUE",
+       "default_value": 0.0
+      }
+     ]
+    },
+    {
+     "name": "Math",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -432.2,
+      -316.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 0.009999999776482582
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Math.001",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -427.7,
+      -33.7
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": -1.0
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Math.003",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -427.7,
+      -178.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": -1.0
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Math.002",
+     "type": "MATH",
+     "bl_idname": "ShaderNodeMath",
+     "label": "",
+     "location": [
+      -432.2,
+      -461.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Math",
+      "operation": "MULTIPLY",
+      "use_clamp": false
+     },
+     "inputs": [
+      {
+       "name": "Value",
+       "identifier": "Value",
+       "type": "VALUE",
+       "default_value": 0.5
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_001",
+       "type": "VALUE",
+       "default_value": 0.004999999888241291
+      },
+      {
+       "name": "Value",
+       "identifier": "Value_002",
+       "type": "VALUE",
+       "default_value": 0.5
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      1275.8,
+      96.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -962.4,
+      -68.8
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    }
+   ],
+   "links": [
+    [
+     "Join Geometry",
+     "Geometry",
+     "Viewer",
+     "Geometry"
+    ],
+    [
+     "Object Info.001",
+     "Geometry",
+     "Resample Curve",
+     "Curve"
+    ],
+    [
+     "Resample Curve",
+     "Curve",
+     "Curve to Points",
+     "Curve"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points",
+     "Points"
+    ],
+    [
+     "Align Euler to Vector",
+     "Rotation",
+     "Instance on Points",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Tangent",
+     "Align Euler to Vector",
+     "Vector"
+    ],
+    [
+     "Transform Geometry",
+     "Geometry",
+     "Instance on Points",
+     "Instance"
+    ],
+    [
+     "Object Info",
+     "Geometry",
+     "Transform Geometry",
+     "Geometry"
+    ],
+    [
+     "Object Info",
+     "Geometry",
+     "Transform Geometry.001",
+     "Geometry"
+    ],
+    [
+     "Curve to Points",
+     "Points",
+     "Instance on Points.001",
+     "Points"
+    ],
+    [
+     "Align Euler to Vector.001",
+     "Rotation",
+     "Instance on Points.001",
+     "Rotation"
+    ],
+    [
+     "Curve to Points",
+     "Tangent",
+     "Align Euler to Vector.001",
+     "Vector"
+    ],
+    [
+     "Transform Geometry.001",
+     "Geometry",
+     "Instance on Points.001",
+     "Instance"
+    ],
+    [
+     "Instance on Points.001",
+     "Instances",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Instance on Points",
+     "Instances",
+     "Join Geometry",
+     "Geometry"
+    ],
+    [
+     "Combine XYZ",
+     "Vector",
+     "Transform Geometry.001",
+     "Translation"
+    ],
+    [
+     "Math",
+     "Value",
+     "Combine XYZ",
+     "X"
+    ],
+    [
+     "Group Input",
+     "Teeth Distance",
+     "Math",
+     "Value"
+    ],
+    [
+     "Math.001",
+     "Value",
+     "Combine XYZ.001",
+     "X"
+    ],
+    [
+     "Combine XYZ.001",
+     "Vector",
+     "Transform Geometry",
+     "Translation"
+    ],
+    [
+     "Math",
+     "Value",
+     "Math.001",
+     "Value"
+    ],
+    [
+     "Math.002",
+     "Value",
+     "Math.003",
+     "Value"
+    ],
+    [
+     "Math.003",
+     "Value",
+     "Combine XYZ.001",
+     "Y"
+    ],
+    [
+     "Math.002",
+     "Value",
+     "Combine XYZ",
+     "Y"
+    ],
+    [
+     "Join Geometry",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Group Input",
+     "Input Curve",
+     "Object Info.001",
+     "Object"
+    ],
+    [
+     "Group Input",
+     "Zipper Teeth Object",
+     "Object Info",
+     "Object"
+    ],
+    [
+     "Group Input",
+     "Teeth Count",
+     "Curve to Points",
+     "Count"
+    ],
+    [
+     "Group Input",
+     "Teeth Count",
+     "Resample Curve",
+     "Count"
+    ],
+    [
+     "Group Input",
+     "Teeth Scale",
+     "Transform Geometry",
+     "Scale"
+    ],
+    [
+     "Group Input",
+     "Teeth Scale",
+     "Transform Geometry.001",
+     "Scale"
+    ],
+    [
+     "Group Input",
+     "Teeth Offset",
+     "Math.002",
+     "Value"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Input Curve",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketObject"
+    },
+    {
+     "name": "Zipper Teeth Object",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketObject"
+    },
+    {
+     "name": "Teeth Count",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketInt"
+    },
+    {
+     "name": "Teeth Scale",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Teeth Distance",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    },
+    {
+     "name": "Teeth Offset",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    }
+   ]
+  }
+ ],
+ "meshes_count": 222,
+ "materials": [
+  "Blue",
+  "Bolt",
+  "Boots",
+  "Boots_Sole",
+  "Boots_Tongue",
+  "Boots_Top_Strap",
+  "Dots Stroke",
+  "Eyelet",
+  "Fuel_Glass",
+  "Green",
+  "Hook",
+  "Instance",
+  "Jetpack_Antenna_Red",
+  "Jetpack_Antenna_White",
+  "Jetpack_Base_1",
+  "Jetpack_Base_2",
+  "Jetpack_Body_1",
+  "Jetpack_Body_2",
+  "Jetpack_FanBlades",
+  "Jetpack_Straps_1",
+  "Jetpack_Thruster",
+  "Jetpack_Thruster2",
+  "Jetpack_Wings_Base",
+  "Jeypack_Strap_Ring",
+  "KneePads",
+  "KneePadsBand",
+  "KneePadsBase",
+  "KneeProtector",
+  "Lace",
+  "Light_Green",
+  "Light_Red",
+  "LWing Panel 1",
+  "LWing Panel 2",
+  "LWing Tip",
+  "Material.002",
+  "Material.003",
+  "NeckBelt",
+  "Neckbelt Pin",
+  "NeckBelt.001",
+  "Pin",
+  "Pink",
+  "Shirt",
+  "Shirt_Button",
+  "Stitches",
+  "Stitches.Boot",
+  "Stitches.Kneepads",
+  "Stitches.Top",
+  "Straps_Seam",
+  "Sweater",
+  "Sweater Darker",
+  "Trousers",
+  "UWing Panel 1",
+  "UWing Panel 2",
+  "UWing Panel Tip",
+  "Wings_Base",
+  "Yellow"
+ ],
+ "images": [
+  "concept 2.1.png",
+  "concept 3.1.png",
+  "crease_cut.png",
+  "crease_sharp.png",
+  "crease_soft.png",
+  "crease_softer.png",
+  "crease_standard.png",
+  "crease_wrinkle.png",
+  "grab_smooth.png",
+  "grab_smoothpitch.png",
+  "grab_smoothwide.png",
+  "Render Result",
+  "strap_displacement.tiff",
+  "weld_displacement.tiff"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "file": "05_04_exercise_1.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "AgX"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Folds_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Pin",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Fold 01",
+   "children": [],
+   "objects": [
+    "Folds_01",
+    "Pin"
+   ]
+  }
+ ],
+ "node_groups": [],
+ "meshes_count": 2,
+ "materials": [
+  "Dots Stroke"
+ ],
+ "images": [
+  "Render Result"
+ ]
+}

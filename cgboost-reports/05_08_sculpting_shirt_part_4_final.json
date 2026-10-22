@@ -1,0 +1,1194 @@
+{
+ "file": "05_08_sculpting_shirt_part_4_final.blend",
+ "blender_version": "5.2.3",
+ "scenes": [
+  {
+   "name": "Scene",
+   "fps": 24,
+   "fps_base": 1.0,
+   "frame_start": 1,
+   "frame_end": 250,
+   "resolution": [
+    1920,
+    1080
+   ],
+   "engine": "BLENDER_EEVEE",
+   "view_transform": "Filmic"
+  }
+ ],
+ "objects": [
+  {
+   "name": "Arms",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Back",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Sole_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Boots_Top_Strap_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Breasts",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Cylinder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Eyebrows",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Feet",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Finger_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Fingers_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Front_Body",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.001",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.002",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.003",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.004",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.005",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.006",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.007",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.008",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.009",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.010",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.011",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.012",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.013",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.014",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.015",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.016",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.017",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.018",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.019",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.020",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.021",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.022",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.023",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.024",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.025",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.026",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.027",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.028",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.029",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.030",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.031",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.032",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.033",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.034",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.035",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hair_Straggler_Placeholder.036",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "HairBand",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hand_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Hands",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Head",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Instance_Character",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "KneePads_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Lattice_Tumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Legs",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Location_Shirt_Button",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Index",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Middle",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Pinky",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Nail_Ring",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Strap_2_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Shirt_Strap_Sculpt",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Thumb_Nail",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toe_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_01",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_02",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_03",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_BigToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "ToeNail_SmallToe",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Toes_Placeholder",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Torso",
+   "error": "'Object' object has no attribute 'materials'"
+  },
+  {
+   "name": "Trousers_Blockout",
+   "error": "'Object' object has no attribute 'materials'"
+  }
+ ],
+ "collections": [
+  {
+   "name": "Character",
+   "children": [
+    "Hair_Placeholder",
+    "Hands",
+    "Feet"
+   ],
+   "objects": [
+    "Arms",
+    "Breasts",
+    "Eyebrows",
+    "Head",
+    "Legs",
+    "Torso",
+    "HairBand"
+   ]
+  },
+  {
+   "name": "Clothes Blockout",
+   "children": [],
+   "objects": [
+    "Shirt_Blockout",
+    "Trousers_Blockout",
+    "KneePads_Blockout",
+    "Boots_Blockout",
+    "Boots_Top_Strap_Blockout",
+    "Boots_Sole_Blockout"
+   ]
+  },
+  {
+   "name": "Clothes Sculpt",
+   "children": [],
+   "objects": [
+    "Shirt_Sculpt",
+    "Shirt_Strap_Sculpt",
+    "Shirt_Strap_2_Sculpt"
+   ]
+  },
+  {
+   "name": "Feet",
+   "children": [],
+   "objects": [
+    "Feet",
+    "Toe_01",
+    "Toe_02",
+    "Toe_03",
+    "Toe_BigToe",
+    "Toe_SmallToe",
+    "ToeNail_01",
+    "ToeNail_02",
+    "ToeNail_03",
+    "ToeNail_BigToe",
+    "ToeNail_SmallToe"
+   ]
+  },
+  {
+   "name": "Hair_Placeholder",
+   "children": [
+    "Hair_Straggler_Placeholder"
+   ],
+   "objects": [
+    "Hair_Placeholder",
+    "Hair_Placeholder.001",
+    "Hair_Placeholder.002"
+   ]
+  },
+  {
+   "name": "Hair_Straggler_Placeholder",
+   "children": [],
+   "objects": [
+    "Hair_Straggler_Placeholder",
+    "Hair_Straggler_Placeholder.001",
+    "Hair_Straggler_Placeholder.002",
+    "Hair_Straggler_Placeholder.003",
+    "Hair_Straggler_Placeholder.004",
+    "Hair_Straggler_Placeholder.005",
+    "Hair_Straggler_Placeholder.006",
+    "Hair_Straggler_Placeholder.007",
+    "Hair_Straggler_Placeholder.008",
+    "Hair_Straggler_Placeholder.009",
+    "Hair_Straggler_Placeholder.010",
+    "Hair_Straggler_Placeholder.011",
+    "Hair_Straggler_Placeholder.012",
+    "Hair_Straggler_Placeholder.013",
+    "Hair_Straggler_Placeholder.014",
+    "Hair_Straggler_Placeholder.015",
+    "Hair_Straggler_Placeholder.016",
+    "Hair_Straggler_Placeholder.017",
+    "Hair_Straggler_Placeholder.018",
+    "Hair_Straggler_Placeholder.019",
+    "Hair_Straggler_Placeholder.020",
+    "Hair_Straggler_Placeholder.021",
+    "Hair_Straggler_Placeholder.022",
+    "Hair_Straggler_Placeholder.023",
+    "Hair_Straggler_Placeholder.024",
+    "Hair_Straggler_Placeholder.025",
+    "Hair_Straggler_Placeholder.026",
+    "Hair_Straggler_Placeholder.027",
+    "Hair_Straggler_Placeholder.028",
+    "Hair_Straggler_Placeholder.029",
+    "Hair_Straggler_Placeholder.030",
+    "Hair_Straggler_Placeholder.031",
+    "Hair_Straggler_Placeholder.032",
+    "Hair_Straggler_Placeholder.033",
+    "Hair_Straggler_Placeholder.036",
+    "Hair_Straggler_Placeholder.035",
+    "Hair_Straggler_Placeholder.034"
+   ]
+  },
+  {
+   "name": "Hands",
+   "children": [],
+   "objects": [
+    "Finger_Index",
+    "Finger_Middle",
+    "Finger_Pinky",
+    "Finger_Ring",
+    "Hands",
+    "Nail_Index",
+    "Nail_Middle",
+    "Nail_Pinky",
+    "Nail_Ring",
+    "Thumb",
+    "Thumb_Nail"
+   ]
+  },
+  {
+   "name": "Lattices",
+   "children": [],
+   "objects": [
+    "Lattice_Index",
+    "Lattice_Middle",
+    "Lattice_Pinky",
+    "Lattice_Ring",
+    "Lattice_Tumb"
+   ]
+  },
+  {
+   "name": "Locations",
+   "children": [],
+   "objects": [
+    "Location_Shirt_Button"
+   ]
+  },
+  {
+   "name": "Misc",
+   "children": [
+    "Placeholder",
+    "Lattices"
+   ],
+   "objects": []
+  },
+  {
+   "name": "Placeholder",
+   "children": [],
+   "objects": [
+    "Fingers_Placeholder",
+    "Hand_Placeholder",
+    "Toes_Placeholder"
+   ]
+  },
+  {
+   "name": "References",
+   "children": [],
+   "objects": [
+    "Front",
+    "Front_Body",
+    "Back"
+   ]
+  },
+  {
+   "name": "Sculpt",
+   "children": [
+    "Misc",
+    "Character",
+    "Clothes Blockout",
+    "Clothes Sculpt",
+    "Locations"
+   ],
+   "objects": [
+    "Cylinder"
+   ]
+  },
+  {
+   "name": "Temp",
+   "children": [],
+   "objects": [
+    "Instance_Character"
+   ]
+  }
+ ],
+ "node_groups": [
+  {
+   "name": "Auto Smooth",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      480.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Socket_0",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Group Input",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -420.0,
+      -300.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Group Input.001",
+     "type": "GROUP_INPUT",
+     "bl_idname": "NodeGroupInput",
+     "label": "",
+     "location": [
+      -60.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Input"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Set Shade Smooth",
+     "type": "SET_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeSetShadeSmooth",
+     "label": "",
+     "location": [
+      120.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Shade Smooth",
+      "domain": "EDGE"
+     },
+     "inputs": [
+      {
+       "name": "Mesh",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Shade Smooth",
+       "identifier": "Shade Smooth",
+       "type": "BOOLEAN",
+       "default_value": true
+      }
+     ]
+    },
+    {
+     "name": "Set Shade Smooth.001",
+     "type": "SET_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeSetShadeSmooth",
+     "label": "",
+     "location": [
+      300.0,
+      -100.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Shade Smooth",
+      "domain": "FACE"
+     },
+     "inputs": [
+      {
+       "name": "Mesh",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Shade Smooth",
+       "identifier": "Shade Smooth",
+       "type": "BOOLEAN",
+       "default_value": true
+      }
+     ]
+    },
+    {
+     "name": "Edge Angle",
+     "type": "MESH_EDGE_ANGLE",
+     "bl_idname": "GeometryNodeInputMeshEdgeAngle",
+     "label": "",
+     "location": [
+      -420.0,
+      -220.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Edge Angle"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Is Edge Smooth",
+     "type": "INPUT_EDGE_SMOOTH",
+     "bl_idname": "GeometryNodeInputEdgeSmooth",
+     "label": "",
+     "location": [
+      -60.0,
+      -160.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Is Edge Smooth"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Is Face Smooth",
+     "type": "INPUT_SHADE_SMOOTH",
+     "bl_idname": "GeometryNodeInputShadeSmooth",
+     "label": "",
+     "location": [
+      -240.0,
+      -340.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Is Face Smooth"
+     },
+     "inputs": []
+    },
+    {
+     "name": "Boolean Math",
+     "type": "BOOLEAN_MATH",
+     "bl_idname": "FunctionNodeBooleanMath",
+     "label": "",
+     "location": [
+      -60.0,
+      -220.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Boolean Math",
+      "operation": "AND"
+     },
+     "inputs": [
+      {
+       "name": "Boolean",
+       "identifier": "Boolean",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Boolean",
+       "identifier": "Boolean_001",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Compare",
+     "type": "COMPARE",
+     "bl_idname": "FunctionNodeCompare",
+     "label": "",
+     "location": [
+      -240.0,
+      -180.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "CONVERTER",
+      "bl_label": "Compare",
+      "operation": "LESS_EQUAL",
+      "data_type": "FLOAT",
+      "mode": "ELEMENT"
+     },
+     "inputs": [
+      {
+       "name": "A",
+       "identifier": "A",
+       "type": "VALUE",
+       "default_value": 0.0
+      },
+      {
+       "name": "B",
+       "identifier": "B",
+       "type": "VALUE",
+       "default_value": 0.0
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Edge Angle",
+     "Unsigned Angle",
+     "Compare",
+     "A"
+    ],
+    [
+     "Set Shade Smooth.001",
+     "Mesh",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Group Input",
+     "Angle",
+     "Compare",
+     "B"
+    ],
+    [
+     "Compare",
+     "Result",
+     "Boolean Math",
+     "Boolean"
+    ],
+    [
+     "Is Face Smooth",
+     "Smooth",
+     "Boolean Math",
+     "Boolean"
+    ],
+    [
+     "Group Input.001",
+     "Geometry",
+     "Set Shade Smooth",
+     "Mesh"
+    ],
+    [
+     "Is Edge Smooth",
+     "Smooth",
+     "Set Shade Smooth",
+     "Selection"
+    ],
+    [
+     "Set Shade Smooth",
+     "Mesh",
+     "Set Shade Smooth.001",
+     "Mesh"
+    ],
+    [
+     "Boolean Math",
+     "Boolean",
+     "Set Shade Smooth",
+     "Shade Smooth"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Angle",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketFloat"
+    }
+   ]
+  },
+  {
+   "name": "Instance_From_Collection",
+   "type": "GeometryNodeTree",
+   "nodes": [
+    {
+     "name": "Collection Info",
+     "type": "COLLECTION_INFO",
+     "bl_idname": "GeometryNodeCollectionInfo",
+     "label": "",
+     "location": [
+      -205.0,
+      -5.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INPUT",
+      "bl_label": "Collection Info",
+      "transform_space": "ORIGINAL"
+     },
+     "inputs": [
+      {
+       "name": "Collection",
+       "identifier": "Collection",
+       "type": "COLLECTION",
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7fb11450e4a0>"
+      },
+      {
+       "name": "Separate Children",
+       "identifier": "Separate Children",
+       "type": "BOOLEAN",
+       "default_value": false
+      },
+      {
+       "name": "Reset Children",
+       "identifier": "Reset Children",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Group Output",
+     "type": "GROUP_OUTPUT",
+     "bl_idname": "NodeGroupOutput",
+     "label": "",
+     "location": [
+      524.9,
+      -9.0
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "INTERFACE",
+      "bl_label": "Group Output",
+      "is_active_output": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Output_1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "",
+       "identifier": "__extend__",
+       "type": "CUSTOM",
+       "default_value": null
+      }
+     ]
+    },
+    {
+     "name": "Set Material",
+     "type": "SET_MATERIAL",
+     "bl_idname": "GeometryNodeSetMaterial",
+     "label": "",
+     "location": [
+      305.1,
+      -0.9
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Set Material"
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Material",
+       "identifier": "Material",
+       "type": "MATERIAL",
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7fb113999820>"
+      }
+     ]
+    },
+    {
+     "name": "Mesh Boolean",
+     "type": "MESH_BOOLEAN",
+     "bl_idname": "GeometryNodeMeshBoolean",
+     "label": "",
+     "location": [
+      62.2,
+      -92.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Mesh Boolean",
+      "operation": "UNION",
+      "solver": "EXACT"
+     },
+     "inputs": [
+      {
+       "name": "Mesh 1",
+       "identifier": "Mesh 1",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Mesh",
+       "identifier": "Mesh 2",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Self Intersection",
+       "identifier": "Self Intersection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Hole Tolerant",
+       "identifier": "Hole Tolerant",
+       "type": "BOOLEAN",
+       "default_value": false
+      }
+     ]
+    },
+    {
+     "name": "Realize Instances",
+     "type": "REALIZE_INSTANCES",
+     "bl_idname": "GeometryNodeRealizeInstances",
+     "label": "",
+     "location": [
+      61.9,
+      -7.3
+     ],
+     "parent": null,
+     "mute": false,
+     "props": {
+      "warning_propagation": "ALL",
+      "color_tag": "GEOMETRY",
+      "bl_label": "Realize Instances",
+      "realize_to_point_domain": true
+     },
+     "inputs": [
+      {
+       "name": "Geometry",
+       "identifier": "Geometry",
+       "type": "GEOMETRY",
+       "default_value": null
+      },
+      {
+       "name": "Selection",
+       "identifier": "Selection",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Realize All",
+       "identifier": "Realize All",
+       "type": "BOOLEAN",
+       "default_value": true
+      },
+      {
+       "name": "Depth",
+       "identifier": "Depth",
+       "type": "INT",
+       "default_value": 0
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Collection Info",
+     "Instances",
+     "Realize Instances",
+     "Geometry"
+    ],
+    [
+     "Collection Info",
+     "Instances",
+     "Mesh Boolean",
+     "Mesh"
+    ],
+    [
+     "Set Material",
+     "Geometry",
+     "Group Output",
+     "Geometry"
+    ],
+    [
+     "Realize Instances",
+     "Geometry",
+     "Set Material",
+     "Geometry"
+    ]
+   ],
+   "interface": [
+    {
+     "name": "Geometry",
+     "in_out": "OUTPUT",
+     "socket_type": "NodeSocketGeometry"
+    },
+    {
+     "name": "Geometry",
+     "in_out": "INPUT",
+     "socket_type": "NodeSocketGeometry"
+    }
+   ]
+  }
+ ],
+ "meshes_count": 77,
+ "materials": [
+  "Boots",
+  "Boots_Sole",
+  "Boots_Top_Strap",
+  "Dots Stroke",
+  "Instance",
+  "KneePads",
+  "Material.002",
+  "Material.003",
+  "Shirt",
+  "Shirt_Button",
+  "Trousers"
+ ],
+ "images": [
+  "concept 2.1.png",
+  "crease_cut.png",
+  "crease_sharp.png",
+  "crease_soft.png",
+  "crease_softer.png",
+  "crease_standard.png",
+  "crease_wrinkle.png",
+  "grab_smooth.png",
+  "grab_smoothpitch.png",
+  "grab_smoothwide.png",
+  "Render Result",
+  "shirt.png"
+ ]
+}
