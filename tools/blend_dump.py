@@ -185,7 +185,7 @@ def mesh_stats(me):
     return s
 
 
-def fold_metrics(me, max_verts=250000):
+def fold_metrics(me, max_verts=400000):
     """
     Quantitative fold/drapery data from a SCULPTED mesh.
     fold amplitude = distance from a Laplacian-smoothed version of the mesh
@@ -224,7 +224,10 @@ def fold_metrics(me, max_verts=250000):
             cx, cy, cz = cur[i]
             devs.append(math.sqrt((x - cx) ** 2 + (y - cy) ** 2 + (z - cz) ** 2))
         devs.sort()
-        dims = [me.dimensions[0], me.dimensions[1], me.dimensions[2]]
+        xs = [v[0] for v in verts]
+        ys = [v[1] for v in verts]
+        zs = [v[2] for v in verts]
+        dims = [max(xs) - min(xs), max(ys) - min(ys), max(zs) - min(zs)]
         diag = math.sqrt(sum(d * d for d in dims)) or 1.0
 
         def pct(p):

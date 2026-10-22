@@ -70,3 +70,5 @@ jobs:
           fi
 
 # rerun trigger: blend_dump materials fix (non-mesh objects)
+
+# rerun: fold_metrics bbox fix (Mesh has no .dimensions) + threshold 400k
