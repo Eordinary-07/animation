@@ -257,10 +257,19 @@ def dump_object(ob, do_fold=True):
         "modifiers": [],
         "vertex_groups": [],
         "shape_keys": None,
-        "materials": [m.name for m in ob.materials if m],
+        "materials": [],
     }
-    for m in ob.modifiers:
-        md = {"name": m.name, "type": m.type, "props": ser(m)}
+    try:
+        d["materials"] = [m.name for m in (getattr(ob, "materials", None) or [])
+                          if m]
+    except Exception:
+        pass
+    for m in getattr(ob, "modifiers", []) or []:
+        try:
+            md = {"name": m.name, "type": m.type, "props": ser(m)}
+        except Exception as e:
+            d["modifiers"].append({"name": getattr(m, "name", "?"), "error": str(e)})
+            continue
         if m.type == "NODES" and getattr(m, "node_group", None):
             md["node_group"] = m.node_group.name
             md["node_tree"] = dump_node_tree(m.node_group)
