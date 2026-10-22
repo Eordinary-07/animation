@@ -138,9 +138,17 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "'Mesh' object has no attribute 'dimensions'",
-    "vertices": 289
+    "skipped": false,
+    "vertices": 289,
+    "bbox_diagonal": 2.82843,
+    "fold_amplitude": {
+     "median": 0.000326,
+     "p75": 0.006735,
+     "p95": 0.053392,
+     "max": 0.096982,
+     "p95_percent_of_diagonal": 1.888,
+     "max_percent_of_diagonal": 3.429
+    }
    }
   },
   {
@@ -223,9 +231,17 @@
     "quad_percent": 0.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "'Mesh' object has no attribute 'dimensions'",
-    "vertices": 84
+    "skipped": false,
+    "vertices": 84,
+    "bbox_diagonal": 1.50178,
+    "fold_amplitude": {
+     "median": 0.011927,
+     "p75": 0.011927,
+     "p95": 0.011927,
+     "max": 0.011927,
+     "p95_percent_of_diagonal": 0.794,
+     "max_percent_of_diagonal": 0.794
+    }
    }
   }
  ],
