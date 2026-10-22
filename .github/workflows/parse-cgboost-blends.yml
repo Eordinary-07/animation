@@ -74,3 +74,5 @@ jobs:
 # rerun: fold_metrics bbox fix (Mesh has no .dimensions) + threshold 400k
 
 # rerun: proper fold metric (30-iter full Laplacian form deviation)
+
+# rerun: remove stale devs loop (NameError cur)
