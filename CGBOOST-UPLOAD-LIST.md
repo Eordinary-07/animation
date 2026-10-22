@@ -91,3 +91,48 @@ gives me Geometry Nodes (exact graphs) + the fold teaching.
 **Optional bonus (tiny, very precise):** open each Tier A `.blend` in Blender and
 run the dump script from `WHAT-TO-GIVE-HAIR-GEONODES-CLOTH.md` → a ~1 MB JSON with
 every node and setting. That's the most precise thing you can hand me.
+
+---
+
+## 7. ⚠️ UPDATE — "all MP4, no subtitles" — what video can and can't give me
+
+**Tested in the sandbox on 2026-10-22:**
+
+| Capability | Result |
+|---|---|
+| Open MP4, read streams | ✅ **Yes** — PyAV 18.1.0 installed (no system ffmpeg needed) |
+| Extract **embedded** subtitle tracks (`mov_text`/`srt`/`ass`) | ✅ **Yes** — if a track exists inside the MP4 |
+| Video → frames | ✅ Yes |
+| **Speech → text (transcribe narration)** | ❌ **No** — no offline ASR; every model downloads from a blocked host |
+| Frames → *understanding* | ❌ No — I can't see images. Frames are useful to **you**, not to me |
+
+### So:
+1. **Check for hidden subtitle tracks first.** "No subtitle file" ≠ "no subtitles" — many
+   course MP4s carry them *inside* the container. In **VLC**: open the video →
+   **Subtitle → Sub Track**. If a track is listed, upload **just that one MP4** and I'll
+   extract it to `.srt` in seconds. (If you have the legit CG Boost account, captions are
+   also downloadable from the course platform.)
+2. **Don't upload the rest of the videos** — I can't watch them, and 45 GB won't fit.
+3. **The `.blend` files are the real payload** — and for my purposes they're *better*
+   than video, because the finished result is baked into the geometry.
+
+### What I actually mine from your `.blend` files (this is the plan):
+* **Geometry Nodes** → complete node tree: every node, socket, link and default value →
+  the exact production recipe for **ref 32**.
+* **Sculpted cloth** → the *mesh is the knowledge*. I measure it: fold **depth/amplitude**,
+  **spacing (wavelength)**, **fold frequency per region**, curvature histograms, and where
+  detail is concentrated → these become **numeric tolerances** in **ref 33**
+  ("fold depth ≈ X% of limb radius", "one fold per N cm") — studio craft as numbers, not prose.
+* **Anatomy** → real measured proportions from the sculpted body (head-height ratio, limb
+  ratios, joint circumferences) → **ref 27**.
+* **Hair sculpt (03_24)** → strand/curve flow directions and clump widths → **ref 31**.
+* **Scene/asset setup** → `04_02_collection_instance_setup` teaches the **collection-instance
+  workflow** (how a studio assembles a character asset) — a gap in the skill right now.
+* Plus: modifier stacks, vertex groups, shape keys, custom properties, workspace/lighting setup.
+
+### Revised plan
+* **Tier A + B + C unchanged** (the 21 files, ~790 MB) — this is the core.
+* **Tier D replaced by:** optional **one MP4** (`05_03_anatomy_of_folds`, 302 MB) so I can
+  (a) probe for embedded subtitles and (b) render you a **frame contact sheet** to study.
+* **Best of all:** also open each `.blend` in Blender and run the dump script → tiny JSON,
+  zero parsing risk, exact values.
