@@ -5,13 +5,46 @@
 
 One student. One class. Ten minutes, start to finish, from the first bow to the last.
 
+## Delivery spec
+
+| | |
+|---|---|
+| **Frame rate** | **30 fps** — Kimodo's native output rate, no retiming needed on export |
+| **Duration** | 10:00 = **600 seconds** |
+| **Total frames** | **18,000** |
+| **Segments** | 66 scored prompts (4–10 s each) |
+| **Skeleton** | SOMA (`somaskel30` predicted → `somaskel77` for export) |
+| **Export** | BVH with a standard T-pose rest pose, retargeted to the production rig |
+
+Every timecode in this document is 30 fps. Every `kimodo_gen` call is issued with the
+duration in *seconds*; Kimodo multiplies by its own `fps` of 30, so the frame counts in
+the schedule are exact, not estimates.
+
+**Contents**
+
+0. How to use this document
+1. Research — what a Taekwondo class actually is, and what Kimodo can and cannot do with it
+2. Scene architecture — story spine and the seven blocks
+3. Camera and staging
+4. Segment schedule — all 66 prompts with timecodes
+5. Generation plan — volume, order, constraints, seeds, what to judge
+6. Assembly and polish — retiming, feet, hands, crowd, sound, cloth
+7. Risks
+8. Attribution and reference
+
 ---
 
-## 0. What's in this folder
+## 0. How to use this document
+
+This is the **whole script in one file** — nothing else is needed to read, schedule,
+brief, or budget the sequence. Sections 1–2 are the research and the story, section 4
+is the shot-by-shot schedule, sections 5–6 are the production plan.
+
+The companion files in `taekwondo-practice/` are only needed if you are the one
+running the generation:
 
 | File | What it is |
 |---|---|
-| `animation-script.md` | This document — the script you read. |
 | `segments.json` | Source of truth: 66 segments, timecodes, prompts, chain groups. |
 | `generate_all.sh` | Drives Kimodo over the whole sequence. `--dry-run`, `--block`, `--resume`. |
 | `validate.py` | Checks every prompt against Kimodo's hard limits (≤10 s, contiguity, 2-behaviour cap). |
