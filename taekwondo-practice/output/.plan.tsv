@@ -1,0 +1,62 @@
+B1-S01	B1-S01	8	A person walks onto a mat and stops, then stands at attention with feet together and arms at their sides.	B1-S01
+B1-S02	B1-S02	8	A person stands at attention and bows at the waist toward the front, then straightens up.	B1-S02
+B1-S03	B1-S03	9	A person stands with feet shoulder width apart and both fists held at waist height in front of the body, holding still.	B1-S03
+B2-S04	B2-S04	10	A person jogs in place with light bouncy steps and relaxed shoulders.	B2-S04
+B2-S05	B2-S05	9	A person runs in place lifting each knee high toward the chest.	B2-S05
+B2-S06	B2-S06	9	A person jogs in place kicking their heels up behind them toward their glutes.	B2-S06
+B2-S07	B2-S07	10	A person performs jumping jacks, opening and closing the arms and legs in rhythm.	B2-S07
+B2-S08	B2-S08	9	A person stands with arms extended to the sides and circles them in large slow loops.	B2-S08
+B2-S09	B2-S09	10	A person stands with hands on their hips, circles the hips, then twists the torso side to side.	B2-S09
+B2-S10	B2-S10	9	A person balances on one leg and swings the other leg forward and back in a straight line.	B2-S10
+B2-S11	B2-S11	10	A person balances on one leg and swings the other leg across the body from side to side.	B2-S11
+B2-S12	B2-S12	9	A person lifts one knee to waist height and holds it with arms out for balance, then lowers it.	B2-S12
+B2-S13	B2-S13	10	A tired person performs slow forward lunges, lowering the hips and rising back to standing.	B2-S13
+B2-S14	B2-S14	5	A person takes two small steps backward and settles into a standing ready position.	B2-S14
+B3-S15	B3-S15	9	A person in a ready stance slowly draws both fists back to the hips and holds them there.	B3-S15
+B3-S16	B3-S16	10	A person steps forward into a long stance and swings one forearm down in a low block, then repeats with the other arm.	B3-S16
+B3-S17	B3-S17	10	A person in a long stance throws three straight punches at chest height, twisting the hips each time.	B3-S17
+B3-S18	B3-S18	10	A person steps forward and raises one forearm overhead in a high block, then brings it down.	B3-S18
+B3-S19	B3-S19	10	A person steps forward and swings one forearm inward across the chest in a middle block.	B3-S19
+B3-S20	B3-S20	9	A person in a back stance extends one open hand outward at neck height in a slow controlled strike.	B3-S20
+B3-S21	B3-S21	10	A person steps forward into a deep forward stance and throws one straight punch.	B3-S21
+B3-S22	B3-S22	10	A person shifts most of their weight onto the rear leg into a back stance, then returns forward.	B3-S22
+B3-S23	B3-S23	10	A person stands with feet wide and knees deeply bent and throws one punch forward while pulling the other fist back.	B3-S23
+B3-S24	B3-S24	9	A person in a forward stance snaps one punch forward and tenses the whole body for a moment.	B3-S24
+B3-S25	B3-S25	10	A person pivots 90 degrees on the ball of the foot into a walking stance and performs a low block in the new direction.	B3-S25
+B3-S26	B3-S26	8	A person steps back into a ready stance and stands still.	B3-S26
+B4-S27	B4-S27	10	A focused person balances on one leg and raises the other knee to waist height, holding the chamber steady.	B4-S27
+B4-S28	B4-S28	10	A person slowly extends one leg forward in a front kick and pulls it back to the chamber.	B4-S28
+B4-S29	B4-S29	10	A person snaps two fast front kicks with the right leg, returning to the chamber between them.	B4-S29
+B4-S30	B4-S30	10	A person pivots on the standing foot and snaps a roundhouse kick at waist height with the right leg.	B4-S30
+B4-S31	B4-S31	10	A person pivots and snaps a roundhouse kick at chest height with the left leg.	B4-S31
+B4-S32	B4-S32	10	A person raises the knee across the body and drives a side kick straight out, striking with the heel.	B4-S32
+B4-S33	B4-S33	10	A person turns their back to the front and drives a straight back kick behind them while looking over the shoulder.	B4-S33
+B4-S34	B4-S34	9	A determined person raises one leg high in front of the body and chops it down with the heel.	B4-S34
+B4-S35	B4-S35	10	A person swings one leg out to the side and hooks it back across the front of the body.	B4-S35
+B4-S36	B4-S36	9	A person steps in and throws a fast roundhouse kick at chest height, then resets their stance.	B4-S36
+B4-S37	B4-S37	10	A person throws a front kick with one leg, plants it, then pivots into a roundhouse kick with the other leg.	B4-S37
+B4-S38	B4-S38	10	A person throws two roundhouse kicks in a row, switching legs without putting the first foot down.	B4-S38
+B4-S39	B4-S39	6	A person spins around and throws a back kick, then lands facing the front.	B4-S39
+B4-S40	B4-S40	6	A person settles into a fighting stance and bounces lightly on the balls of their feet.	B4-S40
+p1	B5-S41-chain3	8 8 8	A focused person stands in a ready stance, then pivots 90 degrees to the left into a walking stance and performs a low block. A person steps forward in a walking stance and throws a straight middle punch, then draws the other fist back. A person pivots 180 degrees into a walking stance, performs a low block, then steps forward and punches.	B5-S41
+B5-S44	B5-S44	9	A person in a deep forward stance performs a low block and then a straight punch without moving the feet.	B5-S44
+B5-S45	B5-S45	9	A person turns into a walking stance swinging one forearm inward in a middle block, then steps forward and punches.	B5-S45
+B5-S46	B5-S46	9	A person turns 90 degrees into a walking stance and raises one forearm overhead in a high block.	B5-S46
+p2	B5-S47-chain3	10 9 10	A person performs a front kick, sets the foot down in front, and throws a straight punch in a walking stance. A person turns 180 degrees and performs a front kick with the other leg, landing forward and punching. A person turns into a forward stance, performs a low block, then steps forward and punches sharply.	B5-S47
+B5-S50	B5-S50	8	A focused person slowly raises one knee into a chamber and holds the leg folded, balanced on the standing leg.	B5-S50
+B5-S51	B5-S51	9	A person slowly extends the folded leg forward at half speed and holds it straight in the air.	B5-S51
+B5-S52	B5-S52	9	A person slowly pulls the extended leg back and sets the foot down in front into a deep forward stance.	B5-S52
+B5-S53	B5-S53	4	A person holds a straight punch at full extension without moving.	B5-S53
+B6-S54	B6-S54	9	A person bounces lightly on the balls of their feet in a fighting stance with both fists up near the face.	B6-S54
+B6-S55	B6-S55	9	A person shuffles forward and back in a fighting stance without crossing their feet.	B6-S55
+B6-S56	B6-S56	9	A person switches their feet quickly while bouncing in a fighting stance.	B6-S56
+B6-S57	B6-S57	10	A person steps in with a small bounce and throws a fast roundhouse kick at head height.	B6-S57
+B6-S58	B6-S58	9	A person spins and throws a back kick as a counter attack, then returns to the fighting stance.	B6-S58
+B6-S59	B6-S59	9	A person throws a front kick and immediately follows with a roundhouse kick from the other leg, staying light on the feet.	B6-S59
+B6-S60	B6-S60	10	A person shifts their weight back and leans the upper body away from a high kick, then returns upright.	B6-S60
+B6-S61	B6-S61	10	A person throws a spinning back kick, lands facing forward, and drops into a stable fighting stance.	B6-S61
+B7-S62	B7-S62	9	A tired person stands with feet apart and hands on their hips, breathing deeply with the chest rising and falling.	B7-S62
+B7-S63	B7-S63	10	A person bends forward at the waist with straight legs and reaches toward their feet.	B7-S63
+B7-S64	B7-S64	9	A person sits on the floor with the soles of their feet together and presses the knees down toward the ground.	B7-S64
+B7-S65	B7-S65	8	A person stands up from the floor and smooths down the front of their uniform.	B7-S65
+B7-S66	B7-S66	9	A person stands at attention and bows, then holds the position facing forward.	B7-S66
