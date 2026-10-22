@@ -19,7 +19,109 @@
  "objects": [
   {
    "name": "Folds_02",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "MESH",
+   "parent": null,
+   "dimensions": [
+    0.8,
+    0.8,
+    2.0
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [
+    {
+     "name": "Multires",
+     "type": "MULTIRES",
+     "props": {
+      "name": "Multires",
+      "type": "MULTIRES",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": false,
+      "show_on_cage": false,
+      "show_expanded": true,
+      "is_active": true,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "uv_smooth": "PRESERVE_BOUNDARIES",
+      "quality": 4,
+      "boundary_smooth": "ALL",
+      "levels": 3,
+      "sculpt_levels": 1,
+      "render_levels": 3,
+      "filepath": "",
+      "show_only_control_edges": true,
+      "use_creases": true,
+      "use_custom_normals": false,
+      "use_sculpt_base_mesh": false
+     },
+     "key_settings": {
+      "levels": 3,
+      "render_levels": 3,
+      "sculpt_levels": 1,
+      "total_levels": 3,
+      "quality": 4,
+      "subdivision_type": null
+     }
+    }
+   ],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": [],
+   "mesh": {
+    "vertices": 608,
+    "edges": 1184,
+    "polygons": 576,
+    "loops": 2304,
+    "uv_layers": [
+     "UVMap"
+    ],
+    "color_attributes": [],
+    "attributes": [
+     {
+      "name": "position",
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR"
+     },
+     {
+      "name": ".edge_verts",
+      "domain": "EDGE",
+      "data_type": "INT32_2D"
+     },
+     {
+      "name": "sharp_face",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".corner_vert",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": ".corner_edge",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": "UVMap",
+      "domain": "CORNER",
+      "data_type": "FLOAT2"
+     }
+    ],
+    "tris": 0,
+    "quads": 576,
+    "ngons": 0,
+    "quad_percent": 100.0
+   },
+   "fold_metrics": {
+    "skipped": true,
+    "reason": "'Mesh' object has no attribute 'dimensions'",
+    "vertices": 608
+   }
   }
  ],
  "collections": [

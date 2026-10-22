@@ -19,23 +19,673 @@
  "objects": [
   {
    "name": "Back",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "EMPTY",
+   "parent": null,
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": []
   },
   {
    "name": "Front",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "EMPTY",
+   "parent": null,
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": []
   },
   {
    "name": "Front_Body",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "EMPTY",
+   "parent": null,
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": []
   },
   {
    "name": "Head",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "MESH",
+   "parent": null,
+   "dimensions": [
+    0.24889,
+    0.25401,
+    0.37269
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": [],
+   "mesh": {
+    "vertices": 147458,
+    "edges": 294912,
+    "polygons": 147456,
+    "loops": 589824,
+    "uv_layers": [
+     "UVMap"
+    ],
+    "color_attributes": [],
+    "attributes": [
+     {
+      "name": ".select_vert",
+      "domain": "POINT",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".select_edge",
+      "domain": "EDGE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".select_poly",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": "sharp_face",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".sculpt_mask",
+      "domain": "POINT",
+      "data_type": "FLOAT"
+     },
+     {
+      "name": "position",
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR"
+     },
+     {
+      "name": ".edge_verts",
+      "domain": "EDGE",
+      "data_type": "INT32_2D"
+     },
+     {
+      "name": ".corner_vert",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": ".corner_edge",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": "UVMap",
+      "domain": "CORNER",
+      "data_type": "FLOAT2"
+     }
+    ],
+    "tris": 0,
+    "quads": 147456,
+    "ngons": 0,
+    "quad_percent": 100.0
+   },
+   "fold_metrics": {
+    "skipped": true,
+    "reason": "'Mesh' object has no attribute 'dimensions'",
+    "vertices": 147458
+   }
   },
   {
    "name": "Plane",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "MESH",
+   "parent": null,
+   "dimensions": [
+    0.17856,
+    0.05129,
+    0.02842
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [
+    {
+     "name": "Subdivision",
+     "type": "SUBSURF",
+     "props": {
+      "name": "Subdivision",
+      "type": "SUBSURF",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": true,
+      "show_expanded": false,
+      "is_active": false,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "uv_smooth": "PRESERVE_BOUNDARIES",
+      "quality": 3,
+      "boundary_smooth": "ALL",
+      "subdivision_type": "CATMULL_CLARK",
+      "levels": 1,
+      "render_levels": 1,
+      "show_only_control_edges": true,
+      "use_creases": true,
+      "use_custom_normals": false,
+      "use_limit_surface": true,
+      "use_adaptive_subdivision": false,
+      "adaptive_space": "PIXEL",
+      "adaptive_pixel_size": 1.0,
+      "adaptive_object_edge_length": 0.009999999776482582,
+      "open_adaptive_subdivision_panel": false,
+      "open_advanced_panel": false
+     },
+     "key_settings": {
+      "levels": 1,
+      "render_levels": 1,
+      "sculpt_levels": null,
+      "total_levels": null,
+      "quality": 3,
+      "subdivision_type": "CATMULL_CLARK"
+     }
+    },
+    {
+     "name": "Shrinkwrap",
+     "type": "SHRINKWRAP",
+     "props": {
+      "name": "Shrinkwrap",
+      "type": "SHRINKWRAP",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": true,
+      "show_expanded": false,
+      "is_active": false,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "wrap_method": "NEAREST_SURFACEPOINT",
+      "wrap_mode": "ABOVE_SURFACE",
+      "cull_face": "OFF",
+      "target": {
+       "name": "Head",
+       "use_fake_user": false,
+       "use_extra_user": false,
+       "is_runtime_data": false,
+       "tag": false,
+       "asset_data": null,
+       "data": {
+        "name": "Cube",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_runtime_data": false,
+        "tag": false,
+        "asset_data": null,
+        "texture_mesh": null,
+        "uv_layer_clone": null,
+        "uv_layer_clone_index": 0,
+        "uv_layer_stencil": null,
+        "uv_layer_stencil_index": 0,
+        "remesh_voxel_size": 0.10000000149011612,
+        "remesh_voxel_adaptivity": 0.0,
+        "use_remesh_fix_poles": false,
+        "use_remesh_preserve_volume": true,
+        "use_remesh_preserve_attributes": true,
+        "remesh_mode": "VOXEL",
+        "use_mirror_x": true,
+        "use_mirror_y": false,
+        "use_mirror_z": false,
+        "use_mirror_vertex_groups": false,
+        "radial_symmetry": [
+         1,
+         1,
+         1
+        ],
+        "texco_mesh": null,
+        "use_auto_texspace": true,
+        "use_mirror_topology": false,
+        "use_paint_bone_selection": true,
+        "use_paint_mask": false,
+        "use_paint_mask_vertex": false,
+        "auto_texspace": true,
+        "texspace_location": [
+         6.835907697677612e-06,
+         -0.0032192692160606384,
+         1.7401466369628906
+        ],
+        "texspace_size": [
+         0.12444575130939484,
+         0.12700369954109192,
+         0.1863453984260559
+        ]
+       },
+       "type": "MESH",
+       "parent": null,
+       "parent_type": "OBJECT",
+       "parent_vertices": [
+        0,
+        0,
+        0
+       ],
+       "parent_bone": "",
+       "parent_bone_head_tail_factor": 1.0,
+       "use_parent_final_indices": false,
+       "use_camera_lock_parent": false,
+       "track_axis": "POS_Y",
+       "up_axis": "Z",
+       "active_material": {
+        "name": "Material",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_runtime_data": false,
+        "tag": false,
+        "asset_data": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.0,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": false,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "use_nodes": true,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+         0.800000011920929,
+         0.800000011920929,
+         0.800000011920929,
+         1.0
+        ],
+        "specular_color": "<Color (r=1.0000, g=1.0000, b=1.0000)>",
+        "roughness": 0.5,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+         0.0,
+         0.0,
+         0.0,
+         1.0
+        ],
+        "line_priority": 0
+       },
+       "active_material_index": 0,
+       "location": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "rotation_quaternion": "<Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>",
+       "rotation_axis_angle": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "rotation_euler": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>",
+       "rotation_mode": "XYZ",
+       "scale": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "dimensions": [
+        0.24889150261878967,
+        0.25400739908218384,
+        0.3726907968521118
+       ],
+       "delta_location": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "delta_rotation_euler": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>",
+       "delta_rotation_quaternion": "<Quaternion (w=1.0000, x=0.0000, y=0.0000, z=0.0000)>",
+       "delta_scale": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lock_location": [
+        false,
+        false,
+        false
+       ],
+       "lock_rotation": [
+        false,
+        false,
+        false
+       ],
+       "lock_rotation_w": false,
+       "lock_rotations_4d": false,
+       "lock_scale": [
+        false,
+        false,
+        false
+       ],
+       "matrix_world": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+       "matrix_local": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+       "matrix_basis": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+       "matrix_parent_inverse": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+       "empty_display_type": "ARROWS",
+       "empty_display_size": 1.0,
+       "empty_image_offset": [
+        0.0,
+        0.0
+       ],
+       "empty_image_depth": "DEFAULT",
+       "show_empty_image_perspective": true,
+       "show_empty_image_orthographic": true,
+       "show_empty_image_only_axis_aligned": false,
+       "use_empty_image_alpha": false,
+       "empty_image_side": "DOUBLE_SIDED",
+       "add_rest_position_attribute": false,
+       "pass_index": 0,
+       "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "use_simulation_cache": true,
+       "hide_viewport": false,
+       "hide_select": false,
+       "hide_render": false,
+       "hide_probe_volume": false,
+       "hide_probe_sphere": false,
+       "hide_probe_plane": false,
+       "hide_surface_pick": false,
+       "show_instancer_for_render": true,
+       "show_instancer_for_viewport": true,
+       "visible_camera": true,
+       "visible_diffuse": true,
+       "visible_glossy": true,
+       "visible_transmission": true,
+       "visible_volume_scatter": true,
+       "visible_shadow": true,
+       "is_holdout": false,
+       "is_shadow_catcher": false,
+       "visible_raycast": true,
+       "instance_type": "NONE",
+       "use_instance_vertices_rotation": false,
+       "use_instance_faces_scale": false,
+       "instance_faces_scale": 1.0,
+       "instance_collection": null,
+       "display_type": "TEXTURED",
+       "show_bounds": false,
+       "display_bounds_type": "BOX",
+       "show_name": false,
+       "show_axis": false,
+       "show_texture_space": false,
+       "show_wire": false,
+       "show_all_edges": false,
+       "use_grease_pencil_lights": false,
+       "show_transparent": false,
+       "show_in_front": false,
+       "show_only_shape_key": false,
+       "use_shape_key_edit_mode": false,
+       "active_shape_key_index": 0,
+       "use_mesh_mirror_x": true,
+       "use_mesh_mirror_y": false,
+       "use_mesh_mirror_z": false,
+       "lightgroup": "",
+       "shadow_terminator_normal_offset": 0.0,
+       "shadow_terminator_geometry_offset": 0.10000000149011612,
+       "shadow_terminator_shading_offset": 0.0,
+       "active_selection_set": 0
+      },
+      "auxiliary_target": null,
+      "vertex_group": "",
+      "offset": 0.0,
+      "project_limit": 0.0,
+      "use_project_x": false,
+      "use_project_y": false,
+      "use_project_z": false,
+      "subsurf_levels": 0,
+      "use_negative_direction": false,
+      "use_positive_direction": true,
+      "use_invert_cull": false,
+      "invert_vertex_group": false
+     },
+     "key_settings": {
+      "levels": null,
+      "render_levels": null,
+      "sculpt_levels": null,
+      "total_levels": null,
+      "quality": null,
+      "subdivision_type": null
+     }
+    },
+    {
+     "name": "Solidify",
+     "type": "SOLIDIFY",
+     "props": {
+      "name": "Solidify",
+      "type": "SOLIDIFY",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": true,
+      "show_expanded": false,
+      "is_active": false,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "solidify_mode": "EXTRUDE",
+      "thickness": 0.004999999888241291,
+      "thickness_clamp": 0.0,
+      "use_thickness_angle_clamp": false,
+      "thickness_vertex_group": 0.0,
+      "offset": 0.0,
+      "edge_crease_inner": 0.0,
+      "edge_crease_outer": 0.0,
+      "edge_crease_rim": 0.0,
+      "material_offset": 0,
+      "material_offset_rim": 0,
+      "vertex_group": "",
+      "shell_vertex_group": "",
+      "rim_vertex_group": "",
+      "use_rim": true,
+      "use_even_offset": false,
+      "use_quality_normals": false,
+      "invert_vertex_group": false,
+      "use_flat_faces": false,
+      "use_flip_normals": false,
+      "use_rim_only": false,
+      "nonmanifold_thickness_mode": "CONSTRAINTS",
+      "nonmanifold_boundary_mode": "NONE",
+      "nonmanifold_merge_threshold": 9.999999747378752e-05,
+      "bevel_convex": 0.0
+     },
+     "key_settings": {
+      "levels": null,
+      "render_levels": null,
+      "sculpt_levels": null,
+      "total_levels": null,
+      "quality": null,
+      "subdivision_type": null
+     }
+    },
+    {
+     "name": "Subdivision.001",
+     "type": "SUBSURF",
+     "props": {
+      "name": "Subdivision.001",
+      "type": "SUBSURF",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": true,
+      "show_expanded": false,
+      "is_active": false,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "uv_smooth": "PRESERVE_BOUNDARIES",
+      "quality": 3,
+      "boundary_smooth": "ALL",
+      "subdivision_type": "CATMULL_CLARK",
+      "levels": 1,
+      "render_levels": 1,
+      "show_only_control_edges": true,
+      "use_creases": true,
+      "use_custom_normals": false,
+      "use_limit_surface": true,
+      "use_adaptive_subdivision": false,
+      "adaptive_space": "PIXEL",
+      "adaptive_pixel_size": 1.0,
+      "adaptive_object_edge_length": 0.009999999776482582,
+      "open_adaptive_subdivision_panel": false,
+      "open_advanced_panel": false
+     },
+     "key_settings": {
+      "levels": 1,
+      "render_levels": 1,
+      "sculpt_levels": null,
+      "total_levels": null,
+      "quality": 3,
+      "subdivision_type": "CATMULL_CLARK"
+     }
+    },
+    {
+     "name": "Mirror",
+     "type": "MIRROR",
+     "props": {
+      "name": "Mirror",
+      "type": "MIRROR",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": false,
+      "show_expanded": true,
+      "is_active": true,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "use_axis": [
+       true,
+       false,
+       false
+      ],
+      "use_bisect_axis": [
+       false,
+       false,
+       false
+      ],
+      "use_bisect_flip_axis": [
+       false,
+       false,
+       false
+      ],
+      "use_clip": false,
+      "use_mirror_vertex_groups": true,
+      "use_mirror_merge": true,
+      "use_mirror_u": false,
+      "use_mirror_v": false,
+      "use_mirror_udim": false,
+      "mirror_offset_u": 0.0,
+      "mirror_offset_v": 0.0,
+      "offset_u": 0.0,
+      "offset_v": 0.0,
+      "merge_threshold": 0.0010000000474974513,
+      "bisect_threshold": 0.0010000000474974513,
+      "mirror_object": null
+     }
+    }
+   ],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": [],
+   "mesh": {
+    "vertices": 12,
+    "edges": 16,
+    "polygons": 5,
+    "loops": 20,
+    "uv_layers": [
+     "UVMap"
+    ],
+    "color_attributes": [],
+    "attributes": [
+     {
+      "name": "sharp_face",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": "position",
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR"
+     },
+     {
+      "name": ".edge_verts",
+      "domain": "EDGE",
+      "data_type": "INT32_2D"
+     },
+     {
+      "name": ".corner_vert",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": ".corner_edge",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": "UVMap",
+      "domain": "CORNER",
+      "data_type": "FLOAT2"
+     }
+    ],
+    "tris": 0,
+    "quads": 5,
+    "ngons": 0,
+    "quad_percent": 100.0
+   },
+   "fold_metrics": {
+    "skipped": true,
+    "reason": "'Mesh' object has no attribute 'dimensions'",
+    "vertices": 12
+   }
   }
  ],
  "collections": [

@@ -19,11 +19,214 @@
  "objects": [
   {
    "name": "Folds_01",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "MESH",
+   "parent": null,
+   "dimensions": [
+    2.0,
+    0.00346,
+    2.0
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [
+    {
+     "name": "Multires",
+     "type": "MULTIRES",
+     "props": {
+      "name": "Multires",
+      "type": "MULTIRES",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": false,
+      "show_on_cage": false,
+      "show_expanded": true,
+      "is_active": true,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "uv_smooth": "PRESERVE_CORNERS_JUNCTIONS_AND_CONCAVE",
+      "quality": 4,
+      "boundary_smooth": "PRESERVE_CORNERS",
+      "levels": 3,
+      "sculpt_levels": 0,
+      "render_levels": 3,
+      "filepath": "",
+      "show_only_control_edges": true,
+      "use_creases": true,
+      "use_custom_normals": false,
+      "use_sculpt_base_mesh": false
+     },
+     "key_settings": {
+      "levels": 3,
+      "render_levels": 3,
+      "sculpt_levels": 0,
+      "total_levels": 3,
+      "quality": 4,
+      "subdivision_type": null
+     }
+    }
+   ],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": [],
+   "mesh": {
+    "vertices": 289,
+    "edges": 544,
+    "polygons": 256,
+    "loops": 1024,
+    "uv_layers": [
+     "UVMap"
+    ],
+    "color_attributes": [],
+    "attributes": [
+     {
+      "name": ".sculpt_mask",
+      "domain": "POINT",
+      "data_type": "FLOAT"
+     },
+     {
+      "name": "position",
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR"
+     },
+     {
+      "name": ".select_vert",
+      "domain": "POINT",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".edge_verts",
+      "domain": "EDGE",
+      "data_type": "INT32_2D"
+     },
+     {
+      "name": ".select_edge",
+      "domain": "EDGE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".select_poly",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": "sharp_face",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".corner_vert",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": ".corner_edge",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": "UVMap",
+      "domain": "CORNER",
+      "data_type": "FLOAT2"
+     }
+    ],
+    "tris": 0,
+    "quads": 256,
+    "ngons": 0,
+    "quad_percent": 100.0
+   },
+   "fold_metrics": {
+    "skipped": true,
+    "reason": "'Mesh' object has no attribute 'dimensions'",
+    "vertices": 289
+   }
   },
   {
    "name": "Pin",
-   "error": "'Object' object has no attribute 'materials'"
+   "type": "MESH",
+   "parent": "Folds_01",
+   "dimensions": [
+    1.49511,
+    0.1,
+    0.1
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "modifiers": [],
+   "vertex_groups": [],
+   "shape_keys": null,
+   "materials": [],
+   "mesh": {
+    "vertices": 84,
+    "edges": 240,
+    "polygons": 160,
+    "loops": 480,
+    "uv_layers": [
+     "UVMap"
+    ],
+    "color_attributes": [],
+    "attributes": [
+     {
+      "name": "position",
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR"
+     },
+     {
+      "name": ".select_vert",
+      "domain": "POINT",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".edge_verts",
+      "domain": "EDGE",
+      "data_type": "INT32_2D"
+     },
+     {
+      "name": ".select_edge",
+      "domain": "EDGE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".select_poly",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": "sharp_face",
+      "domain": "FACE",
+      "data_type": "BOOLEAN"
+     },
+     {
+      "name": ".corner_vert",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": ".corner_edge",
+      "domain": "CORNER",
+      "data_type": "INT"
+     },
+     {
+      "name": "UVMap",
+      "domain": "CORNER",
+      "data_type": "FLOAT2"
+     }
+    ],
+    "tris": 160,
+    "quads": 0,
+    "ngons": 0,
+    "quad_percent": 0.0
+   },
+   "fold_metrics": {
+    "skipped": true,
+    "reason": "'Mesh' object has no attribute 'dimensions'",
+    "vertices": 84
+   }
   }
  ],
  "collections": [
