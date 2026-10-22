@@ -1,0 +1,136 @@
+{
+  "name": "arm_coarse",
+  "score": 77.74672543288106,
+  "grade": "B",
+  "subscores": {
+    "quads": 100.0,
+    "poles": 100.0,
+    "density": 3.0272748495395234,
+    "flow": 100.0,
+    "loops": 56.0,
+    "joints": 62.86210375780268
+  },
+  "weights": {
+    "quads": 22.0,
+    "poles": 20.0,
+    "density": 12.0,
+    "flow": 20.0,
+    "loops": 14.0,
+    "joints": 12.0
+  },
+  "caps": [],
+  "mode": "quad",
+  "tri_quality": null,
+  "counts": {
+    "vertices": 144,
+    "faces": 128,
+    "edges": 272,
+    "quads": 128,
+    "tris": 0,
+    "ngons": 0
+  },
+  "quad_purity": {
+    "quad": 1.0,
+    "tri": 0.0,
+    "ngon": 0.0,
+    "quads": 128,
+    "tris": 0,
+    "ngons": 0
+  },
+  "edge_lengths": {
+    "cv": 0.8082887254615891,
+    "p95_p5": 13.20490272187035,
+    "min": 0.013265891036790555,
+    "max": 0.17518279420365465,
+    "median": 0.030434093346999362
+  },
+  "quad_skew": 0.006127354982629649,
+  "hygiene": {
+    "non_manifold_edges": 0,
+    "boundary_edges": 32,
+    "degenerate_faces": 0,
+    "duplicate_vert_faces": 0,
+    "ngon_faces": 0,
+    "tri_faces": 0,
+    "isolated_verts": 0,
+    "non_manifold_verts": 0
+  },
+  "joints": [
+    {
+      "name": "shoulder",
+      "center": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "radius": 0.13,
+      "verts": 16,
+      "poles": 0,
+      "pole_indices": [],
+      "loops_crossing": 1,
+      "edges": 32,
+      "mean_edge": 0.1027527538120723,
+      "density_ratio": 3.3762383732125594,
+      "quad_purity": 1.0,
+      "score": 57.86266472305898
+    },
+    {
+      "name": "elbow",
+      "center": [
+        0.0,
+        0.0,
+        0.72
+      ],
+      "radius": 0.13,
+      "verts": 16,
+      "poles": 0,
+      "pole_indices": [],
+      "loops_crossing": 2,
+      "edges": 48,
+      "mean_edge": 0.12479231474325993,
+      "density_ratio": 4.100411775715466,
+      "quad_purity": 1.0,
+      "score": 72.2523881876203
+    },
+    {
+      "name": "wrist",
+      "center": [
+        0.0,
+        0.0,
+        1.36
+      ],
+      "radius": 0.1,
+      "verts": 16,
+      "poles": 0,
+      "pole_indices": [],
+      "loops_crossing": 1,
+      "edges": 32,
+      "mean_edge": 0.09419656402359368,
+      "density_ratio": 3.0951000560324218,
+      "quad_purity": 1.0,
+      "score": 58.471258362728754
+    }
+  ],
+  "poles": {
+    "count": 0,
+    "per_1000_verts": 0.0,
+    "by_valence": {},
+    "indices": []
+  },
+  "loops": {
+    "loops": 24,
+    "closed_loops": 8,
+    "median_length": 9.0,
+    "max_length": 16,
+    "edges_covered": 272,
+    "quad_edges": 240,
+    "coverage": 1.0,
+    "long_loop_edges": 272,
+    "long_loop_coverage": 1.0
+  },
+  "flow": {
+    "mean": 0.9998197755182525,
+    "p10": 0.9996943096471159,
+    "computed": 144
+  }
+}

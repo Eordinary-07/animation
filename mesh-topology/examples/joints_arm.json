@@ -1,0 +1,31 @@
+{
+  "joints": [
+    {
+      "name": "shoulder",
+      "center": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "radius": 0.13
+    },
+    {
+      "name": "elbow",
+      "center": [
+        0.0,
+        0.0,
+        0.72
+      ],
+      "radius": 0.13
+    },
+    {
+      "name": "wrist",
+      "center": [
+        0.0,
+        0.0,
+        1.36
+      ],
+      "radius": 0.1
+    }
+  ]
+}
