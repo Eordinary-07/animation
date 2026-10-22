@@ -201,24 +201,38 @@ def fold_metrics(me, max_verts=400000):
         for e in me.edges:
             adj[e.vertices[0]].add(e.vertices[1])
             adj[e.vertices[1]].add(e.vertices[0])
-        cur = [(v[0], v[1], v[2]) for v in verts]
-        for _ in range(3):
-            nxt = []
-            for i, (x, y, z) in enumerate(cur):
-                nb = adj.get(i)
-                if not nb:
-                    nxt.append((x, y, z))
-                    continue
-                sx = sy = sz = 0.0
-                for j in nb:
-                    sx += cur[j][0]
-                    sy += cur[j][1]
-                    sz += cur[j][2]
-                k = len(nb)
-                nxt.append((0.5 * x + 0.5 * sx / k,
-                            0.5 * y + 0.5 * sy / k,
-                            0.5 * z + 0.5 * sz / k))
-            cur = nxt
+        def smooth(iterations, factor):
+            cur = [(v[0], v[1], v[2]) for v in verts]
+            for _ in range(iterations):
+                nxt = []
+                for i, (x, y, z) in enumerate(cur):
+                    nb = adj.get(i)
+                    if not nb:
+                        nxt.append((x, y, z))
+                        continue
+                    sx = sy = sz = 0.0
+                    for j in nb:
+                        sx += cur[j][0]
+                        sy += cur[j][1]
+                        sz += cur[j][2]
+                    k = len(nb)
+                    nxt.append(((1 - factor) * x + factor * sx / k,
+                                (1 - factor) * y + factor * sy / k,
+                                (1 - factor) * z + factor * sz / k))
+                cur = nxt
+            return cur
+
+        def devs_from(base):
+            out = []
+            for i, (x, y, z) in enumerate(verts):
+                cx, cy, cz = base[i]
+                out.append(math.sqrt((x - cx) ** 2 + (y - cy) ** 2 +
+                                     (z - cz) ** 2))
+            out.sort()
+            return out
+
+        devs = devs_from(smooth(3, 0.5))            # fine surface detail
+        devs_form = devs_from(smooth(30, 1.0))      # folds / form deviation
         devs = []
         for i, (x, y, z) in enumerate(verts):
             cx, cy, cz = cur[i]
@@ -244,6 +258,17 @@ def fold_metrics(me, max_verts=400000):
                 "max": round(devs[-1], 6),
                 "p95_percent_of_diagonal": round(100.0 * pct(0.95) / diag, 3),
                 "max_percent_of_diagonal": round(100.0 * devs[-1] / diag, 3),
+            },
+            "fold_depth_form": {
+                "median": round(devs_form[len(devs_form) // 2], 6),
+                "p95": round(devs_form[int(0.95 * len(devs_form))], 6),
+                "max": round(devs_form[-1], 6),
+                "median_percent_of_diagonal": round(
+                    100.0 * devs_form[len(devs_form) // 2] / diag, 3),
+                "p95_percent_of_diagonal": round(
+                    100.0 * devs_form[int(0.95 * len(devs_form))] / diag, 3),
+                "max_percent_of_diagonal": round(
+                    100.0 * devs_form[-1] / diag, 3),
             },
         }
     except Exception as e:
