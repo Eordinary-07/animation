@@ -2,7 +2,7 @@
 
 > Every discipline that must exist (in a person or in this skill) to take an idea
 > to a studio-level finished animation. Audited against the
-> **animation-rigging-mastery** skill (30 refs, 25 books) on 2026-10-22.
+> **animation-rigging-mastery** skill (31 refs, 25 books) on 2026-10-22.
 > ✅ taught in the skill · ⚠️ present but thin · ❌ missing
 
 ---
@@ -75,7 +75,7 @@
 |---|---|
 | FX design language (fire/water/magic behavior) | ✅ ref 24 (Gilland) |
 | Cloth/fluid/particle **simulation technique** | ⚠️ **ref 33** covers sculpted-vs-simulated cloth, fold-depth tolerance, multires, and the Pin Group bridge; deep Mantaflow/fluid params still absent |
-| **Hair grooming** (curves, guides, clumping) | ❌ **0 mentions — missing entirely** (next up) |
+| **Hair grooming** (curves, guides, clumping) | ✅ **ref 34** — cards vs strands vs sim, scalp topology, braids, Blender 5.2 hair operators, soft-body sim |
 | **Geometry Nodes** systems | ✅ **ref 32** — 646-node census from production files, 5 reusable groups, 2 verbatim recipes |
 
 ## 9. ENVIRONMENTS & LAYOUT
@@ -118,7 +118,8 @@
 2. **Modeling, sculpting & anatomy** — even with AI-generated meshes, judging and
    fixing form is unavoidable (your Tripo cleanup proved it). Zarins + Hogarth are in
    the repo and still need a chapter.
-3. **Hair** (grooming + hair-card/chain craft) — Ava's hair is in every shot.
+3. ~~**Hair**~~ — ✅ **CLOSED 2026-10-22 by ref 34** (grooming + hair-card/chain craft;
+   Ava's braided look covered).
 4. **Simulation technique** — cloth/hair/secondary motion for fight realism.
 5. **Geometry Nodes** — modern Blender's power system (also feeds rigs via the
    5.0 Geometry Attribute constraint).
