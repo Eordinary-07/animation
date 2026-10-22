@@ -2,7 +2,7 @@
 
 > Every discipline that must exist (in a person or in this skill) to take an idea
 > to a studio-level finished animation. Audited against the
-> **animation-rigging-mastery** skill (28 refs, 25 books) on 2026-10-22.
+> **animation-rigging-mastery** skill (30 refs, 25 books) on 2026-10-22.
 > ✅ taught in the skill · ⚠️ present but thin · ❌ missing
 
 ---
@@ -74,9 +74,9 @@
 | Skill | Status |
 |---|---|
 | FX design language (fire/water/magic behavior) | ✅ ref 24 (Gilland) |
-| Cloth/fluid/particle **simulation technique** | ⚠️ principles & choices only; deep settings (Mantaflow, cloth params) absent |
-| **Hair grooming** (curves, guides, clumping) | ❌ **0 mentions — missing entirely** |
-| **Geometry Nodes** systems | ❌ 1 mention (the 5.0 constraint) — effectively missing |
+| Cloth/fluid/particle **simulation technique** | ⚠️ **ref 33** covers sculpted-vs-simulated cloth, fold-depth tolerance, multires, and the Pin Group bridge; deep Mantaflow/fluid params still absent |
+| **Hair grooming** (curves, guides, clumping) | ❌ **0 mentions — missing entirely** (next up) |
+| **Geometry Nodes** systems | ✅ **ref 32** — 646-node census from production files, 5 reusable groups, 2 verbatim recipes |
 
 ## 9. ENVIRONMENTS & LAYOUT
 | Skill | Status |
