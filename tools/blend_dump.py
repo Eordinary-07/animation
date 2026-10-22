@@ -233,11 +233,6 @@ def fold_metrics(me, max_verts=400000):
 
         devs = devs_from(smooth(3, 0.5))            # fine surface detail
         devs_form = devs_from(smooth(30, 1.0))      # folds / form deviation
-        devs = []
-        for i, (x, y, z) in enumerate(verts):
-            cx, cy, cz = cur[i]
-            devs.append(math.sqrt((x - cx) ** 2 + (y - cy) ** 2 + (z - cz) ** 2))
-        devs.sort()
         xs = [v[0] for v in verts]
         ys = [v[1] for v in verts]
         zs = [v[2] for v in verts]
