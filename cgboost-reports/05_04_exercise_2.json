@@ -118,9 +118,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 608
+    "skipped": false,
+    "vertices": 608,
+    "bbox_diagonal": 2.29783,
+    "fold_amplitude": {
+     "median": 0.005737,
+     "p75": 0.005754,
+     "p95": 0.047765,
+     "max": 0.047765,
+     "p95_percent_of_diagonal": 2.079,
+     "max_percent_of_diagonal": 2.079
+    },
+    "fold_depth_form": {
+     "median": 0.117773,
+     "p95": 0.333765,
+     "max": 0.333765,
+     "median_percent_of_diagonal": 5.125,
+     "p95_percent_of_diagonal": 14.525,
+     "max_percent_of_diagonal": 14.525
+    }
    }
   }
  ],

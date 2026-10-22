@@ -132,9 +132,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 47106
+    "skipped": false,
+    "vertices": 47106,
+    "bbox_diagonal": 0.60466,
+    "fold_amplitude": {
+     "median": 2.8e-05,
+     "p75": 4e-05,
+     "p95": 7.5e-05,
+     "max": 0.000127,
+     "p95_percent_of_diagonal": 0.012,
+     "max_percent_of_diagonal": 0.021
+    },
+    "fold_depth_form": {
+     "median": 0.000539,
+     "p95": 0.001424,
+     "max": 0.002061,
+     "median_percent_of_diagonal": 0.089,
+     "p95_percent_of_diagonal": 0.235,
+     "max_percent_of_diagonal": 0.341
+    }
    }
   },
   {
@@ -311,9 +327,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 265
+    "skipped": false,
+    "vertices": 265,
+    "bbox_diagonal": 0.46031,
+    "fold_amplitude": {
+     "median": 0.003276,
+     "p75": 0.006685,
+     "p95": 0.013564,
+     "max": 0.023272,
+     "p95_percent_of_diagonal": 2.947,
+     "max_percent_of_diagonal": 5.056
+    },
+    "fold_depth_form": {
+     "median": 0.035834,
+     "p95": 0.080872,
+     "max": 0.090051,
+     "median_percent_of_diagonal": 7.785,
+     "p95_percent_of_diagonal": 17.569,
+     "max_percent_of_diagonal": 19.563
+    }
    }
   },
   {
@@ -1029,9 +1061,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 67
+    "skipped": false,
+    "vertices": 67,
+    "bbox_diagonal": 0.16099,
+    "fold_amplitude": {
+     "median": 0.005227,
+     "p75": 0.010134,
+     "p95": 0.017165,
+     "max": 0.019577,
+     "p95_percent_of_diagonal": 10.662,
+     "max_percent_of_diagonal": 12.16
+    },
+    "fold_depth_form": {
+     "median": 0.037101,
+     "p95": 0.059667,
+     "max": 0.067053,
+     "median_percent_of_diagonal": 23.045,
+     "p95_percent_of_diagonal": 37.063,
+     "max_percent_of_diagonal": 41.65
+    }
    }
   },
   {
@@ -1732,9 +1780,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 58
+    "skipped": false,
+    "vertices": 58,
+    "bbox_diagonal": 0.17436,
+    "fold_amplitude": {
+     "median": 0.005466,
+     "p75": 0.008737,
+     "p95": 0.013368,
+     "max": 0.014792,
+     "p95_percent_of_diagonal": 7.667,
+     "max_percent_of_diagonal": 8.484
+    },
+    "fold_depth_form": {
+     "median": 0.039842,
+     "p95": 0.063797,
+     "max": 0.067464,
+     "median_percent_of_diagonal": 22.851,
+     "p95_percent_of_diagonal": 36.59,
+     "max_percent_of_diagonal": 38.693
+    }
    }
   },
   {
@@ -2207,9 +2271,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 96
+    "skipped": false,
+    "vertices": 96,
+    "bbox_diagonal": 0.20125,
+    "fold_amplitude": {
+     "median": 0.002781,
+     "p75": 0.007738,
+     "p95": 0.012451,
+     "max": 0.018963,
+     "p95_percent_of_diagonal": 6.187,
+     "max_percent_of_diagonal": 9.423
+    },
+    "fold_depth_form": {
+     "median": 0.020063,
+     "p95": 0.04966,
+     "max": 0.055736,
+     "median_percent_of_diagonal": 9.969,
+     "p95_percent_of_diagonal": 24.675,
+     "max_percent_of_diagonal": 27.694
+    }
    }
   },
   {
@@ -2323,9 +2403,25 @@
     "quad_percent": 99.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 263
+    "skipped": false,
+    "vertices": 263,
+    "bbox_diagonal": 0.3317,
+    "fold_amplitude": {
+     "median": 0.003274,
+     "p75": 0.005704,
+     "p95": 0.009359,
+     "max": 0.012809,
+     "p95_percent_of_diagonal": 2.822,
+     "max_percent_of_diagonal": 3.862
+    },
+    "fold_depth_form": {
+     "median": 0.039878,
+     "p95": 0.060779,
+     "max": 0.068778,
+     "median_percent_of_diagonal": 12.022,
+     "p95_percent_of_diagonal": 18.324,
+     "max_percent_of_diagonal": 20.735
+    }
    }
   },
   {
@@ -2805,9 +2901,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 120
+    "skipped": false,
+    "vertices": 120,
+    "bbox_diagonal": 0.31636,
+    "fold_amplitude": {
+     "median": 0.00395,
+     "p75": 0.006186,
+     "p95": 0.007678,
+     "max": 0.008615,
+     "p95_percent_of_diagonal": 2.427,
+     "max_percent_of_diagonal": 2.723
+    },
+    "fold_depth_form": {
+     "median": 0.03993,
+     "p95": 0.061922,
+     "max": 0.063615,
+     "median_percent_of_diagonal": 12.622,
+     "p95_percent_of_diagonal": 19.573,
+     "max_percent_of_diagonal": 20.109
+    }
    }
   },
   {
@@ -3573,9 +3685,25 @@
     "quad_percent": 78.1
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 294
+    "skipped": false,
+    "vertices": 294,
+    "bbox_diagonal": 0.32189,
+    "fold_amplitude": {
+     "median": 0.008628,
+     "p75": 0.009735,
+     "p95": 0.012319,
+     "max": 0.016462,
+     "p95_percent_of_diagonal": 3.827,
+     "max_percent_of_diagonal": 5.114
+    },
+    "fold_depth_form": {
+     "median": 0.017325,
+     "p95": 0.025965,
+     "max": 0.027364,
+     "median_percent_of_diagonal": 5.382,
+     "p95_percent_of_diagonal": 8.066,
+     "max_percent_of_diagonal": 8.501
+    }
    }
   },
   {
@@ -3761,9 +3889,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 120
+    "skipped": false,
+    "vertices": 120,
+    "bbox_diagonal": 0.36956,
+    "fold_amplitude": {
+     "median": 0.002722,
+     "p75": 0.008097,
+     "p95": 0.012093,
+     "max": 0.016436,
+     "p95_percent_of_diagonal": 3.272,
+     "max_percent_of_diagonal": 4.447
+    },
+    "fold_depth_form": {
+     "median": 0.031235,
+     "p95": 0.061027,
+     "max": 0.076694,
+     "median_percent_of_diagonal": 8.452,
+     "p95_percent_of_diagonal": 16.513,
+     "max_percent_of_diagonal": 20.753
+    }
    }
   },
   {
@@ -3958,9 +4102,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 24
+    "skipped": false,
+    "vertices": 24,
+    "bbox_diagonal": 0.14234,
+    "fold_amplitude": {
+     "median": 0.010203,
+     "p75": 0.013534,
+     "p95": 0.018868,
+     "max": 0.024153,
+     "p95_percent_of_diagonal": 13.256,
+     "max_percent_of_diagonal": 16.969
+    },
+    "fold_depth_form": {
+     "median": 0.043091,
+     "p95": 0.06369,
+     "max": 0.068796,
+     "median_percent_of_diagonal": 30.274,
+     "p95_percent_of_diagonal": 44.746,
+     "max_percent_of_diagonal": 48.334
+    }
    }
   },
   {
@@ -4437,9 +4597,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 129
+    "skipped": false,
+    "vertices": 129,
+    "bbox_diagonal": 0.21825,
+    "fold_amplitude": {
+     "median": 0.006928,
+     "p75": 0.015012,
+     "p95": 0.021183,
+     "max": 0.023773,
+     "p95_percent_of_diagonal": 9.706,
+     "max_percent_of_diagonal": 10.893
+    },
+    "fold_depth_form": {
+     "median": 0.046288,
+     "p95": 0.062561,
+     "max": 0.068938,
+     "median_percent_of_diagonal": 21.209,
+     "p95_percent_of_diagonal": 28.666,
+     "max_percent_of_diagonal": 31.587
+    }
    }
   },
   {
@@ -4982,9 +5158,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 254
+    "skipped": false,
+    "vertices": 254,
+    "bbox_diagonal": 0.37782,
+    "fold_amplitude": {
+     "median": 0.003119,
+     "p75": 0.005189,
+     "p95": 0.010672,
+     "max": 0.012655,
+     "p95_percent_of_diagonal": 2.825,
+     "max_percent_of_diagonal": 3.349
+    },
+    "fold_depth_form": {
+     "median": 0.026246,
+     "p95": 0.049702,
+     "max": 0.05415,
+     "median_percent_of_diagonal": 6.947,
+     "p95_percent_of_diagonal": 13.155,
+     "max_percent_of_diagonal": 14.332
+    }
    }
   },
   {
@@ -5152,9 +5344,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 121
+    "skipped": false,
+    "vertices": 121,
+    "bbox_diagonal": 0.50899,
+    "fold_amplitude": {
+     "median": 0.010932,
+     "p75": 0.014506,
+     "p95": 0.029785,
+     "max": 0.043098,
+     "p95_percent_of_diagonal": 5.852,
+     "max_percent_of_diagonal": 8.467
+    },
+    "fold_depth_form": {
+     "median": 0.072459,
+     "p95": 0.141393,
+     "max": 0.150424,
+     "median_percent_of_diagonal": 14.236,
+     "p95_percent_of_diagonal": 27.779,
+     "max_percent_of_diagonal": 29.553
+    }
    }
   },
   {
@@ -5312,9 +5520,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 92
+    "skipped": false,
+    "vertices": 92,
+    "bbox_diagonal": 0.32844,
+    "fold_amplitude": {
+     "median": 0.015831,
+     "p75": 0.019639,
+     "p95": 0.023258,
+     "max": 0.033939,
+     "p95_percent_of_diagonal": 7.081,
+     "max_percent_of_diagonal": 10.333
+    },
+    "fold_depth_form": {
+     "median": 0.063961,
+     "p95": 0.100311,
+     "max": 0.111233,
+     "median_percent_of_diagonal": 19.474,
+     "p95_percent_of_diagonal": 30.542,
+     "max_percent_of_diagonal": 33.867
+    }
    }
   },
   {
@@ -5472,9 +5696,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 92
+    "skipped": false,
+    "vertices": 92,
+    "bbox_diagonal": 0.32844,
+    "fold_amplitude": {
+     "median": 0.015831,
+     "p75": 0.019639,
+     "p95": 0.023258,
+     "max": 0.033939,
+     "p95_percent_of_diagonal": 7.081,
+     "max_percent_of_diagonal": 10.333
+    },
+    "fold_depth_form": {
+     "median": 0.063961,
+     "p95": 0.100311,
+     "max": 0.111233,
+     "median_percent_of_diagonal": 19.474,
+     "p95_percent_of_diagonal": 30.542,
+     "max_percent_of_diagonal": 33.867
+    }
    }
   },
   {
@@ -5592,9 +5832,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 1873
+    "skipped": false,
+    "vertices": 1873,
+    "bbox_diagonal": 0.49488,
+    "fold_amplitude": {
+     "median": 0.000615,
+     "p75": 0.000853,
+     "p95": 0.001391,
+     "max": 0.005995,
+     "p95_percent_of_diagonal": 0.281,
+     "max_percent_of_diagonal": 1.211
+    },
+    "fold_depth_form": {
+     "median": 0.010253,
+     "p95": 0.024074,
+     "max": 0.042061,
+     "median_percent_of_diagonal": 2.072,
+     "p95_percent_of_diagonal": 4.865,
+     "max_percent_of_diagonal": 8.499
+    }
    }
   },
   {
@@ -5752,9 +6008,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 55
+    "skipped": false,
+    "vertices": 55,
+    "bbox_diagonal": 0.20774,
+    "fold_amplitude": {
+     "median": 0.013366,
+     "p75": 0.016729,
+     "p95": 0.019374,
+     "max": 0.022993,
+     "p95_percent_of_diagonal": 9.326,
+     "max_percent_of_diagonal": 11.068
+    },
+    "fold_depth_form": {
+     "median": 0.061127,
+     "p95": 0.083154,
+     "max": 0.087423,
+     "median_percent_of_diagonal": 29.424,
+     "p95_percent_of_diagonal": 40.028,
+     "max_percent_of_diagonal": 42.083
+    }
    }
   },
   {
@@ -5872,9 +6144,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 697
+    "skipped": false,
+    "vertices": 697,
+    "bbox_diagonal": 0.20199,
+    "fold_amplitude": {
+     "median": 0.000845,
+     "p75": 0.001093,
+     "p95": 0.001421,
+     "max": 0.002368,
+     "p95_percent_of_diagonal": 0.704,
+     "max_percent_of_diagonal": 1.172
+    },
+    "fold_depth_form": {
+     "median": 0.013536,
+     "p95": 0.020122,
+     "max": 0.023128,
+     "median_percent_of_diagonal": 6.701,
+     "p95_percent_of_diagonal": 9.962,
+     "max_percent_of_diagonal": 11.45
+    }
    }
   },
   {
@@ -6007,9 +6295,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 1986
+    "skipped": false,
+    "vertices": 1986,
+    "bbox_diagonal": 0.24441,
+    "fold_amplitude": {
+     "median": 0.000419,
+     "p75": 0.000548,
+     "p95": 0.000819,
+     "max": 0.001568,
+     "p95_percent_of_diagonal": 0.335,
+     "max_percent_of_diagonal": 0.642
+    },
+    "fold_depth_form": {
+     "median": 0.006934,
+     "p95": 0.013759,
+     "max": 0.020698,
+     "median_percent_of_diagonal": 2.837,
+     "p95_percent_of_diagonal": 5.629,
+     "max_percent_of_diagonal": 8.468
+    }
    }
   },
   {
@@ -6078,9 +6382,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 4
+    "skipped": false,
+    "vertices": 4,
+    "bbox_diagonal": 2.33238,
+    "fold_amplitude": {
+     "median": 1.0,
+     "p75": 1.0,
+     "p95": 1.0,
+     "max": 1.0,
+     "p95_percent_of_diagonal": 42.875,
+     "max_percent_of_diagonal": 42.875
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6139,9 +6459,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2
+    "skipped": false,
+    "vertices": 2,
+    "bbox_diagonal": 2.0,
+    "fold_amplitude": {
+     "median": 1.0,
+     "p75": 1.0,
+     "p95": 1.0,
+     "max": 1.0,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6210,9 +6546,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2
+    "skipped": false,
+    "vertices": 2,
+    "bbox_diagonal": 3.078,
+    "fold_amplitude": {
+     "median": 1.539,
+     "p75": 1.539,
+     "p95": 1.539,
+     "max": 1.539,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6271,9 +6623,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2
+    "skipped": false,
+    "vertices": 2,
+    "bbox_diagonal": 2.0,
+    "fold_amplitude": {
+     "median": 1.0,
+     "p75": 1.0,
+     "p95": 1.0,
+     "max": 1.0,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6332,9 +6700,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2
+    "skipped": false,
+    "vertices": 2,
+    "bbox_diagonal": 2.0,
+    "fold_amplitude": {
+     "median": 1.0,
+     "p75": 1.0,
+     "p95": 1.0,
+     "max": 1.0,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6393,9 +6777,25 @@
     ]
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2
+    "skipped": false,
+    "vertices": 2,
+    "bbox_diagonal": 2.0,
+    "fold_amplitude": {
+     "median": 1.0,
+     "p75": 1.0,
+     "p95": 1.0,
+     "max": 1.0,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    },
+    "fold_depth_form": {
+     "median": 0.0,
+     "p95": 0.0,
+     "max": 0.0,
+     "median_percent_of_diagonal": 0.0,
+     "p95_percent_of_diagonal": 0.0,
+     "max_percent_of_diagonal": 0.0
+    }
    }
   },
   {
@@ -6926,9 +7326,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 12
+    "skipped": false,
+    "vertices": 12,
+    "bbox_diagonal": 0.09546,
+    "fold_amplitude": {
+     "median": 0.007592,
+     "p75": 0.010666,
+     "p95": 0.019865,
+     "max": 0.019865,
+     "p95_percent_of_diagonal": 20.811,
+     "max_percent_of_diagonal": 20.811
+    },
+    "fold_depth_form": {
+     "median": 0.028065,
+     "p95": 0.051289,
+     "max": 0.051289,
+     "median_percent_of_diagonal": 29.402,
+     "p95_percent_of_diagonal": 53.731,
+     "max_percent_of_diagonal": 53.731
+    }
    }
   },
   {
@@ -7047,9 +7463,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7168,9 +7600,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7289,9 +7737,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7410,9 +7874,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7531,9 +8011,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7652,9 +8148,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7773,9 +8285,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -7894,9 +8422,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 128
+    "skipped": false,
+    "vertices": 128,
+    "bbox_diagonal": 0.02187,
+    "fold_amplitude": {
+     "median": 0.000584,
+     "p75": 0.000807,
+     "p95": 0.000903,
+     "max": 0.000903,
+     "p95_percent_of_diagonal": 4.129,
+     "max_percent_of_diagonal": 4.129
+    },
+    "fold_depth_form": {
+     "median": 0.004271,
+     "p95": 0.005946,
+     "max": 0.005946,
+     "median_percent_of_diagonal": 19.529,
+     "p95_percent_of_diagonal": 27.189,
+     "max_percent_of_diagonal": 27.189
+    }
    }
   },
   {
@@ -8024,9 +8568,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 18434
+    "skipped": false,
+    "vertices": 18434,
+    "bbox_diagonal": 0.27165,
+    "fold_amplitude": {
+     "median": 5.1e-05,
+     "p75": 7.5e-05,
+     "p95": 0.000192,
+     "max": 0.001284,
+     "p95_percent_of_diagonal": 0.071,
+     "max_percent_of_diagonal": 0.473
+    },
+    "fold_depth_form": {
+     "median": 0.000882,
+     "p95": 0.001952,
+     "max": 0.003384,
+     "median_percent_of_diagonal": 0.325,
+     "p95_percent_of_diagonal": 0.718,
+     "max_percent_of_diagonal": 1.246
+    }
    }
   },
   {
@@ -8527,9 +9087,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 8706
+    "skipped": false,
+    "vertices": 8706,
+    "bbox_diagonal": 0.13773,
+    "fold_amplitude": {
+     "median": 3.7e-05,
+     "p75": 4.8e-05,
+     "p95": 0.000104,
+     "max": 0.000432,
+     "p95_percent_of_diagonal": 0.075,
+     "max_percent_of_diagonal": 0.314
+    },
+    "fold_depth_form": {
+     "median": 0.000645,
+     "p95": 0.001476,
+     "max": 0.005532,
+     "median_percent_of_diagonal": 0.468,
+     "p95_percent_of_diagonal": 1.071,
+     "max_percent_of_diagonal": 4.017
+    }
    }
   },
   {
@@ -9030,9 +9606,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 8706
+    "skipped": false,
+    "vertices": 8706,
+    "bbox_diagonal": 0.13773,
+    "fold_amplitude": {
+     "median": 3.7e-05,
+     "p75": 4.8e-05,
+     "p95": 0.000104,
+     "max": 0.000432,
+     "p95_percent_of_diagonal": 0.075,
+     "max_percent_of_diagonal": 0.314
+    },
+    "fold_depth_form": {
+     "median": 0.000645,
+     "p95": 0.001476,
+     "max": 0.005532,
+     "median_percent_of_diagonal": 0.468,
+     "p95_percent_of_diagonal": 1.071,
+     "max_percent_of_diagonal": 4.017
+    }
    }
   },
   {
@@ -9533,9 +10125,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 8706
+    "skipped": false,
+    "vertices": 8706,
+    "bbox_diagonal": 0.13773,
+    "fold_amplitude": {
+     "median": 3.7e-05,
+     "p75": 4.8e-05,
+     "p95": 0.000104,
+     "max": 0.000432,
+     "p95_percent_of_diagonal": 0.075,
+     "max_percent_of_diagonal": 0.314
+    },
+    "fold_depth_form": {
+     "median": 0.000645,
+     "p95": 0.001476,
+     "max": 0.005532,
+     "median_percent_of_diagonal": 0.468,
+     "p95_percent_of_diagonal": 1.071,
+     "max_percent_of_diagonal": 4.017
+    }
    }
   },
   {
@@ -10036,9 +10644,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 8706
+    "skipped": false,
+    "vertices": 8706,
+    "bbox_diagonal": 0.13773,
+    "fold_amplitude": {
+     "median": 3.7e-05,
+     "p75": 4.8e-05,
+     "p95": 0.000104,
+     "max": 0.000432,
+     "p95_percent_of_diagonal": 0.075,
+     "max_percent_of_diagonal": 0.314
+    },
+    "fold_depth_form": {
+     "median": 0.000645,
+     "p95": 0.001476,
+     "max": 0.005532,
+     "median_percent_of_diagonal": 0.468,
+     "p95_percent_of_diagonal": 1.071,
+     "max_percent_of_diagonal": 4.017
+    }
    }
   },
   {
@@ -10191,9 +10815,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 80
+    "skipped": false,
+    "vertices": 80,
+    "bbox_diagonal": 0.22212,
+    "fold_amplitude": {
+     "median": 0.015967,
+     "p75": 0.023068,
+     "p95": 0.026226,
+     "max": 0.028491,
+     "p95_percent_of_diagonal": 11.807,
+     "max_percent_of_diagonal": 12.827
+    },
+    "fold_depth_form": {
+     "median": 0.035315,
+     "p95": 0.072802,
+     "max": 0.073264,
+     "median_percent_of_diagonal": 15.9,
+     "p95_percent_of_diagonal": 32.777,
+     "max_percent_of_diagonal": 32.984
+    }
    }
   },
   {
@@ -10314,9 +10954,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 98306
+    "skipped": false,
+    "vertices": 98306,
+    "bbox_diagonal": 0.53975,
+    "fold_amplitude": {
+     "median": 4.9e-05,
+     "p75": 0.000136,
+     "p95": 0.000377,
+     "max": 0.002542,
+     "p95_percent_of_diagonal": 0.07,
+     "max_percent_of_diagonal": 0.471
+    },
+    "fold_depth_form": {
+     "median": 0.000689,
+     "p95": 0.002643,
+     "max": 0.008166,
+     "median_percent_of_diagonal": 0.128,
+     "p95_percent_of_diagonal": 0.49,
+     "max_percent_of_diagonal": 1.513
+    }
    }
   },
   {
@@ -10404,9 +11060,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 6146
+    "skipped": false,
+    "vertices": 6146,
+    "bbox_diagonal": 0.26777,
+    "fold_amplitude": {
+     "median": 0.000221,
+     "p75": 0.000419,
+     "p95": 0.001005,
+     "max": 0.00543,
+     "p95_percent_of_diagonal": 0.375,
+     "max_percent_of_diagonal": 2.028
+    },
+    "fold_depth_form": {
+     "median": 0.002985,
+     "p95": 0.007087,
+     "max": 0.018349,
+     "median_percent_of_diagonal": 1.115,
+     "p95_percent_of_diagonal": 2.646,
+     "max_percent_of_diagonal": 6.852
+    }
    }
   },
   {
@@ -10494,9 +11166,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 6146
+    "skipped": false,
+    "vertices": 6146,
+    "bbox_diagonal": 0.24651,
+    "fold_amplitude": {
+     "median": 0.000275,
+     "p75": 0.000498,
+     "p95": 0.001081,
+     "max": 0.004359,
+     "p95_percent_of_diagonal": 0.438,
+     "max_percent_of_diagonal": 1.768
+    },
+    "fold_depth_form": {
+     "median": 0.003664,
+     "p95": 0.008692,
+     "max": 0.014957,
+     "median_percent_of_diagonal": 1.486,
+     "p95_percent_of_diagonal": 3.526,
+     "max_percent_of_diagonal": 6.067
+    }
    }
   },
   {
@@ -10620,9 +11308,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.1633,
+    "fold_amplitude": {
+     "median": 0.004217,
+     "p75": 0.006399,
+     "p95": 0.013221,
+     "max": 0.024544,
+     "p95_percent_of_diagonal": 8.096,
+     "max_percent_of_diagonal": 15.03
+    },
+    "fold_depth_form": {
+     "median": 0.03322,
+     "p95": 0.062401,
+     "max": 0.072753,
+     "median_percent_of_diagonal": 20.343,
+     "p95_percent_of_diagonal": 38.213,
+     "max_percent_of_diagonal": 44.552
+    }
    }
   },
   {
@@ -10736,9 +11440,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.14499,
+    "fold_amplitude": {
+     "median": 0.003133,
+     "p75": 0.006004,
+     "p95": 0.014181,
+     "max": 0.020996,
+     "p95_percent_of_diagonal": 9.781,
+     "max_percent_of_diagonal": 14.481
+    },
+    "fold_depth_form": {
+     "median": 0.027913,
+     "p95": 0.059058,
+     "max": 0.060925,
+     "median_percent_of_diagonal": 19.251,
+     "p95_percent_of_diagonal": 40.732,
+     "max_percent_of_diagonal": 42.019
+    }
    }
   },
   {
@@ -10862,9 +11582,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.16566,
+    "fold_amplitude": {
+     "median": 0.004286,
+     "p75": 0.006271,
+     "p95": 0.013451,
+     "max": 0.02057,
+     "p95_percent_of_diagonal": 8.12,
+     "max_percent_of_diagonal": 12.417
+    },
+    "fold_depth_form": {
+     "median": 0.033432,
+     "p95": 0.060599,
+     "max": 0.071837,
+     "median_percent_of_diagonal": 20.181,
+     "p95_percent_of_diagonal": 36.58,
+     "max_percent_of_diagonal": 43.364
+    }
    }
   },
   {
@@ -10988,9 +11724,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.16635,
+    "fold_amplitude": {
+     "median": 0.004956,
+     "p75": 0.007135,
+     "p95": 0.013752,
+     "max": 0.025116,
+     "p95_percent_of_diagonal": 8.267,
+     "max_percent_of_diagonal": 15.098
+    },
+    "fold_depth_form": {
+     "median": 0.033304,
+     "p95": 0.064511,
+     "max": 0.073312,
+     "median_percent_of_diagonal": 20.02,
+     "p95_percent_of_diagonal": 38.779,
+     "max_percent_of_diagonal": 44.07
+    }
    }
   },
   {
@@ -11114,9 +11866,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.1507,
+    "fold_amplitude": {
+     "median": 0.003812,
+     "p75": 0.006184,
+     "p95": 0.01607,
+     "max": 0.021529,
+     "p95_percent_of_diagonal": 10.664,
+     "max_percent_of_diagonal": 14.286
+    },
+    "fold_depth_form": {
+     "median": 0.028257,
+     "p95": 0.061646,
+     "max": 0.062433,
+     "median_percent_of_diagonal": 18.75,
+     "p95_percent_of_diagonal": 40.906,
+     "max_percent_of_diagonal": 41.428
+    }
    }
   },
   {
@@ -11235,9 +12003,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.1671,
+    "fold_amplitude": {
+     "median": 0.006103,
+     "p75": 0.008201,
+     "p95": 0.013776,
+     "max": 0.019642,
+     "p95_percent_of_diagonal": 8.245,
+     "max_percent_of_diagonal": 11.755
+    },
+    "fold_depth_form": {
+     "median": 0.038495,
+     "p95": 0.056786,
+     "max": 0.076,
+     "median_percent_of_diagonal": 23.038,
+     "p95_percent_of_diagonal": 33.984,
+     "max_percent_of_diagonal": 45.483
+    }
    }
   },
   {
@@ -11361,9 +12145,25 @@
     "quad_percent": 86.2
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 29
+    "skipped": false,
+    "vertices": 29,
+    "bbox_diagonal": 0.15497,
+    "fold_amplitude": {
+     "median": 0.004694,
+     "p75": 0.007201,
+     "p95": 0.016975,
+     "max": 0.017665,
+     "p95_percent_of_diagonal": 10.953,
+     "max_percent_of_diagonal": 11.399
+    },
+    "fold_depth_form": {
+     "median": 0.030343,
+     "p95": 0.071699,
+     "max": 0.072155,
+     "median_percent_of_diagonal": 19.579,
+     "p95_percent_of_diagonal": 46.266,
+     "max_percent_of_diagonal": 46.56
+    }
    }
   },
   {
@@ -11492,9 +12292,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.07363,
+    "fold_amplitude": {
+     "median": 0.005001,
+     "p75": 0.007372,
+     "p95": 0.016798,
+     "max": 0.016798,
+     "p95_percent_of_diagonal": 22.815,
+     "max_percent_of_diagonal": 22.815
+    },
+    "fold_depth_form": {
+     "median": 0.021919,
+     "p95": 0.039414,
+     "max": 0.039414,
+     "median_percent_of_diagonal": 29.77,
+     "p95_percent_of_diagonal": 53.532,
+     "max_percent_of_diagonal": 53.532
+    }
    }
   },
   {
@@ -11623,9 +12439,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.0621,
+    "fold_amplitude": {
+     "median": 0.002775,
+     "p75": 0.005558,
+     "p95": 0.017145,
+     "max": 0.017145,
+     "p95_percent_of_diagonal": 27.608,
+     "max_percent_of_diagonal": 27.608
+    },
+    "fold_depth_form": {
+     "median": 0.015505,
+     "p95": 0.035366,
+     "max": 0.035366,
+     "median_percent_of_diagonal": 24.967,
+     "p95_percent_of_diagonal": 56.947,
+     "max_percent_of_diagonal": 56.947
+    }
    }
   },
   {
@@ -11754,9 +12586,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.10029,
+    "fold_amplitude": {
+     "median": 0.008693,
+     "p75": 0.009824,
+     "p95": 0.032734,
+     "max": 0.032734,
+     "p95_percent_of_diagonal": 32.64,
+     "max_percent_of_diagonal": 32.64
+    },
+    "fold_depth_form": {
+     "median": 0.025613,
+     "p95": 0.059472,
+     "max": 0.059472,
+     "median_percent_of_diagonal": 25.539,
+     "p95_percent_of_diagonal": 59.302,
+     "max_percent_of_diagonal": 59.302
+    }
    }
   },
   {
@@ -11885,9 +12733,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.08183,
+    "fold_amplitude": {
+     "median": 0.005579,
+     "p75": 0.008957,
+     "p95": 0.017541,
+     "max": 0.017541,
+     "p95_percent_of_diagonal": 21.435,
+     "max_percent_of_diagonal": 21.435
+    },
+    "fold_depth_form": {
+     "median": 0.02443,
+     "p95": 0.042918,
+     "max": 0.042918,
+     "median_percent_of_diagonal": 29.854,
+     "p95_percent_of_diagonal": 52.445,
+     "max_percent_of_diagonal": 52.445
+    }
    }
   },
   {
@@ -12016,9 +12880,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.0492,
+    "fold_amplitude": {
+     "median": 0.004134,
+     "p75": 0.005442,
+     "p95": 0.015673,
+     "max": 0.015673,
+     "p95_percent_of_diagonal": 31.857,
+     "max_percent_of_diagonal": 31.857
+    },
+    "fold_depth_form": {
+     "median": 0.01011,
+     "p95": 0.025457,
+     "max": 0.025457,
+     "median_percent_of_diagonal": 20.548,
+     "p95_percent_of_diagonal": 51.742,
+     "max_percent_of_diagonal": 51.742
+    }
    }
   },
   {
@@ -12147,9 +13027,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.04697,
+    "fold_amplitude": {
+     "median": 0.003611,
+     "p75": 0.005442,
+     "p95": 0.012299,
+     "max": 0.012299,
+     "p95_percent_of_diagonal": 26.184,
+     "max_percent_of_diagonal": 26.184
+    },
+    "fold_depth_form": {
+     "median": 0.010109,
+     "p95": 0.02503,
+     "max": 0.02503,
+     "median_percent_of_diagonal": 21.522,
+     "p95_percent_of_diagonal": 53.288,
+     "max_percent_of_diagonal": 53.288
+    }
    }
   },
   {
@@ -12278,9 +13174,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.048,
+    "fold_amplitude": {
+     "median": 0.003783,
+     "p75": 0.005442,
+     "p95": 0.014013,
+     "max": 0.014013,
+     "p95_percent_of_diagonal": 29.197,
+     "max_percent_of_diagonal": 29.197
+    },
+    "fold_depth_form": {
+     "median": 0.010176,
+     "p95": 0.025931,
+     "max": 0.025931,
+     "median_percent_of_diagonal": 21.202,
+     "p95_percent_of_diagonal": 54.029,
+     "max_percent_of_diagonal": 54.029
+    }
    }
   },
   {
@@ -12409,9 +13321,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.06757,
+    "fold_amplitude": {
+     "median": 0.00552,
+     "p75": 0.006264,
+     "p95": 0.019204,
+     "max": 0.019204,
+     "p95_percent_of_diagonal": 28.422,
+     "max_percent_of_diagonal": 28.422
+    },
+    "fold_depth_form": {
+     "median": 0.018987,
+     "p95": 0.038607,
+     "max": 0.038607,
+     "median_percent_of_diagonal": 28.101,
+     "p95_percent_of_diagonal": 57.139,
+     "max_percent_of_diagonal": 57.139
+    }
    }
   },
   {
@@ -12540,9 +13468,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.04745,
+    "fold_amplitude": {
+     "median": 0.003783,
+     "p75": 0.005442,
+     "p95": 0.014013,
+     "max": 0.014013,
+     "p95_percent_of_diagonal": 29.532,
+     "max_percent_of_diagonal": 29.532
+    },
+    "fold_depth_form": {
+     "median": 0.010176,
+     "p95": 0.025931,
+     "max": 0.025931,
+     "median_percent_of_diagonal": 21.445,
+     "p95_percent_of_diagonal": 54.649,
+     "max_percent_of_diagonal": 54.649
+    }
    }
   },
   {
@@ -12671,9 +13615,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.09308,
+    "fold_amplitude": {
+     "median": 0.006555,
+     "p75": 0.008174,
+     "p95": 0.020807,
+     "max": 0.020807,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.031643,
+     "p95": 0.053125,
+     "max": 0.053125,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -12802,9 +13762,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.034,
+    "fold_amplitude": {
+     "median": 0.002925,
+     "p75": 0.004059,
+     "p95": 0.010306,
+     "max": 0.010306,
+     "p95_percent_of_diagonal": 30.311,
+     "max_percent_of_diagonal": 30.311
+    },
+    "fold_depth_form": {
+     "median": 0.007317,
+     "p95": 0.018938,
+     "max": 0.018938,
+     "median_percent_of_diagonal": 21.521,
+     "p95_percent_of_diagonal": 55.699,
+     "max_percent_of_diagonal": 55.699
+    }
    }
   },
   {
@@ -12933,9 +13909,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.03847,
+    "fold_amplitude": {
+     "median": 0.003156,
+     "p75": 0.004433,
+     "p95": 0.011308,
+     "max": 0.011308,
+     "p95_percent_of_diagonal": 29.392,
+     "max_percent_of_diagonal": 29.392
+    },
+    "fold_depth_form": {
+     "median": 0.008088,
+     "p95": 0.020828,
+     "max": 0.020828,
+     "median_percent_of_diagonal": 21.023,
+     "p95_percent_of_diagonal": 54.137,
+     "max_percent_of_diagonal": 54.137
+    }
    }
   },
   {
@@ -13064,9 +14056,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.09729,
+    "fold_amplitude": {
+     "median": 0.006555,
+     "p75": 0.008174,
+     "p95": 0.020807,
+     "max": 0.020807,
+     "p95_percent_of_diagonal": 21.386,
+     "max_percent_of_diagonal": 21.386
+    },
+    "fold_depth_form": {
+     "median": 0.031643,
+     "p95": 0.053125,
+     "max": 0.053125,
+     "median_percent_of_diagonal": 32.524,
+     "p95_percent_of_diagonal": 54.604,
+     "max_percent_of_diagonal": 54.604
+    }
    }
   },
   {
@@ -13195,9 +14203,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.05723,
+    "fold_amplitude": {
+     "median": 0.003517,
+     "p75": 0.005439,
+     "p95": 0.01442,
+     "max": 0.01442,
+     "p95_percent_of_diagonal": 25.194,
+     "max_percent_of_diagonal": 25.194
+    },
+    "fold_depth_form": {
+     "median": 0.014354,
+     "p95": 0.031231,
+     "max": 0.031231,
+     "median_percent_of_diagonal": 25.081,
+     "p95_percent_of_diagonal": 54.567,
+     "max_percent_of_diagonal": 54.567
+    }
    }
   },
   {
@@ -13326,9 +14350,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.04697,
+    "fold_amplitude": {
+     "median": 0.003611,
+     "p75": 0.005442,
+     "p95": 0.012299,
+     "max": 0.012299,
+     "p95_percent_of_diagonal": 26.184,
+     "max_percent_of_diagonal": 26.184
+    },
+    "fold_depth_form": {
+     "median": 0.010109,
+     "p95": 0.02503,
+     "max": 0.02503,
+     "median_percent_of_diagonal": 21.522,
+     "p95_percent_of_diagonal": 53.288,
+     "max_percent_of_diagonal": 53.288
+    }
    }
   },
   {
@@ -13457,9 +14497,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.034,
+    "fold_amplitude": {
+     "median": 0.002925,
+     "p75": 0.004059,
+     "p95": 0.010306,
+     "max": 0.010306,
+     "p95_percent_of_diagonal": 30.311,
+     "max_percent_of_diagonal": 30.311
+    },
+    "fold_depth_form": {
+     "median": 0.007317,
+     "p95": 0.018938,
+     "max": 0.018938,
+     "median_percent_of_diagonal": 21.521,
+     "p95_percent_of_diagonal": 55.699,
+     "max_percent_of_diagonal": 55.699
+    }
    }
   },
   {
@@ -13588,9 +14644,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.04697,
+    "fold_amplitude": {
+     "median": 0.003611,
+     "p75": 0.005442,
+     "p95": 0.012299,
+     "max": 0.012299,
+     "p95_percent_of_diagonal": 26.184,
+     "max_percent_of_diagonal": 26.184
+    },
+    "fold_depth_form": {
+     "median": 0.010109,
+     "p95": 0.02503,
+     "max": 0.02503,
+     "median_percent_of_diagonal": 21.522,
+     "p95_percent_of_diagonal": 53.288,
+     "max_percent_of_diagonal": 53.288
+    }
    }
   },
   {
@@ -13719,9 +14791,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.034,
+    "fold_amplitude": {
+     "median": 0.002925,
+     "p75": 0.004059,
+     "p95": 0.010306,
+     "max": 0.010306,
+     "p95_percent_of_diagonal": 30.311,
+     "max_percent_of_diagonal": 30.311
+    },
+    "fold_depth_form": {
+     "median": 0.007317,
+     "p95": 0.018938,
+     "max": 0.018938,
+     "median_percent_of_diagonal": 21.521,
+     "p95_percent_of_diagonal": 55.699,
+     "max_percent_of_diagonal": 55.699
+    }
    }
   },
   {
@@ -13850,9 +14938,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.048,
+    "fold_amplitude": {
+     "median": 0.003783,
+     "p75": 0.005442,
+     "p95": 0.014013,
+     "max": 0.014013,
+     "p95_percent_of_diagonal": 29.197,
+     "max_percent_of_diagonal": 29.197
+    },
+    "fold_depth_form": {
+     "median": 0.010176,
+     "p95": 0.025931,
+     "max": 0.025931,
+     "median_percent_of_diagonal": 21.202,
+     "p95_percent_of_diagonal": 54.029,
+     "max_percent_of_diagonal": 54.029
+    }
    }
   },
   {
@@ -13981,9 +15085,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.09693,
+    "fold_amplitude": {
+     "median": 0.006755,
+     "p75": 0.008187,
+     "p95": 0.021311,
+     "max": 0.021311,
+     "p95_percent_of_diagonal": 21.985,
+     "max_percent_of_diagonal": 21.985
+    },
+    "fold_depth_form": {
+     "median": 0.033649,
+     "p95": 0.055521,
+     "max": 0.055521,
+     "median_percent_of_diagonal": 34.713,
+     "p95_percent_of_diagonal": 57.277,
+     "max_percent_of_diagonal": 57.277
+    }
    }
   },
   {
@@ -14112,9 +15232,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.06757,
+    "fold_amplitude": {
+     "median": 0.00552,
+     "p75": 0.006264,
+     "p95": 0.019204,
+     "max": 0.019204,
+     "p95_percent_of_diagonal": 28.422,
+     "max_percent_of_diagonal": 28.422
+    },
+    "fold_depth_form": {
+     "median": 0.018987,
+     "p95": 0.038607,
+     "max": 0.038607,
+     "median_percent_of_diagonal": 28.101,
+     "p95_percent_of_diagonal": 57.139,
+     "max_percent_of_diagonal": 57.139
+    }
    }
   },
   {
@@ -14243,9 +15379,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13431,
+    "fold_amplitude": {
+     "median": 0.008511,
+     "p75": 0.012197,
+     "p95": 0.029993,
+     "max": 0.029993,
+     "p95_percent_of_diagonal": 22.331,
+     "max_percent_of_diagonal": 22.331
+    },
+    "fold_depth_form": {
+     "median": 0.043414,
+     "p95": 0.074383,
+     "max": 0.074383,
+     "median_percent_of_diagonal": 32.323,
+     "p95_percent_of_diagonal": 55.38,
+     "max_percent_of_diagonal": 55.38
+    }
    }
   },
   {
@@ -14359,9 +15511,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.14278,
+    "fold_amplitude": {
+     "median": 0.009946,
+     "p75": 0.012182,
+     "p95": 0.030693,
+     "max": 0.030693,
+     "p95_percent_of_diagonal": 21.496,
+     "max_percent_of_diagonal": 21.496
+    },
+    "fold_depth_form": {
+     "median": 0.049232,
+     "p95": 0.080168,
+     "max": 0.080168,
+     "median_percent_of_diagonal": 34.48,
+     "p95_percent_of_diagonal": 56.147,
+     "max_percent_of_diagonal": 56.147
+    }
    }
   },
   {
@@ -14490,9 +15658,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -14621,9 +15805,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -14752,9 +15952,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -14883,9 +16099,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -15014,9 +16246,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -15145,9 +16393,25 @@
     "quad_percent": 76.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 17
+    "skipped": false,
+    "vertices": 17,
+    "bbox_diagonal": 0.13839,
+    "fold_amplitude": {
+     "median": 0.009747,
+     "p75": 0.012154,
+     "p95": 0.030937,
+     "max": 0.030937,
+     "p95_percent_of_diagonal": 22.354,
+     "max_percent_of_diagonal": 22.354
+    },
+    "fold_depth_form": {
+     "median": 0.047049,
+     "p95": 0.07899,
+     "max": 0.07899,
+     "median_percent_of_diagonal": 33.996,
+     "p95_percent_of_diagonal": 57.076,
+     "max_percent_of_diagonal": 57.076
+    }
    }
   },
   {
@@ -15398,9 +16662,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 8
+    "skipped": false,
+    "vertices": 8,
+    "bbox_diagonal": 0.16491,
+    "fold_amplitude": {
+     "median": 0.042203,
+     "p75": 0.042362,
+     "p95": 0.042362,
+     "max": 0.042362,
+     "p95_percent_of_diagonal": 25.688,
+     "max_percent_of_diagonal": 25.688
+    },
+    "fold_depth_form": {
+     "median": 0.059969,
+     "p95": 0.060204,
+     "max": 0.060204,
+     "median_percent_of_diagonal": 36.364,
+     "p95_percent_of_diagonal": 36.507,
+     "max_percent_of_diagonal": 36.507
+    }
    }
   },
   {
@@ -15558,9 +16838,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 90
+    "skipped": false,
+    "vertices": 90,
+    "bbox_diagonal": 0.14639,
+    "fold_amplitude": {
+     "median": 0.004568,
+     "p75": 0.005633,
+     "p95": 0.008963,
+     "max": 0.016496,
+     "p95_percent_of_diagonal": 6.123,
+     "max_percent_of_diagonal": 11.269
+    },
+    "fold_depth_form": {
+     "median": 0.034923,
+     "p95": 0.044637,
+     "max": 0.048137,
+     "median_percent_of_diagonal": 23.857,
+     "p95_percent_of_diagonal": 30.493,
+     "max_percent_of_diagonal": 32.884
+    }
    }
   },
   {
@@ -15683,9 +16979,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 33794
+    "skipped": false,
+    "vertices": 33794,
+    "bbox_diagonal": 0.15225,
+    "fold_amplitude": {
+     "median": 1.7e-05,
+     "p75": 2.3e-05,
+     "p95": 4.7e-05,
+     "max": 0.000178,
+     "p95_percent_of_diagonal": 0.031,
+     "max_percent_of_diagonal": 0.117
+    },
+    "fold_depth_form": {
+     "median": 0.000322,
+     "p95": 0.000767,
+     "max": 0.002099,
+     "median_percent_of_diagonal": 0.211,
+     "p95_percent_of_diagonal": 0.504,
+     "max_percent_of_diagonal": 1.379
+    }
    }
   },
   {
@@ -15773,9 +17085,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 147458
+    "skipped": false,
+    "vertices": 147458,
+    "bbox_diagonal": 0.51514,
+    "fold_amplitude": {
+     "median": 1.2e-05,
+     "p75": 1.6e-05,
+     "p95": 7.6e-05,
+     "max": 0.002688,
+     "p95_percent_of_diagonal": 0.015,
+     "max_percent_of_diagonal": 0.522
+    },
+    "fold_depth_form": {
+     "median": 0.000247,
+     "p95": 0.001198,
+     "max": 0.008007,
+     "median_percent_of_diagonal": 0.048,
+     "p95_percent_of_diagonal": 0.233,
+     "max_percent_of_diagonal": 1.554
+    }
    }
   },
   {
@@ -15876,7 +17204,7 @@
           "name": "Collection",
           "identifier": "Collection",
           "type": "COLLECTION",
-          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f9d959e95a0>"
+          "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4932a2d5a0>"
          },
          {
           "name": "Separate Children",
@@ -15957,7 +17285,7 @@
           "name": "Material",
           "identifier": "Material",
           "type": "MATERIAL",
-          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f9d8bf86ea0>"
+          "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4920236ea0>"
          }
         ]
        },
@@ -16157,9 +17485,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 4
+    "skipped": false,
+    "vertices": 4,
+    "bbox_diagonal": 2.82843,
+    "fold_amplitude": {
+     "median": 1.237437,
+     "p75": 1.237437,
+     "p95": 1.237437,
+     "max": 1.237437,
+     "p95_percent_of_diagonal": 43.75,
+     "max_percent_of_diagonal": 43.75
+    },
+    "fold_depth_form": {
+     "median": 1.414214,
+     "p95": 1.414214,
+     "max": 1.414214,
+     "median_percent_of_diagonal": 50.0,
+     "p95_percent_of_diagonal": 50.0,
+     "max_percent_of_diagonal": 50.0
+    }
    }
   },
   {
@@ -16247,9 +17591,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 624
+    "skipped": false,
+    "vertices": 624,
+    "bbox_diagonal": 0.44756,
+    "fold_amplitude": {
+     "median": 0.002134,
+     "p75": 0.003303,
+     "p95": 0.004181,
+     "max": 0.004646,
+     "p95_percent_of_diagonal": 0.934,
+     "max_percent_of_diagonal": 1.038
+    },
+    "fold_depth_form": {
+     "median": 0.034221,
+     "p95": 0.048841,
+     "max": 0.052025,
+     "median_percent_of_diagonal": 7.646,
+     "p95_percent_of_diagonal": 10.913,
+     "max_percent_of_diagonal": 11.624
+    }
    }
   },
   {
@@ -16740,9 +18100,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 130
+    "skipped": false,
+    "vertices": 130,
+    "bbox_diagonal": 0.322,
+    "fold_amplitude": {
+     "median": 0.004969,
+     "p75": 0.006089,
+     "p95": 0.008312,
+     "max": 0.008829,
+     "p95_percent_of_diagonal": 2.581,
+     "max_percent_of_diagonal": 2.742
+    },
+    "fold_depth_form": {
+     "median": 0.02716,
+     "p95": 0.032892,
+     "max": 0.035532,
+     "median_percent_of_diagonal": 8.435,
+     "p95_percent_of_diagonal": 10.215,
+     "max_percent_of_diagonal": 11.035
+    }
    }
   },
   {
@@ -17184,9 +18560,25 @@
     "quad_percent": 33.3
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 68
+    "skipped": false,
+    "vertices": 68,
+    "bbox_diagonal": 0.75754,
+    "fold_amplitude": {
+     "median": 0.018859,
+     "p75": 0.018859,
+     "p95": 0.018859,
+     "max": 0.018859,
+     "p95_percent_of_diagonal": 2.49,
+     "max_percent_of_diagonal": 2.49
+    },
+    "fold_depth_form": {
+     "median": 0.043432,
+     "p95": 0.043432,
+     "max": 0.043432,
+     "median_percent_of_diagonal": 5.733,
+     "p95_percent_of_diagonal": 5.733,
+     "max_percent_of_diagonal": 5.733
+    }
    }
   },
   {
@@ -17349,9 +18741,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 312
+    "skipped": false,
+    "vertices": 312,
+    "bbox_diagonal": 0.29301,
+    "fold_amplitude": {
+     "median": 0.002254,
+     "p75": 0.003013,
+     "p95": 0.004367,
+     "max": 0.004878,
+     "p95_percent_of_diagonal": 1.49,
+     "max_percent_of_diagonal": 1.665
+    },
+    "fold_depth_form": {
+     "median": 0.034515,
+     "p95": 0.050164,
+     "max": 0.053512,
+     "median_percent_of_diagonal": 11.779,
+     "p95_percent_of_diagonal": 17.12,
+     "max_percent_of_diagonal": 18.263
+    }
    }
   },
   {
@@ -17524,9 +18932,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 16
+    "skipped": false,
+    "vertices": 16,
+    "bbox_diagonal": 0.12835,
+    "fold_amplitude": {
+     "median": 0.013315,
+     "p75": 0.013365,
+     "p95": 0.013384,
+     "max": 0.013384,
+     "p95_percent_of_diagonal": 10.428,
+     "max_percent_of_diagonal": 10.428
+    },
+    "fold_depth_form": {
+     "median": 0.018936,
+     "p95": 0.019009,
+     "max": 0.019009,
+     "median_percent_of_diagonal": 14.754,
+     "p95_percent_of_diagonal": 14.81,
+     "max_percent_of_diagonal": 14.81
+    }
    }
   },
   {
@@ -17959,9 +19383,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 234
+    "skipped": false,
+    "vertices": 234,
+    "bbox_diagonal": 0.22487,
+    "fold_amplitude": {
+     "median": 0.00155,
+     "p75": 0.005108,
+     "p95": 0.006179,
+     "max": 0.008315,
+     "p95_percent_of_diagonal": 2.748,
+     "max_percent_of_diagonal": 3.698
+    },
+    "fold_depth_form": {
+     "median": 0.027564,
+     "p95": 0.043848,
+     "max": 0.049396,
+     "median_percent_of_diagonal": 12.258,
+     "p95_percent_of_diagonal": 19.5,
+     "max_percent_of_diagonal": 21.967
+    }
    }
   },
   {
@@ -18373,9 +19813,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 110
+    "skipped": false,
+    "vertices": 110,
+    "bbox_diagonal": 0.1706,
+    "fold_amplitude": {
+     "median": 0.002831,
+     "p75": 0.006376,
+     "p95": 0.008197,
+     "max": 0.008719,
+     "p95_percent_of_diagonal": 4.805,
+     "max_percent_of_diagonal": 5.111
+    },
+    "fold_depth_form": {
+     "median": 0.036676,
+     "p95": 0.051455,
+     "max": 0.053121,
+     "median_percent_of_diagonal": 21.499,
+     "p95_percent_of_diagonal": 30.162,
+     "max_percent_of_diagonal": 31.139
+    }
    }
   },
   {
@@ -18612,9 +20068,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 122
+    "skipped": false,
+    "vertices": 122,
+    "bbox_diagonal": 0.23512,
+    "fold_amplitude": {
+     "median": 0.010736,
+     "p75": 0.011177,
+     "p95": 0.013197,
+     "max": 0.01668,
+     "p95_percent_of_diagonal": 5.613,
+     "max_percent_of_diagonal": 7.094
+    },
+    "fold_depth_form": {
+     "median": 0.025831,
+     "p95": 0.036828,
+     "max": 0.038996,
+     "median_percent_of_diagonal": 10.986,
+     "p95_percent_of_diagonal": 15.663,
+     "max_percent_of_diagonal": 16.586
+    }
    }
   },
   {
@@ -19212,9 +20684,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 16
+    "skipped": false,
+    "vertices": 16,
+    "bbox_diagonal": 0.00674,
+    "fold_amplitude": {
+     "median": 0.000784,
+     "p75": 0.000784,
+     "p95": 0.000784,
+     "max": 0.000784,
+     "p95_percent_of_diagonal": 11.635,
+     "max_percent_of_diagonal": 11.635
+    },
+    "fold_depth_form": {
+     "median": 0.002428,
+     "p95": 0.002428,
+     "max": 0.002428,
+     "median_percent_of_diagonal": 36.028,
+     "p95_percent_of_diagonal": 36.028,
+     "max_percent_of_diagonal": 36.028
+    }
    }
   },
   {
@@ -19378,9 +20866,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -19544,9 +21048,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -19710,9 +21230,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -19876,9 +21412,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20042,9 +21594,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20208,9 +21776,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20374,9 +21958,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20540,9 +22140,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20706,9 +22322,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -20872,9 +22504,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -21038,9 +22686,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -21204,9 +22868,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -21370,9 +23050,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -21536,9 +23232,25 @@
     "quad_percent": 99.5
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 208
+    "skipped": false,
+    "vertices": 208,
+    "bbox_diagonal": 0.01474,
+    "fold_amplitude": {
+     "median": 0.000342,
+     "p75": 0.00044,
+     "p95": 0.001395,
+     "max": 0.001395,
+     "p95_percent_of_diagonal": 9.466,
+     "max_percent_of_diagonal": 9.466
+    },
+    "fold_depth_form": {
+     "median": 0.002186,
+     "p95": 0.003781,
+     "max": 0.003781,
+     "median_percent_of_diagonal": 14.834,
+     "p95_percent_of_diagonal": 25.653,
+     "max_percent_of_diagonal": 25.653
+    }
    }
   },
   {
@@ -21766,9 +23478,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 43010
+    "skipped": false,
+    "vertices": 43010,
+    "bbox_diagonal": 1.08207,
+    "fold_amplitude": {
+     "median": 6.2e-05,
+     "p75": 9e-05,
+     "p95": 0.000133,
+     "max": 0.000274,
+     "p95_percent_of_diagonal": 0.012,
+     "max_percent_of_diagonal": 0.025
+    },
+    "fold_depth_form": {
+     "median": 0.001195,
+     "p95": 0.002493,
+     "max": 0.003669,
+     "median_percent_of_diagonal": 0.11,
+     "p95_percent_of_diagonal": 0.23,
+     "max_percent_of_diagonal": 0.339
+    }
    }
   },
   {
@@ -22438,9 +24166,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02222,
+    "fold_amplitude": {
+     "median": 0.003192,
+     "p75": 0.00424,
+     "p95": 0.004779,
+     "max": 0.004779,
+     "p95_percent_of_diagonal": 21.508,
+     "max_percent_of_diagonal": 21.508
+    },
+    "fold_depth_form": {
+     "median": 0.008068,
+     "p95": 0.009784,
+     "max": 0.009784,
+     "median_percent_of_diagonal": 36.311,
+     "p95_percent_of_diagonal": 44.033,
+     "max_percent_of_diagonal": 44.033
+    }
    }
   },
   {
@@ -23015,9 +24759,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02222,
+    "fold_amplitude": {
+     "median": 0.003192,
+     "p75": 0.00424,
+     "p95": 0.004779,
+     "max": 0.004779,
+     "p95_percent_of_diagonal": 21.508,
+     "max_percent_of_diagonal": 21.508
+    },
+    "fold_depth_form": {
+     "median": 0.008068,
+     "p95": 0.009784,
+     "max": 0.009784,
+     "median_percent_of_diagonal": 36.311,
+     "p95_percent_of_diagonal": 44.033,
+     "max_percent_of_diagonal": 44.033
+    }
    }
   },
   {
@@ -23592,9 +25352,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02222,
+    "fold_amplitude": {
+     "median": 0.003192,
+     "p75": 0.00424,
+     "p95": 0.004779,
+     "max": 0.004779,
+     "p95_percent_of_diagonal": 21.508,
+     "max_percent_of_diagonal": 21.508
+    },
+    "fold_depth_form": {
+     "median": 0.008068,
+     "p95": 0.009784,
+     "max": 0.009784,
+     "median_percent_of_diagonal": 36.311,
+     "p95_percent_of_diagonal": 44.033,
+     "max_percent_of_diagonal": 44.033
+    }
    }
   },
   {
@@ -24169,9 +25945,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02222,
+    "fold_amplitude": {
+     "median": 0.003192,
+     "p75": 0.00424,
+     "p95": 0.004779,
+     "max": 0.004779,
+     "p95_percent_of_diagonal": 21.508,
+     "max_percent_of_diagonal": 21.508
+    },
+    "fold_depth_form": {
+     "median": 0.008068,
+     "p95": 0.009784,
+     "max": 0.009784,
+     "median_percent_of_diagonal": 36.311,
+     "p95_percent_of_diagonal": 44.033,
+     "max_percent_of_diagonal": 44.033
+    }
    }
   },
   {
@@ -24934,9 +26726,25 @@
     "quad_percent": 96.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 64
+    "skipped": false,
+    "vertices": 64,
+    "bbox_diagonal": 0.02441,
+    "fold_amplitude": {
+     "median": 0.000771,
+     "p75": 0.000771,
+     "p95": 0.000771,
+     "max": 0.000771,
+     "p95_percent_of_diagonal": 3.161,
+     "max_percent_of_diagonal": 3.161
+    },
+    "fold_depth_form": {
+     "median": 0.006425,
+     "p95": 0.006425,
+     "max": 0.006425,
+     "median_percent_of_diagonal": 26.324,
+     "p95_percent_of_diagonal": 26.324,
+     "max_percent_of_diagonal": 26.324
+    }
    }
   },
   {
@@ -25416,9 +27224,25 @@
     "quad_percent": 96.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 64
+    "skipped": false,
+    "vertices": 64,
+    "bbox_diagonal": 0.03078,
+    "fold_amplitude": {
+     "median": 0.000973,
+     "p75": 0.000973,
+     "p95": 0.000973,
+     "max": 0.000973,
+     "p95_percent_of_diagonal": 3.161,
+     "max_percent_of_diagonal": 3.161
+    },
+    "fold_depth_form": {
+     "median": 0.008103,
+     "p95": 0.008103,
+     "max": 0.008103,
+     "median_percent_of_diagonal": 26.324,
+     "p95_percent_of_diagonal": 26.324,
+     "max_percent_of_diagonal": 26.324
+    }
    }
   },
   {
@@ -26335,7 +28159,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -26367,7 +28191,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -27425,7 +29249,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -27457,7 +29281,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -28515,7 +30339,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -28547,7 +30371,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -29605,7 +31429,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -29637,7 +31461,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -30695,7 +32519,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -30727,7 +32551,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -31785,7 +33609,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -31817,7 +33641,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+          "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
          },
          {
           "name": "As Instance",
@@ -32155,9 +33979,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 1300
+    "skipped": false,
+    "vertices": 1300,
+    "bbox_diagonal": 0.81728,
+    "fold_amplitude": {
+     "median": 0.001762,
+     "p75": 0.003418,
+     "p95": 0.005843,
+     "max": 0.016111,
+     "p95_percent_of_diagonal": 0.715,
+     "max_percent_of_diagonal": 1.971
+    },
+    "fold_depth_form": {
+     "median": 0.026099,
+     "p95": 0.058559,
+     "max": 0.090121,
+     "median_percent_of_diagonal": 3.193,
+     "p95_percent_of_diagonal": 7.165,
+     "max_percent_of_diagonal": 11.027
+    }
    }
   },
   {
@@ -32348,9 +34188,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 1375
+    "skipped": false,
+    "vertices": 1375,
+    "bbox_diagonal": 0.81857,
+    "fold_amplitude": {
+     "median": 0.001622,
+     "p75": 0.003267,
+     "p95": 0.006192,
+     "max": 0.012651,
+     "p95_percent_of_diagonal": 0.756,
+     "max_percent_of_diagonal": 1.545
+    },
+    "fold_depth_form": {
+     "median": 0.028041,
+     "p95": 0.058619,
+     "max": 0.085171,
+     "median_percent_of_diagonal": 3.426,
+     "p95_percent_of_diagonal": 7.161,
+     "max_percent_of_diagonal": 10.405
+    }
    }
   },
   {
@@ -32829,9 +34685,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 24
+    "skipped": false,
+    "vertices": 24,
+    "bbox_diagonal": 0.08086,
+    "fold_amplitude": {
+     "median": 0.006021,
+     "p75": 0.007362,
+     "p95": 0.010571,
+     "max": 0.010821,
+     "p95_percent_of_diagonal": 13.073,
+     "max_percent_of_diagonal": 13.382
+    },
+    "fold_depth_form": {
+     "median": 0.022202,
+     "p95": 0.039077,
+     "max": 0.041507,
+     "median_percent_of_diagonal": 27.456,
+     "p95_percent_of_diagonal": 48.325,
+     "max_percent_of_diagonal": 51.33
+    }
    }
   },
   {
@@ -33300,9 +35172,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 51
+    "skipped": false,
+    "vertices": 51,
+    "bbox_diagonal": 0.14383,
+    "fold_amplitude": {
+     "median": 0.007687,
+     "p75": 0.008335,
+     "p95": 0.008902,
+     "max": 0.009049,
+     "p95_percent_of_diagonal": 6.189,
+     "max_percent_of_diagonal": 6.291
+    },
+    "fold_depth_form": {
+     "median": 0.032727,
+     "p95": 0.038071,
+     "max": 0.038835,
+     "median_percent_of_diagonal": 22.754,
+     "p95_percent_of_diagonal": 26.469,
+     "max_percent_of_diagonal": 27.0
+    }
    }
   },
   {
@@ -33832,9 +35720,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 4610
+    "skipped": false,
+    "vertices": 4610,
+    "bbox_diagonal": 0.0747,
+    "fold_amplitude": {
+     "median": 4.5e-05,
+     "p75": 7e-05,
+     "p95": 0.000152,
+     "max": 0.000263,
+     "p95_percent_of_diagonal": 0.204,
+     "max_percent_of_diagonal": 0.352
+    },
+    "fold_depth_form": {
+     "median": 0.000781,
+     "p95": 0.002196,
+     "max": 0.002848,
+     "median_percent_of_diagonal": 1.045,
+     "p95_percent_of_diagonal": 2.94,
+     "max_percent_of_diagonal": 3.812
+    }
    }
   },
   {
@@ -34414,9 +36318,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.01946,
+    "fold_amplitude": {
+     "median": 0.002585,
+     "p75": 0.003302,
+     "p95": 0.003962,
+     "max": 0.003962,
+     "p95_percent_of_diagonal": 20.366,
+     "max_percent_of_diagonal": 20.366
+    },
+    "fold_depth_form": {
+     "median": 0.007323,
+     "p95": 0.007925,
+     "max": 0.007925,
+     "median_percent_of_diagonal": 37.642,
+     "p95_percent_of_diagonal": 40.733,
+     "max_percent_of_diagonal": 40.733
+    }
    }
   },
   {
@@ -34742,9 +36662,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 898
+    "skipped": false,
+    "vertices": 898,
+    "bbox_diagonal": 0.06689,
+    "fold_amplitude": {
+     "median": 0.000199,
+     "p75": 0.000246,
+     "p95": 0.000332,
+     "max": 0.000564,
+     "p95_percent_of_diagonal": 0.496,
+     "max_percent_of_diagonal": 0.843
+    },
+    "fold_depth_form": {
+     "median": 0.003185,
+     "p95": 0.004603,
+     "max": 0.005284,
+     "median_percent_of_diagonal": 4.762,
+     "p95_percent_of_diagonal": 6.881,
+     "max_percent_of_diagonal": 7.9
+    }
    }
   },
   {
@@ -35070,9 +37006,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 898
+    "skipped": false,
+    "vertices": 898,
+    "bbox_diagonal": 0.06689,
+    "fold_amplitude": {
+     "median": 0.000199,
+     "p75": 0.000246,
+     "p95": 0.000332,
+     "max": 0.000564,
+     "p95_percent_of_diagonal": 0.496,
+     "max_percent_of_diagonal": 0.843
+    },
+    "fold_depth_form": {
+     "median": 0.003185,
+     "p95": 0.004603,
+     "max": 0.005284,
+     "median_percent_of_diagonal": 4.762,
+     "p95_percent_of_diagonal": 6.881,
+     "max_percent_of_diagonal": 7.9
+    }
    }
   },
   {
@@ -35398,9 +37350,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 898
+    "skipped": false,
+    "vertices": 898,
+    "bbox_diagonal": 0.06689,
+    "fold_amplitude": {
+     "median": 0.000199,
+     "p75": 0.000246,
+     "p95": 0.000332,
+     "max": 0.000564,
+     "p95_percent_of_diagonal": 0.496,
+     "max_percent_of_diagonal": 0.843
+    },
+    "fold_depth_form": {
+     "median": 0.003185,
+     "p95": 0.004603,
+     "max": 0.005284,
+     "median_percent_of_diagonal": 4.762,
+     "p95_percent_of_diagonal": 6.881,
+     "max_percent_of_diagonal": 7.9
+    }
    }
   },
   {
@@ -35719,9 +37687,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2562
+    "skipped": false,
+    "vertices": 2562,
+    "bbox_diagonal": 0.0796,
+    "fold_amplitude": {
+     "median": 8.7e-05,
+     "p75": 0.000116,
+     "p95": 0.000215,
+     "max": 0.00059,
+     "p95_percent_of_diagonal": 0.27,
+     "max_percent_of_diagonal": 0.741
+    },
+    "fold_depth_form": {
+     "median": 0.001599,
+     "p95": 0.002747,
+     "max": 0.005035,
+     "median_percent_of_diagonal": 2.008,
+     "p95_percent_of_diagonal": 3.451,
+     "max_percent_of_diagonal": 6.326
+    }
    }
   },
   {
@@ -36047,9 +38031,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 898
+    "skipped": false,
+    "vertices": 898,
+    "bbox_diagonal": 0.06642,
+    "fold_amplitude": {
+     "median": 0.000207,
+     "p75": 0.000253,
+     "p95": 0.000344,
+     "max": 0.000643,
+     "p95_percent_of_diagonal": 0.518,
+     "max_percent_of_diagonal": 0.969
+    },
+    "fold_depth_form": {
+     "median": 0.003235,
+     "p95": 0.004597,
+     "max": 0.005231,
+     "median_percent_of_diagonal": 4.872,
+     "p95_percent_of_diagonal": 6.921,
+     "max_percent_of_diagonal": 7.876
+    }
    }
   },
   {
@@ -36457,9 +38457,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02166,
+    "fold_amplitude": {
+     "median": 0.003252,
+     "p75": 0.003559,
+     "p95": 0.003948,
+     "max": 0.003948,
+     "p95_percent_of_diagonal": 18.223,
+     "max_percent_of_diagonal": 18.223
+    },
+    "fold_depth_form": {
+     "median": 0.007913,
+     "p95": 0.00999,
+     "max": 0.00999,
+     "median_percent_of_diagonal": 36.527,
+     "p95_percent_of_diagonal": 46.113,
+     "max_percent_of_diagonal": 46.113
+    }
    }
   },
   {
@@ -36867,9 +38883,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02166,
+    "fold_amplitude": {
+     "median": 0.003252,
+     "p75": 0.003559,
+     "p95": 0.003948,
+     "max": 0.003948,
+     "p95_percent_of_diagonal": 18.223,
+     "max_percent_of_diagonal": 18.223
+    },
+    "fold_depth_form": {
+     "median": 0.007913,
+     "p95": 0.00999,
+     "max": 0.00999,
+     "median_percent_of_diagonal": 36.527,
+     "p95_percent_of_diagonal": 46.113,
+     "max_percent_of_diagonal": 46.113
+    }
    }
   },
   {
@@ -37277,9 +39309,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02166,
+    "fold_amplitude": {
+     "median": 0.003252,
+     "p75": 0.003559,
+     "p95": 0.003948,
+     "max": 0.003948,
+     "p95_percent_of_diagonal": 18.223,
+     "max_percent_of_diagonal": 18.223
+    },
+    "fold_depth_form": {
+     "median": 0.007913,
+     "p95": 0.00999,
+     "max": 0.00999,
+     "median_percent_of_diagonal": 36.527,
+     "p95_percent_of_diagonal": 46.113,
+     "max_percent_of_diagonal": 46.113
+    }
    }
   },
   {
@@ -37687,9 +39735,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.03312,
+    "fold_amplitude": {
+     "median": 0.005029,
+     "p75": 0.00549,
+     "p95": 0.006092,
+     "max": 0.006092,
+     "p95_percent_of_diagonal": 18.394,
+     "max_percent_of_diagonal": 18.394
+    },
+    "fold_depth_form": {
+     "median": 0.012115,
+     "p95": 0.015244,
+     "max": 0.015244,
+     "median_percent_of_diagonal": 36.581,
+     "p95_percent_of_diagonal": 46.03,
+     "max_percent_of_diagonal": 46.03
+    }
    }
   },
   {
@@ -38097,9 +40161,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 15
+    "skipped": false,
+    "vertices": 15,
+    "bbox_diagonal": 0.02166,
+    "fold_amplitude": {
+     "median": 0.003252,
+     "p75": 0.003559,
+     "p95": 0.003948,
+     "max": 0.003948,
+     "p95_percent_of_diagonal": 18.223,
+     "max_percent_of_diagonal": 18.223
+    },
+    "fold_depth_form": {
+     "median": 0.007913,
+     "p95": 0.00999,
+     "max": 0.00999,
+     "median_percent_of_diagonal": 36.527,
+     "p95_percent_of_diagonal": 46.113,
+     "max_percent_of_diagonal": 46.113
+    }
    }
   },
   {
@@ -38262,9 +40342,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 76
+    "skipped": false,
+    "vertices": 76,
+    "bbox_diagonal": 0.12826,
+    "fold_amplitude": {
+     "median": 0.010395,
+     "p75": 0.012961,
+     "p95": 0.020954,
+     "max": 0.02253,
+     "p95_percent_of_diagonal": 16.338,
+     "max_percent_of_diagonal": 17.566
+    },
+    "fold_depth_form": {
+     "median": 0.022954,
+     "p95": 0.039811,
+     "max": 0.041999,
+     "median_percent_of_diagonal": 17.897,
+     "p95_percent_of_diagonal": 31.039,
+     "max_percent_of_diagonal": 32.746
+    }
    }
   },
   {
@@ -38347,9 +40443,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 44546
+    "skipped": false,
+    "vertices": 44546,
+    "bbox_diagonal": 0.91803,
+    "fold_amplitude": {
+     "median": 8.9e-05,
+     "p75": 0.000151,
+     "p95": 0.000307,
+     "max": 0.003215,
+     "p95_percent_of_diagonal": 0.033,
+     "max_percent_of_diagonal": 0.35
+    },
+    "fold_depth_form": {
+     "median": 0.001604,
+     "p95": 0.004804,
+     "max": 0.016569,
+     "median_percent_of_diagonal": 0.175,
+     "p95_percent_of_diagonal": 0.523,
+     "max_percent_of_diagonal": 1.805
+    }
    }
   },
   {
@@ -38826,9 +40938,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 84
+    "skipped": false,
+    "vertices": 84,
+    "bbox_diagonal": 0.3813,
+    "fold_amplitude": {
+     "median": 0.005883,
+     "p75": 0.00724,
+     "p95": 0.009152,
+     "max": 0.009159,
+     "p95_percent_of_diagonal": 2.4,
+     "max_percent_of_diagonal": 2.402
+    },
+    "fold_depth_form": {
+     "median": 0.020986,
+     "p95": 0.031299,
+     "max": 0.031461,
+     "median_percent_of_diagonal": 5.504,
+     "p95_percent_of_diagonal": 8.209,
+     "max_percent_of_diagonal": 8.251
+    }
    }
   },
   {
@@ -38923,9 +41051,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2155
+    "skipped": false,
+    "vertices": 2155,
+    "bbox_diagonal": 0.95336,
+    "fold_amplitude": {
+     "median": 0.002143,
+     "p75": 0.002797,
+     "p95": 0.004134,
+     "max": 0.011732,
+     "p95_percent_of_diagonal": 0.434,
+     "max_percent_of_diagonal": 1.231
+    },
+    "fold_depth_form": {
+     "median": 0.030523,
+     "p95": 0.048235,
+     "max": 0.068315,
+     "median_percent_of_diagonal": 3.202,
+     "p95_percent_of_diagonal": 5.059,
+     "max_percent_of_diagonal": 7.166
+    }
    }
   },
   {
@@ -39439,9 +41583,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 44
+    "skipped": false,
+    "vertices": 44,
+    "bbox_diagonal": 0.46318,
+    "fold_amplitude": {
+     "median": 0.010783,
+     "p75": 0.011126,
+     "p95": 0.01732,
+     "max": 0.017913,
+     "p95_percent_of_diagonal": 3.739,
+     "max_percent_of_diagonal": 3.867
+    },
+    "fold_depth_form": {
+     "median": 0.02503,
+     "p95": 0.060311,
+     "max": 0.060434,
+     "median_percent_of_diagonal": 5.404,
+     "p95_percent_of_diagonal": 13.021,
+     "max_percent_of_diagonal": 13.048
+    }
    }
   },
   {
@@ -39706,9 +41866,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 60
+    "skipped": false,
+    "vertices": 60,
+    "bbox_diagonal": 0.2198,
+    "fold_amplitude": {
+     "median": 0.01104,
+     "p75": 0.01739,
+     "p95": 0.01861,
+     "max": 0.019178,
+     "p95_percent_of_diagonal": 8.467,
+     "max_percent_of_diagonal": 8.725
+    },
+    "fold_depth_form": {
+     "median": 0.034462,
+     "p95": 0.042899,
+     "max": 0.043592,
+     "median_percent_of_diagonal": 15.679,
+     "p95_percent_of_diagonal": 19.517,
+     "max_percent_of_diagonal": 19.833
+    }
    }
   },
   {
@@ -39955,9 +42131,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 122
+    "skipped": false,
+    "vertices": 122,
+    "bbox_diagonal": 0.32506,
+    "fold_amplitude": {
+     "median": 0.004824,
+     "p75": 0.005839,
+     "p95": 0.007932,
+     "max": 0.019787,
+     "p95_percent_of_diagonal": 2.44,
+     "max_percent_of_diagonal": 6.087
+    },
+    "fold_depth_form": {
+     "median": 0.048392,
+     "p95": 0.071931,
+     "max": 0.094461,
+     "median_percent_of_diagonal": 14.887,
+     "p95_percent_of_diagonal": 22.129,
+     "max_percent_of_diagonal": 29.06
+    }
    }
   },
   {
@@ -40401,9 +42593,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 64
+    "skipped": false,
+    "vertices": 64,
+    "bbox_diagonal": 0.20614,
+    "fold_amplitude": {
+     "median": 0.005635,
+     "p75": 0.006099,
+     "p95": 0.010608,
+     "max": 0.011934,
+     "p95_percent_of_diagonal": 5.146,
+     "max_percent_of_diagonal": 5.789
+    },
+    "fold_depth_form": {
+     "median": 0.04174,
+     "p95": 0.053204,
+     "max": 0.057455,
+     "median_percent_of_diagonal": 20.249,
+     "p95_percent_of_diagonal": 25.81,
+     "max_percent_of_diagonal": 27.872
+    }
    }
   },
   {
@@ -40860,9 +43068,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 2195
+    "skipped": false,
+    "vertices": 2195,
+    "bbox_diagonal": 0.94468,
+    "fold_amplitude": {
+     "median": 0.002112,
+     "p75": 0.002819,
+     "p95": 0.004477,
+     "max": 0.005512,
+     "p95_percent_of_diagonal": 0.474,
+     "max_percent_of_diagonal": 0.583
+    },
+    "fold_depth_form": {
+     "median": 0.030178,
+     "p95": 0.047086,
+     "max": 0.05237,
+     "median_percent_of_diagonal": 3.194,
+     "p95_percent_of_diagonal": 4.984,
+     "max_percent_of_diagonal": 5.544
+    }
    }
   },
   {
@@ -40963,7 +43187,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f9d9568c820>"
+          "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f49326e0f20>"
          },
          {
           "name": "As Instance",
@@ -40995,7 +43219,7 @@
           "name": "Object",
           "identifier": "Object",
           "type": "OBJECT",
-          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f9d956a4820>"
+          "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f49326f8f20>"
          },
          {
           "name": "As Instance",
@@ -42261,9 +44485,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 75
+    "skipped": false,
+    "vertices": 75,
+    "bbox_diagonal": 0.41917,
+    "fold_amplitude": {
+     "median": 0.005573,
+     "p75": 0.005781,
+     "p95": 0.01038,
+     "max": 0.011402,
+     "p95_percent_of_diagonal": 2.476,
+     "max_percent_of_diagonal": 2.72
+    },
+    "fold_depth_form": {
+     "median": 0.015362,
+     "p95": 0.046627,
+     "max": 0.056178,
+     "median_percent_of_diagonal": 3.665,
+     "p95_percent_of_diagonal": 11.124,
+     "max_percent_of_diagonal": 13.402
+    }
    }
   },
   {
@@ -42431,9 +44671,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 44
+    "skipped": false,
+    "vertices": 44,
+    "bbox_diagonal": 0.0087,
+    "fold_amplitude": {
+     "median": 0.000872,
+     "p75": 0.001265,
+     "p95": 0.0015,
+     "max": 0.001574,
+     "p95_percent_of_diagonal": 17.242,
+     "max_percent_of_diagonal": 18.092
+    },
+    "fold_depth_form": {
+     "median": 0.00301,
+     "p95": 0.004388,
+     "max": 0.004735,
+     "median_percent_of_diagonal": 34.591,
+     "p95_percent_of_diagonal": 50.44,
+     "max_percent_of_diagonal": 54.424
+    }
    }
   },
   {
@@ -42542,9 +44798,25 @@
     "quad_percent": 99.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 380
+    "skipped": false,
+    "vertices": 380,
+    "bbox_diagonal": 0.01933,
+    "fold_amplitude": {
+     "median": 0.000411,
+     "p75": 0.000636,
+     "p95": 0.001142,
+     "max": 0.001703,
+     "p95_percent_of_diagonal": 5.906,
+     "max_percent_of_diagonal": 8.811
+    },
+    "fold_depth_form": {
+     "median": 0.003026,
+     "p95": 0.00531,
+     "max": 0.006238,
+     "median_percent_of_diagonal": 15.657,
+     "p95_percent_of_diagonal": 27.476,
+     "max_percent_of_diagonal": 32.275
+    }
    }
   },
   {
@@ -42697,9 +44969,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 77
+    "skipped": false,
+    "vertices": 77,
+    "bbox_diagonal": 0.19312,
+    "fold_amplitude": {
+     "median": 0.005183,
+     "p75": 0.007717,
+     "p95": 0.012482,
+     "max": 0.015168,
+     "p95_percent_of_diagonal": 6.464,
+     "max_percent_of_diagonal": 7.854
+    },
+    "fold_depth_form": {
+     "median": 0.038258,
+     "p95": 0.064263,
+     "max": 0.071134,
+     "median_percent_of_diagonal": 19.811,
+     "p95_percent_of_diagonal": 33.277,
+     "max_percent_of_diagonal": 36.835
+    }
    }
   },
   {
@@ -42823,9 +45111,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 56
+    "skipped": false,
+    "vertices": 56,
+    "bbox_diagonal": 0.05506,
+    "fold_amplitude": {
+     "median": 0.004407,
+     "p75": 0.006044,
+     "p95": 0.0116,
+     "max": 0.0116,
+     "p95_percent_of_diagonal": 21.068,
+     "max_percent_of_diagonal": 21.068
+    },
+    "fold_depth_form": {
+     "median": 0.014807,
+     "p95": 0.027994,
+     "max": 0.027994,
+     "median_percent_of_diagonal": 26.894,
+     "p95_percent_of_diagonal": 50.844,
+     "max_percent_of_diagonal": 50.844
+    }
    }
   }
  ],
@@ -43559,7 +45863,7 @@
        "name": "Collection",
        "identifier": "Collection",
        "type": "COLLECTION",
-       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f9d959e95a0>"
+       "default_value": "<bpy_struct, Collection(\"Character\") at 0x7f4932a2d5a0>"
       },
       {
        "name": "Separate Children",
@@ -43640,7 +45944,7 @@
        "name": "Material",
        "identifier": "Material",
        "type": "MATERIAL",
-       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f9d8bf86ea0>"
+       "default_value": "<bpy_struct, Material(\"Instance\") at 0x7f4920236ea0>"
       }
      ]
     },
@@ -44501,7 +46805,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
       },
       {
        "name": "As Instance",
@@ -44533,7 +46837,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f9d956b1620>"
+       "default_value": "<bpy_struct, Object(\"Seam _Object_Trouser\") at 0x7f49326f5d20>"
       },
       {
        "name": "As Instance",
@@ -44811,7 +47115,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f9d9568c820>"
+       "default_value": "<bpy_struct, Object(\"Zipper_Tooth\") at 0x7f49326e0f20>"
       },
       {
        "name": "As Instance",
@@ -44843,7 +47147,7 @@
        "name": "Object",
        "identifier": "Object",
        "type": "OBJECT",
-       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f9d956a4820>"
+       "default_value": "<bpy_struct, Object(\"Shirt_Zipper_Curve\") at 0x7f49326f8f20>"
       },
       {
        "name": "As Instance",

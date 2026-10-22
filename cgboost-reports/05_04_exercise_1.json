@@ -138,9 +138,25 @@
     "quad_percent": 100.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 289
+    "skipped": false,
+    "vertices": 289,
+    "bbox_diagonal": 2.82843,
+    "fold_amplitude": {
+     "median": 0.000326,
+     "p75": 0.006735,
+     "p95": 0.053392,
+     "max": 0.096982,
+     "p95_percent_of_diagonal": 1.888,
+     "max_percent_of_diagonal": 3.429
+    },
+    "fold_depth_form": {
+     "median": 0.174875,
+     "p95": 0.407967,
+     "max": 0.528692,
+     "median_percent_of_diagonal": 6.183,
+     "p95_percent_of_diagonal": 14.424,
+     "max_percent_of_diagonal": 18.692
+    }
    }
   },
   {
@@ -223,9 +239,25 @@
     "quad_percent": 0.0
    },
    "fold_metrics": {
-    "skipped": true,
-    "reason": "name 'cur' is not defined",
-    "vertices": 84
+    "skipped": false,
+    "vertices": 84,
+    "bbox_diagonal": 1.50178,
+    "fold_amplitude": {
+     "median": 0.011927,
+     "p75": 0.011927,
+     "p95": 0.011927,
+     "max": 0.011927,
+     "p95_percent_of_diagonal": 0.794,
+     "max_percent_of_diagonal": 0.794
+    },
+    "fold_depth_form": {
+     "median": 0.049815,
+     "p95": 0.049815,
+     "max": 0.049815,
+     "median_percent_of_diagonal": 3.317,
+     "p95_percent_of_diagonal": 3.317,
+     "max_percent_of_diagonal": 3.317
+    }
    }
   }
  ],
